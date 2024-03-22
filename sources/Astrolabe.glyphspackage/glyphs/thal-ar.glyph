@@ -4,7 +4,16 @@ glyphname = "thal-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "dal-ar";
+},
+{
+pos = (313,250);
+ref = "dotabove-ar";
+}
+);
+width = 566;
 }
 );
 unicode = 1584;
