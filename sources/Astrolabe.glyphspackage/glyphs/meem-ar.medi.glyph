@@ -3,7 +3,21 @@ glyphname = "meem-ar.medi";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (216,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "meem-ar.init";
 }
 );
+width = 266;
+}
+);
+metricLeft = "=meem-ar.init";
+metricRight = "=0";
+metricWidth = "=meem-ar.init+36";
 }
