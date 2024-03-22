@@ -14,7 +14,7 @@ pos = (351,200);
 );
 backgroundImage = {
 angle = 1;
-imagePath = "../31246001-fixed.jpg";
+imagePath = "images/31246001-fixed.jpg";
 locked = 1;
 pos = (-15009,-10137);
 scale = (209.3003,209.3003);
