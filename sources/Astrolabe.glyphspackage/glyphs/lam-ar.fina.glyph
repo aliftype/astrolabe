@@ -1,0 +1,23 @@
+{
+glyphname = "lam-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (300,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "lam-ar";
+}
+);
+width = 350;
+}
+);
+metricLeft = "=lam-ar";
+metricRight = "=0";
+metricWidth = "=lam-ar+40";
+}

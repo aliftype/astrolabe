@@ -1,0 +1,23 @@
+{
+glyphname = "noonghunna-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (550,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "noonghunna-ar";
+}
+);
+width = 600;
+}
+);
+metricLeft = "=noonghunna-ar";
+metricRight = "=0";
+metricWidth = "=noonghunna-ar+20";
+}

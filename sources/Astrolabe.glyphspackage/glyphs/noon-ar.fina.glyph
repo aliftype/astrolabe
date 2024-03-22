@@ -1,0 +1,19 @@
+{
+color = 0;
+glyphname = "noon-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "noonghunna-ar.fina";
+},
+{
+pos = (372,250);
+ref = "dotabove-ar";
+}
+);
+width = 600;
+}
+);
+}

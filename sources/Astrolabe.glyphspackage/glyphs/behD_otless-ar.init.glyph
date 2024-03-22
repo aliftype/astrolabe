@@ -1,0 +1,78 @@
+{
+glyphname = "behDotless-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (65,0);
+},
+{
+name = ring;
+pos = (65,0);
+},
+{
+name = top;
+pos = (35,200);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-10,50,l),
+(-10,0,l),
+(112,0,l),
+(112,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(69,0,l),
+(119,0,l),
+(91,205,l),
+(83,204,l),
+(66,169,o),
+(45,154,o),
+(-1,142,c),
+(0,133,l),
+(43,123,o),
+(59,72,o),
+(62,50,c)
+);
+}
+);
+width = 129;
+},
+{
+associatedMasterId = m01;
+layerId = "A091571A-009A-47A6-BB3A-3B5A75543C9C";
+name = "22 Mar 24 at 13:16";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-10,50,l),
+(-10,0,l),
+(100,0,l),
+(100,200,l),
+(92,200,l),
+(70,167,o),
+(48,155,o),
+(0,150,c),
+(0,142,l),
+(41,126,o),
+(50,72,o),
+(50,50,c)
+);
+}
+);
+visible = 1;
+width = 110;
+}
+);
+metricLeft = "=-10";
+metricRight = "=10";
+}

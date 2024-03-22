@@ -1,0 +1,34 @@
+{
+glyphname = "kaf-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,0,l),
+(200,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+},
+{
+pos = (60,0);
+ref = "kaf-ar.init";
+}
+);
+width = 590;
+}
+);
+metricLeft = "=0";
+metricRight = "=10";
+unicode = 1603;
+}

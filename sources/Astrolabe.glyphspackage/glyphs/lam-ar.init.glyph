@@ -1,0 +1,34 @@
+{
+glyphname = "lam-ar.init";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,600,l),
+(92,600,l),
+(70,567,o),
+(48,555,o),
+(0,550,c),
+(0,542,l),
+(41,526,o),
+(50,472,o),
+(50,450,cs),
+(50,0,l)
+);
+},
+{
+pos = (-10,0);
+ref = "kashida-ar";
+scale = (1.2,1);
+}
+);
+width = 110;
+}
+);
+metricLeft = "=-10";
+metricRight = "=10";
+}

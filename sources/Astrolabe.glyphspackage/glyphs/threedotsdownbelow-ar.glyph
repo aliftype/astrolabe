@@ -1,0 +1,9 @@
+{
+glyphname = "threedotsdownbelow-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+}

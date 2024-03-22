@@ -1,0 +1,10 @@
+{
+glyphname = "fathatan-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 1611;
+}

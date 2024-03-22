@@ -1,0 +1,21 @@
+{
+glyphname = "kashida-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,0,l),
+(50,50,l),
+(0,50,l),
+(0,0,l)
+);
+}
+);
+width = 50;
+}
+);
+unicode = 1600;
+}

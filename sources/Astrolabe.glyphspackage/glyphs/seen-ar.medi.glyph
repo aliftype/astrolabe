@@ -1,0 +1,23 @@
+{
+glyphname = "seen-ar.medi";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (349,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "seen-ar.init";
+}
+);
+width = 399;
+}
+);
+metricLeft = "=seen-ar.init";
+metricRight = "=0";
+metricWidth = "=seen-ar.init+33";
+}

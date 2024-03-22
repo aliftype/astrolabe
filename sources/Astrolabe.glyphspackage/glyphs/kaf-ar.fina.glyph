@@ -1,0 +1,23 @@
+{
+glyphname = "kaf-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (573,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "kaf-ar";
+}
+);
+width = 623;
+}
+);
+metricLeft = "=kaf-ar";
+metricRight = "=0";
+metricWidth = "=kaf-ar+33";
+}

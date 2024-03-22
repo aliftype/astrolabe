@@ -1,0 +1,10 @@
+{
+glyphname = "hamzaabove-ar";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 1620;
+}

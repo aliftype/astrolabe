@@ -1,0 +1,32 @@
+{
+glyphname = "sad-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = top;
+pos = (324,200);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+pos = (73,0);
+ref = _sad;
+}
+);
+width = 529;
+}
+);
+metricLeft = "=behDotless-ar.medi";
+metricRight = "=10";
+}

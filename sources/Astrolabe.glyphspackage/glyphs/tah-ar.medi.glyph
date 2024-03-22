@@ -1,0 +1,28 @@
+{
+glyphname = "tah-ar.medi";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (523,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "tah-ar";
+},
+{
+alignment = -1;
+pos = (-10,0);
+ref = "kashida-ar";
+}
+);
+width = 573;
+}
+);
+metricLeft = "=-10";
+metricRight = "=0";
+metricWidth = "=tah-ar.fina";
+}

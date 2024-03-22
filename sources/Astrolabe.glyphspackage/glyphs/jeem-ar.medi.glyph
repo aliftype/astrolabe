@@ -1,0 +1,10 @@
+{
+color = 0;
+glyphname = "jeem-ar.medi";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}

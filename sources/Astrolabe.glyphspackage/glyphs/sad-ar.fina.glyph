@@ -1,0 +1,23 @@
+{
+glyphname = "sad-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (942,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "sad-ar";
+}
+);
+width = 992;
+}
+);
+metricLeft = "=sad-ar";
+metricRight = "=0";
+metricWidth = "=sad-ar+33";
+}

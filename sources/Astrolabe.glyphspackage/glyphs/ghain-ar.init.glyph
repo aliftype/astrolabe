@@ -1,0 +1,10 @@
+{
+color = 0;
+glyphname = "ghain-ar.init";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}

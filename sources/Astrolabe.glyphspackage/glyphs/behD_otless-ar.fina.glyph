@@ -1,0 +1,22 @@
+{
+glyphname = "behDotless-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "behDotless-ar";
+},
+{
+pos = (500,0);
+ref = "kashida-ar";
+}
+);
+width = 550;
+}
+);
+metricLeft = "=behDotless-ar";
+metricRight = "=0";
+metricWidth = "=behDotless-ar+33";
+}

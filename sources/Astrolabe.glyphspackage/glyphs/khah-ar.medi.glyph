@@ -1,0 +1,10 @@
+{
+color = 0;
+glyphname = "khah-ar.medi";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}

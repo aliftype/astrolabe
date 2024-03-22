@@ -1,0 +1,10 @@
+{
+color = 0;
+glyphname = "wawHamzaabove-ar.fina";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}
