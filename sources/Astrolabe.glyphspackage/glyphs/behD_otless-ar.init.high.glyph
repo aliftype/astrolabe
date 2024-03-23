@@ -1,20 +1,21 @@
 {
-glyphname = "behDotless-ar.init";
-kernLeft = beh;
+color = 3;
+glyphname = "behDotless-ar.init.high";
+kernLeft = beh.high;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (65,0);
+pos = (66,0);
 },
 {
 name = ring;
-pos = (65,0);
+pos = (66,0);
 },
 {
 name = top;
-pos = (35,200);
+pos = (36,250);
 }
 );
 layerId = m01;
@@ -22,30 +23,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-10,50,l),
-(-10,0,l),
-(112,0,l),
-(112,50,l)
+(-9,50,l),
+(-9,0,l),
+(120,0,l),
+(83,50,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(69,0,l),
-(119,0,l),
-(91,205,l),
-(83,204,l),
-(66,169,o),
-(45,154,o),
-(-1,142,c),
-(0,133,l),
-(43,123,o),
-(59,72,o),
-(62,50,c)
+(64,34,l),
+(120,0,l),
+(82,283,l),
+(74,282,l),
+(57,247,o),
+(36,232,o),
+(-10,220,c),
+(-9,211,l),
+(34,201,o),
+(50,150,o),
+(53,128,c)
 );
 }
 );
-width = 129;
+width = 130;
 },
 {
 associatedMasterId = m01;
@@ -70,7 +71,6 @@ nodes = (
 );
 }
 );
-visible = 1;
 width = 110;
 }
 );

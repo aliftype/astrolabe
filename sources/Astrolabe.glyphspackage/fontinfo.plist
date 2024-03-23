@@ -25,6 +25,14 @@ code = "languagesystem DFLT dflt;
 languagesystem arab dflt;
 ";
 name = Languagesystems;
+},
+{
+code = "lookup high_tooth {
+	sub behDotless-ar.init	by behDotless-ar.init.high;
+	sub behDotless-ar.medi	by behDotless-ar.medi.high;
+	sub behDotless-ar.fina	by behDotless-ar.fina.high;
+} high_tooth;";
+name = Lookups;
 }
 );
 features = (
@@ -142,13 +150,22 @@ sub lam_alef-ar by lam_alef-ar.fina;
 tag = fina;
 },
 {
-automatic = 1;
-code = "script arab;
-lookup rlig_arab_0 {
+code = "lookup rlig_lam_alef {
 	lookupflag IgnoreMarks;
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-} rlig_arab_0;
+} rlig_lam_alef;
+
+lookup rlig_teeth {
+	lookupflag IgnoreMarks;
+	sub [behDotless-ar.init behDotless-ar.medi sad-ar.init sad-ar.medi]
+		[behDotless-ar.medi]' lookup high_tooth
+		[behDotless-ar.medi	behDotless-ar.fina]
+	;
+	sub [seen-ar.init seen-ar.medi]
+		[behDotless-ar.medi behDotless-ar.fina]' lookup high_tooth
+	;
+} rlig_teeth;
 ";
 tag = rlig;
 }
@@ -190,6 +207,25 @@ GSOffsetVertical = 25;
 };
 }
 );
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
+kerningRTL = {
+m01 = {
+"@MMK_R_beh" = {
+"@MMK_L_beh" = -50;
+"@MMK_L_beh.high" = -50;
+};
+"@MMK_R_beh.high" = {
+"@MMK_L_beh" = -60;
+};
+};
+};
 metrics = (
 {
 type = ascender;

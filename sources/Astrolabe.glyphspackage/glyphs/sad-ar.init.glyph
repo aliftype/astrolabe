@@ -1,5 +1,6 @@
 {
 glyphname = "sad-ar.init";
+kernLeft = beh;
 layers = (
 {
 anchors = (
