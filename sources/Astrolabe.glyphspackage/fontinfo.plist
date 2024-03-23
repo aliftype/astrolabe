@@ -27,11 +27,17 @@ languagesystem arab dflt;
 name = Languagesystems;
 },
 {
-code = "lookup high_tooth {
+code = "lookup vertical_dots {
+	sub twodotshorizontalabove-ar	by twodotsverticalabove-ar;
+	sub threedotsupabove-ar			by threedotsverticalabove-ar;
+} vertical_dots;
+
+lookup high_tooth {
 	sub behDotless-ar.init	by behDotless-ar.init.high;
 	sub behDotless-ar.medi	by behDotless-ar.medi.high;
 	sub behDotless-ar.fina	by behDotless-ar.fina.high;
-} high_tooth;";
+} high_tooth;
+";
 name = Lookups;
 }
 );
@@ -137,6 +143,15 @@ lookup rlig_lam_alef {
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 } rlig_lam_alef;
+
+@horizontal_dots_above = [twodotshorizontalabove-ar threedotsupabove-ar];
+lookup rlig_vertical_dots {
+	lookupflag UseMarkFilteringSet @horizontal_dots_above;
+	sub	[behDotless-ar.init behDotless-ar.medi]
+		 @horizontal_dots_above' lookup vertical_dots
+		[alef-ar.fina lam-ar.medi lam-ar.fina]
+	;
+} rlig_vertical_dots;
 
 lookup rlig_teeth {
 	lookupflag IgnoreMarks;
