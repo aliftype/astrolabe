@@ -1,0 +1,55 @@
+{
+color = 3;
+glyphname = "behDotless-ar.fina.high";
+kernRight = beh.high;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (284,0);
+},
+{
+name = ring;
+pos = (284,0);
+},
+{
+name = top;
+pos = (284,200);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,0,l),
+(450,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+},
+{
+alignment = -1;
+pos = (388,0);
+ref = "behDotless-ar.init.high";
+},
+{
+pos = (500,0);
+ref = "kashida-ar";
+}
+);
+width = 550;
+}
+);
+metricLeft = "=behDotless-ar";
+metricRight = "=0";
+metricWidth = "=behDotless-ar+33";
+}

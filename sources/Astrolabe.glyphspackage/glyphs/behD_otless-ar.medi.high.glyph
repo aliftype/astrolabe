@@ -1,7 +1,8 @@
 {
-glyphname = "behDotless-ar.medi";
-kernLeft = beh;
-kernRight = beh;
+color = 3;
+glyphname = "behDotless-ar.medi.high";
+kernLeft = beh.high;
+kernRight = beh.high;
 layers = (
 {
 layerId = m01;
@@ -13,7 +14,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "behDotless-ar.init";
+ref = "behDotless-ar.init.high";
 }
 );
 width = 162;

@@ -1,5 +1,7 @@
 {
 glyphname = "seen-ar.medi";
+kernLeft = beh;
+kernRight = beh.high;
 layers = (
 {
 layerId = m01;

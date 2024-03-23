@@ -1,5 +1,6 @@
 {
 glyphname = "behDotless-ar.fina";
+kernRight = beh;
 layers = (
 {
 layerId = m01;

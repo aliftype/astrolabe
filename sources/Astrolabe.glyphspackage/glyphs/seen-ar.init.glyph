@@ -1,5 +1,6 @@
 {
 glyphname = "seen-ar.init";
+kernLeft = beh;
 layers = (
 {
 anchors = (
