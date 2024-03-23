@@ -4,7 +4,16 @@ glyphname = "jeem-ar.medi";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "hah-ar.medi";
+},
+{
+pos = (62,-125);
+ref = "dotbelow-ar";
+}
+);
+width = 250;
 }
 );
 }

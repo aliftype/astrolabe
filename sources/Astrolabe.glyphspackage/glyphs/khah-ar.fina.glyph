@@ -4,7 +4,16 @@ glyphname = "khah-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "hah-ar.fina";
+},
+{
+pos = (131,350);
+ref = "dotabove-ar";
+}
+);
+width = 400;
 }
 );
 }

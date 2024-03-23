@@ -4,7 +4,16 @@ glyphname = "jeem-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "hah-ar.alt.fina";
+},
+{
+pos = (162,-125);
+ref = "dotbelow-ar";
+}
+);
+width = 400;
 }
 );
 }

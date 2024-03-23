@@ -2,8 +2,48 @@
 glyphname = "hah-ar.init";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = bottom;
+pos = (100,0);
+},
+{
+name = top;
+pos = (19,300);
 }
 );
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,0,l),
+(200,50,l),
+(-10,50,l),
+(-10,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(9,260,l),
+(14,232,o),
+(8,201,o),
+(-14,168,c),
+(-8,162,l),
+(90,162,o),
+(194,-41,o),
+(233,-106,c),
+(275,-79,l),
+(231,-2,o),
+(143,168,o),
+(15,266,c)
+);
+}
+);
+width = 275;
+}
+);
+metricLeft = "=-10@0";
+metricRight = "=0";
 }
