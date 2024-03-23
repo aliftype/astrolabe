@@ -12,7 +12,7 @@ ref = "alef-ar.fina";
 ref = "hamzabelow-ar";
 }
 );
-width = 110;
+width = 150;
 }
 );
 }
