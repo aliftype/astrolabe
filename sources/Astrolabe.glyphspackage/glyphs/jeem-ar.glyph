@@ -4,7 +4,16 @@ glyphname = "jeem-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "hah-ar.alt";
+},
+{
+pos = (162,-125);
+ref = "dotbelow-ar";
+}
+);
+width = 425;
 }
 );
 unicode = 1580;
