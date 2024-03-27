@@ -3,7 +3,21 @@ glyphname = "fehDotless-ar.medi";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (200,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "fehDotless-ar.init";
 }
 );
+width = 250;
+}
+);
+metricLeft = "=fehDotless-ar.init";
+metricRight = "=0";
+metricWidth = "=fehDotless-ar.init+30";
 }

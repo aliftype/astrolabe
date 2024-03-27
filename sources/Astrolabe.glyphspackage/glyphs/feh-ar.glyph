@@ -4,7 +4,16 @@ glyphname = "feh-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (351,350);
+ref = "dotabove-ar";
+}
+);
+width = 520;
 }
 );
 unicode = 1601;

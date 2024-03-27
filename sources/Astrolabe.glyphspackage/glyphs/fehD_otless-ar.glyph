@@ -3,8 +3,31 @@ glyphname = "fehDotless-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,0,l),
+(450,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+},
+{
+pos = (300,0);
+ref = "fehDotless-ar.init";
 }
 );
+width = 520;
+}
+);
+metricWidth = "=behDotless-ar+3";
 unicode = 1697;
 }

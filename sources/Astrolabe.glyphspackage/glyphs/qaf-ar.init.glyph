@@ -4,7 +4,16 @@ glyphname = "qaf-ar.init";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "fehDotless-ar.init";
+},
+{
+pos = (1,350);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 220;
 }
 );
 }

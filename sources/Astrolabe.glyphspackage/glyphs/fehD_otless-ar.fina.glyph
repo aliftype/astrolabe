@@ -2,8 +2,28 @@
 glyphname = "fehDotless-ar.fina";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = bottom;
+pos = (275,0);
 }
 );
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (500,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "fehDotless-ar";
+}
+);
+width = 550;
+}
+);
+metricLeft = "=fehDotless-ar";
+metricRight = "=0";
+metricWidth = "=fehDotless-ar+30";
 }

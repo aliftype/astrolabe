@@ -2,8 +2,55 @@
 glyphname = "fehDotless-ar.init";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = bottom;
+pos = (105,0);
+},
+{
+name = top;
+pos = (89,300);
 }
 );
+backgroundImage = {
+angle = 45.1;
+imagePath = "images/31246001-fixed.jpg";
+locked = 1;
+pos = (202,-22001);
+scale = (209.3003,209.3003);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,151,l),
+(54,195,o),
+(75,216,o),
+(89,216,cs),
+(122,216,o),
+(140,158,o),
+(154,50,c),
+(-10,50,l),
+(-10,0,l),
+(210,0,l),
+(194,148,o),
+(175,266,o),
+(89,266,cs),
+(43,266,o),
+(-3,215,o),
+(-7,127,cs),
+(-8,110,o),
+(2,101,o),
+(18,101,cs),
+(149,101,l),
+(149,151,l)
+);
+}
+);
+width = 220;
+}
+);
+metricLeft = "=-10";
+metricRight = "=10";
 }
