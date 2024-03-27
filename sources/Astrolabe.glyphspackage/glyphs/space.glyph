@@ -3,9 +3,9 @@ glyphname = space;
 layers = (
 {
 layerId = m01;
-width = 0;
+width = 30;
 }
 );
-metricWidth = "=0";
+metricWidth = "=30";
 unicode = 32;
 }
