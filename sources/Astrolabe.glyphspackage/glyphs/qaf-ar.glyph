@@ -4,7 +4,16 @@ glyphname = "qaf-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "qafDotless-ar";
+},
+{
+pos = (368,300);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 582;
 }
 );
 unicode = 1602;
