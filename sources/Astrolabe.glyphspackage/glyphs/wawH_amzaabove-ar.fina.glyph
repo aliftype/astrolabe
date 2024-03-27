@@ -4,7 +4,15 @@ glyphname = "wawHamzaabove-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "waw-ar.fina";
+},
+{
+ref = "hamzaabove-ar";
+}
+);
+width = 295;
 }
 );
 }

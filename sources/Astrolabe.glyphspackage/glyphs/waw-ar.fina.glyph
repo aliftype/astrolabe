@@ -3,7 +3,22 @@ glyphname = "waw-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (245,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (0,-25);
+ref = "waw-ar";
 }
 );
+width = 295;
+}
+);
+metricLeft = "=waw-ar";
+metricRight = "=0";
+metricWidth = "=waw-ar+20";
 }
