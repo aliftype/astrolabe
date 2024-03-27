@@ -4,7 +4,16 @@ glyphname = "zain-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "reh-ar";
+},
+{
+pos = (48,250);
+ref = "dotabove-ar";
+}
+);
+width = 211;
 }
 );
 unicode = 1586;

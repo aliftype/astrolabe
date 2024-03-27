@@ -4,7 +4,16 @@ glyphname = "zain-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "reh-ar.fina";
+},
+{
+pos = (48,250);
+ref = "dotabove-ar";
+}
+);
+width = 231;
 }
 );
 }

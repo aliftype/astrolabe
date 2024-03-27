@@ -2,8 +2,29 @@
 glyphname = "reh-ar.fina";
 layers = (
 {
-layerId = m01;
-width = 600;
+anchors = (
+{
+name = top;
+pos = (86,200);
 }
 );
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (181,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (0,-75);
+ref = "reh-ar";
+}
+);
+width = 231;
+}
+);
+metricLeft = "=reh-ar";
+metricRight = "=0";
+metricWidth = "=reh-ar+20";
 }
