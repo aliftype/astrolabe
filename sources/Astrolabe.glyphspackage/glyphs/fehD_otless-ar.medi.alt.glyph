@@ -1,0 +1,34 @@
+{
+glyphname = "fehDotless-ar.medi.alt";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (88,0);
+},
+{
+name = top;
+pos = (88,280);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-10,0);
+ref = "kashida-ar";
+scale = (4.2,1);
+},
+{
+angle = 90;
+pos = (112,60);
+ref = "meem-ar.init";
+}
+);
+width = 200;
+}
+);
+metricLeft = "=-10";
+metricRight = "=0";
+}

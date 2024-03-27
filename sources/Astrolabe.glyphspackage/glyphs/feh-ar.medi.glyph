@@ -4,7 +4,16 @@ glyphname = "feh-ar.medi";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "fehDotless-ar.medi";
+},
+{
+pos = (51,350);
+ref = "dotabove-ar";
+}
+);
+width = 250;
 }
 );
 }

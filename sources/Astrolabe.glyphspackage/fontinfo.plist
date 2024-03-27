@@ -203,6 +203,7 @@ userData = {
 GSCornerRadius = 25;
 GSOffsetHorizontal = 25;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetVertical = 25;
 };
 }
