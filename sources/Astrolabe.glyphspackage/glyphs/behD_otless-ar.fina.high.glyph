@@ -21,15 +21,6 @@ pos = (284,200);
 layerId = m01;
 shapes = (
 {
-pos = (500,0);
-ref = "kashida-ar";
-},
-{
-alignment = -1;
-pos = (388,0);
-ref = "behDotless-ar.init.high";
-},
-{
 closed = 1;
 nodes = (
 (500,0,l),
@@ -44,6 +35,15 @@ nodes = (
 (0,8,c),
 (0,0,l)
 );
+},
+{
+pos = (500,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (388,0);
+ref = "behDotless-ar.init.high";
 }
 );
 width = 550;
