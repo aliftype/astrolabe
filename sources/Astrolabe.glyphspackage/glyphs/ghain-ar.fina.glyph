@@ -4,7 +4,16 @@ glyphname = "ghain-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "ain-ar.fina";
+},
+{
+pos = (187,300);
+ref = "dotabove-ar";
+}
+);
+width = 425;
 }
 );
 }

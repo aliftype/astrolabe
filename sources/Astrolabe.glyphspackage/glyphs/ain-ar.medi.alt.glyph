@@ -1,5 +1,5 @@
 {
-glyphname = "ain-ar.medi";
+glyphname = "ain-ar.medi.alt";
 layers = (
 {
 anchors = (
@@ -20,7 +20,7 @@ nodes = (
 );
 },
 {
-ref = _ain1;
+ref = _ain2;
 }
 );
 width = 350;

@@ -75,7 +75,9 @@
 "zah-ar.init",
 "ain-ar",
 "ain-ar.fina",
+"ain-ar.fina.alt",
 "ain-ar.medi",
+"ain-ar.medi.alt",
 "ain-ar.init",
 "ghain-ar",
 "ghain-ar.fina",
@@ -170,5 +172,7 @@ space,
 "sukun-ar",
 "madda-ar",
 "threedotsverticalabove-ar",
+_ain1,
+_ain2,
 _sad
 )

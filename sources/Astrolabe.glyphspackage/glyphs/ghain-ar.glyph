@@ -4,7 +4,16 @@ glyphname = "ghain-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (270,400);
+ref = "dotabove-ar";
+}
+);
+width = 470;
 }
 );
 unicode = 1594;

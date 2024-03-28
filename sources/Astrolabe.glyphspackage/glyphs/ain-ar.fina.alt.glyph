@@ -1,14 +1,24 @@
 {
-glyphname = "ain-ar";
+glyphname = "ain-ar.fina.alt";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (225,-100);
+},
+{
+name = top;
+pos = (225,250);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(350,0,l),
-(350,50,l),
+(425,0,l),
+(425,50,l),
 (150,50,ls),
 (57,50,o),
 (0,33,o),
@@ -29,14 +39,13 @@ nodes = (
 );
 },
 {
-pos = (160,0);
-ref = "ain-ar.init";
+pos = (75,0);
+ref = _ain2;
 }
 );
-width = 470;
+width = 425;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
-unicode = 1593;
+metricRight = "=0";
 }
