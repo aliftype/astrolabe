@@ -9,6 +9,7 @@ shapes = (
 ref = "waw-ar.fina";
 },
 {
+pos = (51,200);
 ref = "hamzaabove-ar";
 }
 );

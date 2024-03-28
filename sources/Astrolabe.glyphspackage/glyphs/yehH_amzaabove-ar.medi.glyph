@@ -9,6 +9,7 @@ shapes = (
 ref = "behDotless-ar.medi";
 },
 {
+pos = (-53,250);
 ref = "hamzaabove-ar";
 }
 );
