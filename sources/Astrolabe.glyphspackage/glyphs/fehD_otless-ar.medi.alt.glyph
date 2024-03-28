@@ -9,7 +9,7 @@ pos = (88,0);
 },
 {
 name = top;
-pos = (88,280);
+pos = (88,300);
 }
 );
 layerId = m01;
@@ -22,7 +22,7 @@ scale = (4.2,1);
 },
 {
 angle = 90;
-pos = (112,60);
+pos = (112,46);
 ref = "meem-ar.init";
 }
 );
