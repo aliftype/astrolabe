@@ -3,7 +3,20 @@ glyphname = "lam_alef-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (250,0);
+ref = "kashida-ar";
+scale = (2,1);
+},
+{
+alignment = -1;
+ref = "lam_alef-ar";
 }
 );
+width = 350;
+}
+);
+metricRight = "=0";
 }
