@@ -9,11 +9,11 @@ shapes = (
 ref = "qafDotless-ar.fina";
 },
 {
-pos = (368,300);
+pos = (368,249);
 ref = "twodotshorizontalabove-ar";
 }
 );
-width = 612;
+width = 606;
 }
 );
 }
