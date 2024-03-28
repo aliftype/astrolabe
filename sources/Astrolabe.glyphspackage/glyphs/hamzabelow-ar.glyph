@@ -2,8 +2,24 @@
 glyphname = "hamzabelow-ar";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+pos = (113,175);
+},
+{
+name = bottom;
+pos = (88,0);
+}
+);
 layerId = m01;
-width = 300;
+shapes = (
+{
+ref = "hamza-ar";
+scale = (0.5,0.5);
+}
+);
+width = 181;
 }
 );
 unicode = 1621;

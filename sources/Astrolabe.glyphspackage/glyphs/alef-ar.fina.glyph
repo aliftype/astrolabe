@@ -2,6 +2,16 @@
 glyphname = "alef-ar.fina";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (90,0);
+},
+{
+name = top;
+pos = (75,600);
+}
+);
 layerId = m01;
 shapes = (
 {
