@@ -9,11 +9,11 @@ shapes = (
 ref = "hah-ar.fina";
 },
 {
-pos = (131,350);
+pos = (141,350);
 ref = "dotabove-ar";
 }
 );
-width = 400;
+width = 410;
 }
 );
 }
