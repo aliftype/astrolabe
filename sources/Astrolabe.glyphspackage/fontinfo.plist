@@ -1,5 +1,5 @@
 {
-.appVersion = "3249";
+.appVersion = "3252";
 .formatVersion = 3;
 customParameters = (
 {
@@ -221,9 +221,13 @@ m01 = {
 "@MMK_R_beh" = {
 "@MMK_L_beh" = -50;
 "@MMK_L_beh.high" = -50;
+"heh-ar.medi" = -40;
 };
 "@MMK_R_beh.high" = {
 "@MMK_L_beh" = -60;
+};
+"@MMK_R_heh" = {
+"@MMK_L_alef" = -30;
 };
 };
 };
