@@ -4,7 +4,16 @@ glyphname = "tehMarbuta-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "heh-ar";
+},
+{
+pos = (0,400);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 230;
 }
 );
 unicode = 1577;

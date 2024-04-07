@@ -1,5 +1,6 @@
 {
 glyphname = "lam-ar.fina";
+kernRight = alef;
 layers = (
 {
 layerId = m01;
