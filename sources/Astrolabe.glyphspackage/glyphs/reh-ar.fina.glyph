@@ -2,12 +2,6 @@
 glyphname = "reh-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = top;
-pos = (86,200);
-}
-);
 layerId = m01;
 shapes = (
 {
