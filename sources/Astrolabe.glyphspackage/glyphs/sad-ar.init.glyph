@@ -26,6 +26,70 @@ ref = _sad;
 }
 );
 width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (225,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "5A511ECF-04D0-409C-B0D9-1EAC981EA10D";
+name = "9 Apr 24 at 17:24";
+shapes = (
+{
+alignment = -1;
+ref = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+pos = (100,0);
+ref = _sad;
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (699,0);
+},
+{
+name = top;
+pos = (699,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "9C481B39-FD5C-42FC-9E5F-8FCBCD0C87DD";
+name = "9 Apr 24 at 17:24";
+shapes = (
+{
+alignment = -1;
+ref = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+pos = (100,0);
+ref = _sad;
+}
+);
+width = 1300;
 }
 );
 metricLeft = "=behDotless-ar.medi";

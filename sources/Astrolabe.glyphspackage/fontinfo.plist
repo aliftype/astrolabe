@@ -1,7 +1,31 @@
 {
 .appVersion = "3257";
 .formatVersion = 3;
+axes = (
+{
+name = Mashq;
+tag = MSHQ;
+}
+);
 customParameters = (
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 100;
+}
+);
+},
 {
 name = "Use Line Breaks";
 value = 1;
@@ -181,6 +205,9 @@ tag = salt;
 );
 fontMaster = (
 {
+axesValues = (
+10
+);
 id = m01;
 metricValues = (
 {
