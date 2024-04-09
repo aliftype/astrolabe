@@ -3,7 +3,7 @@ glyphname = "hah-ar.medi";
 layers = (
 {
 layerId = m01;
-metricWidth = "=hah-ar.init-25";
+metricWidth = "=hah-ar.init";
 shapes = (
 {
 alignment = -1;
@@ -13,11 +13,16 @@ ref = "kashida-ar";
 {
 alignment = -1;
 ref = "hah-ar.init";
+},
+{
+alignment = -1;
+pos = (225,0);
+ref = "kashida-ar";
 }
 );
-width = 250;
+width = 275;
 }
 );
 metricLeft = "=hah-ar.init";
-metricRight = "=0@50";
+metricRight = "=0";
 }
