@@ -9,7 +9,7 @@ pos = (150,0);
 },
 {
 name = top;
-pos = (88,350);
+pos = (152,350);
 }
 );
 backgroundImage = {
