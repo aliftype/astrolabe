@@ -1,5 +1,5 @@
 {
-glyphname = "kashida-ar";
+glyphname = "kashida-ar.20";
 layers = (
 {
 layerId = m01;
@@ -7,15 +7,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(50,0,l),
-(50,50,l),
+(20,0,l),
+(20,50,l),
 (-10,50,l),
 (-10,0,l)
 );
 }
 );
-width = 50;
+width = 20;
 }
 );
-unicode = 1600;
 }
