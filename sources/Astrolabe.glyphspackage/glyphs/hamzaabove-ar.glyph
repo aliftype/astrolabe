@@ -15,12 +15,15 @@ pos = (113,125);
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = "hamza-ar";
 scale = (0.5,0.5);
 }
 );
-width = 200;
+width = 175;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 1620;
 }
