@@ -2,9 +2,39 @@
 glyphname = "madda-ar";
 layers = (
 {
-layerId = m01;
-width = 300;
+anchors = (
+{
+name = _top;
+pos = (113,-50);
+},
+{
+name = top;
+pos = (88,54);
 }
 );
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(175,0,l),
+(175,29,l),
+(77,29,ls),
+(66,29,o),
+(39,34,o),
+(33,54,c),
+(25,54,l),
+(23,29,o),
+(17,20,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 175;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 1619;
 }
