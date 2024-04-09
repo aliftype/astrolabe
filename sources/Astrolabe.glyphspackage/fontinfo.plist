@@ -158,6 +158,22 @@ sub yehbarree-ar	by yehbarree-ar.fina;
 tag = fina;
 },
 {
+code = "@dots = [dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar];
+sub @dots by NULL;
+";
+labels = (
+{
+language = ENG;
+value = "Dot-less Letter Forms";
+},
+{
+language = ARA;
+value = "حروف مهملة (بلا نقاط)";
+}
+);
+tag = ss01;
+},
+{
 code = "lookup rlig_isol {
 	sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
 } rlig_isol;
@@ -212,7 +228,7 @@ lookup rlig_wide_tooth_2 {
 	;
 } rlig_wide_tooth_2;
 ";
-tag = rlig;
+tag = rclt;
 },
 {
 code = "sub hah-ar				by hah-ar.alt;
