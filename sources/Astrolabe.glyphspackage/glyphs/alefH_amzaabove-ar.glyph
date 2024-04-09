@@ -9,7 +9,7 @@ shapes = (
 ref = "alef-ar";
 },
 {
-pos = (-83,600);
+pos = (-63,600);
 ref = "hamzaabove-ar";
 }
 );
