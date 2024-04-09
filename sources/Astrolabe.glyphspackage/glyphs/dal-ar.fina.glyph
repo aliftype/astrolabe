@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (549,0);
+pos = (550,0);
 ref = "kashida-ar";
 },
 {
@@ -14,10 +14,10 @@ alignment = -1;
 ref = "dal-ar";
 }
 );
-width = 599;
+width = 600;
 }
 );
 metricLeft = "=dal-ar";
 metricRight = "=0";
-metricWidth = "=dal-ar+33";
+metricWidth = "=dal-ar";
 }

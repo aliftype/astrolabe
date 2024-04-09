@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (705,0);
+pos = (710,0);
 },
 {
 name = top;
-pos = (754,200);
+pos = (710,200);
 }
 );
 backgroundImage = {
@@ -68,14 +68,14 @@ nodes = (
 );
 },
 {
-pos = (503,0);
+pos = (500,0);
 ref = _sad;
 }
 );
-width = 959;
+width = 950;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
+metricRight = "=_sad";
 unicode = 1589;
 }

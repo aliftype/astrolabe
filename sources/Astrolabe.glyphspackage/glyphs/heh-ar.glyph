@@ -65,10 +65,10 @@ nodes = (
 );
 }
 );
-width = 230;
+width = 270;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
+metricRight = "=50";
 unicode = 1607;
 }

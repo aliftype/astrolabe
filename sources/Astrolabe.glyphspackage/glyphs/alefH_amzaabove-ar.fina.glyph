@@ -9,11 +9,11 @@ shapes = (
 ref = "alef-ar.fina";
 },
 {
-pos = (-13,600);
+pos = (-63,600);
 ref = "hamzaabove-ar";
 }
 );
-width = 150;
+width = 100;
 }
 );
 }

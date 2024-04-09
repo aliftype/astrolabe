@@ -6,19 +6,23 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (181,0);
+pos = (200,0);
 ref = "kashida-ar";
 },
 {
 alignment = -1;
 pos = (0,-75);
 ref = "reh-ar";
+},
+{
+alignment = -1;
+pos = (167,0);
+ref = "kashida-ar";
 }
 );
-width = 231;
+width = 250;
 }
 );
 metricLeft = "=reh-ar";
-metricRight = "=0";
-metricWidth = "=reh-ar+20";
+metricWidth = "=reh-ar";
 }

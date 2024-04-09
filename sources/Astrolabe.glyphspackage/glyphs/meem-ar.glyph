@@ -29,14 +29,14 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (280,0);
+pos = (283,0);
 ref = "meem-ar.init";
 }
 );
-width = 510;
+width = 550;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
+metricRight = "=meem-ar.init";
 unicode = 1605;
 }

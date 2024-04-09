@@ -19,15 +19,34 @@ shapes = (
 alignment = -1;
 pos = (-10,0);
 ref = "kashida-ar";
-scale = (4.2,1);
 },
 {
 angle = 90;
 pos = (112,46);
 ref = "meem-ar.init";
+},
+{
+alignment = -1;
+pos = (36,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (82,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (128,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (175,0);
+ref = "kashida-ar";
 }
 );
-width = 200;
+width = 225;
 }
 );
 metricLeft = "=-10";

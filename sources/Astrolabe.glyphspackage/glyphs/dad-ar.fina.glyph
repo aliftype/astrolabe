@@ -9,11 +9,11 @@ shapes = (
 ref = "sad-ar.fina";
 },
 {
-pos = (716,250);
+pos = (672,250);
 ref = "dotabove-ar";
 }
 );
-width = 992;
+width = 950;
 }
 );
 }

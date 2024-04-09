@@ -48,5 +48,5 @@ width = 600;
 );
 metricLeft = "=heh-ar.init";
 metricRight = "=0";
-metricWidth = "=heh-ar.init+40";
+metricWidth = "=heh-ar.init";
 }

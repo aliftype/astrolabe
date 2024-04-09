@@ -2,12 +2,6 @@
 glyphname = "fehDotless-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (275,0);
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -25,5 +19,5 @@ width = 550;
 );
 metricLeft = "=fehDotless-ar";
 metricRight = "=0";
-metricWidth = "=fehDotless-ar+30";
+metricWidth = "=fehDotless-ar";
 }

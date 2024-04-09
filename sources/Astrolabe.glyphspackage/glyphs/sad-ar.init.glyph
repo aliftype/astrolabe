@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (275,0);
+pos = (300,0);
 },
 {
 name = top;
-pos = (324,200);
+pos = (300,200);
 }
 );
 layerId = m01;
@@ -21,13 +21,13 @@ ref = "behDotless-ar.medi";
 },
 {
 alignment = -1;
-pos = (73,0);
+pos = (100,0);
 ref = _sad;
 }
 );
-width = 529;
+width = 550;
 }
 );
 metricLeft = "=behDotless-ar.medi";
-metricRight = "=10";
+metricRight = "=_sad";
 }

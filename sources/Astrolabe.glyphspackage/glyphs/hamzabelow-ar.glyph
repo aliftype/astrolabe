@@ -19,7 +19,7 @@ ref = "hamza-ar";
 scale = (0.5,0.5);
 }
 );
-width = 181;
+width = 200;
 }
 );
 unicode = 1621;

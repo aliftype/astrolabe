@@ -6,17 +6,16 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (650,0);
+pos = (630,0);
 ref = "kashida-ar";
 },
 {
 ref = "alefMaksura-ar";
 }
 );
-width = 700;
+width = 680;
 }
 );
 metricLeft = "=0";
 metricRight = "=0";
-metricWidth = "=alefMaksura-ar+20";
 }

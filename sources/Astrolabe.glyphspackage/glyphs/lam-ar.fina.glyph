@@ -20,5 +20,5 @@ width = 350;
 );
 metricLeft = "=lam-ar";
 metricRight = "=0";
-metricWidth = "=lam-ar+40";
+metricWidth = "=lam-ar";
 }
