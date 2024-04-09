@@ -230,6 +230,9 @@ m01 = {
 "@MMK_R_heh" = {
 "@MMK_L_alef" = -30;
 };
+"reh-ar" = {
+"@MMK_L_hah" = 110;
+};
 };
 };
 metrics = (
