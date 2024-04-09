@@ -9,7 +9,7 @@ shapes = (
 ref = "behDotless-ar.init";
 },
 {
-pos = (27,-125);
+pos = (-3,-125);
 ref = "dotbelow-ar";
 }
 );
