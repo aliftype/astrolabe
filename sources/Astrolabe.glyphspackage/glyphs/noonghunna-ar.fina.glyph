@@ -19,5 +19,5 @@ width = 600;
 );
 metricLeft = "=noonghunna-ar";
 metricRight = "=0";
-metricWidth = "=noonghunna-ar+20";
+metricWidth = "=noonghunna-ar";
 }

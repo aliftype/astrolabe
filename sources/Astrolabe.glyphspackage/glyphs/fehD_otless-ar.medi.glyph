@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (207,0);
+pos = (211,0);
 ref = "kashida-ar";
 },
 {
@@ -14,10 +14,10 @@ alignment = -1;
 ref = "fehDotless-ar.init";
 }
 );
-width = 257;
+width = 261;
 }
 );
 metricLeft = "=fehDotless-ar.init";
 metricRight = "=0";
-metricWidth = "=fehDotless-ar.init+30";
+metricWidth = "=fehDotless-ar.init";
 }

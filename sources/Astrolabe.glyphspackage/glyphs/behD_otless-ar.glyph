@@ -39,10 +39,10 @@ pos = (388,0);
 ref = "behDotless-ar.init";
 }
 );
-width = 517;
+width = 550;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
+metricRight = "=50@50";
 unicode = 1646;
 }

@@ -9,7 +9,7 @@ shapes = (
 ref = "fehDotless-ar.fina";
 },
 {
-pos = (351,350);
+pos = (340,350);
 ref = "dotabove-ar";
 }
 );

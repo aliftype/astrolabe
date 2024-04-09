@@ -29,14 +29,14 @@ nodes = (
 );
 },
 {
-pos = (160,0);
+pos = (150,0);
 ref = "ain-ar.init";
 }
 );
-width = 470;
+width = 500;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
+metricRight = "=50";
 unicode = 1593;
 }

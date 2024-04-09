@@ -12,7 +12,7 @@ ref = "alef-ar.fina";
 ref = "madda-ar";
 }
 );
-width = 150;
+width = 100;
 }
 );
 }

@@ -9,11 +9,11 @@ shapes = (
 ref = "fehDotless-ar";
 },
 {
-pos = (351,350);
+pos = (340,350);
 ref = "dotabove-ar";
 }
 );
-width = 520;
+width = 550;
 }
 );
 unicode = 1601;

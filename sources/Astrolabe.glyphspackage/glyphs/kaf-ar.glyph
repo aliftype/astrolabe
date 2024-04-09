@@ -21,14 +21,14 @@ nodes = (
 );
 },
 {
-pos = (60,0);
+pos = (100,0);
 ref = "kaf-ar.init";
 }
 );
-width = 590;
+width = 650;
 }
 );
 metricLeft = "=0";
-metricRight = "=10";
+metricRight = "=kaf-ar.init";
 unicode = 1603;
 }
