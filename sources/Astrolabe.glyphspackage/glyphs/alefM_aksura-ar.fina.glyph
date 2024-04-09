@@ -3,7 +3,20 @@ glyphname = "alefMaksura-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+pos = (650,0);
+ref = "kashida-ar";
+},
+{
+ref = "alefMaksura-ar";
 }
 );
+width = 700;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+metricWidth = "=alefMaksura-ar+20";
 }

@@ -4,7 +4,16 @@ glyphname = "yeh-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (232,-325);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 680;
 }
 );
 unicode = 1610;

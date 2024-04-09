@@ -4,7 +4,16 @@ glyphname = "yeh-ar.fina";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "alefMaksura-ar.fina";
+},
+{
+pos = (232,-325);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 700;
 }
 );
 }
