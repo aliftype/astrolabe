@@ -270,9 +270,11 @@ m01 = {
 };
 "sad-ar.init" = {
 "reh-ar.fina" = -50;
+"waw-ar.fina" = -30;
 };
 "sad-ar.medi" = {
 "reh-ar.fina" = -50;
+"waw-ar.fina" = -30;
 };
 };
 };
