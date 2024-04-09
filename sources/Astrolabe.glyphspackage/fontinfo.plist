@@ -1,5 +1,5 @@
 {
-.appVersion = "3254";
+.appVersion = "3257";
 .formatVersion = 3;
 customParameters = (
 {
@@ -169,6 +169,14 @@ lookup rlig_teeth {
 } rlig_teeth;
 ";
 tag = rlig;
+},
+{
+code = "sub hah-ar				by hah-ar.alt;
+sub hah-ar.fina			by hah-ar.alt.fina;
+sub ain-ar.medi			by ain-ar.medi.alt;
+sub	ain-ar.fina			by ain-ar.fina.alt;
+sub fehDotless-ar.medi	by fehDotless-ar.medi.alt;";
+tag = salt;
 }
 );
 fontMaster = (
