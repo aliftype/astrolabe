@@ -133,6 +133,7 @@ sub heh-ar			by heh-ar.fina;
 sub tehMarbuta-ar	by heh-ar.fina twodotshorizontalabove-ar;
 sub waw-ar			by waw-ar.fina;
 sub alefMaksura-ar	by alefMaksura-ar.fina;
+sub yehbarree-ar	by yehbarree-ar.fina;
 ";
 tag = fina;
 },

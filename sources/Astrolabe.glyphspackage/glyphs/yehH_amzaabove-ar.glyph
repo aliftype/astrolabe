@@ -4,7 +4,16 @@ glyphname = "yehHamzaabove-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (0,50);
+ref = "hamzaabove-ar";
+}
+);
+width = 680;
 }
 );
 unicode = 1574;

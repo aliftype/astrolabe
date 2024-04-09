@@ -9,7 +9,7 @@ shapes = (
 ref = "behDotless-ar.medi";
 },
 {
-pos = (-23,-125);
+pos = (-53,-125);
 ref = "twodotshorizontalbelow-ar";
 }
 );
