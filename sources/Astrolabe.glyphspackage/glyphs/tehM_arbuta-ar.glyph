@@ -9,7 +9,7 @@ shapes = (
 ref = "heh-ar";
 },
 {
-pos = (0,400);
+pos = (20,400);
 ref = "twodotshorizontalabove-ar";
 }
 );
