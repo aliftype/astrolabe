@@ -324,7 +324,7 @@ m01 = {
 "heh-ar.medi" = -40;
 };
 "@MMK_R_beh.high" = {
-"@MMK_L_beh" = -60;
+"@MMK_L_beh" = -40;
 };
 "@MMK_R_heh" = {
 "@MMK_L_alef" = -30;
