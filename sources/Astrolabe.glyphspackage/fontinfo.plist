@@ -222,6 +222,12 @@ lookup rlig_wide_tooth_2 {
 	;
 	sub	 @beh_init_medi
 		 @horizontal_dots_above'
+		 behDotless-ar.medi.high
+		 @horizontal_dots_above
+	by	 @horizontal_dots_above kashida-ar.20
+	;
+	sub	 @beh_init_medi
+		 @horizontal_dots_above'
 		 @beh_init_medi
 		 @horizontal_dots_above
 	by	 @horizontal_dots_above kashida-ar
