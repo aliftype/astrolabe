@@ -4,6 +4,15 @@ kernLeft = beh;
 kernRight = beh;
 layers = (
 {
+anchors = (
+{
+name = "*bottom";
+pos = (95,0);
+userData = {
+GPOS_Context = "* [behDotless-ar.medi behDotless-ar.medi.high] [dotbelow-ar twodotshorizontalbelow-ar]";
+};
+}
+);
 layerId = m01;
 shapes = (
 {
