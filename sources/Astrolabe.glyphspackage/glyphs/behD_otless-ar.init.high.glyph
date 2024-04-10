@@ -10,10 +10,6 @@ name = bottom;
 pos = (66,0);
 },
 {
-name = ring;
-pos = (66,0);
-},
-{
 name = top;
 pos = (36,250);
 }
