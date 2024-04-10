@@ -227,6 +227,24 @@ lookup rlig_wide_tooth_2 {
 	by	 @horizontal_dots_above kashida-ar
 	;
 } rlig_wide_tooth_2;
+
+lookup rlig_wide_tooth_3 {
+	lookupflag UseMarkFilteringSet [twodotshorizontalbelow-ar];
+	sub	 @beh_init_medi
+		 twodotshorizontalbelow-ar'
+		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
+	by	 twodotshorizontalbelow-ar kashida-ar kashida-ar.20
+	;
+} rlig_wide_tooth_3;
+
+lookup rlig_wide_tooth_4 {
+	lookupflag UseMarkFilteringSet [dotbelow-ar];
+	sub	 @beh_init_medi
+		 dotbelow-ar'
+		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
+	by	 dotbelow-ar kashida-ar.20
+	;
+} rlig_wide_tooth_4;
 ";
 tag = rclt;
 },
