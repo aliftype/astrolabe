@@ -17,7 +17,6 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (-10,0);
 ref = "kashida-ar";
 },
 {
@@ -27,17 +26,12 @@ ref = "meem-ar.init";
 },
 {
 alignment = -1;
-pos = (36,0);
+pos = (58,0);
 ref = "kashida-ar";
 },
 {
 alignment = -1;
-pos = (82,0);
-ref = "kashida-ar";
-},
-{
-alignment = -1;
-pos = (128,0);
+pos = (117,0);
 ref = "kashida-ar";
 },
 {

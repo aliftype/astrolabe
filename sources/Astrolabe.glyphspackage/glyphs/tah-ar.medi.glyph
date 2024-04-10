@@ -15,7 +15,6 @@ ref = "tah-ar";
 },
 {
 alignment = -1;
-pos = (-10,0);
 ref = "kashida-ar";
 }
 );

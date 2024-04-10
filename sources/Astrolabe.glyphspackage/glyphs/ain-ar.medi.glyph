@@ -11,16 +11,42 @@ pos = (150,0);
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(350,0,l),
-(350,50,l),
-(-10,50,l),
-(-10,0,l)
-);
+alignment = -1;
+ref = _ain1;
 },
 {
-ref = _ain1;
+alignment = -1;
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (48,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (97,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (149,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (200,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (250,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+pos = (300,0);
+ref = "kashida-ar";
 }
 );
 width = 350;

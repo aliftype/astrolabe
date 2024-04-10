@@ -21,9 +21,7 @@ nodes = (
 );
 },
 {
-pos = (-10,0);
 ref = "kashida-ar";
-scale = (1.2,1);
 }
 );
 width = 100;
