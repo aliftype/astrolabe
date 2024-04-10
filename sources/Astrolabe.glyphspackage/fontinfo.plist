@@ -449,7 +449,7 @@ gridLength = 50;
 gridSubDivision = 50;
 keyboardIncrementHuge = 50;
 };
-unitsPerEm = 1000;
+unitsPerEm = 750;
 versionMajor = 1;
 versionMinor = 0;
 }
