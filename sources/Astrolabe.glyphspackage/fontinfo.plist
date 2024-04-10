@@ -90,7 +90,7 @@ sub qaf-ar				by qafDotless-ar twodotshorizontalabove-ar;
 sub noon-ar				by noonghunna-ar dotabove-ar;
 sub wawHamzaabove-ar	by waw-ar hamzaabove-ar;
 sub yeh-ar				by alefMaksura-ar twodotshorizontalbelow-ar;
-sub yehHamzaabove-ar	by alefMaksura-ar hamza-ar;
+sub yehHamzaabove-ar	by alefMaksura-ar hamzaabove-ar;
 ";
 tag = ccmp;
 },
