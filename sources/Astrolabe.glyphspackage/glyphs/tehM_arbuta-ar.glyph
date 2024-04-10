@@ -9,11 +9,11 @@ shapes = (
 ref = "heh-ar";
 },
 {
-pos = (20,400);
+pos = (23,400);
 ref = "twodotshorizontalabove-ar";
 }
 );
-width = 270;
+width = 280;
 }
 );
 unicode = 1577;

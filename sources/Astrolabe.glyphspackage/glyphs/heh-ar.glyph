@@ -5,6 +5,75 @@ layers = (
 anchors = (
 {
 name = bottom;
+pos = (116,0);
+},
+{
+name = top;
+pos = (111,350);
+}
+);
+backgroundImage = {
+angle = 177;
+imagePath = "images/31246001-fixed.jpg";
+locked = 1;
+pos = (27309,30612);
+scale = (209.3003,209.3003);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,0,l),
+(234,83,o),
+(212,179,o),
+(142,270,cs),
+(111,311,o),
+(116,335,o),
+(127,358,c),
+(117,364,l),
+(97,326,o),
+(64,304,o),
+(22,297,c),
+(24,286,l),
+(48,288,o),
+(79,272,o),
+(103,240,cs),
+(164,161,o),
+(181,85,o),
+(184,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,0,l),
+(196,50,l),
+(8,50,l),
+(0,36,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(149,201,l),
+(59,169,o),
+(18,106,o),
+(0,36,c),
+(48,24,l),
+(64,84,o),
+(97,130,o),
+(170,154,c)
+);
+}
+);
+width = 280;
+},
+{
+anchors = (
+{
+name = bottom;
 pos = (113,0);
 },
 {
@@ -12,14 +81,9 @@ name = top;
 pos = (108,350);
 }
 );
-backgroundImage = {
-angle = 177;
-imagePath = "images/31246001-fixed.jpg";
-locked = 1;
-pos = (27306,30612);
-scale = (209.3003,209.3003);
-};
-layerId = m01;
+associatedMasterId = m01;
+layerId = "9D188FD5-29C6-43DB-A54E-C282AFE3F747";
+name = "10 Apr 24 at 03:37";
 shapes = (
 {
 closed = 1;
