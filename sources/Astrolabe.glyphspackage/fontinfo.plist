@@ -315,8 +315,8 @@ name = Regular;
 kerningRTL = {
 m01 = {
 "@MMK_R_beh" = {
-"@MMK_L_beh" = -50;
-"@MMK_L_beh.high" = -50;
+"@MMK_L_beh" = -30;
+"@MMK_L_beh.high" = -30;
 "heh-ar.medi" = -40;
 };
 "@MMK_R_beh.high" = {
