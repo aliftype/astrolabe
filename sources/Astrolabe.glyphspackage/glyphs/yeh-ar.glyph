@@ -9,7 +9,7 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (232,-325);
+pos = (245,-325);
 ref = "twodotshorizontalbelow-ar";
 }
 );
