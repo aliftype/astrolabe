@@ -243,7 +243,7 @@ lookup rlig_wide_tooth_3 {
 	sub	 @beh_init_medi
 		 twodotshorizontalbelow-ar'
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
-	by	 twodotshorizontalbelow-ar kashida-ar kashida-ar.20
+	by	 twodotshorizontalbelow-ar kashida-ar.70
 	;
 } rlig_wide_tooth_3;
 
