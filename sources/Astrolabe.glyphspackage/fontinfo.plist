@@ -330,7 +330,7 @@ m01 = {
 "@MMK_L_alef" = -30;
 };
 "reh-ar" = {
-"@MMK_L_hah" = 110;
+"@MMK_L_hah" = 90;
 };
 "sad-ar.init" = {
 "reh-ar.fina" = -50;
@@ -339,6 +339,12 @@ m01 = {
 "sad-ar.medi" = {
 "reh-ar.fina" = -50;
 "waw-ar.fina" = -30;
+};
+"waw-ar" = {
+"@MMK_L_hah" = 45;
+};
+"waw-ar.fina" = {
+"@MMK_L_hah" = 35;
 };
 };
 };
