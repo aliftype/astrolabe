@@ -158,6 +158,10 @@ sub yehbarree-ar	by yehbarree-ar.fina;
 tag = fina;
 },
 {
+code = "sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar;";
+tag = liga;
+},
+{
 code = "@dots = [dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar];
 sub @dots by NULL;
 ";
