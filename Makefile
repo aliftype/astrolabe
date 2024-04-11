@@ -1,6 +1,5 @@
 NAME = Astrolabe
 
-.SECONDARY:
 SHELL = bash
 MAKEFLAGS := -sr
 PYTHON := python3
@@ -8,23 +7,31 @@ PYTHON := python3
 SOURCEDIR = sources
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 FONTSDIR = fonts
+FONTS = ${FONTSDIR}/${NAME}.ttf
 
 VERSION=$(shell git describe --tags --abbrev=0)
+DIST = ${NAME}-${VERSION}
+
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
-all: ttf
-ttf: ${FONTSDIR}/${NAME}.ttf
+.SECONDARY:
+.ONESHELL:
+.PHONY: all dist
+
+all: ${FOTS}
 
 ${FONTSDIR}/${NAME}.ttf: ${GLYPHSFILE}
-	echo "    MAKE    $(@F)"
+	$(info   BUILD  $(@F))
 	mkdir -p $(@D)
 	${PYTHON} -m fontmake $< \
 	                      --verbose=WARNING \
 	                      --output-path=$@ \
-						  --output=variable
+			      --output=variable
 
-dist:
-	echo "    DIST    ${DIST}"
-	cp OFL.txt AUTHORS.txt CONTRIBUTORS.txt README.md ${DIST}
-	echo "    ZIP     ${DIST}.zip"
+dist: all
+	$(info   DIST   ${DIST}.zip)
+	install -Dm644 -t ${DIST} ${FONTS}
+	install -Dm644 -t ${DIST} README.txt
+	#install -Dm644 -t ${DIST} README-Arabic.txt
+	install -Dm644 -t ${DIST} LICENSE
 	zip -rq ${DIST}.zip ${DIST}
