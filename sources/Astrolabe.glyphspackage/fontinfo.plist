@@ -110,6 +110,10 @@ sub meem-ar			by meem-ar.init;
 sub noonghunna-ar	by behDotless-ar.init;
 sub heh-ar			by heh-ar.init;
 sub alefMaksura-ar	by behDotless-ar.init;
+sub yehFarsi-ar		by behDotless-ar.init twodotshorizontalbelow-ar;
+sub fehAfrican-ar	by fehDotless-ar.init dotbelow-ar;
+sub qafAfrican-ar	by fehDotless-ar.init dotabove-ar;
+sub noonAfrican-ar	by behDotless-ar.init dotabove-ar;
 ";
 tag = init;
 },
@@ -129,6 +133,10 @@ sub meem-ar			by meem-ar.medi;
 sub noonghunna-ar	by behDotless-ar.medi;
 sub heh-ar			by heh-ar.medi;
 sub alefMaksura-ar	by behDotless-ar.medi;
+sub yehFarsi-ar		by behDotless-ar.medi twodotshorizontalbelow-ar;
+sub fehAfrican-ar	by fehDotless-ar.medi dotbelow-ar;
+sub qafAfrican-ar	by fehDotless-ar.medi dotabove-ar;
+sub noonAfrican-ar	by behDotless-ar.medi dotabove-ar;
 ";
 tag = medi;
 },
@@ -154,8 +162,20 @@ sub tehMarbuta-ar	by heh-ar.fina twodotshorizontalabove-ar;
 sub waw-ar			by waw-ar.fina;
 sub alefMaksura-ar	by alefMaksura-ar.fina;
 sub yehbarree-ar	by yehbarree-ar.fina;
+sub yehFarsi-ar		by alefMaksura-ar.fina;
+sub fehAfrican-ar	by fehDotless-ar.fina;
+sub qafAfrican-ar	by qafDotless-ar.fina;
+sub noonAfrican-ar	by noonghunna-ar.fina;
 ";
 tag = fina;
+},
+{
+code = "sub yehFarsi-ar		by alefMadda-ar;
+sub fehAfrican-ar	by fehDotless-ar;
+sub qafAfrican-ar	by qafDotless-ar;
+sub noonAfrican-ar	by noonghunna-ar;
+";
+tag = rlig;
 },
 {
 code = "sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar;";
