@@ -66,7 +66,11 @@ automatic = 1;
 code = "feature init;
 feature medi;
 feature fina;
-feature salt;
+feature ss01;
+feature rclt;
+feature ss02;
+feature ss03;
+feature ss04;
 ";
 tag = aalt;
 },
@@ -279,11 +283,48 @@ tag = rclt;
 },
 {
 code = "sub hah-ar				by hah-ar.alt;
-sub hah-ar.fina			by hah-ar.alt.fina;
-sub ain-ar.medi			by ain-ar.medi.alt;
-sub	ain-ar.fina			by ain-ar.fina.alt;
-sub fehDotless-ar.medi	by fehDotless-ar.medi.alt;";
-tag = salt;
+sub hah-ar.fina			by hah-ar.alt.fina;";
+labels = (
+{
+language = ENG;
+value = "Alternate isolated/final “hah”";
+},
+{
+language = ARA;
+value = "حاء مفردة\\منتهية بديلة";
+}
+);
+tag = ss02;
+},
+{
+code = "sub ain-ar.medi			by ain-ar.medi.alt;
+sub	ain-ar.fina			by ain-ar.fina.alt;";
+labels = (
+{
+language = ENG;
+value = "Alternate medial/final “ain”";
+},
+{
+language = ARA;
+value = "عين متوسطة\\منتهية بديلة";
+}
+);
+tag = ss03;
+},
+{
+code = "sub fehDotless-ar.medi	by fehDotless-ar.medi.alt;
+";
+labels = (
+{
+language = ENG;
+value = "Alternate medial “feh”";
+},
+{
+language = ARA;
+value = "فاء متوسطة بديلة";
+}
+);
+tag = ss04;
 }
 );
 fontMaster = (
