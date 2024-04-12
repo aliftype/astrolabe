@@ -7,5 +7,5 @@ width = 50;
 }
 );
 metricWidth = "=50";
-unicode = 32;
+unicode = (32,160);
 }
