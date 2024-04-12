@@ -1,0 +1,18 @@
+vendor_id: ALIF
+
+com.google.fonts/check/shaping:
+  test_directory: tests
+
+exclude_checks:
+  - com.google.fonts/check/fontbakery_version
+  - com.google.fonts/check/tabular_kerning
+
+overrides:
+  com.google.fonts/check/unitsperem:
+    suboptimal: INFO
+  com.google.fonts/check/dotted_circle:
+    missing-dotted-circle: INFO
+  com.adobe.fonts/check/stat_has_axis_value_tables:
+    missing-axis-value-table: INFO
+    format-4-axis-count: INFO
+    no-axis-value-tables: INFO
