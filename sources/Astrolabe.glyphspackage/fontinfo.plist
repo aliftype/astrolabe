@@ -170,10 +170,30 @@ sub noonAfrican-ar	by noonghunna-ar.fina;
 tag = fina;
 },
 {
-code = "sub yehFarsi-ar		by alefMadda-ar;
-sub fehAfrican-ar	by fehDotless-ar;
-sub qafAfrican-ar	by qafDotless-ar;
-sub noonAfrican-ar	by noonghunna-ar;
+code = "lookup rlig_isol {
+	sub yehFarsi-ar		by alefMadda-ar;
+	sub fehAfrican-ar	by fehDotless-ar;
+	sub qafAfrican-ar	by qafDotless-ar;
+	sub noonAfrican-ar	by noonghunna-ar;
+	sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
+} rlig_isol;
+
+lookup rlig_lam_alef {
+	lookupflag IgnoreMarks;
+	sub lam-ar.init alef-ar.fina by lam_alef-ar;
+	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
+} rlig_lam_alef;
+
+lookup rlig_teeth {
+	lookupflag IgnoreMarks;
+	sub [behDotless-ar.init behDotless-ar.medi sad-ar.init sad-ar.medi]
+		[behDotless-ar.medi]' lookup high_tooth
+		[behDotless-ar.medi	behDotless-ar.fina]
+	;
+	sub [seen-ar.init seen-ar.medi]
+		[behDotless-ar.medi behDotless-ar.fina]' lookup high_tooth
+	;
+} rlig_teeth;
 ";
 tag = rlig;
 },
@@ -198,39 +218,18 @@ value = "حروف مهملة (بلا نقاط)";
 tag = ss01;
 },
 {
-code = "lookup rlig_isol {
-	sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
-} rlig_isol;
-
-lookup rlig_lam_alef {
-	lookupflag IgnoreMarks;
-	sub lam-ar.init alef-ar.fina by lam_alef-ar;
-	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-} rlig_lam_alef;
-
-lookup rlig_teeth {
-	lookupflag IgnoreMarks;
-	sub [behDotless-ar.init behDotless-ar.medi sad-ar.init sad-ar.medi]
-		[behDotless-ar.medi]' lookup high_tooth
-		[behDotless-ar.medi	behDotless-ar.fina]
-	;
-	sub [seen-ar.init seen-ar.medi]
-		[behDotless-ar.medi behDotless-ar.fina]' lookup high_tooth
-	;
-} rlig_teeth;
-
-@horizontal_dots_above = [twodotshorizontalabove-ar threedotsupabove-ar];
+code = "@horizontal_dots_above = [twodotshorizontalabove-ar threedotsupabove-ar];
 @beh_init_medi = [behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high];
-lookup rlig_wide_tooth_1 {
+lookup rclt_wide_tooth_1 {
 	lookupflag UseMarkFilteringSet @horizontal_dots_above;
 	sub	 @beh_init_medi
 		 @horizontal_dots_above'
 		[alef-ar.fina lam-ar.medi lam-ar.fina]
 	by	 @horizontal_dots_above kashida-ar.20
 	;
-} rlig_wide_tooth_1;
+} rclt_wide_tooth_1;
 
-lookup rlig_wide_tooth_2 {
+lookup rclt_wide_tooth_2 {
 	lookupflag UseMarkFilteringSet [@horizontal_dots_above dotabove-ar];
 	sub	 @beh_init_medi
 		 @horizontal_dots_above'
@@ -256,25 +255,25 @@ lookup rlig_wide_tooth_2 {
 		 @horizontal_dots_above
 	by	 @horizontal_dots_above kashida-ar
 	;
-} rlig_wide_tooth_2;
+} rclt_wide_tooth_2;
 
-lookup rlig_wide_tooth_3 {
+lookup rclt_wide_tooth_3 {
 	lookupflag UseMarkFilteringSet [twodotshorizontalbelow-ar];
 	sub	 @beh_init_medi
 		 twodotshorizontalbelow-ar'
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
 	by	 twodotshorizontalbelow-ar kashida-ar.70
 	;
-} rlig_wide_tooth_3;
+} rclt_wide_tooth_3;
 
-lookup rlig_wide_tooth_4 {
+lookup rclt_wide_tooth_4 {
 	lookupflag UseMarkFilteringSet [dotbelow-ar];
 	sub	 @beh_init_medi
 		 dotbelow-ar'
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
 	by	 dotbelow-ar kashida-ar.20
 	;
-} rlig_wide_tooth_4;
+} rclt_wide_tooth_4;
 ";
 tag = rclt;
 },
