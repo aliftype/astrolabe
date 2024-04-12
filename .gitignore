@@ -1,5 +1,6 @@
 *~
 venv
+tests/*.html
 
 # OS generated files #
 ######################
