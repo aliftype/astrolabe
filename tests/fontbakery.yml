@@ -16,3 +16,7 @@ overrides:
     missing-axis-value-table: INFO
     format-4-axis-count: INFO
     no-axis-value-tables: INFO
+  com.google.fonts/check/whitespace_widths:
+    different-widths: INFO
+  com.google.fonts/check/gdef_non_mark_chars:
+    non-mark-chars: INFO

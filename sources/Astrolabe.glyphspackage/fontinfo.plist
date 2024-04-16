@@ -7,6 +7,13 @@ name = Mashq;
 tag = MSHQ;
 }
 );
+classes = (
+{
+automatic = 1;
+code = "hamza-ar alef-ar alef-ar.fina alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high beh-ar teh-ar theh-ar jeem-ar hah-ar hah-ar.alt hah-ar.alt.fina hah-ar.fina hah-ar.medi hah-ar.init khah-ar dal-ar dal-ar.fina thal-ar reh-ar reh-ar.fina zain-ar seen-ar seen-ar.fina seen-ar.medi seen-ar.init sheen-ar sad-ar sad-ar.fina sad-ar.medi sad-ar.init dad-ar tah-ar tah-ar.fina tah-ar.medi tah-ar.init zah-ar ain-ar ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init ghain-ar feh-ar fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.init fehAfrican-ar qafDotless-ar qafDotless-ar.fina qaf-ar qafAfrican-ar kaf-ar kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.fina meem-ar.medi meem-ar.init noon-ar noonghunna-ar noonghunna-ar.fina noonAfrican-ar heh-ar heh-ar.fina heh-ar.medi heh-ar.init tehMarbuta-ar waw-ar waw-ar.fina wawHamzaabove-ar alefMaksura-ar alefMaksura-ar.fina yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar yehbarree-ar.fina kashida-ar kashida-ar.20 kashida-ar.70 lam_alef-ar lam_alef-ar.fina lam_lam_heh-ar decimalseparator-ar thousandseparator-ar zero-ar one-ar two-ar three-ar four-ar five-ar six-ar seven-ar eight-ar nine-ar period colon dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar space _ain1 _ain2 _sad _tail";
+name = All;
+}
+);
 customParameters = (
 {
 name = "Virtual Master";
@@ -325,6 +332,29 @@ value = "فاء متوسطة بديلة";
 }
 );
 tag = ss04;
+},
+{
+code = "# Automatic Code";
+tag = kern;
+},
+{
+code = "# Add width back to the space glyph (since it is a mark glyph and its advance width is zeroed)
+# We can’t really add advance to a mark glyph, so we add it to the glyph after it.
+lookup space_arab {
+	script arab;
+	language dflt required;
+	lookupflag UseMarkFilteringSet [space];
+	pos space @All' <0 0 ${space:width} 0>;
+} space_arab;
+
+lookup space_DFLT {
+	script DFLT;
+	language dflt required;
+	lookupflag UseMarkFilteringSet [space];
+	pos space @All' <${space:width} 0 ${space:width} 0>;
+} space_DFLT;
+";
+tag = dist;
 }
 );
 fontMaster = (

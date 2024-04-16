@@ -132,8 +132,58 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "س",
+      "expectation": "uni0633=0+826",
+      "script": "arab",
+      "direction": "rtl",
+      "variations": {
+        "MSHQ": 100.0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": " س",
+      "expectation": "uni0633=1+876|space=0+0",
+      "script": "arab",
+      "direction": "rtl",
+      "variations": {
+        "MSHQ": 100.0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "س س",
+      "expectation": "uni0633=2+876|space=1+0|uni0633=0+826",
+      "script": "arab",
+      "direction": "rtl",
+      "variations": {
+        "MSHQ": 100.0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "رحل",
+      "expectation": "uni0644.fina=2+350|uni062D.init=1+275|uni0631=0@90,0+340",
+      "script": "arab",
+      "direction": "rtl",
+      "variations": {
+        "MSHQ": 100.0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "ر حل",
+      "expectation": "uni0644.fina=3+350|uni062D.init=2+325|space=1+0|uni0631=0@90,0+340",
+      "script": "arab",
+      "direction": "rtl",
+      "variations": {
+        "MSHQ": 100.0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
-      "expectation": "uni0621=10+400|space=8+0|space=8+50|space=6+0|uni0621=6+400|space=4+0|space=4+50|space=2+0|uni0621=2+400|space=1+50|uni0621=0+400",
+      "expectation": "uni0621=10+450|space=8+0|space=8+0|space=6+0|uni0621=6+450|space=4+0|space=4+0|space=2+0|uni0621=2+450|space=1+0|uni0621=0+400",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -143,7 +193,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "آ آ‍ ‍آ‍ ‍آ",
-      "expectation": "uni0653=10@-88,600+0|uni0627.fina=10+100|space=8+0|space=8+50|space=6+0|uni0653=6@-88,600+0|uni0627.fina=6+100|space=4+0|space=4+50|space=2+0|uni0653=2@-88,600+0|uni0627=2+200|space=1+50|uni0653=0@-88,600+0|uni0627=0+200",
+      "expectation": "uni0653=10@-88,600+0|uni0627.fina=10+150|space=8+0|space=8+0|space=6+0|uni0653=6@-88,600+0|uni0627.fina=6+150|space=4+0|space=4+0|space=2+0|uni0653=2@-88,600+0|uni0627=2+250|space=1+0|uni0653=0@-88,600+0|uni0627=0+200",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -153,7 +203,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "أ أ‍ ‍أ‍ ‍أ",
-      "expectation": "uni0654=10@-63,600+0|uni0627.fina=10+100|space=8+0|space=8+50|space=6+0|uni0654=6@-63,600+0|uni0627.fina=6+100|space=4+0|space=4+50|space=2+0|uni0654=2@-63,600+0|uni0627=2+200|space=1+50|uni0654=0@-63,600+0|uni0627=0+200",
+      "expectation": "uni0654=10@-63,600+0|uni0627.fina=10+150|space=8+0|space=8+0|space=6+0|uni0654=6@-63,600+0|uni0627.fina=6+150|space=4+0|space=4+0|space=2+0|uni0654=2@-63,600+0|uni0627=2+250|space=1+0|uni0654=0@-63,600+0|uni0627=0+200",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -163,7 +213,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ؤ ؤ‍ ‍ؤ‍ ‍ؤ",
-      "expectation": "uni0654=10@51,200+0|uni0648.fina=10+289|space=8+0|space=8+50|space=6+0|uni0654=6@51,200+0|uni0648.fina=6+289|space=4+0|space=4+50|space=2+0|uni0654=2@51,225+0|uni0648=2+295|space=1+50|uni0654=0@51,225+0|uni0648=0+295",
+      "expectation": "uni0654=10@51,200+0|uni0648.fina=10+339|space=8+0|space=8+0|space=6+0|uni0654=6@51,200+0|uni0648.fina=6+339|space=4+0|space=4+0|space=2+0|uni0654=2@51,225+0|uni0648=2+345|space=1+0|uni0654=0@51,225+0|uni0648=0+295",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -173,7 +223,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "إ إ‍ ‍إ‍ ‍إ",
-      "expectation": "uni0655=10@-73,-175+0|uni0627.fina=10+100|space=8+0|space=8+50|space=6+0|uni0655=6@-73,-175+0|uni0627.fina=6+100|space=4+0|space=4+50|space=2+0|uni0655=2@-46,-175+0|uni0627=2+200|space=1+50|uni0655=0@-46,-175+0|uni0627=0+200",
+      "expectation": "uni0655=10@-73,-175+0|uni0627.fina=10+150|space=8+0|space=8+0|space=6+0|uni0655=6@-73,-175+0|uni0627.fina=6+150|space=4+0|space=4+0|space=2+0|uni0655=2@-46,-175+0|uni0627=2+250|space=1+0|uni0655=0@-46,-175+0|uni0627=0+200",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -183,7 +233,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ئ ئ‍ ‍ئ‍ ‍ئ",
-      "expectation": "uni0654=10@0,50+0|uni0649.fina=10+680|space=8+0|space=8+50|space=6+0|uni0654=6@-53,279+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|uni0654=2@-53,279+0|uni066E.init=2+162|space=1+50|uni0654=0@0,50+0|uni0649=0+700",
+      "expectation": "uni0654=10@0,50+0|uni0649.fina=10+730|space=8+0|space=8+0|space=6+0|uni0654=6@-53,279+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|uni0654=2@-83,279+0|uni066E.init=2@-30,0+182|space=1+0|uni0654=0@0,50+0|uni0649=0+700",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -193,7 +243,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ا ا‍ ‍ا‍ ‍ا",
-      "expectation": "uni0627.fina=10+100|space=8+0|space=8+50|space=6+0|uni0627.fina=6+100|space=4+0|space=4+50|space=2+0|uni0627=2+200|space=1+50|uni0627=0+200",
+      "expectation": "uni0627.fina=10+150|space=8+0|space=8+0|space=6+0|uni0627.fina=6+150|space=4+0|space=4+0|space=2+0|uni0627=2+250|space=1+0|uni0627=0+200",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -203,7 +253,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ب ب‍ ‍ب‍ ‍ب",
-      "expectation": "dotbelowar=10@246,-125+0|uni066E.fina=10+550|space=8+0|space=8+50|space=6+0|dotbelowar=6@12,-125+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|dotbelowar=2@12,-125+0|uni066E.init=2+162|space=1+50|dotbelowar=0@246,-125+0|uni066E=0+550",
+      "expectation": "dotbelowar=10@246,-125+0|uni066E.fina=10+600|space=8+0|space=8+0|space=6+0|dotbelowar=6@-28,-125+0|uni066E.medi.high=6@-40,0+172|space=4+0|space=4+0|space=2+0|dotbelowar=2@-18,-125+0|uni066E.init=2@-30,0+182|space=1+0|dotbelowar=0@246,-125+0|uni066E=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -213,7 +263,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ة ة‍ ‍ة‍ ‍ة",
-      "expectation": "twodotshorizontalabovear=10@64,400+0|uni0647.fina=10+300|space=8+0|space=8+50|space=6+0|twodotshorizontalabovear=6@64,400+0|uni0647.fina=6+300|space=4+0|space=4+50|space=2+0|twodotshorizontalabovear=2@23,400+0|uni0647=2+280|space=1+50|twodotshorizontalabovear=0@23,400+0|uni0647=0+280",
+      "expectation": "twodotshorizontalabovear=10@64,400+0|uni0647.fina=10+350|space=8+0|space=8+0|space=6+0|twodotshorizontalabovear=6@64,400+0|uni0647.fina=6+350|space=4+0|space=4+0|space=2+0|twodotshorizontalabovear=2@23,400+0|uni0647=2+330|space=1+0|twodotshorizontalabovear=0@23,400+0|uni0647=0+280",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -223,7 +273,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ت ت‍ ‍ت‍ ‍ت",
-      "expectation": "twodotshorizontalabovear=10@196,250+0|uni066E.fina=10+550|space=8+0|space=8+50|space=6+0|twodotshorizontalabovear=6@-53,279+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|twodotshorizontalabovear=2@-53,279+0|uni066E.init=2+162|space=1+50|twodotshorizontalabovear=0@196,250+0|uni066E=0+550",
+      "expectation": "twodotshorizontalabovear=10@196,250+0|uni066E.fina=10+600|space=8+0|space=8+0|space=6+0|twodotshorizontalabovear=6@-92,357+0|uni066E.medi.high=6@-40,0+172|space=4+0|space=4+0|space=2+0|uni0640.20=2+20|twodotshorizontalabovear=2@-53,279+0|uni066E.init=2+212|space=1+0|twodotshorizontalabovear=0@196,250+0|uni066E=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -233,7 +283,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ث ث‍ ‍ث‍ ‍ث",
-      "expectation": "threedotsupabovear=10@196,250+0|uni066E.fina=10+550|space=8+0|space=8+50|space=6+0|threedotsupabovear=6@-53,279+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|threedotsupabovear=2@-53,279+0|uni066E.init=2+162|space=1+50|threedotsupabovear=0@196,250+0|uni066E=0+550",
+      "expectation": "threedotsupabovear=10@196,250+0|uni066E.fina=10+600|space=8+0|space=8+0|space=6+0|threedotsupabovear=6@-92,357+0|uni066E.medi.high=6@-40,0+172|space=4+0|space=4+0|space=2+0|uni0640.20=2+20|threedotsupabovear=2@-53,279+0|uni066E.init=2+212|space=1+0|threedotsupabovear=0@196,250+0|uni066E=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -243,7 +293,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ج ج‍ ‍ج‍ ‍ج",
-      "expectation": "dotbelowar=10@162,-125+0|uni062D.alt.fina=10+425|space=8+0|space=8+50|space=6+0|dotbelowar=6@62,-125+0|uni062D.medi=6+275|space=4+0|space=4+50|space=2+0|dotbelowar=2@62,-125+0|uni062D.init=2+275|space=1+50|dotbelowar=0@162,-125+0|uni062D.alt=0+425",
+      "expectation": "dotbelowar=10@162,-125+0|uni062D.alt.fina=10+475|space=8+0|space=8+0|space=6+0|dotbelowar=6@62,-125+0|uni062D.medi=6+325|space=4+0|space=4+0|space=2+0|dotbelowar=2@62,-125+0|uni062D.init=2+325|space=1+0|dotbelowar=0@162,-125+0|uni062D.alt=0+425",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -253,7 +303,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ح ح‍ ‍ح‍ ‍ح",
-      "expectation": "uni062D.fina=10+435|space=8+0|space=8+50|space=6+0|uni062D.medi=6+275|space=4+0|space=4+50|space=2+0|uni062D.init=2+275|space=1+50|uni062D=0+435",
+      "expectation": "uni062D.fina=10+485|space=8+0|space=8+0|space=6+0|uni062D.medi=6+325|space=4+0|space=4+0|space=2+0|uni062D.init=2+325|space=1+0|uni062D=0+435",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -263,7 +313,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "خ خ‍ ‍خ‍ ‍خ",
-      "expectation": "dotabovear=10@191,350+0|uni062D.fina=10+435|space=8+0|space=8+50|space=6+0|dotabovear=6@31,350+0|uni062D.medi=6+275|space=4+0|space=4+50|space=2+0|dotabovear=2@31,350+0|uni062D.init=2+275|space=1+50|dotabovear=0@191,350+0|uni062D=0+435",
+      "expectation": "dotabovear=10@191,350+0|uni062D.fina=10+485|space=8+0|space=8+0|space=6+0|dotabovear=6@31,350+0|uni062D.medi=6+325|space=4+0|space=4+0|space=2+0|dotabovear=2@31,350+0|uni062D.init=2+325|space=1+0|dotabovear=0@191,350+0|uni062D=0+435",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -273,7 +323,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "د د‍ ‍د‍ ‍د",
-      "expectation": "uni062F.fina=10+600|space=8+0|space=8+50|space=6+0|uni062F.fina=6+600|space=4+0|space=4+50|space=2+0|uni062F=2+600|space=1+50|uni062F=0+600",
+      "expectation": "uni062F.fina=10+650|space=8+0|space=8+0|space=6+0|uni062F.fina=6+650|space=4+0|space=4+0|space=2+0|uni062F=2+650|space=1+0|uni062F=0+600",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -283,7 +333,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ذ ذ‍ ‍ذ‍ ‍ذ",
-      "expectation": "dotabovear=10@313,250+0|uni062F.fina=10+600|space=8+0|space=8+50|space=6+0|dotabovear=6@313,250+0|uni062F.fina=6+600|space=4+0|space=4+50|space=2+0|dotabovear=2@313,250+0|uni062F=2+600|space=1+50|dotabovear=0@313,250+0|uni062F=0+600",
+      "expectation": "dotabovear=10@313,250+0|uni062F.fina=10+650|space=8+0|space=8+0|space=6+0|dotabovear=6@313,250+0|uni062F.fina=6+650|space=4+0|space=4+0|space=2+0|dotabovear=2@313,250+0|uni062F=2+650|space=1+0|dotabovear=0@313,250+0|uni062F=0+600",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -293,7 +343,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ر ر‍ ‍ر‍ ‍ر",
-      "expectation": "uni0631.fina=10+250|space=8+0|space=8+50|space=6+0|uni0631.fina=6+250|space=4+0|space=4+50|space=2+0|uni0631=2+250|space=1+50|uni0631=0+250",
+      "expectation": "uni0631.fina=10+300|space=8+0|space=8+0|space=6+0|uni0631.fina=6+300|space=4+0|space=4+0|space=2+0|uni0631=2+300|space=1+0|uni0631=0+250",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -303,7 +353,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ز ز‍ ‍ز‍ ‍ز",
-      "expectation": "dotabovear=10@50,201+0|uni0631.fina=10+250|space=8+0|space=8+50|space=6+0|dotabovear=6@50,201+0|uni0631.fina=6+250|space=4+0|space=4+50|space=2+0|dotabovear=2@50,276+0|uni0631=2+250|space=1+50|dotabovear=0@50,276+0|uni0631=0+250",
+      "expectation": "dotabovear=10@50,201+0|uni0631.fina=10+300|space=8+0|space=8+0|space=6+0|dotabovear=6@50,201+0|uni0631.fina=6+300|space=4+0|space=4+0|space=2+0|dotabovear=2@50,276+0|uni0631=2+300|space=1+0|dotabovear=0@50,276+0|uni0631=0+250",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -313,7 +363,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "س س‍ ‍س‍ ‍س",
-      "expectation": "uni0633.fina=10+826|space=8+0|space=8+50|space=6+0|uni0633.medi=6+400|space=4+0|space=4+50|space=2+0|uni0633.init=2+400|space=1+50|uni0633=0+826",
+      "expectation": "uni0633.fina=10+876|space=8+0|space=8+0|space=6+0|uni0633.medi=6@-30,0+420|space=4+0|space=4+0|space=2+0|uni0633.init=2@-30,0+420|space=1+0|uni0633=0+826",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -323,7 +373,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ش ش‍ ‍ش‍ ‍ش",
-      "expectation": "threedotsupabovear=10@515,250+0|uni0633.fina=10+826|space=8+0|space=8+50|space=6+0|threedotsupabovear=6@88,250+0|uni0633.medi=6+400|space=4+0|space=4+50|space=2+0|threedotsupabovear=2@88,250+0|uni0633.init=2+400|space=1+50|threedotsupabovear=0@515,250+0|uni0633=0+826",
+      "expectation": "threedotsupabovear=10@515,250+0|uni0633.fina=10+876|space=8+0|space=8+0|space=6+0|threedotsupabovear=6@58,250+0|uni0633.medi=6@-30,0+420|space=4+0|space=4+0|space=2+0|threedotsupabovear=2@58,250+0|uni0633.init=2@-30,0+420|space=1+0|threedotsupabovear=0@515,250+0|uni0633=0+826",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -333,7 +383,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ص ص‍ ‍ص‍ ‍ص",
-      "expectation": "uni0635.fina=10+1700|space=8+0|space=8+50|space=6+0|uni0635.medi=6+1300|space=4+0|space=4+50|space=2+0|uni0635.init=2+1300|space=1+50|uni0635=0+1700",
+      "expectation": "uni0635.fina=10+1750|space=8+0|space=8+0|space=6+0|uni0635.medi=6+1350|space=4+0|space=4+0|space=2+0|uni0635.init=2+1350|space=1+0|uni0635=0+1700",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -343,7 +393,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ض ض‍ ‍ض‍ ‍ض",
-      "expectation": "dotabovear=10@672,250+0|uni0635.fina=10+1700|space=8+0|space=8+50|space=6+0|dotabovear=6@262,250+0|uni0635.medi=6+1300|space=4+0|space=4+50|space=2+0|dotabovear=2@262,250+0|uni0635.init=2+1300|space=1+50|dotabovear=0@672,250+0|uni0635=0+1700",
+      "expectation": "dotabovear=10@672,250+0|uni0635.fina=10+1750|space=8+0|space=8+0|space=6+0|dotabovear=6@262,250+0|uni0635.medi=6+1350|space=4+0|space=4+0|space=2+0|dotabovear=2@262,250+0|uni0635.init=2+1350|space=1+0|dotabovear=0@672,250+0|uni0635=0+1700",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -353,7 +403,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ط ط‍ ‍ط‍ ‍ط",
-      "expectation": "uni0637.fina=10+550|space=8+0|space=8+50|space=6+0|uni0637.medi=6+550|space=4+0|space=4+50|space=2+0|uni0637.init=2+550|space=1+50|uni0637=0+550",
+      "expectation": "uni0637.fina=10+600|space=8+0|space=8+0|space=6+0|uni0637.medi=6+600|space=4+0|space=4+0|space=2+0|uni0637.init=2+600|space=1+0|uni0637=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -363,7 +413,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ظ ظ‍ ‍ظ‍ ‍ظ",
-      "expectation": "dotabovear=10@368,250+0|uni0637.fina=10+550|space=8+0|space=8+50|space=6+0|dotabovear=6@368,250+0|uni0637.medi=6+550|space=4+0|space=4+50|space=2+0|dotabovear=2@368,250+0|uni0637.init=2+550|space=1+50|dotabovear=0@368,250+0|uni0637=0+550",
+      "expectation": "dotabovear=10@368,250+0|uni0637.fina=10+600|space=8+0|space=8+0|space=6+0|dotabovear=6@368,250+0|uni0637.medi=6+600|space=4+0|space=4+0|space=2+0|dotabovear=2@368,250+0|uni0637.init=2+600|space=1+0|dotabovear=0@368,250+0|uni0637=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -373,7 +423,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ع ع‍ ‍ع‍ ‍ع",
-      "expectation": "uni0639.fina=10+425|space=8+0|space=8+50|space=6+0|uni0639.medi=6+350|space=4+0|space=4+50|space=2+0|uni0639.init=2+350|space=1+50|uni0639=0+500",
+      "expectation": "uni0639.fina=10+475|space=8+0|space=8+0|space=6+0|uni0639.medi=6+400|space=4+0|space=4+0|space=2+0|uni0639.init=2+400|space=1+0|uni0639=0+500",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -383,7 +433,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "غ غ‍ ‍غ‍ ‍غ",
-      "expectation": "dotabovear=10@187,300+0|uni0639.fina=10+425|space=8+0|space=8+50|space=6+0|dotabovear=6@112,300+0|uni0639.medi=6+350|space=4+0|space=4+50|space=2+0|dotabovear=2@110,400+0|uni0639.init=2+350|space=1+50|dotabovear=0@260,400+0|uni0639=0+500",
+      "expectation": "dotabovear=10@187,300+0|uni0639.fina=10+475|space=8+0|space=8+0|space=6+0|dotabovear=6@112,300+0|uni0639.medi=6+400|space=4+0|space=4+0|space=2+0|dotabovear=2@110,400+0|uni0639.init=2+400|space=1+0|dotabovear=0@260,400+0|uni0639=0+500",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -393,7 +443,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ـ ـ‍ ‍ـ‍ ‍ـ",
-      "expectation": "uni0640=10+50|space=8+0|space=8+50|space=6+0|uni0640=6+50|space=4+0|space=4+50|space=2+0|uni0640=2+50|space=1+50|uni0640=0+50",
+      "expectation": "uni0640=10+100|space=8+0|space=8+0|space=6+0|uni0640=6+100|space=4+0|space=4+0|space=2+0|uni0640=2+100|space=1+0|uni0640=0+50",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -403,7 +453,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ف ف‍ ‍ف‍ ‍ف",
-      "expectation": "dotabovear=10@340,350+0|uni06A1.fina=10+550|space=8+0|space=8+50|space=6+0|dotabovear=6@51,350+0|uni06A1.medi=6+261|space=4+0|space=4+50|space=2+0|dotabovear=2@51,350+0|uni06A1.init=2+261|space=1+50|dotabovear=0@340,350+0|uni06A1=0+550",
+      "expectation": "dotabovear=10@340,350+0|uni06A1.fina=10+600|space=8+0|space=8+0|space=6+0|dotabovear=6@51,350+0|uni06A1.medi=6+311|space=4+0|space=4+0|space=2+0|dotabovear=2@51,350+0|uni06A1.init=2+311|space=1+0|dotabovear=0@340,350+0|uni06A1=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -413,7 +463,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ق ق‍ ‍ق‍ ‍ق",
-      "expectation": "twodotshorizontalabovear=10@367,249+0|uni066F.fina=10+605|space=8+0|space=8+50|space=6+0|twodotshorizontalabovear=6@1,350+0|uni06A1.medi=6+261|space=4+0|space=4+50|space=2+0|twodotshorizontalabovear=2@1,350+0|uni06A1.init=2+261|space=1+50|twodotshorizontalabovear=0@367,300+0|uni066F=0+615",
+      "expectation": "twodotshorizontalabovear=10@367,249+0|uni066F.fina=10+655|space=8+0|space=8+0|space=6+0|twodotshorizontalabovear=6@1,350+0|uni06A1.medi=6+311|space=4+0|space=4+0|space=2+0|twodotshorizontalabovear=2@1,350+0|uni06A1.init=2+311|space=1+0|twodotshorizontalabovear=0@367,300+0|uni066F=0+615",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -423,7 +473,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ك ك‍ ‍ك‍ ‍ك",
-      "expectation": "uni0643.fina=10+650|space=8+0|space=8+50|space=6+0|uni0643.medi=6+550|space=4+0|space=4+50|space=2+0|uni0643.init=2+550|space=1+50|uni0643=0+650",
+      "expectation": "uni0643.fina=10+700|space=8+0|space=8+0|space=6+0|uni0643.medi=6+600|space=4+0|space=4+0|space=2+0|uni0643.init=2+600|space=1+0|uni0643=0+650",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -433,7 +483,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ل ل‍ ‍ل‍ ‍ل",
-      "expectation": "uni0644.fina=10+350|space=8+0|space=8+50|space=6+0|uni0644.medi=6+100|space=4+0|space=4+50|space=2+0|uni0644.init=2+100|space=1+50|uni0644=0+350",
+      "expectation": "uni0644.fina=10+400|space=8+0|space=8+0|space=6+0|uni0644.medi=6+150|space=4+0|space=4+0|space=2+0|uni0644.init=2+150|space=1+0|uni0644=0+350",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -443,7 +493,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "م م‍ ‍م‍ ‍م",
-      "expectation": "uni0645.fina=10+550|space=8+0|space=8+50|space=6+0|uni0645.medi=6+267|space=4+0|space=4+50|space=2+0|uni0645.init=2+267|space=1+50|uni0645=0+550",
+      "expectation": "uni0645.fina=10+600|space=8+0|space=8+0|space=6+0|uni0645.medi=6+317|space=4+0|space=4+0|space=2+0|uni0645.init=2+317|space=1+0|uni0645=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -453,7 +503,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ن ن‍ ‍ن‍ ‍ن",
-      "expectation": "dotabovear=10@372,250+0|uni06BA.fina=10+600|space=8+0|space=8+50|space=6+0|dotabovear=6@-3,279+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|dotabovear=2@-3,279+0|uni066E.init=2+162|space=1+50|dotabovear=0@372,250+0|uni06BA=0+600",
+      "expectation": "dotabovear=10@372,250+0|uni06BA.fina=10+650|space=8+0|space=8+0|space=6+0|dotabovear=6@-3,279+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|dotabovear=2@-33,279+0|uni066E.init=2@-30,0+182|space=1+0|dotabovear=0@372,250+0|uni06BA=0+600",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -463,7 +513,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ه ه‍ ‍ه‍ ‍ه",
-      "expectation": "uni0647.fina=10+300|space=8+0|space=8+50|space=6+0|uni0647.medi=6+450|space=4+0|space=4+50|space=2+0|uni0647.init=2+450|space=1+50|uni0647=0+280",
+      "expectation": "uni0647.fina=10+350|space=8+0|space=8+0|space=6+0|uni0647.medi=6+500|space=4+0|space=4+0|space=2+0|uni0647.init=2+500|space=1+0|uni0647=0+280",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -473,7 +523,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "و و‍ ‍و‍ ‍و",
-      "expectation": "uni0648.fina=10+289|space=8+0|space=8+50|space=6+0|uni0648.fina=6+289|space=4+0|space=4+50|space=2+0|uni0648=2+295|space=1+50|uni0648=0+295",
+      "expectation": "uni0648.fina=10+339|space=8+0|space=8+0|space=6+0|uni0648.fina=6+339|space=4+0|space=4+0|space=2+0|uni0648=2+345|space=1+0|uni0648=0+295",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -483,7 +533,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ى ى‍ ‍ى‍ ‍ى",
-      "expectation": "uni0649.fina=10+680|space=8+0|space=8+50|space=6+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|uni066E.init=2+162|space=1+50|uni0649=0+700",
+      "expectation": "uni0649.fina=10+730|space=8+0|space=8+0|space=6+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|uni066E.init=2@-30,0+182|space=1+0|uni0649=0+700",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -493,7 +543,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ي ي‍ ‍ي‍ ‍ي",
-      "expectation": "twodotshorizontalbelowar=10@245,-325+0|uni0649.fina=10+680|space=8+0|space=8+50|space=6+0|twodotshorizontalbelowar=6@-38,-125+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|twodotshorizontalbelowar=2@-38,-125+0|uni066E.init=2+162|space=1+50|twodotshorizontalbelowar=0@245,-325+0|uni0649=0+700",
+      "expectation": "twodotshorizontalbelowar=10@245,-325+0|uni0649.fina=10+730|space=8+0|space=8+0|space=6+0|twodotshorizontalbelowar=6@-38,-125+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|twodotshorizontalbelowar=2@-68,-125+0|uni066E.init=2@-30,0+182|space=1+0|twodotshorizontalbelowar=0@245,-325+0|uni0649=0+700",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -503,7 +553,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ٮ ٮ‍ ‍ٮ‍ ‍ٮ",
-      "expectation": "uni066E.fina=10+550|space=8+0|space=8+50|space=6+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|uni066E.init=2+162|space=1+50|uni066E=0+550",
+      "expectation": "uni066E.fina=10+600|space=8+0|space=8+0|space=6+0|uni066E.medi.high=6@-40,0+172|space=4+0|space=4+0|space=2+0|uni066E.init=2@-30,0+182|space=1+0|uni066E=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -513,7 +563,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ٯ ٯ‍ ‍ٯ‍ ‍ٯ",
-      "expectation": "uni066F.fina=10+605|space=8+0|space=8+50|space=6+0|uni06A1.medi=6+261|space=4+0|space=4+50|space=2+0|uni06A1.init=2+261|space=1+50|uni066F=0+615",
+      "expectation": "uni066F.fina=10+655|space=8+0|space=8+0|space=6+0|uni06A1.medi=6+311|space=4+0|space=4+0|space=2+0|uni06A1.init=2+311|space=1+0|uni066F=0+615",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -523,7 +573,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ڡ ڡ‍ ‍ڡ‍ ‍ڡ",
-      "expectation": "uni06A1.fina=10+550|space=8+0|space=8+50|space=6+0|uni06A1.medi=6+261|space=4+0|space=4+50|space=2+0|uni06A1.init=2+261|space=1+50|uni06A1=0+550",
+      "expectation": "uni06A1.fina=10+600|space=8+0|space=8+0|space=6+0|uni06A1.medi=6+311|space=4+0|space=4+0|space=2+0|uni06A1.init=2+311|space=1+0|uni06A1=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -533,7 +583,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ں ں‍ ‍ں‍ ‍ں",
-      "expectation": "uni06BA.fina=10+600|space=8+0|space=8+50|space=6+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|uni066E.init=2+162|space=1+50|uni06BA=0+600",
+      "expectation": "uni06BA.fina=10+650|space=8+0|space=8+0|space=6+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|uni066E.init=2@-30,0+182|space=1+0|uni06BA=0+600",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -543,7 +593,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ی ی‍ ‍ی‍ ‍ی",
-      "expectation": "uni0649.fina=10+680|space=8+0|space=8+50|space=6+0|twodotshorizontalbelowar=6@-38,-125+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|twodotshorizontalbelowar=2@-38,-125+0|uni066E.init=2+162|space=1+50|uni0622=0+200",
+      "expectation": "uni0649.fina=10+730|space=8+0|space=8+0|space=6+0|twodotshorizontalbelowar=6@-38,-125+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|twodotshorizontalbelowar=2@-68,-125+0|uni066E.init=2@-30,0+182|space=1+0|uni0622=0+200",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -553,7 +603,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ے ے‍ ‍ے‍ ‍ے",
-      "expectation": "uni06D2.fina=10+600|space=8+0|space=8+50|space=6+0|uni06D2.fina=6+600|space=4+0|space=4+50|space=2+0|uni06D2=2+650|space=1+50|uni06D2=0+650",
+      "expectation": "uni06D2.fina=10+650|space=8+0|space=8+0|space=6+0|uni06D2.fina=6+650|space=4+0|space=4+0|space=2+0|uni06D2=2+700|space=1+0|uni06D2=0+650",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -563,7 +613,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ࢻ ࢻ‍ ‍ࢻ‍ ‍ࢻ",
-      "expectation": "uni06A1.fina=10+550|space=8+0|space=8+50|space=6+0|dotbelowar=6@67,-125+0|uni06A1.medi=6+261|space=4+0|space=4+50|space=2+0|dotbelowar=2@67,-125+0|uni06A1.init=2+261|space=1+50|uni06A1=0+550",
+      "expectation": "uni06A1.fina=10+600|space=8+0|space=8+0|space=6+0|dotbelowar=6@67,-125+0|uni06A1.medi=6+311|space=4+0|space=4+0|space=2+0|dotbelowar=2@67,-125+0|uni06A1.init=2+311|space=1+0|uni06A1=0+550",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -573,7 +623,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ࢼ ࢼ‍ ‍ࢼ‍ ‍ࢼ",
-      "expectation": "uni066F.fina=10+605|space=8+0|space=8+50|space=6+0|dotabovear=6@51,350+0|uni06A1.medi=6+261|space=4+0|space=4+50|space=2+0|dotabovear=2@51,350+0|uni06A1.init=2+261|space=1+50|uni066F=0+615",
+      "expectation": "uni066F.fina=10+655|space=8+0|space=8+0|space=6+0|dotabovear=6@51,350+0|uni06A1.medi=6+311|space=4+0|space=4+0|space=2+0|dotabovear=2@51,350+0|uni06A1.init=2+311|space=1+0|uni066F=0+615",
       "script": "arab",
       "direction": "rtl",
       "variations": {
@@ -583,7 +633,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ࢽ ࢽ‍ ‍ࢽ‍ ‍ࢽ",
-      "expectation": "uni06BA.fina=10+600|space=8+0|space=8+50|space=6+0|dotabovear=6@-3,279+0|uni066E.medi=6+162|space=4+0|space=4+50|space=2+0|dotabovear=2@-3,279+0|uni066E.init=2+162|space=1+50|uni06BA=0+600",
+      "expectation": "uni06BA.fina=10+650|space=8+0|space=8+0|space=6+0|dotabovear=6@-3,279+0|uni066E.medi=6+212|space=4+0|space=4+0|space=2+0|dotabovear=2@-33,279+0|uni066E.init=2@-30,0+182|space=1+0|uni06BA=0+600",
       "script": "arab",
       "direction": "rtl",
       "variations": {
