@@ -1,5 +1,5 @@
 {
-.appVersion = "3300";
+.appVersion = "3306";
 .formatVersion = 3;
 axes = (
 {
@@ -400,6 +400,9 @@ GSOffsetVertical = 25;
 );
 instances = (
 {
+axesValues = (
+10
+);
 instanceInterpolations = {
 m01 = 1;
 };
