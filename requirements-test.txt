@@ -38,7 +38,7 @@ fontfeatures==1.8.0
     # via babelfont
 fontmath==0.9.3
     # via ufo2ft
-fonttools[ufo,unicode]==4.51.0
+fonttools[ufo,unicode]==4.52.4
     # via
     #   babelfont
     #   booleanoperations
@@ -113,7 +113,7 @@ pyyaml==6.0.1
     # via
     #   fontbakery
     #   shaperglot
-requests==2.32.0
+requests==2.32.3
     # via
     #   fontbakery
     #   youseedee
@@ -141,9 +141,9 @@ toml==0.10.2
     # via fontbakery
 tqdm==4.66.4
     # via collidoscope
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via vfblib
-ufo2ft==3.2.3
+ufo2ft==3.2.4
     # via
     #   fontbakery
     #   shaperglot
