@@ -9,7 +9,7 @@ FONTSDIR = fonts
 TESTSDIR = tests
 
 TTF = ${FONTSDIR}/${NAME}.ttf
-JSON = ${TESTSDIR}/shaping.json
+JSON = $(wildcard ${TESTSDIR}/*.json)
 HTML = ${TESTSDIR}/shaping.html ${TESTSDIR}/qa.html
 
 VERSION=$(shell git describe --tags --abbrev=0)

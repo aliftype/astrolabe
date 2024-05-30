@@ -1,0 +1,10 @@
+[input.variations]
+MSHQ = 100
+
+[input]
+script = "arab"
+direction = "rtl"
+text = [
+    "ص ص‍ ‍ص‍ ‍ص",
+    "ض ض‍ ‍ض‍ ‍ض",
+]
