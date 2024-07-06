@@ -20,7 +20,7 @@ fontmath==0.9.3
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.53.0
+fonttools[lxml,ufo,unicode]==4.53.1
     # via
     #   booleanoperations
     #   cffsubr
