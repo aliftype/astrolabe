@@ -1,5 +1,5 @@
 {
-.appVersion = "3306";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -47,7 +47,7 @@ value = 0;
 }
 );
 date = "2024-03-21 17:45:22 +0000";
-familyName = Astrolabe;
+familyName = "Alif Astrolabe";
 featurePrefixes = (
 {
 automatic = 1;
@@ -470,11 +470,11 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright 2024 The Astrolabe Project Authors (github.com/aliftype/astrolabe)";
+value = "Copyright 2024 The Alif Astrolabe Project Authors (github.com/aliftype/astrolabe)";
 },
 {
 language = ARA;
-value = "حقوق النسخ ٢٠٢٤ لمؤلفي مشروع أسطرلاب (github.com/aliftype/astrolabe)";
+value = "حقوق النسخ ٢٠٢٤ لمؤلفي مشروع أسطرلاب ألف (github.com/aliftype/astrolabe)";
 }
 );
 },
@@ -483,11 +483,11 @@ key = descriptions;
 values = (
 {
 language = ENG;
-value = "Astrolabe (أسطرلاب) is a Kufic typeface";
+value = "Alif Astrolabe (أسطرلاب) is a Kufic typeface";
 },
 {
 language = ARA;
-value = "أسطرلاب هو خط كوفي";
+value = "أسطرلاب ألف هو خط كوفي";
 }
 );
 },
