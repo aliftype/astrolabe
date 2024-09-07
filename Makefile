@@ -1,67 +1,80 @@
+# Copyright (c) 2020-2024 Khaled Hosny
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 NAME = Astrolabe
 
 SHELL = bash
-MAKEFLAGS := -sr
-PYTHON := python3
+MAKEFLAGS := -srj
+PYTHON := venv/bin/python3
 
 SOURCEDIR = sources
-FONTSDIR = fonts
-TESTSDIR = tests
+SCRIPTDIR = scripts
+FONTDIR = fonts
+TESTDIR = tests
 
-TTF = ${FONTSDIR}/${NAME}.ttf
-JSON = $(wildcard ${TESTSDIR}/*.json)
-HTML = ${TESTSDIR}/shaping.html ${TESTSDIR}/qa.html
-
-VERSION=$(shell git describe --tags --abbrev=0)
-DIST = ${NAME}-${VERSION}
+FONT = ${FONTDIR}/${NAME}.ttf
+JSON = ${TESTDIR}/shaping.json
+HTML = ${TESTDIR}/shaping.html
+SVG = FontSample.svg
 
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
+define SAMPLE
+صف خلق خود كمثل الشمس إذ بزغت
+يحظى الضجيع بها نجلاء معطار
+endef
+
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
+
+TAG=$(shell git describe --tags --abbrev=0)
+VERSION=$(TAG:v%=%)
+DIST = ${NAME}-${VERSION}
+
 
 .SECONDARY:
 .ONESHELL:
-.PHONY: all dist test ${HTML}
+.PHONY: all dist ttf test doc
 
-all: ${TTF}
+all: ttf doc
+ttf: ${FONT}
 test: ${HTML}
 expectation: ${JSON}
+doc: ${SVG}
 
-${FONTSDIR}/${NAME}.ttf: ${GLYPHSFILE}
+${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  $(@F))
-	mkdir -p $(@D)
-	${PYTHON} -m fontmake $< \
-	                      --verbose=WARNING \
-	                      --output-path=$@ \
-			      --output=variable
+	${PYTHON} -m fontmake $< --output-path=$@ -o variable --verbose=WARNING
 
-${TESTSDIR}/%.json: ${TESTSDIR}/%.toml ${TTF}
+${TESTDIR}/%.json: ${TESTDIR}/%.toml ${FONT}
 	$(info   GEN    $(@F))
-	${PYTHON} -m fontbakery.update_shaping_tests $< $@ ${TTF}
+	${PYTHON} ${SCRIPTDIR}/update-shaping-tests.py $< $@ ${FONT}
 
-${TESTSDIR}/shaping.html: ${TTF} ${TESTSDIR}/fontbakery.yml
+${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
 	$(info   SHAPE  $(<F))
-	${PYTHON} -m fontbakery check-shaping \
-	                        --config=${TESTSDIR}/fontbakery.yml \
-				$< \
-				--html=$@ \
-				-e WARN \
-				-l PASS \
-				-q
+	${PYTHON} ${SCRIPTDIR}/check-shaping.py $< ${TESTDIR}/shaping-config.yml $@
 
-${TESTSDIR}/qa.html: ${TTF} ${TESTSDIR}/fontbakery.yml
-	$(info   QA     $(<F))
-	${PYTHON} -m fontbakery check-universal \
-	                        --config=${TESTSDIR}/fontbakery.yml \
-				$< \
-				--html=$@ \
-				-e WARN \
-				-q
+${SVG}: ${FONT}
+	$(info   SVG    $(@F))
+	${PYTHON} ${SCRIPTDIR}/mksample.py -t "${SAMPLE}" -o $@ $<
 
 dist: all
 	$(info   DIST   ${DIST}.zip)
-	install -Dm644 -t ${DIST} ${FONTS}
-	install -Dm644 -t ${DIST} README.txt
-	#install -Dm644 -t ${DIST} README-Arabic.txt
+	install -Dm644 -t ${DIST} ${FONT}
+	install -Dm644 -t ${DIST} README.md
 	install -Dm644 -t ${DIST} LICENSE
 	zip -rq ${DIST}.zip ${DIST}
+
+clean:
+	rm -rf ${FONT} ${SVG} ${DIST} ${DIST}.zip

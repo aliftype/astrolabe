@@ -1,1 +1,5 @@
+blackrenderer
 fontmake
+fonttools
+vharfbuzz
+pyyaml
