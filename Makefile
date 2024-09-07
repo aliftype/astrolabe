@@ -67,7 +67,7 @@ ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
 
 ${SVG}: ${FONT}
 	$(info   SVG    $(@F))
-	${PYTHON} ${SCRIPTDIR}/mksample.py -t "${SAMPLE}" -o $@ $<
+	${PYTHON} ${SCRIPTDIR}/make-sample.py -t "${SAMPLE}" -o $@ $<
 
 dist: all
 	$(info   DIST   ${DIST}.zip)
