@@ -38,14 +38,14 @@ endef
 
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
-TAG=$(shell git describe --tags --abbrev=0)
-VERSION=$(TAG:v%=%)
+TAG = $(shell git describe --tags --abbrev=0)
+VERSION = ${TAG:v%=%}
 DIST = ${NAME}-${VERSION}
 
 
 .SECONDARY:
 .ONESHELL:
-.PHONY: all dist ttf test doc ${HTML}
+.PHONY: all clean dist ttf test doc ${HTML}
 
 all: ttf doc
 ttf: ${FONT}
