@@ -57,7 +57,7 @@ ${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  $(@F))
 	${PYTHON} -m fontmake $< --output-path=$@ -o variable --verbose=WARNING
 
-${TESTDIR}/%.json: ${TESTDIR}/%.toml ${FONT}
+${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
 	$(info   GEN    $(@F))
 	${PYTHON} ${SCRIPTDIR}/update-shaping-tests.py $< $@ ${FONT}
 
