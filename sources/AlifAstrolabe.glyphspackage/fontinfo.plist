@@ -1,5 +1,5 @@
 {
-.appVersion = "3316";
+.appVersion = "3323";
 .formatVersion = 3;
 axes = (
 {
@@ -44,6 +44,10 @@ value = 0;
 {
 name = "Write DisplayStrings";
 value = 0;
+},
+{
+name = "Don't use Production Names";
+value = 1;
 }
 );
 date = "2024-03-21 17:45:22 +0000";
