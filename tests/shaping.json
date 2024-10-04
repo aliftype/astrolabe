@@ -475,7 +475,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ی ی‍ ‍ی‍ ‍ی",
-      "expectation": "alefMaksura-ar.fina=10+730|space=8+0|space=8+0|space=6+0|twodotshorizontalbelow-ar=6@-38,-125+0|behDotless-ar.medi=6+212|space=4+0|space=4+0|space=2+0|twodotshorizontalbelow-ar=2@-68,-125+0|behDotless-ar.init=2@-30,0+182|space=1+0|alefMadda-ar=0+200",
+      "expectation": "alefMaksura-ar.fina=10+730|space=8+0|space=8+0|space=6+0|twodotshorizontalbelow-ar=6@-38,-125+0|behDotless-ar.medi=6+212|space=4+0|space=4+0|space=2+0|twodotshorizontalbelow-ar=2@-68,-125+0|behDotless-ar.init=2@-30,0+182|space=1+0|alefMaksura-ar=0+700",
       "variations": {
         "MSHQ": 10.0
       }

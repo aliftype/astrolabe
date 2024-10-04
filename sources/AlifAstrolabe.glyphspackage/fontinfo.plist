@@ -186,7 +186,7 @@ tag = fina;
 },
 {
 code = "lookup rlig_isol {
-	sub yehFarsi-ar		by alefMadda-ar;
+	sub yehFarsi-ar		by alefMaksura-ar;
 	sub fehAfrican-ar	by fehDotless-ar;
 	sub qafAfrican-ar	by qafDotless-ar;
 	sub noonAfrican-ar	by noonghunna-ar;
