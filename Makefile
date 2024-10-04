@@ -20,7 +20,6 @@ MAKEFLAGS := -srj
 PYTHON := venv/bin/python3
 
 SOURCEDIR = sources
-SCRIPTDIR = scripts
 FONTDIR = fonts
 TESTDIR = tests
 
@@ -55,19 +54,24 @@ doc: ${SVG}
 
 ${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  $(@F))
-	${PYTHON} -m fontmake $< --output-path=$@ -o variable --verbose=WARNING
+	${PYTHON} -m fontmake $< \
+						  --output-path=$@ \
+						  -o variable \
+						  --verbose=WARNING \
+						  --filter ...
+#						  --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
 	$(info   GEN    $(@F))
-	${PYTHON} ${SCRIPTDIR}/update-shaping-tests.py $< $@ ${FONT}
+	${PYTHON} -m alifTools.shaping.update $< $@ ${FONT}
 
 ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
 	$(info   SHAPE  $(<F))
-	${PYTHON} ${SCRIPTDIR}/check-shaping.py $< ${TESTDIR}/shaping-config.yml $@
+	${PYTHON} -m alifTools.shaping.check $< ${TESTDIR}/shaping-config.yml $@
 
 ${SVG}: ${FONT}
 	$(info   SVG    $(@F))
-	${PYTHON} ${SCRIPTDIR}/make-sample.py -t "${SAMPLE}" -o $@ $<
+	${PYTHON} -m alifTools.sample -t "${SAMPLE}" -o $@ $<
 
 dist: all
 	$(info   DIST   ${DIST}.zip)
