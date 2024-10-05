@@ -89,7 +89,7 @@ pos = (100,0);
 ref = _sad;
 }
 );
-width = 1300;
+width = 2400;
 }
 );
 metricLeft = "=behDotless-ar.medi";

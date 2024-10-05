@@ -51,7 +51,7 @@ name = "9 Apr 24 at 17:25";
 shapes = (
 {
 alignment = -1;
-pos = (1250,0);
+pos = (2350,0);
 ref = "kashida-ar";
 },
 {
@@ -59,7 +59,7 @@ alignment = -1;
 ref = "sad-ar.init";
 }
 );
-width = 1300;
+width = 2400;
 }
 );
 metricLeft = "=sad-ar.init";

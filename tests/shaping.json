@@ -515,7 +515,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ضضض ض",
-      "expectation": "dotabove-ar=4@1037,250+0|sad-ar=4+1750|space=3+0|dotabove-ar=2@672,250+0|sad-ar.fina=2+1700|dotabove-ar=1@262,250+0|sad-ar.medi=1+1300|dotabove-ar=0@661,250+0|sad-ar.init=0+1300",
+      "expectation": "dotabove-ar=4@1612,250+0|sad-ar=4+2850|space=3+0|dotabove-ar=2@672,250+0|sad-ar.fina=2+2800|dotabove-ar=1@262,250+0|sad-ar.medi=1+2400|dotabove-ar=0@661,250+0|sad-ar.init=0+2400",
       "variations": {
         "MSHQ": 100
       }
