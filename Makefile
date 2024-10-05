@@ -71,7 +71,10 @@ ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
 
 ${SVG}: ${FONT}
 	$(info   SVG    $(@F))
-	${PYTHON} -m alifTools.sample -t "${SAMPLE}" -o $@ $<
+	${PYTHON} -m alifTools.sample $< \
+								  -t "${SAMPLE}" \
+								  --dark-foreground=FFFFFF \
+								  -o $@
 
 dist: all
 	$(info   DIST   ${DIST}.zip)
