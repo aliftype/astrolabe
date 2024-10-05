@@ -523,7 +523,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ظظظ ظ",
-      "expectation": "dotabove-ar=4@1261,250+0|tah-ar=4+2400|space=3+0|dotabove-ar=2@368,250+0|tah-ar.fina=2+2350|dotabove-ar=1@368,250+0|tah-ar.medi=1+2350|dotabove-ar=0@368,250+0|tah-ar.init=0+2350",
+      "expectation": "dotabove-ar=4@1262,250+0|tah-ar=4+2400|space=3+0|dotabove-ar=2@368,250+0|tah-ar.fina=2+2350|dotabove-ar=1@368,250+0|tah-ar.medi=1+2350|dotabove-ar=0@368,250+0|tah-ar.init=0+2350",
       "variations": {
         "MSHQ": 100
       }
@@ -532,6 +532,14 @@
       "only": "AlifAstrolabe.ttf",
       "input": "بذ ذ",
       "expectation": "dotabove-ar=3@1213,250+0|dal-ar=3+2400|space=2+0|dotabove-ar=1@313,250+0|dal-ar.fina=1+2350|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "ككك ك",
+      "expectation": "kaf-ar=4+2500|space=3+0|kaf-ar.fina=2+2450|kaf-ar.medi=1+2350|kaf-ar.init=0+2350",
       "variations": {
         "MSHQ": 100
       }
@@ -556,6 +564,14 @@
       "only": "AlifAstrolabe.ttf",
       "input": "بذ ذ",
       "expectation": "dotabove-ar=3@193,300+0|dal-ar=3+400|space=2+0|dotabove-ar=1@313,250+0|dal-ar.fina=1+350|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "ككك ك",
+      "expectation": "kaf-ar=4+600|space=3+0|kaf-ar.fina=2+550|kaf-ar.medi=1+450|kaf-ar.init=0+450",
       "variations": {
         "MSHQ": 0
       }

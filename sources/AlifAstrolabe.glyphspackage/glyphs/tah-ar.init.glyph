@@ -34,7 +34,6 @@ alignment = -1;
 ref = "kashida-ar";
 }
 );
-visible = 1;
 width = 450;
 },
 {

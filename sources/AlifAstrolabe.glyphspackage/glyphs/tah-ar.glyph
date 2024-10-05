@@ -80,7 +80,7 @@ width = 550;
 anchors = (
 {
 name = bottom;
-pos = (237,0);
+pos = (225,0);
 },
 {
 name = top;
@@ -162,11 +162,11 @@ width = 450;
 anchors = (
 {
 name = bottom;
-pos = (1299,0);
+pos = (1300,0);
 },
 {
 name = top;
-pos = (1299,200);
+pos = (1300,200);
 }
 );
 associatedMasterId = m01;

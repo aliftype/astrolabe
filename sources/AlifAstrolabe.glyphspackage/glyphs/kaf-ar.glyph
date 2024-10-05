@@ -14,6 +14,48 @@ ref = _tail;
 }
 );
 width = 650;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "5F3E69FD-5CC1-48E8-B47D-19CB5F7CCCF9";
+name = "5 Oct 24 at 20:23";
+shapes = (
+{
+alignment = -1;
+pos = (100,0);
+ref = "kaf-ar.init";
+},
+{
+ref = _tail;
+}
+);
+width = 550;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "AD7B99A2-E9AC-402F-8415-A54139A3B439";
+name = "5 Oct 24 at 20:23";
+shapes = (
+{
+alignment = -1;
+pos = (100,0);
+ref = "kaf-ar.init";
+},
+{
+ref = _tail;
+}
+);
+width = 2450;
 }
 );
 metricLeft = "=0";
