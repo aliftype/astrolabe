@@ -6,7 +6,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = "behDotless-ar";
+ref = "behDotless-ar.isol";
 },
 {
 pos = (246,-125);

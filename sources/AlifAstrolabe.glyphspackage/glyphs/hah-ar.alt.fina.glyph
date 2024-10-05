@@ -12,7 +12,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "hah-ar.alt";
+ref = "hah-ar.alt.isol";
 },
 {
 alignment = -1;

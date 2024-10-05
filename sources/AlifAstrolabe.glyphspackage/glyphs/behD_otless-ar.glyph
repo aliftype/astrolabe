@@ -1,32 +1,16 @@
 {
+category = Placeholder;
 glyphname = "behDotless-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (284,0);
-},
-{
-name = top;
-pos = (284,200);
-}
-);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (388,0);
-ref = _beh.init;
-},
-{
-ref = _tail;
+ref = "behDotless-ar.isol";
 }
 );
 width = 550;
 }
 );
-metricLeft = "=0";
-metricRight = "=50@50";
 unicode = 1646;
 }

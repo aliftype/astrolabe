@@ -1,6 +1,6 @@
 {
 color = 3;
-glyphname = "hah-ar.alt";
+glyphname = "hah-ar.alt.isol";
 kernRight = hah;
 layers = (
 {

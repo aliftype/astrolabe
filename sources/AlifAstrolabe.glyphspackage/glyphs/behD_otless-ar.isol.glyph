@@ -1,0 +1,31 @@
+{
+glyphname = "behDotless-ar.isol";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (284,0);
+},
+{
+name = top;
+pos = (284,200);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (388,0);
+ref = _beh.init;
+},
+{
+ref = _tail;
+}
+);
+width = 550;
+}
+);
+metricLeft = "=0";
+metricRight = "=50@50";
+}

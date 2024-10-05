@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "behDotless-ar";
+ref = "behDotless-ar.isol";
 },
 {
 pos = (500,0);
