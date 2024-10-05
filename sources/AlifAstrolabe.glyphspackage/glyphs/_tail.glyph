@@ -22,6 +22,64 @@ nodes = (
 }
 );
 width = 550;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "9CF77B2E-6590-4DBD-9ADA-06E49F0C6464";
+name = "5 Oct 24 at 19:49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(250,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 350;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "56177234-7C27-4ABA-B4C7-F30DDC278EC0";
+name = "5 Oct 24 at 19:57";
+shapes = (
+{
+closed = 1;
+nodes = (
+(2300,0,l),
+(2250,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 2350;
 }
 );
 }

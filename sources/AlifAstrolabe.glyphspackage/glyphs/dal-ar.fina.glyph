@@ -15,6 +15,50 @@ ref = "dal-ar";
 }
 );
 width = 600;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "3360C57E-A2C5-468C-BDB7-D8D847C5B0FE";
+name = "5 Oct 24 at 19:51";
+shapes = (
+{
+alignment = -1;
+pos = (300,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "dal-ar";
+}
+);
+width = 350;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "B4E90C5F-FB5A-4934-BCEF-4D53E81FD62C";
+name = "5 Oct 24 at 19:51";
+shapes = (
+{
+alignment = -1;
+pos = (2300,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "dal-ar";
+}
+);
+width = 2350;
 }
 );
 metricLeft = "=dal-ar";
