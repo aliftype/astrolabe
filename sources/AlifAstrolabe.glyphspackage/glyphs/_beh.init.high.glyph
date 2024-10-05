@@ -30,7 +30,8 @@ nodes = (
 );
 }
 );
-width = 163;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 }

@@ -41,7 +41,7 @@ nodes = (
 );
 }
 );
-width = 450;
+width = 1000;
 },
 {
 associatedMasterId = m01;
@@ -90,7 +90,7 @@ nodes = (
 );
 }
 );
-width = 300;
+width = 1000;
 },
 {
 associatedMasterId = m01;
@@ -139,8 +139,7 @@ nodes = (
 );
 }
 );
-width = 2300;
+width = 1000;
 }
 );
-metricRight = "=50@50";
 }

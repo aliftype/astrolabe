@@ -16,6 +16,6 @@ ref = _tail;
 width = 550;
 }
 );
-metricWidth = "=behDotless-ar";
+metricWidth = "=behDotless-ar.isol";
 unicode = 1697;
 }

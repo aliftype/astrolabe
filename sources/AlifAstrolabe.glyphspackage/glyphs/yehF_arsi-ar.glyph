@@ -6,11 +6,13 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = "alefMaksura-ar";
 }
 );
-width = 700;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 unicode = 1740;
 }

@@ -6,6 +6,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = "ain-ar";
 },
 {
@@ -13,8 +14,9 @@ pos = (260,400);
 ref = "dotabove-ar";
 }
 );
-width = 500;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 unicode = 1594;
 }

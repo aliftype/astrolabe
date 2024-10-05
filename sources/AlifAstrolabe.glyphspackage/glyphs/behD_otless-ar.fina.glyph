@@ -19,5 +19,5 @@ width = 550;
 );
 metricLeft = "=behDotless-ar";
 metricRight = "=0";
-metricWidth = "=behDotless-ar";
+metricWidth = "=behDotless-ar.isol";
 }

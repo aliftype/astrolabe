@@ -6,6 +6,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = "behDotless-ar.isol";
 },
 {
@@ -13,8 +14,9 @@ pos = (196,250);
 ref = "threedotsupabove-ar";
 }
 );
-width = 550;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 unicode = 1579;
 }

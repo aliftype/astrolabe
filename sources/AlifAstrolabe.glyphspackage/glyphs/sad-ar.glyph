@@ -224,6 +224,6 @@ width = 2800;
 }
 );
 metricLeft = "=0";
-metricRight = "=_sad";
+metricRight = "=50@50";
 unicode = 1589;
 }

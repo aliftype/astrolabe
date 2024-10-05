@@ -6,11 +6,13 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = "fehDotless-ar";
 }
 );
-width = 550;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 unicode = 2235;
 }

@@ -6,6 +6,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = "heh-ar";
 },
 {
@@ -13,8 +14,9 @@ pos = (23,400);
 ref = "twodotshorizontalabove-ar";
 }
 );
-width = 280;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 unicode = 1577;
 }
