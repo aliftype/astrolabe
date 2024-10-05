@@ -28,7 +28,7 @@ name = "5 Oct 24 at 15:41";
 shapes = (
 {
 alignment = -1;
-pos = (410,0);
+pos = (400,0);
 ref = "kashida-ar";
 },
 {
@@ -36,7 +36,7 @@ alignment = -1;
 ref = "tah-ar";
 }
 );
-width = 460;
+width = 450;
 },
 {
 associatedMasterId = m01;
@@ -50,7 +50,7 @@ name = "5 Oct 24 at 15:41";
 shapes = (
 {
 alignment = -1;
-pos = (1190,0);
+pos = (2300,0);
 ref = "kashida-ar";
 },
 {
@@ -58,7 +58,7 @@ alignment = -1;
 ref = "tah-ar";
 }
 );
-width = 1240;
+width = 2350;
 }
 );
 metricLeft = "=tah-ar";

@@ -34,7 +34,8 @@ alignment = -1;
 ref = "kashida-ar";
 }
 );
-width = 460;
+visible = 1;
+width = 450;
 },
 {
 associatedMasterId = m01;
@@ -55,7 +56,7 @@ alignment = -1;
 ref = "kashida-ar";
 }
 );
-width = 1240;
+width = 2350;
 }
 );
 metricLeft = "=-10";
