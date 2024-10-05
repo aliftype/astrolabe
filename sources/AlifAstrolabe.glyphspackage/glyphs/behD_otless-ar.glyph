@@ -17,7 +17,7 @@ shapes = (
 {
 alignment = -1;
 pos = (388,0);
-ref = "behDotless-ar.init";
+ref = _beh.init;
 },
 {
 ref = _tail;

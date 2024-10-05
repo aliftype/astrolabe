@@ -39,7 +39,7 @@ ref = "kashida-ar";
 {
 alignment = -1;
 pos = (388,0);
-ref = "behDotless-ar.init.high";
+ref = _beh.init.high;
 }
 );
 width = 550;

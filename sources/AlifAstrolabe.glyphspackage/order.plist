@@ -133,5 +133,7 @@ space,
 _ain1,
 _ain2,
 _sad,
-_tail
+_tail,
+_beh.init,
+_beh.init.high
 )
