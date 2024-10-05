@@ -97,3 +97,14 @@ input:
   - ࢼ ࢼ‍ ‍ࢼ‍ ‍ࢼ
   - ࢽ ࢽ‍ ‍ࢽ‍ ‍ࢽ
 
+- variations:
+    MSHQ: 100
+  text:
+  - ضضض ض
+  - ظظظ ظ
+
+- variations:
+    MSHQ: 0
+  text:
+  - ضضض ض
+  - ظظظ ظ
