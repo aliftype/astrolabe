@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 },
 {
 alignment = -1;
@@ -27,7 +27,7 @@ name = "5 Oct 24 at 15:44";
 shapes = (
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 },
 {
 alignment = -1;
@@ -48,7 +48,7 @@ name = "5 Oct 24 at 15:44";
 shapes = (
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 },
 {
 alignment = -1;
@@ -59,6 +59,6 @@ width = 2350;
 }
 );
 metricLeft = "=-10";
-metricRight = "=tah-ar";
-metricWidth = "=tah-ar";
+metricRight = "=tah-ar.isol";
+metricWidth = "=tah-ar.isol";
 }

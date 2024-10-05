@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "seen-ar";
+ref = "seen-ar.isol";
 },
 {
 pos = (776,0);
@@ -19,5 +19,5 @@ width = 826;
 );
 metricLeft = "=seen-ar";
 metricRight = "=0";
-metricWidth = "=seen-ar";
+metricWidth = "=seen-ar.isol";
 }

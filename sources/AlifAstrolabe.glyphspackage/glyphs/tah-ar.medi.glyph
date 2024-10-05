@@ -11,7 +11,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 },
 {
 alignment = -1;
@@ -37,7 +37,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 },
 {
 alignment = -1;
@@ -63,7 +63,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 },
 {
 alignment = -1;

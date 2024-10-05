@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "dal-ar";
+ref = "dal-ar.isol";
 },
 {
 pos = (313,250);

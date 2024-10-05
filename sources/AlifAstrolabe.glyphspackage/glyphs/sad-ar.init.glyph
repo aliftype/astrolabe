@@ -93,5 +93,5 @@ width = 2400;
 }
 );
 metricLeft = "=behDotless-ar.medi";
-metricRight = "=sad-ar";
+metricRight = "=sad-ar.isol";
 }

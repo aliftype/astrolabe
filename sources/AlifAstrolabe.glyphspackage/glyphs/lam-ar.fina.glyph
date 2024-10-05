@@ -12,7 +12,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "lam-ar";
+ref = "lam-ar.isol";
 }
 );
 width = 350;
@@ -20,5 +20,5 @@ width = 350;
 );
 metricLeft = "=lam-ar";
 metricRight = "=0";
-metricWidth = "=lam-ar";
+metricWidth = "=lam-ar.isol";
 }

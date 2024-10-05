@@ -11,7 +11,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "lam_alef-ar";
+ref = "lam_alef-ar.isol";
 },
 {
 alignment = -1;

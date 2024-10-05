@@ -11,7 +11,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 }
 );
 width = 550;
@@ -33,7 +33,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 }
 );
 width = 450;
@@ -55,7 +55,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "tah-ar";
+ref = "tah-ar.isol";
 }
 );
 width = 2350;
@@ -63,5 +63,5 @@ width = 2350;
 );
 metricLeft = "=tah-ar";
 metricRight = "=0";
-metricWidth = "=tah-ar";
+metricWidth = "=tah-ar.isol";
 }

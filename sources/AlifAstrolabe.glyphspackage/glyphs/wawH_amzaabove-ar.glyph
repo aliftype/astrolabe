@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "waw-ar";
+ref = "waw-ar.isol";
 },
 {
 pos = (51,225);

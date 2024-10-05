@@ -11,7 +11,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.isol";
 }
 );
 width = 600;
@@ -19,5 +19,5 @@ width = 600;
 );
 metricLeft = "=noonghunna-ar";
 metricRight = "=0";
-metricWidth = "=noonghunna-ar";
+metricWidth = "=noonghunna-ar.isol";
 }

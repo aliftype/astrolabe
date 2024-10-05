@@ -10,7 +10,7 @@ tag = MSHQ;
 classes = (
 {
 automatic = 1;
-code = "hamza-ar alef-ar.isol alef-ar.fina behDotless-ar.isol behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar.alt.isol hah-ar.alt.fina hah-ar.isol hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kaf-ar kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar kashida-ar.20 kashida-ar.70 lam_alef-ar lam_alef-ar.fina lam_lam_heh-ar period colon dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar space zero-ar one-ar two-ar three-ar four-ar five-ar six-ar seven-ar eight-ar nine-ar decimalseparator-ar thousandseparator-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar teh-ar theh-ar jeem-ar khah-ar thal-ar zain-ar sheen-ar dad-ar zah-ar ghain-ar feh-ar fehAfrican-ar qaf-ar qafAfrican-ar noon-ar noonAfrican-ar tehMarbuta-ar wawHamzaabove-ar yeh-ar yehHamzaabove-ar yehFarsi-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
+code = "hamza-ar alef-ar.isol alef-ar.fina behDotless-ar.isol behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar.alt.isol hah-ar.alt.fina hah-ar.isol hah-ar.fina hah-ar.medi hah-ar.init dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init fehDotless-ar.isol fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.init qafDotless-ar.isol qafDotless-ar.fina kaf-ar.isol kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar.isol lam-ar.fina lam-ar.medi lam-ar.init meem-ar.isol meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar.isol noonghunna-ar.fina heh-ar.isol heh-ar.fina heh-ar.medi heh-ar.init waw-ar.isol waw-ar.fina alefMaksura-ar.isol alefMaksura-ar.fina yehbarree-ar.isol yehbarree-ar.fina kashida-ar kashida-ar.20 kashida-ar.70 lam_alef-ar.fina lam_alef-ar.isol lam_lam_heh-ar.isol period colon dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar space zero-ar one-ar two-ar three-ar four-ar five-ar six-ar seven-ar eight-ar nine-ar decimalseparator-ar thousandseparator-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar teh-ar theh-ar jeem-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar fehDotless-ar fehAfrican-ar qafDotless-ar qaf-ar qafAfrican-ar kaf-ar lam-ar meem-ar noon-ar noonghunna-ar noonAfrican-ar heh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
 name = All;
 }
 );
@@ -97,18 +97,34 @@ sub theh-ar				by behDotless-ar.isol threedotsupabove-ar;
 sub jeem-ar				by hah-ar.alt.isol dotbelow-ar;
 sub hah-ar				by hah-ar.isol;
 sub khah-ar				by hah-ar.isol dotabove-ar;
-sub thal-ar				by dal-ar dotabove-ar;
-sub zain-ar				by reh-ar dotabove-ar;
-sub sheen-ar			by seen-ar threedotsupabove-ar;
-sub dad-ar				by sad-ar dotabove-ar;
-sub zah-ar				by tah-ar dotabove-ar;
-sub ghain-ar			by ain-ar dotabove-ar;
-sub feh-ar				by fehDotless-ar dotabove-ar;
-sub qaf-ar				by qafDotless-ar twodotshorizontalabove-ar;
-sub noon-ar				by noonghunna-ar dotabove-ar;
-sub wawHamzaabove-ar	by waw-ar hamzaabove-ar;
-sub yeh-ar				by alefMaksura-ar twodotshorizontalbelow-ar;
-sub yehHamzaabove-ar	by alefMaksura-ar hamzaabove-ar;
+sub dal-ar				by dal-ar.isol;
+sub thal-ar				by dal-ar.isol dotabove-ar;
+sub reh-ar				by reh-ar.isol;
+sub zain-ar				by reh-ar.isol dotabove-ar;
+sub seen-ar				by seen-ar.isol;
+sub sheen-ar			by seen-ar.isol threedotsupabove-ar;
+sub sad-ar				by sad-ar.isol;
+sub dad-ar				by sad-ar.isol dotabove-ar;
+sub tah-ar				by tah-ar.isol;
+sub zah-ar				by tah-ar.isol dotabove-ar;
+sub ain-ar				by ain-ar.isol;
+sub ghain-ar			by ain-ar.isol dotabove-ar;
+sub fehDotless-ar		by fehDotless-ar.isol;
+sub feh-ar				by fehDotless-ar.isol dotabove-ar;
+sub qafDotless-ar		by qafDotless-ar.isol;
+sub qaf-ar				by qafDotless-ar.isol twodotshorizontalabove-ar;
+sub kaf-ar				by kaf-ar.isol;
+sub lam-ar				by lam-ar.isol;
+sub meem-ar				by meem-ar.isol;
+sub noonghunna-ar		by noonghunna-ar.isol;
+sub noon-ar				by noonghunna-ar.isol dotabove-ar;
+sub heh-ar				by heh-ar.isol;
+sub waw-ar				by waw-ar.isol;
+sub wawHamzaabove-ar	by waw-ar.isol hamzaabove-ar;
+sub alefMaksura-ar		by alefMaksura-ar.isol;
+sub yeh-ar				by alefMaksura-ar.isol twodotshorizontalbelow-ar;
+sub yehHamzaabove-ar	by alefMaksura-ar.isol hamzaabove-ar;
+sub yehbarree-ar		by yehbarree-ar.isol;
 ";
 tag = ccmp;
 },
@@ -116,22 +132,22 @@ tag = ccmp;
 code = "sub behDotless-ar.isol 	by behDotless-ar.init;
 sub hah-ar.isol			by hah-ar.init;
 sub hah-ar.alt.isol		by hah-ar.init;
-sub seen-ar			by seen-ar.init;
-sub sad-ar			by sad-ar.init;
-sub tah-ar			by tah-ar.init;
-sub ain-ar			by ain-ar.init;
-sub fehDotless-ar	by fehDotless-ar.init;
-sub qafDotless-ar	by fehDotless-ar.init;
-sub kaf-ar			by kaf-ar.init;
-sub lam-ar			by lam-ar.init;
-sub meem-ar			by meem-ar.init;
-sub noonghunna-ar	by behDotless-ar.init;
-sub heh-ar			by heh-ar.init;
-sub alefMaksura-ar	by behDotless-ar.init;
-sub yehFarsi-ar		by behDotless-ar.init twodotshorizontalbelow-ar;
-sub fehAfrican-ar	by fehDotless-ar.init dotbelow-ar;
-sub qafAfrican-ar	by fehDotless-ar.init dotabove-ar;
-sub noonAfrican-ar	by behDotless-ar.init dotabove-ar;
+sub seen-ar.isol		by seen-ar.init;
+sub sad-ar.isol			by sad-ar.init;
+sub tah-ar.isol			by tah-ar.init;
+sub ain-ar.isol			by ain-ar.init;
+sub fehDotless-ar.isol	by fehDotless-ar.init;
+sub qafDotless-ar.isol	by fehDotless-ar.init;
+sub kaf-ar.isol			by kaf-ar.init;
+sub lam-ar.isol			by lam-ar.init;
+sub meem-ar.isol		by meem-ar.init;
+sub noonghunna-ar.isol	by behDotless-ar.init;
+sub heh-ar.isol			by heh-ar.init;
+sub alefMaksura-ar.isol	by behDotless-ar.init;
+sub yehFarsi-ar			by behDotless-ar.init twodotshorizontalbelow-ar;
+sub fehAfrican-ar		by fehDotless-ar.init dotbelow-ar;
+sub qafAfrican-ar		by fehDotless-ar.init dotabove-ar;
+sub noonAfrican-ar		by behDotless-ar.init dotabove-ar;
 ";
 tag = init;
 },
@@ -139,66 +155,66 @@ tag = init;
 code = "sub behDotless-ar.isol	by behDotless-ar.medi;
 sub hah-ar.isol			by hah-ar.medi;
 sub hah-ar.alt.isol		by hah-ar.medi;
-sub seen-ar			by seen-ar.medi;
-sub sad-ar			by sad-ar.medi;
-sub tah-ar			by tah-ar.medi;
-sub ain-ar			by ain-ar.medi;
-sub fehDotless-ar	by fehDotless-ar.medi;
-sub qafDotless-ar	by fehDotless-ar.medi;
-sub kaf-ar			by kaf-ar.medi;
-sub lam-ar			by lam-ar.medi;
-sub meem-ar			by meem-ar.medi;
-sub noonghunna-ar	by behDotless-ar.medi;
-sub heh-ar			by heh-ar.medi;
-sub alefMaksura-ar	by behDotless-ar.medi;
-sub yehFarsi-ar		by behDotless-ar.medi twodotshorizontalbelow-ar;
-sub fehAfrican-ar	by fehDotless-ar.medi dotbelow-ar;
-sub qafAfrican-ar	by fehDotless-ar.medi dotabove-ar;
-sub noonAfrican-ar	by behDotless-ar.medi dotabove-ar;
+sub seen-ar.isol		by seen-ar.medi;
+sub sad-ar.isol			by sad-ar.medi;
+sub tah-ar.isol			by tah-ar.medi;
+sub ain-ar.isol			by ain-ar.medi;
+sub fehDotless-ar.isol	by fehDotless-ar.medi;
+sub qafDotless-ar.isol	by fehDotless-ar.medi;
+sub kaf-ar.isol			by kaf-ar.medi;
+sub lam-ar.isol			by lam-ar.medi;
+sub meem-ar.isol		by meem-ar.medi;
+sub noonghunna-ar.isol	by behDotless-ar.medi;
+sub heh-ar.isol			by heh-ar.medi;
+sub alefMaksura-ar.isol	by behDotless-ar.medi;
+sub yehFarsi-ar			by behDotless-ar.medi twodotshorizontalbelow-ar;
+sub fehAfrican-ar		by fehDotless-ar.medi dotbelow-ar;
+sub qafAfrican-ar		by fehDotless-ar.medi dotabove-ar;
+sub noonAfrican-ar		by behDotless-ar.medi dotabove-ar;
 ";
 tag = medi;
 },
 {
-code = "sub alef-ar.isol	by alef-ar.fina;
+code = "sub alef-ar.isol		by alef-ar.fina;
 sub behDotless-ar.isol	by behDotless-ar.fina;
 sub hah-ar.isol			by hah-ar.fina;
 sub hah-ar.alt.isol		by hah-ar.alt.fina;
-sub dal-ar			by dal-ar.fina;
-sub reh-ar			by reh-ar.fina;
-sub seen-ar			by seen-ar.fina;
-sub sad-ar			by sad-ar.fina;
-sub tah-ar			by tah-ar.fina;
-sub ain-ar			by ain-ar.fina;
-sub fehDotless-ar	by fehDotless-ar.fina;
-sub qafDotless-ar	by qafDotless-ar.fina;
-sub kaf-ar			by kaf-ar.fina;
-sub lam-ar			by lam-ar.fina;
-sub meem-ar			by meem-ar.fina;
-sub noonghunna-ar	by noonghunna-ar.fina;
-sub heh-ar			by heh-ar.fina;
-sub tehMarbuta-ar	by heh-ar.fina twodotshorizontalabove-ar;
-sub waw-ar			by waw-ar.fina;
-sub alefMaksura-ar	by alefMaksura-ar.fina;
-sub yehbarree-ar	by yehbarree-ar.fina;
-sub yehFarsi-ar		by alefMaksura-ar.fina;
-sub fehAfrican-ar	by fehDotless-ar.fina;
-sub qafAfrican-ar	by qafDotless-ar.fina;
-sub noonAfrican-ar	by noonghunna-ar.fina;
+sub dal-ar.isol			by dal-ar.fina;
+sub reh-ar.isol			by reh-ar.fina;
+sub seen-ar.isol		by seen-ar.fina;
+sub sad-ar.isol			by sad-ar.fina;
+sub tah-ar.isol			by tah-ar.fina;
+sub ain-ar.isol			by ain-ar.fina;
+sub fehDotless-ar.isol	by fehDotless-ar.fina;
+sub qafDotless-ar.isol	by qafDotless-ar.fina;
+sub kaf-ar.isol			by kaf-ar.fina;
+sub lam-ar.isol			by lam-ar.fina;
+sub meem-ar.isol		by meem-ar.fina;
+sub noonghunna-ar.isol	by noonghunna-ar.fina;
+sub heh-ar.isol			by heh-ar.fina;
+sub tehMarbuta-ar		by heh-ar.fina twodotshorizontalabove-ar;
+sub waw-ar.isol			by waw-ar.fina;
+sub alefMaksura-ar.isol	by alefMaksura-ar.fina;
+sub yehbarree-ar.isol	by yehbarree-ar.fina;
+sub yehFarsi-ar			by alefMaksura-ar.fina;
+sub fehAfrican-ar		by fehDotless-ar.fina;
+sub qafAfrican-ar		by qafDotless-ar.fina;
+sub noonAfrican-ar		by noonghunna-ar.fina;
 ";
 tag = fina;
 },
 {
 code = "lookup rlig_isol {
-	sub yehFarsi-ar		by alefMaksura-ar;
-	sub fehAfrican-ar	by fehDotless-ar;
-	sub qafAfrican-ar	by qafDotless-ar;
-	sub noonAfrican-ar	by noonghunna-ar;
-	sub tehMarbuta-ar by heh-ar twodotshorizontalabove-ar;
+	sub yehFarsi-ar		by alefMaksura-ar.isol;
+	sub fehAfrican-ar	by fehDotless-ar.isol;
+	sub qafAfrican-ar	by qafDotless-ar.isol;
+	sub noonAfrican-ar	by noonghunna-ar.isol;
+	sub tehMarbuta-ar by heh-ar.isol twodotshorizontalabove-ar;
 } rlig_isol;
 
 lookup rlig_lam_alef {
 	lookupflag IgnoreMarks;
-	sub lam-ar.init alef-ar.fina by lam_alef-ar;
+	sub lam-ar.init alef-ar.fina by lam_alef-ar.isol;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 } rlig_lam_alef;
 
@@ -216,7 +232,8 @@ lookup rlig_teeth {
 tag = rlig;
 },
 {
-code = "sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar;";
+code = "sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar.isol;
+";
 tag = liga;
 },
 {
@@ -430,7 +447,7 @@ m01 = {
 "@MMK_R_heh" = {
 "@MMK_L_alef" = -30;
 };
-"reh-ar" = {
+"reh-ar.isol" = {
 "@MMK_L_hah" = 90;
 };
 "sad-ar.init" = {
@@ -441,7 +458,7 @@ m01 = {
 "reh-ar.fina" = -50;
 "waw-ar.fina" = -30;
 };
-"waw-ar" = {
+"waw-ar.isol" = {
 "@MMK_L_hah" = 45;
 };
 "waw-ar.fina" = {

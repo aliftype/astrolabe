@@ -10,7 +10,7 @@ pos = (630,0);
 ref = "kashida-ar";
 },
 {
-ref = "alefMaksura-ar";
+ref = "alefMaksura-ar.isol";
 }
 );
 width = 680;

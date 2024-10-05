@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "alefMaksura-ar";
+ref = "alefMaksura-ar.isol";
 },
 {
 pos = (0,50);

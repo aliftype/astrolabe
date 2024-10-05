@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "ain-ar";
+ref = "ain-ar.isol";
 },
 {
 pos = (260,400);

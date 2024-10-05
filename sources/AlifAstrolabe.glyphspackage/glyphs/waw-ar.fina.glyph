@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = -1;
 pos = (0,-25);
-ref = "waw-ar";
+ref = "waw-ar.isol";
 },
 {
 alignment = -1;
