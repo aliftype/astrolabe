@@ -55,11 +55,11 @@ doc: ${SVG}
 ${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  $(@F))
 	${PYTHON} -m fontmake $< \
-						  --output-path=$@ \
-						  -o variable \
-						  --verbose=WARNING \
-						  --filter ...
-#						  --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
+			      --output-path=$@ \
+			      -o variable \
+			      --verbose=WARNING \
+			      --filter ...
+#			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
 	$(info   GEN    $(@F))
@@ -72,10 +72,10 @@ ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
 ${SVG}: ${FONT}
 	$(info   SVG    $(@F))
 	${PYTHON} -m alifTools.sample $< \
-								  -t "${SAMPLE}" \
-								  --justify \
-								  --dark-foreground=FFFFFF \
-								  -o $@
+				      -t "${SAMPLE}" \
+				      --justify \
+				      --dark-foreground=FFFFFF \
+				      -o $@
 
 dist: all
 	$(info   DIST   ${DIST}.zip)
