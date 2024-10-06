@@ -73,6 +73,7 @@ ${SVG}: ${FONT}
 	$(info   SVG    $(@F))
 	${PYTHON} -m alifTools.sample $< \
 								  -t "${SAMPLE}" \
+								  --justify \
 								  --dark-foreground=FFFFFF \
 								  -o $@
 
