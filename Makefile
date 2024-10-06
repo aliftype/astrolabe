@@ -74,7 +74,8 @@ ${SVG}: ${FONT}
 	${PYTHON} -m alifTools.sample $< \
 				      -t "${SAMPLE}" \
 				      --justify \
-				      --dark-foreground=FFFFFF \
+				      --foreground=1F2328 \
+				      --dark-foreground=D1D7E0 \
 				      -o $@
 
 dist: all
