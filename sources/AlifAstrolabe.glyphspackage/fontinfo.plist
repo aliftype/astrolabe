@@ -458,11 +458,11 @@ m01 = {
 "reh-ar.fina" = -50;
 "waw-ar.fina" = -30;
 };
-"waw-ar.isol" = {
-"@MMK_L_hah" = 45;
-};
 "waw-ar.fina" = {
 "@MMK_L_hah" = 35;
+};
+"waw-ar.isol" = {
+"@MMK_L_hah" = 45;
 };
 };
 };
