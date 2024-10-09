@@ -58,6 +58,7 @@ ${FONT}: ${GLYPHSFILE}
 			      --output-path=$@ \
 			      -o variable \
 			      --verbose=WARNING \
+			      --master-dir="{tmp}" \
 			      --filter ...
 #			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
