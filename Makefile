@@ -53,7 +53,7 @@ expectation: ${JSON}
 doc: ${SVG}
 
 ${FONT}: ${GLYPHSFILE}
-	$(info   BUILD  $(@F))
+	$(info   BUILD  ${@F})
 	${PYTHON} -m fontmake $< \
 			      --output-path=$@ \
 			      -o variable \
@@ -62,7 +62,7 @@ ${FONT}: ${GLYPHSFILE}
 #			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
-	$(info   GEN    $(@F))
+	$(info   GEN    ${@F})
 	${PYTHON} -m alifTools.shaping.update $< $@ ${FONT}
 
 ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
@@ -70,7 +70,7 @@ ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yml
 	${PYTHON} -m alifTools.shaping.check $< ${TESTDIR}/shaping-config.yml $@
 
 ${SVG}: ${FONT}
-	$(info   SVG    $(@F))
+	$(info   SVG    ${@F})
 	${PYTHON} -m alifTools.sample $< \
 				      -t "${SAMPLE}" \
 				      --justify \
