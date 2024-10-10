@@ -6,11 +6,10 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = "alefMaksura-ar.isol";
 }
 );
-width = 1000;
+width = 700;
 }
 );
 metricWidth = "=1000";

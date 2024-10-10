@@ -6,7 +6,6 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = "seen-ar.isol";
 },
 {
@@ -14,7 +13,7 @@ pos = (515,250);
 ref = "threedotsupabove-ar";
 }
 );
-width = 1000;
+width = 826;
 }
 );
 metricWidth = "=1000";

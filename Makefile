@@ -59,7 +59,8 @@ ${FONT}: ${GLYPHSFILE}
 			      -o variable \
 			      --verbose=WARNING \
 			      --master-dir="{tmp}" \
-			      --filter ...
+			      --filter ... \
+			      --filter "alifTools.filters::ClearPlaceholdersFilter()" \
 #			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}

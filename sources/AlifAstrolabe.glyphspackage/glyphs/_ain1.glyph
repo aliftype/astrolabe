@@ -55,8 +55,8 @@ nodes = (
 );
 }
 );
-width = 1000;
+width = 750;
 }
 );
-metricWidth = "=1000";
+metricWidth = "=750";
 }

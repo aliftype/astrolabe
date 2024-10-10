@@ -6,11 +6,10 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = "waw-ar.isol";
 }
 );
-width = 1000;
+width = 295;
 }
 );
 metricWidth = "=1000";

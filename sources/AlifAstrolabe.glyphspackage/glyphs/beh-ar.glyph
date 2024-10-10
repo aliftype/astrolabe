@@ -6,7 +6,6 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = "behDotless-ar.isol";
 },
 {
@@ -14,7 +13,7 @@ pos = (246,-125);
 ref = "dotbelow-ar";
 }
 );
-width = 1000;
+width = 550;
 }
 );
 metricWidth = "=1000";

@@ -6,7 +6,6 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = "heh-ar.isol";
 },
 {
@@ -14,7 +13,7 @@ pos = (23,400);
 ref = "twodotshorizontalabove-ar";
 }
 );
-width = 1000;
+width = 280;
 }
 );
 metricWidth = "=1000";
