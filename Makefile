@@ -61,7 +61,7 @@ ${FONT}: ${GLYPHSFILE}
 			      --master-dir="{tmp}" \
 			      --filter ... \
 			      --filter "alifTools.filters::ClearPlaceholdersFilter()" \
-#			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
+			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
 ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
 	$(info   GEN    ${@F})
