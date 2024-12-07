@@ -3,6 +3,16 @@ glyphname = "behDotless-ar.fina";
 kernRight = beh;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (284,0);
+},
+{
+name = top;
+pos = (284,200);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -15,6 +25,68 @@ ref = "kashida-ar";
 }
 );
 width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (175,0);
+},
+{
+name = top;
+pos = (150,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "9107C5FB-68E1-4FBE-B1E4-CDE98230B6F0";
+name = "8 Dec 24 at 01:01";
+shapes = (
+{
+alignment = -1;
+ref = "behDotless-ar.isol";
+},
+{
+pos = (300,0);
+ref = "kashida-ar";
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (1200,0);
+},
+{
+name = top;
+pos = (1200,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "EB471B0B-B97D-47C9-AE49-11A9B4B32BA1";
+name = "8 Dec 24 at 01:01";
+shapes = (
+{
+alignment = -1;
+ref = "behDotless-ar.isol";
+},
+{
+pos = (2300,0);
+ref = "kashida-ar";
+}
+);
+width = 2350;
 }
 );
 metricLeft = "=behDotless-ar";
