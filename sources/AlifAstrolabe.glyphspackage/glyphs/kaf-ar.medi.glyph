@@ -2,6 +2,16 @@
 glyphname = "kaf-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (346,200);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +27,16 @@ ref = "kaf-ar.init";
 width = 550;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (346,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -39,6 +59,16 @@ ref = "kaf-ar.init";
 width = 450;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1300,0);
+},
+{
+name = top;
+pos = (1300,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (

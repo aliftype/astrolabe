@@ -2,6 +2,16 @@
 glyphname = "tah-ar.medi";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = top;
+pos = (406,200);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -21,6 +31,16 @@ ref = "kashida-ar";
 width = 550;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (350,150);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -47,6 +67,16 @@ ref = "kashida-ar";
 width = 450;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1300,0);
+},
+{
+name = top;
+pos = (1300,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (

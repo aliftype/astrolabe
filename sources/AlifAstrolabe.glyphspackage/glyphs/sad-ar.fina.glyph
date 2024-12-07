@@ -2,6 +2,16 @@
 glyphname = "sad-ar.fina";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (710,0);
+},
+{
+name = top;
+pos = (710,200);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +27,16 @@ ref = "sad-ar.isol";
 width = 950;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (630,0);
+},
+{
+name = top;
+pos = (630,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -39,6 +59,16 @@ ref = "sad-ar.isol";
 width = 800;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1650,0);
+},
+{
+name = top;
+pos = (1650,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (

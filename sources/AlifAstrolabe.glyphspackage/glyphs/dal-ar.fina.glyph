@@ -2,6 +2,16 @@
 glyphname = "dal-ar.fina";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = top;
+pos = (351,200);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +27,16 @@ ref = "dal-ar.isol";
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (163,0);
+},
+{
+name = top;
+pos = (231,250);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -39,6 +59,16 @@ ref = "dal-ar.isol";
 width = 350;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1251,0);
+},
+{
+name = top;
+pos = (1251,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (

@@ -2,6 +2,16 @@
 glyphname = "kaf-ar.fina";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = top;
+pos = (446,200);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +27,16 @@ ref = "kaf-ar.isol";
 width = 650;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (325,0);
+},
+{
+name = top;
+pos = (446,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -39,6 +59,16 @@ ref = "kaf-ar.isol";
 width = 550;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (1400,0);
+},
+{
+name = top;
+pos = (1400,200);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
