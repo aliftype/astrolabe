@@ -2,6 +2,16 @@
 glyphname = "fehDotless-ar.isol";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (394,0);
+},
+{
+name = top;
+pos = (378,300);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -14,7 +24,71 @@ ref = _tail;
 }
 );
 width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (194,0);
+},
+{
+name = top;
+pos = (178,300);
 }
 );
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "C37AF447-18D0-4C8B-AC2B-B942C411CD43";
+name = "8 Dec 24 at 01:13";
+shapes = (
+{
+alignment = -1;
+pos = (89,0);
+ref = "fehDotless-ar.init";
+},
+{
+ref = _tail;
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (2194,0);
+},
+{
+name = top;
+pos = (2178,300);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "0E4B72C2-4A07-4616-A36B-EF022AF8544F";
+name = "8 Dec 24 at 01:13";
+shapes = (
+{
+alignment = -1;
+pos = (2089,0);
+ref = "fehDotless-ar.init";
+},
+{
+ref = _tail;
+}
+);
+width = 2350;
+}
+);
+metricLeft = "=0";
+metricRight = "=50@50";
 metricWidth = "=behDotless-ar.isol";
 }
