@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = "behDotless-ar.init.high";
 kernLeft = beh.high;
 layers = (
