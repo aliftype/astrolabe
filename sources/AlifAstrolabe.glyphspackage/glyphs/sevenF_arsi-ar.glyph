@@ -1,0 +1,12 @@
+{
+glyphname = "sevenFarsi-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+metricLeft = "seven-ar";
+metricRight = "seven-ar";
+unicode = 1783;
+}

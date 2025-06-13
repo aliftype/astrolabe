@@ -92,15 +92,18 @@ sub alefHamzabelow-ar	by alef-ar.isol hamzabelow-ar;
 sub alefMadda-ar		by alef-ar.isol madda-ar;
 sub behDotless-ar		by behDotless-ar.isol;
 sub beh-ar				by behDotless-ar.isol dotbelow-ar;
+sub peh-ar				by behDotless-ar.isol threedotsdownbelow-ar;
 sub teh-ar				by behDotless-ar.isol twodotshorizontalabove-ar;
 sub theh-ar				by behDotless-ar.isol threedotsupabove-ar;
 sub jeem-ar				by hah-ar.alt2.isol dotbelow-ar;
+sub tcheh-ar			by hah-ar.alt3.isol threedotsdownbelow-ar;
 sub hah-ar				by hah-ar.isol;
 sub khah-ar				by hah-ar.isol dotabove-ar;
 sub dal-ar				by dal-ar.isol;
 sub thal-ar				by dal-ar.isol dotabove-ar;
 sub reh-ar				by reh-ar.isol;
 sub zain-ar				by reh-ar.isol dotabove-ar;
+sub jeh-ar				by reh-ar.isol threedotsupabove-ar;
 sub seen-ar				by seen-ar.isol;
 sub sheen-ar			by seen-ar.isol threedotsupabove-ar;
 sub sad-ar				by sad-ar.isol;
@@ -114,6 +117,8 @@ sub feh-ar				by fehDotless-ar.isol dotabove-ar;
 sub qafDotless-ar		by qafDotless-ar.isol;
 sub qaf-ar				by qafDotless-ar.isol twodotshorizontalabove-ar;
 sub kaf-ar				by kaf-ar.isol;
+sub keheh-ar			by kaf-ar.isol;
+sub gaf-ar				by kaf-ar.isol gafsarkashabove-ar;
 sub lam-ar				by lam-ar.isol;
 sub meem-ar				by meem-ar.isol;
 sub noonghunna-ar		by noonghunna-ar.isol;
@@ -132,7 +137,8 @@ tag = ccmp;
 code = "sub behDotless-ar.isol 	by behDotless-ar.init;
 sub [hah-ar.isol
 	 hah-ar.alt.isol
-	 hah-ar.alt2.isol]	by hah-ar.init;
+	 hah-ar.alt2.isol
+	 hah-ar.alt3.isol]	by hah-ar.init;
 sub seen-ar.isol		by seen-ar.init;
 sub sad-ar.isol			by sad-ar.init;
 sub tah-ar.isol			by tah-ar.init;
@@ -156,7 +162,8 @@ tag = init;
 code = "sub behDotless-ar.isol	by behDotless-ar.medi;
 sub [hah-ar.isol
 	 hah-ar.alt.isol
-	 hah-ar.alt2.isol]	by hah-ar.medi;
+	 hah-ar.alt2.isol
+	 hah-ar.alt3.isol]	by hah-ar.medi;
 sub seen-ar.isol		by seen-ar.medi;
 sub sad-ar.isol			by sad-ar.medi;
 sub tah-ar.isol			by tah-ar.medi;
@@ -182,6 +189,7 @@ sub behDotless-ar.isol	by behDotless-ar.fina;
 sub hah-ar.isol			by hah-ar.fina;
 sub hah-ar.alt.isol		by hah-ar.alt.fina;
 sub hah-ar.alt2.isol	by hah-ar.alt2.fina;
+sub hah-ar.alt3.isol	by hah-ar.alt3.fina;
 sub dal-ar.isol			by dal-ar.fina;
 sub reh-ar.isol			by reh-ar.fina;
 sub seen-ar.isol		by seen-ar.fina;

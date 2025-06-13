@@ -6,14 +6,14 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = "hah-ar.alt.isol";
+ref = "hah-ar.alt2.isol";
 },
 {
-pos = (162,-125);
+pos = (262,-125);
 ref = "dotbelow-ar";
 }
 );
-width = 425;
+width = 435;
 }
 );
 metricWidth = "=1000";

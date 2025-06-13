@@ -1,0 +1,10 @@
+{
+glyphname = "fourFarsi-ar";
+layers = (
+{
+layerId = m01;
+width = 400;
+}
+);
+unicode = 1780;
+}

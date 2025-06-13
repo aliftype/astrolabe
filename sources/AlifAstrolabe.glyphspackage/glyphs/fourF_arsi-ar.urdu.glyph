@@ -1,0 +1,9 @@
+{
+glyphname = "fourFarsi-ar.urdu";
+layers = (
+{
+layerId = m01;
+width = 400;
+}
+);
+}

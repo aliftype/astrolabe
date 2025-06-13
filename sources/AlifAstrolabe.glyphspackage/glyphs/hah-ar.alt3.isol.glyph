@@ -1,13 +1,13 @@
 {
 color = 3;
-glyphname = "hah-ar.alt2.isol";
+glyphname = "hah-ar.alt3.isol";
 kernRight = hah;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (300,0);
+pos = (270,0);
 }
 );
 backgroundImage = {
@@ -22,12 +22,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(52,-99,o),
-(112,-99,cs),
-(155,-99,o),
-(201,-91,o),
-(235,-86,c),
-(235,-50,l),
+(48,-100,o),
+(97,-100,cs),
+(122,-100,o),
+(146,-95,o),
+(165,-86,c),
+(165,-50,l),
 (79,-50,o),
 (50,-49,o),
 (50,-25,cs),
@@ -40,7 +40,7 @@ nodes = (
 (57,50,o),
 (0,33,o),
 (0,-25,cs),
-(0,-84,o)
+(0,-79,o)
 );
 },
 {

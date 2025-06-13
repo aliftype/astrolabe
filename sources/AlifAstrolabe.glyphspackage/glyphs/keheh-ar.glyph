@@ -1,0 +1,16 @@
+{
+category = Placeholder;
+glyphname = "keheh-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "kaf-ar.isol";
+}
+);
+width = 650;
+}
+);
+unicode = 1705;
+}

@@ -1,6 +1,6 @@
 {
 color = 3;
-glyphname = "hah-ar.alt2.fina";
+glyphname = "hah-ar.alt3.fina";
 layers = (
 {
 layerId = m01;
@@ -12,7 +12,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "hah-ar.alt2.isol";
+ref = "hah-ar.alt3.isol";
 },
 {
 alignment = -1;
