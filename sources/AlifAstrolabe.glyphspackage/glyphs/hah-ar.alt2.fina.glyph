@@ -1,5 +1,5 @@
 {
-glyphname = "hah-ar.fina";
+glyphname = "hah-ar.alt2.fina";
 layers = (
 {
 layerId = m01;
@@ -11,7 +11,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "hah-ar.isol";
+ref = "hah-ar.alt2.isol";
 },
 {
 alignment = -1;
@@ -25,6 +25,4 @@ width = 435;
 metricLeft = "=hah-ar";
 metricRight = "=0";
 metricWidth = "=hah-ar.isol";
-sortName = ar0333.a;
-sortNameKeep = ar0339;
 }

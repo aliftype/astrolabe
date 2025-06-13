@@ -148,7 +148,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ج ج‍ ‍ج‍ ‍ج",
-      "expectation": "dotbelow-ar=10@162,-125+0|hah-ar.alt.fina=10+475|space=8+0|space=8+0|space=6+0|dotbelow-ar=6@62,-125+0|hah-ar.medi=6+325|space=4+0|space=4+0|space=2+0|dotbelow-ar=2@62,-125+0|hah-ar.init=2+325|space=1+0|dotbelow-ar=0@162,-125+0|hah-ar.alt.isol=0+425"
+      "expectation": "dotbelow-ar=10@262,-125+0|hah-ar.alt2.fina=10+435|space=8+0|space=8+0|space=6+0|dotbelow-ar=6@62,-125+0|hah-ar.medi=6+325|space=4+0|space=4+0|space=2+0|dotbelow-ar=2@62,-125+0|hah-ar.init=2+325|space=1+0|dotbelow-ar=0@262,-125+0|hah-ar.alt2.isol=0+435"
     },
     {
       "only": "AlifAstrolabe.ttf",

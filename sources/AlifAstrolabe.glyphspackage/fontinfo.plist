@@ -1,5 +1,5 @@
 {
-.appVersion = "3331";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -94,7 +94,7 @@ sub behDotless-ar		by behDotless-ar.isol;
 sub beh-ar				by behDotless-ar.isol dotbelow-ar;
 sub teh-ar				by behDotless-ar.isol twodotshorizontalabove-ar;
 sub theh-ar				by behDotless-ar.isol threedotsupabove-ar;
-sub jeem-ar				by hah-ar.alt.isol dotbelow-ar;
+sub jeem-ar				by hah-ar.alt2.isol dotbelow-ar;
 sub hah-ar				by hah-ar.isol;
 sub khah-ar				by hah-ar.isol dotabove-ar;
 sub dal-ar				by dal-ar.isol;
@@ -130,8 +130,9 @@ tag = ccmp;
 },
 {
 code = "sub behDotless-ar.isol 	by behDotless-ar.init;
-sub hah-ar.isol			by hah-ar.init;
-sub hah-ar.alt.isol		by hah-ar.init;
+sub [hah-ar.isol
+	 hah-ar.alt.isol
+	 hah-ar.alt2.isol]	by hah-ar.init;
 sub seen-ar.isol		by seen-ar.init;
 sub sad-ar.isol			by sad-ar.init;
 sub tah-ar.isol			by tah-ar.init;
@@ -153,8 +154,9 @@ tag = init;
 },
 {
 code = "sub behDotless-ar.isol	by behDotless-ar.medi;
-sub hah-ar.isol			by hah-ar.medi;
-sub hah-ar.alt.isol		by hah-ar.medi;
+sub [hah-ar.isol
+	 hah-ar.alt.isol
+	 hah-ar.alt2.isol]	by hah-ar.medi;
 sub seen-ar.isol		by seen-ar.medi;
 sub sad-ar.isol			by sad-ar.medi;
 sub tah-ar.isol			by tah-ar.medi;
@@ -179,6 +181,7 @@ code = "sub alef-ar.isol		by alef-ar.fina;
 sub behDotless-ar.isol	by behDotless-ar.fina;
 sub hah-ar.isol			by hah-ar.fina;
 sub hah-ar.alt.isol		by hah-ar.alt.fina;
+sub hah-ar.alt2.isol	by hah-ar.alt2.fina;
 sub dal-ar.isol			by dal-ar.fina;
 sub reh-ar.isol			by reh-ar.fina;
 sub seen-ar.isol		by seen-ar.fina;
