@@ -404,6 +404,14 @@ lookup space_DFLT {
 } space_DFLT;
 ";
 tag = dist;
+},
+{
+code = "# Automatic Code";
+tag = mark;
+},
+{
+code = "# Automatic Code";
+tag = mkmk;
 }
 );
 fontMaster = (
