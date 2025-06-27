@@ -2,8 +2,24 @@
 glyphname = "kasra-ar";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+pos = (75,-51);
+},
+{
+name = _bottom.mkmk;
+pos = (75,-100);
+}
+);
 layerId = m01;
-width = 300;
+shapes = (
+{
+pos = (0,-650);
+ref = "fatha-ar";
+}
+);
+width = 150;
 }
 );
 unicode = 1616;

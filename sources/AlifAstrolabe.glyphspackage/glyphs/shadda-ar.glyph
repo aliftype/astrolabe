@@ -2,9 +2,49 @@
 glyphname = "shadda-ar";
 layers = (
 {
-layerId = m01;
-width = 300;
+anchors = (
+{
+name = _top;
+pos = (75,350);
+},
+{
+name = _top.mkmk;
+pos = (75,400);
+},
+{
+name = top.mkmk;
+pos = (61,478);
 }
 );
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,470,l),
+(18,470,l),
+(13,505,l),
+(-7,503,l),
+(0,450,l),
+(150,450,l),
+(140,528,l),
+(120,526,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,460,l),
+(84,459,l),
+(76,517,l),
+(57,515,l)
+);
+}
+);
+width = 150;
+}
+);
+metricLeft = "=-7";
+metricRight = "=0";
 unicode = 1617;
 }

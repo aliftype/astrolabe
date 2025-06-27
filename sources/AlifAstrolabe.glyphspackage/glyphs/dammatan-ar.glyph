@@ -2,9 +2,46 @@
 glyphname = "dammatan-ar";
 layers = (
 {
-layerId = m01;
-width = 300;
+anchors = (
+{
+name = _top;
+pos = (57,350);
+},
+{
+name = _top.mkmk;
+pos = (57,400);
 }
 );
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,609,o),
+(-3,571,o),
+(0,518,cs),
+(1,494,o),
+(21,477,o),
+(49,490,c),
+(43,506,l),
+(27,500,o),
+(16,508,o),
+(17,521,cs),
+(17,554,o),
+(73,588,o),
+(109,568,c),
+(116,580,l)
+);
+},
+{
+pos = (16,0);
+ref = "damma-ar";
+}
+);
+width = 116;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 1612;
 }

@@ -3,7 +3,21 @@ glyphname = "kasratan-ar";
 layers = (
 {
 layerId = m01;
-width = 300;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,-219,l),
+(146,-199,l),
+(0,-227,l),
+(3,-242,l)
+);
+},
+{
+ref = "kasra-ar";
+}
+);
+width = 150;
 }
 );
 unicode = 1613;

@@ -448,9 +448,9 @@ pos = -400;
 name = Regular;
 userData = {
 GSCornerRadius = 25;
-GSOffsetHorizontal = 25;
+GSOffsetHorizontal = 10;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 25;
 };
 }

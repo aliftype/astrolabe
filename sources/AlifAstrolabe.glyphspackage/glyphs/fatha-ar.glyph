@@ -2,9 +2,32 @@
 glyphname = "fatha-ar";
 layers = (
 {
-layerId = m01;
-width = 300;
+anchors = (
+{
+name = _top;
+pos = (75,350);
+},
+{
+name = _top.mkmk;
+pos = (75,400);
 }
 );
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,479,l),
+(146,500,l),
+(0,465,l),
+(3,450,l)
+);
+}
+);
+width = 150;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 1614;
 }

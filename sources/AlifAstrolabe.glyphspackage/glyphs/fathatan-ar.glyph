@@ -3,8 +3,23 @@ glyphname = "fathatan-ar";
 layers = (
 {
 layerId = m01;
-width = 300;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,527,l),
+(146,548,l),
+(0,507,l),
+(3,492,l)
+);
+},
+{
+ref = "fatha-ar";
 }
 );
+width = 150;
+}
+);
+metricWidth = "=fatha-ar";
 unicode = 1611;
 }
