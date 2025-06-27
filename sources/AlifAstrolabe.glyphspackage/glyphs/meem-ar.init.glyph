@@ -2,6 +2,16 @@
 glyphname = "meem-ar.init";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (134,-63);
+},
+{
+name = top;
+pos = (134,112);
+}
+);
 layerId = m01;
 shapes = (
 {

@@ -2,6 +2,16 @@
 glyphname = "lam-ar.isol";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (150,0);
+},
+{
+name = top.mkmk;
+pos = (248,550);
+}
+);
 layerId = m01;
 shapes = (
 {

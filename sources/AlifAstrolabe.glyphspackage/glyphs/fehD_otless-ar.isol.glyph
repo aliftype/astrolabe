@@ -8,6 +8,10 @@ name = bottom;
 pos = (394,0);
 },
 {
+name = bottom.mkmk;
+pos = (250,-50);
+},
+{
 name = top;
 pos = (378,300);
 }
@@ -30,6 +34,10 @@ anchors = (
 {
 name = bottom;
 pos = (194,0);
+},
+{
+name = bottom.mkmk;
+pos = (150,-50);
 },
 {
 name = top;
@@ -61,6 +69,10 @@ anchors = (
 {
 name = bottom;
 pos = (2194,0);
+},
+{
+name = bottom.mkmk;
+pos = (1200,-50);
 },
 {
 name = top;

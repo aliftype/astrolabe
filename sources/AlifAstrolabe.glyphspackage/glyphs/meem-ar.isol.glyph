@@ -2,6 +2,12 @@
 glyphname = "meem-ar.isol";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (200,0);
+}
+);
 backgroundImage = {
 angle = 125;
 imagePath = "images/31246001-fixed.jpg";

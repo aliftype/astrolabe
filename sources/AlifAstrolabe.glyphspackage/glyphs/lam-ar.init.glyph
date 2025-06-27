@@ -2,6 +2,15 @@
 glyphname = "lam-ar.init";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+},
+{
+name = top.mkmk;
+pos = (0,550);
+}
+);
 layerId = m01;
 shapes = (
 {

@@ -10,6 +10,10 @@ pos = (333,-200);
 {
 name = top;
 pos = (88,0);
+},
+{
+name = top.mkmk;
+pos = (300,150);
 }
 );
 backgroundImage = {
