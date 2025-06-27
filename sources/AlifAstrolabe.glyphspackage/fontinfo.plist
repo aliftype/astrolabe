@@ -383,6 +383,22 @@ value = "فاء متوسطة بديلة";
 tag = ss04;
 },
 {
+code = "sub lam-ar.isol by lam-ar.isol.alt;
+sub lam-ar.fina by lam-ar.fina.alt;
+";
+labels = (
+{
+language = ENG;
+value = "Alternate isolated/final “lam”";
+},
+{
+language = ARA;
+value = "لام مفردة\\منتهية بديلة";
+}
+);
+tag = ss05;
+},
+{
 code = "# Automatic Code";
 tag = kern;
 },

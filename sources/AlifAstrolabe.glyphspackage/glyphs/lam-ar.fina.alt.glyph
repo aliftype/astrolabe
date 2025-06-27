@@ -1,5 +1,5 @@
 {
-glyphname = "lam-ar.fina";
+glyphname = "lam-ar.fina.alt";
 kernRight = alef;
 layers = (
 {
@@ -12,7 +12,7 @@ ref = "kashida-ar";
 },
 {
 alignment = -1;
-ref = "lam-ar.isol";
+ref = "lam-ar.isol.alt";
 }
 );
 width = 350;
@@ -21,6 +21,6 @@ width = 350;
 metricLeft = "=lam-ar";
 metricRight = "=0";
 metricWidth = "=lam-ar.isol";
-sortName = ar0903.fina;
-sortNameKeep = ar0906;
+sortName = ar0904.fina;
+sortNameKeep = ar0906.ss05;
 }
