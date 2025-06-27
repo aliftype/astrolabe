@@ -12,6 +12,14 @@ classes = (
 automatic = 1;
 code = "hamza-ar alef-ar.isol alef-ar.fina behDotless-ar.isol behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar.alt.isol hah-ar.alt.fina hah-ar.isol hah-ar.fina hah-ar.medi hah-ar.init dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init fehDotless-ar.isol fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.init qafDotless-ar.isol qafDotless-ar.fina kaf-ar.isol kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar.isol lam-ar.fina lam-ar.medi lam-ar.init meem-ar.isol meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar.isol noonghunna-ar.fina heh-ar.isol heh-ar.fina heh-ar.medi heh-ar.init waw-ar.isol waw-ar.fina alefMaksura-ar.isol alefMaksura-ar.fina yehbarree-ar.isol yehbarree-ar.fina kashida-ar kashida-ar.20 kashida-ar.70 lam_alef-ar.fina lam_alef-ar.isol lam_lam_heh-ar.isol period colon dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsupabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar space zero-ar one-ar two-ar three-ar four-ar five-ar six-ar seven-ar eight-ar nine-ar decimalseparator-ar thousandseparator-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar teh-ar theh-ar jeem-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar fehDotless-ar fehAfrican-ar qafDotless-ar qaf-ar qafAfrican-ar kaf-ar lam-ar meem-ar noon-ar noonghunna-ar noonAfrican-ar heh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
 name = All;
+},
+{
+code = "behDotless-ar.init
+behDotless-ar.init.high
+behDotless-ar.medi
+behDotless-ar.medi.high
+";
+name = beh_init_medi;
 }
 );
 customParameters = (
@@ -67,6 +75,18 @@ code = "lookup high_tooth {
 	sub behDotless-ar.medi	by behDotless-ar.medi.high;
 	sub behDotless-ar.fina	by behDotless-ar.fina.high;
 } high_tooth;
+
+lookup insert_kashida {
+	sub @beh_init_medi		by @beh_init_medi kashida-ar;
+} insert_kashida;
+
+lookup insert_kashida_20 {
+	sub @beh_init_medi		by @beh_init_medi kashida-ar.20;
+} insert_kashida_20;
+
+lookup insert_kashida_70 {
+	sub @beh_init_medi		by @beh_init_medi kashida-ar.70;
+} insert_kashida_70;
 ";
 name = Lookups;
 }
@@ -265,61 +285,54 @@ tag = ss01;
 },
 {
 code = "@horizontal_dots_above = [twodotshorizontalabove-ar threedotsupabove-ar];
-@beh_init_medi = [behDotless-ar.init behDotless-ar.init.high behDotless-ar.medi behDotless-ar.medi.high];
-lookup rclt_wide_tooth_1 {
-	lookupflag UseMarkFilteringSet @horizontal_dots_above;
-	sub	 @beh_init_medi
-		 @horizontal_dots_above'
-		[alef-ar.fina lam-ar.medi lam-ar.fina]
-	by	 @horizontal_dots_above kashida-ar.20
-	;
-} rclt_wide_tooth_1;
 
 lookup rclt_wide_tooth_2 {
 	lookupflag UseMarkFilteringSet [@horizontal_dots_above dotabove-ar];
-	sub	 @beh_init_medi
-		 @horizontal_dots_above'
+	sub	 @beh_init_medi' lookup insert_kashida_20
+		 @horizontal_dots_above
 		 @beh_init_medi
 		 dotabove-ar
-	by	 @horizontal_dots_above kashida-ar.20
 	;
-	sub	 @beh_init_medi
-		 dotabove-ar'
+	sub	 @beh_init_medi' lookup insert_kashida_20
+		 dotabove-ar
 		 @beh_init_medi
 		 @horizontal_dots_above
-	by	 dotabove-ar kashida-ar.20
 	;
-	sub	 @beh_init_medi
-		 @horizontal_dots_above'
+	sub	 @beh_init_medi' lookup insert_kashida_20
+		 @horizontal_dots_above
 		 behDotless-ar.medi.high
 		 @horizontal_dots_above
-	by	 @horizontal_dots_above kashida-ar.20
 	;
-	sub	 @beh_init_medi
-		 @horizontal_dots_above'
+	sub	 @beh_init_medi' lookup insert_kashida
+		 @horizontal_dots_above
 		 @beh_init_medi
 		 @horizontal_dots_above
-	by	 @horizontal_dots_above kashida-ar
 	;
 } rclt_wide_tooth_2;
 
 lookup rclt_wide_tooth_3 {
 	lookupflag UseMarkFilteringSet [twodotshorizontalbelow-ar];
-	sub	 @beh_init_medi
-		 twodotshorizontalbelow-ar'
+	sub	 @beh_init_medi' lookup insert_kashida_70
+		 twodotshorizontalbelow-ar
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
-	by	 twodotshorizontalbelow-ar kashida-ar.70
 	;
 } rclt_wide_tooth_3;
 
 lookup rclt_wide_tooth_4 {
 	lookupflag UseMarkFilteringSet [dotbelow-ar];
-	sub	 @beh_init_medi
-		 dotbelow-ar'
+	sub	 @beh_init_medi' lookup insert_kashida_20
+		 dotbelow-ar
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
-	by	 dotbelow-ar kashida-ar.20
 	;
 } rclt_wide_tooth_4;
+
+lookup rclt_wide_tooth_1 {
+	lookupflag UseMarkFilteringSet @horizontal_dots_above;
+	sub	 @beh_init_medi' lookup insert_kashida_20
+		 @horizontal_dots_above
+		[alef-ar.fina lam-ar.medi lam-ar.fina]
+	;
+} rclt_wide_tooth_1;
 ";
 tag = rclt;
 },
