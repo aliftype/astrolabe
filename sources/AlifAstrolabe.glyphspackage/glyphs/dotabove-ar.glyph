@@ -8,7 +8,7 @@ name = _top;
 pos = (38,-50);
 },
 {
-name = top;
+name = top.mkmk;
 pos = (38,75);
 }
 );
