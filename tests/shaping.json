@@ -72,6 +72,11 @@
     },
     {
       "only": "AlifAstrolabe.ttf",
+      "input": "بين",
+      "expectation": "dotabove-ar=2@372,250+0|noonghunna-ar.fina=2+600|twodotshorizontalbelow-ar=1@-38,-125+0|behDotless-ar.medi.high=1+162|dotbelow-ar=0@27,-125+0|behDotless-ar.init=0@-30,0+132"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
       "input": "سبير",
       "expectation": "reh-ar.fina=3+250|twodotshorizontalbelow-ar=2@-38,-125+0|behDotless-ar.medi=2+162|dotbelow-ar=1@17,-125+0|behDotless-ar.medi.high=1@-40,0+122|seen-ar.init=0@-30,0+370"
     },
@@ -318,7 +323,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ن ن‍ ‍ن‍ ‍ن",
-      "expectation": "dotabove-ar=10@372,250+0|noonghunna-ar.fina=10+650|space=8+0|space=8+0|space=6+0|dotabove-ar=6@-3,279+0|behDotless-ar.medi=6+212|space=4+0|space=4+0|space=2+0|dotabove-ar=2@-33,279+0|behDotless-ar.init=2@-30,0+182|space=1+0|dotabove-ar=0@372,250+0|noonghunna-ar.isol=0+600"
+      "expectation": "dotabove-ar=10@372,250+0|noonghunna-ar.fina=10+650|space=8+0|space=8+0|space=6+0|dotabove-ar=6@-2,357+0|behDotless-ar.medi.high=6+212|space=4+0|space=4+0|space=2+0|dotabove-ar=2@-33,279+0|behDotless-ar.init=2@-30,0+182|space=1+0|dotabove-ar=0@372,250+0|noonghunna-ar.isol=0+600"
     },
     {
       "only": "AlifAstrolabe.ttf",
@@ -363,7 +368,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ں ں‍ ‍ں‍ ‍ں",
-      "expectation": "noonghunna-ar.fina=10+650|space=8+0|space=8+0|space=6+0|behDotless-ar.medi=6+212|space=4+0|space=4+0|space=2+0|behDotless-ar.init=2@-30,0+182|space=1+0|noonghunna-ar.isol=0+600"
+      "expectation": "noonghunna-ar.fina=10+650|space=8+0|space=8+0|space=6+0|behDotless-ar.medi.high=6+212|space=4+0|space=4+0|space=2+0|behDotless-ar.init=2@-30,0+182|space=1+0|noonghunna-ar.isol=0+600"
     },
     {
       "only": "AlifAstrolabe.ttf",
@@ -388,7 +393,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ࢽ ࢽ‍ ‍ࢽ‍ ‍ࢽ",
-      "expectation": "noonghunna-ar.fina=10+650|space=8+0|space=8+0|space=6+0|dotabove-ar=6@-3,279+0|behDotless-ar.medi=6+212|space=4+0|space=4+0|space=2+0|dotabove-ar=2@-33,279+0|behDotless-ar.init=2@-30,0+182|space=1+0|noonghunna-ar.isol=0+600"
+      "expectation": "noonghunna-ar.fina=10+650|space=8+0|space=8+0|space=6+0|dotabove-ar=6@-2,357+0|behDotless-ar.medi.high=6+212|space=4+0|space=4+0|space=2+0|dotabove-ar=2@-33,279+0|behDotless-ar.init=2@-30,0+182|space=1+0|noonghunna-ar.isol=0+600"
     },
     {
       "only": "AlifAstrolabe.ttf",

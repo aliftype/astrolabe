@@ -253,7 +253,7 @@ lookup rlig_teeth {
 	lookupflag IgnoreMarks;
 	sub [behDotless-ar.init behDotless-ar.medi sad-ar.init sad-ar.medi]
 		[behDotless-ar.medi]' lookup high_tooth
-		[behDotless-ar.medi	behDotless-ar.fina]
+		[behDotless-ar.medi	behDotless-ar.fina noonghunna-ar.fina]
 	;
 	sub [seen-ar.init seen-ar.medi]
 		[behDotless-ar.medi behDotless-ar.fina]' lookup high_tooth
