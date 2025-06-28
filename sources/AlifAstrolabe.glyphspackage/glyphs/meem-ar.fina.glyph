@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (500,0);
+pos = (367,0);
 ref = "kashida-ar";
 },
 {
@@ -14,7 +14,7 @@ alignment = -1;
 ref = "meem-ar.isol";
 }
 );
-width = 550;
+width = 417;
 }
 );
 metricLeft = "=meem-ar";

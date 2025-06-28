@@ -9,7 +9,7 @@ shapes = (
 ref = "meem-ar.isol";
 }
 );
-width = 550;
+width = 417;
 }
 );
 metricWidth = "=1000";

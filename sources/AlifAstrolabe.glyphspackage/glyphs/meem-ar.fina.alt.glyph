@@ -1,0 +1,25 @@
+{
+glyphname = "meem-ar.fina.alt";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (500,0);
+ref = "kashida-ar";
+},
+{
+alignment = -1;
+ref = "meem-ar.isol.alt";
+}
+);
+width = 550;
+}
+);
+metricLeft = "=meem-ar";
+metricRight = "=0";
+metricWidth = "=meem-ar.isol.alt";
+sortName = ar0934.fina;
+sortNameKeep = ar0933.alt;
+}

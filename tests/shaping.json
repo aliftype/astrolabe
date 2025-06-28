@@ -68,7 +68,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "لبيتم",
-      "expectation": "meem-ar.fina=4+550|twodotshorizontalabove-ar=3@-53,279+0|behDotless-ar.medi=3+162|twodotshorizontalbelow-ar=2@-78,-125+0|behDotless-ar.medi.high=2@-40,0+122|dotbelow-ar=1@27,-125+0|behDotless-ar.medi=1@-30,0+132|lam-ar.init=0+100"
+      "expectation": "meem-ar.fina=4+417|twodotshorizontalabove-ar=3@-53,279+0|behDotless-ar.medi=3+162|twodotshorizontalbelow-ar=2@-78,-125+0|behDotless-ar.medi.high=2@-40,0+122|dotbelow-ar=1@27,-125+0|behDotless-ar.medi=1@-30,0+132|lam-ar.init=0+100"
     },
     {
       "only": "AlifAstrolabe.ttf",
@@ -293,7 +293,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "م م‍ ‍م‍ ‍م",
-      "expectation": "meem-ar.fina=10+600|space=8+0|space=8+0|space=6+0|meem-ar.medi=6+317|space=4+0|space=4+0|space=2+0|meem-ar.init=2+317|space=1+0|meem-ar.isol=0+550"
+      "expectation": "meem-ar.fina=10+467|space=8+0|space=8+0|space=6+0|meem-ar.medi=6+317|space=4+0|space=4+0|space=2+0|meem-ar.init=2+317|space=1+0|meem-ar.isol=0+417"
     },
     {
       "only": "AlifAstrolabe.ttf",
@@ -405,7 +405,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ب مب مبم بم بب ببب سب",
-      "expectation": "dotbelow-ar=20@1162,-125+0|behDotless-ar.fina.high=20+2350|seen-ar.init=19@-30,0+420|space=18+0|dotbelow-ar=17@1162,-125+0|behDotless-ar.fina=17+2350|dotbelow-ar=16@-28,-125+0|behDotless-ar.medi.high=16@-40,0+122|dotbelow-ar=15@27,-125+0|behDotless-ar.init=15@-30,0+182|space=14+0|dotbelow-ar=13@1162,-125+0|behDotless-ar.fina=13+2350|dotbelow-ar=12@-18,-125+0|behDotless-ar.init=12@-30,0+182|space=11+0|meem-ar.fina=10+550|dotbelow-ar=9@12,-125+0|behDotless-ar.init=9+212|space=8+0|meem-ar.fina=7+550|dotbelow-ar=6@12,-125+0|behDotless-ar.medi=6+162|meem-ar.init=5+317|space=4+0|dotbelow-ar=3@1162,-125+0|behDotless-ar.fina=3+2350|meem-ar.init=2+317|space=1+0|dotbelow-ar=0@1162,-125+0|behDotless-ar.isol=0+2350",
+      "expectation": "dotbelow-ar=20@1162,-125+0|behDotless-ar.fina.high=20+2350|seen-ar.init=19@-30,0+420|space=18+0|dotbelow-ar=17@1162,-125+0|behDotless-ar.fina=17+2350|dotbelow-ar=16@-28,-125+0|behDotless-ar.medi.high=16@-40,0+122|dotbelow-ar=15@27,-125+0|behDotless-ar.init=15@-30,0+182|space=14+0|dotbelow-ar=13@1162,-125+0|behDotless-ar.fina=13+2350|dotbelow-ar=12@-18,-125+0|behDotless-ar.init=12@-30,0+182|space=11+0|meem-ar.fina=10+417|dotbelow-ar=9@12,-125+0|behDotless-ar.init=9+212|space=8+0|meem-ar.fina=7+417|dotbelow-ar=6@12,-125+0|behDotless-ar.medi=6+162|meem-ar.init=5+317|space=4+0|dotbelow-ar=3@1162,-125+0|behDotless-ar.fina=3+2350|meem-ar.init=2+317|space=1+0|dotbelow-ar=0@1162,-125+0|behDotless-ar.isol=0+2350",
       "variations": {
         "MSHQ": 100
       }
@@ -453,7 +453,7 @@
     {
       "only": "AlifAstrolabe.ttf",
       "input": "ب مب مبم بم بب ببب سب",
-      "expectation": "dotbelow-ar=20@137,-125+0|behDotless-ar.fina.high=20+350|seen-ar.init=19@-30,0+420|space=18+0|dotbelow-ar=17@137,-125+0|behDotless-ar.fina=17+350|dotbelow-ar=16@-28,-125+0|behDotless-ar.medi.high=16@-40,0+122|dotbelow-ar=15@27,-125+0|behDotless-ar.init=15@-30,0+182|space=14+0|dotbelow-ar=13@137,-125+0|behDotless-ar.fina=13+350|dotbelow-ar=12@-18,-125+0|behDotless-ar.init=12@-30,0+182|space=11+0|meem-ar.fina=10+550|dotbelow-ar=9@12,-125+0|behDotless-ar.init=9+212|space=8+0|meem-ar.fina=7+550|dotbelow-ar=6@12,-125+0|behDotless-ar.medi=6+162|meem-ar.init=5+317|space=4+0|dotbelow-ar=3@137,-125+0|behDotless-ar.fina=3+350|meem-ar.init=2+317|space=1+0|dotbelow-ar=0@137,-125+0|behDotless-ar.isol=0+350",
+      "expectation": "dotbelow-ar=20@137,-125+0|behDotless-ar.fina.high=20+350|seen-ar.init=19@-30,0+420|space=18+0|dotbelow-ar=17@137,-125+0|behDotless-ar.fina=17+350|dotbelow-ar=16@-28,-125+0|behDotless-ar.medi.high=16@-40,0+122|dotbelow-ar=15@27,-125+0|behDotless-ar.init=15@-30,0+182|space=14+0|dotbelow-ar=13@137,-125+0|behDotless-ar.fina=13+350|dotbelow-ar=12@-18,-125+0|behDotless-ar.init=12@-30,0+182|space=11+0|meem-ar.fina=10+417|dotbelow-ar=9@12,-125+0|behDotless-ar.init=9+212|space=8+0|meem-ar.fina=7+417|dotbelow-ar=6@12,-125+0|behDotless-ar.medi=6+162|meem-ar.init=5+317|space=4+0|dotbelow-ar=3@137,-125+0|behDotless-ar.fina=3+350|meem-ar.init=2+317|space=1+0|dotbelow-ar=0@137,-125+0|behDotless-ar.isol=0+350",
       "variations": {
         "MSHQ": 0
       }

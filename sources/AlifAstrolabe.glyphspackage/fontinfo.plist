@@ -399,6 +399,22 @@ value = "لام مفردة\\منتهية بديلة";
 tag = ss05;
 },
 {
+code = "sub meem-ar.isol by meem-ar.isol.alt;
+sub meem-ar.fina by meem-ar.fina.alt;
+";
+labels = (
+{
+language = ENG;
+value = "Alternate isolated/final “meem”";
+},
+{
+language = ARA;
+value = "ميم مفردة\\منتهية بديلة";
+}
+);
+tag = ss06;
+},
+{
 code = "# Automatic Code";
 tag = kern;
 },
