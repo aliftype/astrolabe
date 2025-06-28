@@ -17,6 +17,26 @@
     },
     {
       "only": "AlifAstrolabe.ttf",
+      "input": "يإ",
+      "expectation": "hamzabelow-ar=1@-73,-175+0|alef-ar.fina=1+100|twodotshorizontalbelow-ar=0@12,-125+0|kashida-ar=0+50|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "يا",
+      "expectation": "alef-ar.fina=1+100|twodotshorizontalbelow-ar=0@-78,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "با",
+      "expectation": "alef-ar.fina=1+100|dotbelow-ar=0@-28,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "بإ",
+      "expectation": "hamzabelow-ar=1@-73,-175+0|alef-ar.fina=1+100|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
       "input": "بيت",
       "expectation": "twodotshorizontalabove-ar=2@196,250+0|behDotless-ar.fina=2+550|twodotshorizontalbelow-ar=1@-78,-125+0|behDotless-ar.medi.high=1@-40,0+122|dotbelow-ar=0@27,-125+0|behDotless-ar.init=0@-30,0+132"
     },

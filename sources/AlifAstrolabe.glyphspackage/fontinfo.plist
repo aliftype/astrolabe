@@ -285,8 +285,9 @@ tag = ss01;
 },
 {
 code = "@horizontal_dots_above = [twodotshorizontalabove-ar threedotsupabove-ar];
+@horizontal_dots_below = [twodotshorizontalbelow-ar threedotsdownbelow-ar];
 
-lookup rclt_wide_tooth_2 {
+lookup rclt_wide_tooth_1 {
 	lookupflag UseMarkFilteringSet [@horizontal_dots_above dotabove-ar];
 	sub	 @beh_init_medi' lookup insert_kashida_20
 		 @horizontal_dots_above
@@ -308,31 +309,40 @@ lookup rclt_wide_tooth_2 {
 		 @beh_init_medi
 		 @horizontal_dots_above
 	;
-} rclt_wide_tooth_2;
+} rclt_wide_tooth_1;
 
-lookup rclt_wide_tooth_3 {
+lookup rclt_wide_tooth_2 {
 	lookupflag UseMarkFilteringSet [twodotshorizontalbelow-ar];
 	sub	 @beh_init_medi' lookup insert_kashida_70
 		 twodotshorizontalbelow-ar
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
 	;
-} rclt_wide_tooth_3;
+} rclt_wide_tooth_2;
 
-lookup rclt_wide_tooth_4 {
+lookup rclt_wide_tooth_3 {
 	lookupflag UseMarkFilteringSet [dotbelow-ar];
 	sub	 @beh_init_medi' lookup insert_kashida_20
 		 dotbelow-ar
 		[hah-ar.medi hah-ar.fina hah-ar.alt.fina]
 	;
-} rclt_wide_tooth_4;
+} rclt_wide_tooth_3;
 
-lookup rclt_wide_tooth_1 {
+lookup rclt_wide_tooth_4 {
 	lookupflag UseMarkFilteringSet @horizontal_dots_above;
 	sub	 @beh_init_medi' lookup insert_kashida_20
 		 @horizontal_dots_above
 		[alef-ar.fina lam-ar.medi lam-ar.fina]
 	;
-} rclt_wide_tooth_1;
+} rclt_wide_tooth_4;
+
+lookup rclt_wide_tooth_5 {
+	lookupflag UseMarkFilteringSet [@horizontal_dots_below hamzabelow-ar];
+	sub	 @beh_init_medi' lookup insert_kashida
+		 @horizontal_dots_below
+		 alef-ar.fina
+		 hamzabelow-ar
+	;
+} rclt_wide_tooth_5;
 ";
 tag = rclt;
 },
@@ -444,6 +454,24 @@ tag = mark;
 {
 code = "# Automatic Code";
 tag = mkmk;
+},
+{
+code = "lookup dots_1 {
+	lookupflag UseMarkFilteringSet [@horizontal_dots_below dotbelow-ar hamzabelow-ar];
+	ignore
+	pos	 @beh_init_medi
+		[@horizontal_dots_below dotbelow-ar]'
+		 alef-ar.fina
+		 hamzabelow-ar
+	;
+
+	pos	 @beh_init_medi
+		[@horizontal_dots_below dotbelow-ar]' <-40 0 0 0>
+		 alef-ar.fina
+	;
+} dots_1;
+";
+tag = dist;
 }
 );
 fontMaster = (
