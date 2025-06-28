@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (284,0);
+pos = (275,0);
 },
 {
 name = top;
-pos = (284,200);
+pos = (275,230);
 }
 );
 layerId = m01;
@@ -33,7 +33,7 @@ pos = (175,0);
 },
 {
 name = top;
-pos = (150,200);
+pos = (150,230);
 }
 );
 associatedMasterId = m01;
@@ -65,7 +65,7 @@ pos = (1200,0);
 },
 {
 name = top;
-pos = (1200,200);
+pos = (1200,230);
 }
 );
 associatedMasterId = m01;
