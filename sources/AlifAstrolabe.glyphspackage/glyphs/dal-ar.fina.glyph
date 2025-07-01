@@ -17,7 +17,7 @@ shapes = (
 {
 alignment = -1;
 pos = (550,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;
@@ -49,7 +49,7 @@ shapes = (
 {
 alignment = -1;
 pos = (300,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;
@@ -81,7 +81,7 @@ shapes = (
 {
 alignment = -1;
 pos = (2300,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;

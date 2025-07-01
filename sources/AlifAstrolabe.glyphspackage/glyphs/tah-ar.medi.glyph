@@ -17,7 +17,7 @@ shapes = (
 {
 alignment = -1;
 pos = (500,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;
@@ -25,7 +25,7 @@ ref = "tah-ar.isol";
 },
 {
 alignment = -1;
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 550;
@@ -53,7 +53,7 @@ shapes = (
 {
 alignment = -1;
 pos = (400,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;
@@ -61,7 +61,7 @@ ref = "tah-ar.isol";
 },
 {
 alignment = -1;
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 450;
@@ -89,7 +89,7 @@ shapes = (
 {
 alignment = -1;
 pos = (2300,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;
@@ -97,7 +97,7 @@ ref = "tah-ar.isol";
 },
 {
 alignment = -1;
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 2350;

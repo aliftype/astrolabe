@@ -11,7 +11,7 @@ ref = "seen-ar.isol";
 },
 {
 pos = (776,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 826;

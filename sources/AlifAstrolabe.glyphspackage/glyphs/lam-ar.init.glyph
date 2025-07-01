@@ -30,7 +30,7 @@ nodes = (
 );
 },
 {
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 100;

@@ -21,7 +21,7 @@ ref = "behDotless-ar.isol";
 },
 {
 pos = (500,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 550;
@@ -52,7 +52,7 @@ ref = "behDotless-ar.isol";
 },
 {
 pos = (300,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 350;
@@ -83,7 +83,7 @@ ref = "behDotless-ar.isol";
 },
 {
 pos = (2300,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 2350;

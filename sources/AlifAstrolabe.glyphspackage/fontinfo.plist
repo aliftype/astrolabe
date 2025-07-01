@@ -98,9 +98,9 @@ code = "lookup high_tooth {
 	sub behDotless-ar.fina	by behDotless-ar.fina.high;
 } high_tooth;
 
-lookup insert_kashida {
-	sub @beh_init_medi		by @beh_init_medi kashida-ar;
-} insert_kashida;
+lookup insert_kashida_50 {
+	sub @beh_init_medi		by @beh_init_medi kashida-ar.50;
+} insert_kashida_50;
 
 lookup insert_kashida_20 {
 	sub @beh_init_medi		by @beh_init_medi kashida-ar.20;
@@ -330,7 +330,7 @@ code = "lookup rclt_wide_tooth_1 {
 		 behDotless-ar.medi.high
 		 @horizontal_dots_above
 	;
-	sub	 @beh_init_medi' lookup insert_kashida
+	sub	 @beh_init_medi' lookup insert_kashida_50
 		 @horizontal_dots_above
 		 @beh_init_medi
 		 @horizontal_dots_above
@@ -363,7 +363,7 @@ lookup rclt_wide_tooth_4 {
 
 lookup rclt_wide_tooth_5 {
 	lookupflag UseMarkFilteringSet [@horizontal_dots_below hamzabelow-ar];
-	sub	 @beh_init_medi' lookup insert_kashida
+	sub	 @beh_init_medi' lookup insert_kashida_50
 		 @horizontal_dots_below
 		 alef-ar.fina
 		 hamzabelow-ar

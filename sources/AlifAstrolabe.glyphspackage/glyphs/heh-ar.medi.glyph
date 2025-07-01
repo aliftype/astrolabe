@@ -8,7 +8,7 @@ shapes = (
 {
 alignment = -1;
 pos = (400,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 ref = "heh-ar.init";

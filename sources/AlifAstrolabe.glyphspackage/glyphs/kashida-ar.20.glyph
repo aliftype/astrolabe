@@ -17,4 +17,7 @@ nodes = (
 width = 20;
 }
 );
+metricLeft = "=-10";
+metricRight = "=0";
+metricWidth = "=20";
 }

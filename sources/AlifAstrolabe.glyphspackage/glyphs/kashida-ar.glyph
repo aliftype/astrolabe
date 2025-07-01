@@ -15,7 +15,53 @@ nodes = (
 }
 );
 width = 50;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "3F5368F5-7F1E-477B-AF19-33060268D1EE";
+name = "1 Jul 25 at 22:50";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(0,50,l),
+(-10,50,l),
+(-10,0,l)
+);
 }
 );
+width = 0;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "7AC9F8AC-1071-4BBC-86F2-73FC3519D764";
+name = "1 Jul 25 at 22:49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1850,0,l),
+(1850,50,l),
+(-10,50,l),
+(-10,0,l)
+);
+}
+);
+width = 1850;
+}
+);
+metricLeft = "=-10";
+metricRight = "=0";
 unicode = 1600;
 }

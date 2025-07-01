@@ -18,7 +18,7 @@ shapes = (
 {
 alignment = -1;
 pos = (112,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;

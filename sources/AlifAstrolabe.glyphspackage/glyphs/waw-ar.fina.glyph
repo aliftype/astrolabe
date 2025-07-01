@@ -12,7 +12,7 @@ ref = "waw-ar.isol";
 {
 alignment = -1;
 pos = (239,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 289;

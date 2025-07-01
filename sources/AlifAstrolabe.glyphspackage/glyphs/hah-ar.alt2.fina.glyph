@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = -1;
 pos = (385,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 },
 {
 alignment = -1;
@@ -16,7 +16,7 @@ ref = "hah-ar.alt2.isol";
 {
 alignment = -1;
 pos = (360,0);
-ref = "kashida-ar";
+ref = "kashida-ar.50";
 }
 );
 width = 435;
