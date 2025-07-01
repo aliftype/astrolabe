@@ -42,5 +42,8 @@ nodes = (
 width = 175;
 }
 );
+metricLeft = "=period";
+metricRight = "=period";
+metricWidth = "=period";
 unicode = 58;
 }

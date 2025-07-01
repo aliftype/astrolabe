@@ -1,0 +1,20 @@
+{
+glyphname = backslash;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,400);
+ref = slash;
+scale = (1,-1);
+}
+);
+width = 300;
+}
+);
+metricLeft = "=|slash";
+metricRight = "=|slash";
+metricWidth = "=slash";
+unicode = 92;
+}

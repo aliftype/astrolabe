@@ -565,10 +565,10 @@ pos = -400;
 name = Regular;
 userData = {
 GSCornerRadius = 25;
-GSOffsetHorizontal = 10;
+GSOffsetHorizontal = 25;
 GSOffsetMakeStroke = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 25;
+GSOffsetPosition = 0.1;
+GSOffsetVertical = 5;
 };
 visible = 1;
 }
@@ -598,11 +598,16 @@ m01 = {
 "@MMK_L_alef" = -30;
 };
 "reh-ar.fina" = {
+braceleft = 20;
+bracketleft = 20;
 "lam-ar.isol.alt" = -40;
 };
 "reh-ar.isol" = {
 "@MMK_L_hah" = 90;
+braceleft = 50;
+bracketleft = 50;
 "lam-ar.isol.alt" = -40;
+parenleft = 50;
 };
 "sad-ar.init" = {
 "reh-ar.fina" = -50;

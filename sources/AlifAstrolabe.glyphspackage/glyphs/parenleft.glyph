@@ -1,0 +1,30 @@
+{
+glyphname = parenleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,-93,l),
+(120,91,o),
+(120,309,o),
+(230,493,c),
+(221,500,l),
+(150,425,o),
+(100,305,o),
+(100,200,cs),
+(100,95,o),
+(150,-25,o),
+(221,-100,c)
+);
+}
+);
+width = 280;
+}
+);
+metricLeft = "=100";
+metricRight = "=50";
+unicode = 40;
+}

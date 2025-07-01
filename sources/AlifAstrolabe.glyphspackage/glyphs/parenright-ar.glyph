@@ -1,0 +1,10 @@
+{
+glyphname = "parenright-ar";
+layers = (
+{
+layerId = m01;
+width = 400;
+}
+);
+unicode = 64831;
+}

@@ -1,0 +1,10 @@
+{
+glyphname = exclam;
+layers = (
+{
+layerId = m01;
+width = 400;
+}
+);
+unicode = 33;
+}
