@@ -6,23 +6,18 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (350,0);
-ref = "kashida-ar.50";
+pos = (355,0);
+ref = "kashida-ar.70";
 },
 {
 alignment = -1;
 ref = "hah-ar.alt.isol";
-},
-{
-alignment = -1;
-pos = (375,0);
-ref = "kashida-ar.50";
 }
 );
 width = 425;
 }
 );
-metricLeft = "=hah-ar.alt";
+metricLeft = "=hah-ar.alt.isol";
 metricRight = "=0";
-metricWidth = "=hah-ar.alt";
+metricWidth = "=hah-ar.alt.isol";
 }

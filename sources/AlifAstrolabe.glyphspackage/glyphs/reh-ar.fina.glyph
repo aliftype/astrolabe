@@ -6,18 +6,13 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (200,0);
-ref = "kashida-ar.50";
-},
-{
-alignment = -1;
 pos = (0,-75);
 ref = "reh-ar.isol";
 },
 {
 alignment = -1;
-pos = (167,0);
-ref = "kashida-ar.50";
+pos = (180,0);
+ref = "kashida-ar.70";
 }
 );
 width = 250;

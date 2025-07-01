@@ -16,37 +16,27 @@ ref = _ain1;
 },
 {
 alignment = -1;
-ref = "kashida-ar.50";
+ref = "kashida-ar.70";
 },
 {
 alignment = -1;
-pos = (48,0);
-ref = "kashida-ar.50";
+pos = (71,0);
+ref = "kashida-ar.70";
 },
 {
 alignment = -1;
-pos = (97,0);
-ref = "kashida-ar.50";
+pos = (140,0);
+ref = "kashida-ar.70";
 },
 {
 alignment = -1;
-pos = (149,0);
-ref = "kashida-ar.50";
+pos = (210,0);
+ref = "kashida-ar.70";
 },
 {
 alignment = -1;
-pos = (200,0);
-ref = "kashida-ar.50";
-},
-{
-alignment = -1;
-pos = (250,0);
-ref = "kashida-ar.50";
-},
-{
-alignment = -1;
-pos = (300,0);
-ref = "kashida-ar.50";
+pos = (280,0);
+ref = "kashida-ar.70";
 }
 );
 width = 350;
