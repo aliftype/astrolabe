@@ -2,6 +2,16 @@
 glyphname = "kashida-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (25,0);
+},
+{
+name = top;
+pos = (25,50);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +27,15 @@ nodes = (
 width = 50;
 },
 {
+anchors = (
+{
+name = bottom;
+},
+{
+name = top;
+pos = (0,50);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
@@ -39,6 +58,16 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (925,0);
+},
+{
+name = top;
+pos = (925,50);
+}
+);
 associatedMasterId = m01;
 attr = {
 coordinates = (
