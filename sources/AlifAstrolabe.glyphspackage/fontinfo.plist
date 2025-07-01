@@ -20,6 +20,28 @@ behDotless-ar.medi
 behDotless-ar.medi.high
 ";
 name = beh_init_medi;
+},
+{
+code = "";
+name = reh_waw;
+},
+{
+code = "twodotshorizontalabove-ar
+threedotsupabove-ar
+";
+name = horizontal_dots_above;
+},
+{
+code = "twodotshorizontalbelow-ar
+threedotsdownbelow-ar
+";
+name = horizontal_dots_below;
+},
+{
+code = "kasratan-ar
+kasra-ar
+";
+name = bottom_marks;
 }
 );
 customParameters = (
@@ -259,7 +281,14 @@ lookup rlig_teeth {
 		[behDotless-ar.medi behDotless-ar.fina]' lookup high_tooth
 	;
 } rlig_teeth;
-";
+
+lookup rlig_reh_lam {
+	lookupflag IgnoreMarks;
+	sub	[reh-ar.isol reh-ar.fina waw-ar.isol waw-ar.fina]
+		 lam-ar.isol'
+	by	 lam-ar.isol.alt
+	;
+} rlig_reh_lam;";
 tag = rlig;
 },
 {
@@ -284,10 +313,7 @@ value = "حروف مهملة (بلا نقاط)";
 tag = ss01;
 },
 {
-code = "@horizontal_dots_above = [twodotshorizontalabove-ar threedotsupabove-ar];
-@horizontal_dots_below = [twodotshorizontalbelow-ar threedotsdownbelow-ar];
-
-lookup rclt_wide_tooth_1 {
+code = "lookup rclt_wide_tooth_1 {
 	lookupflag UseMarkFilteringSet [@horizontal_dots_above dotabove-ar];
 	sub	 @beh_init_medi' lookup insert_kashida_20
 		 @horizontal_dots_above
@@ -470,6 +496,37 @@ code = "lookup dots_1 {
 		 alef-ar.fina
 	;
 } dots_1;
+
+lookup bottom_1 {
+	lookupflag UseMarkFilteringSet @bottom_marks;
+	pos	 reh-ar.isol
+		[behDotless-ar.init behDotless-ar.init.high lam-ar.init fehDotless-ar.init]
+		 @bottom_marks' <0 -50 0 0>
+	;
+	pos	 reh-ar.isol
+		 @bottom_marks
+		[behDotless-ar.init behDotless-ar.init.high lam-ar.init fehDotless-ar.init]
+		 @bottom_marks' <0 -50 0 0>
+	;
+	pos	 reh-ar.fina
+		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		 @bottom_marks' <0 50 0 0>
+	;
+	pos	 reh-ar.fina
+		 @bottom_marks
+		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		 @bottom_marks' <0 50 0 0>
+	;
+	pos	[waw-ar.isol waw-ar.fina]
+		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		 @bottom_marks' <0 -70 0 0>
+	;
+	pos	[waw-ar.isol waw-ar.fina]
+		 @bottom_marks
+		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		 @bottom_marks' <0 -70 0 0>
+	;
+} bottom_1;
 ";
 tag = dist;
 }
@@ -539,8 +596,12 @@ m01 = {
 "@MMK_R_heh" = {
 "@MMK_L_alef" = -30;
 };
+"reh-ar.fina" = {
+"lam-ar.isol.alt" = -40;
+};
 "reh-ar.isol" = {
 "@MMK_L_hah" = 90;
+"lam-ar.isol.alt" = -40;
 };
 "sad-ar.init" = {
 "reh-ar.fina" = -50;
@@ -552,9 +613,11 @@ m01 = {
 };
 "waw-ar.fina" = {
 "@MMK_L_hah" = 35;
+"lam-ar.isol.alt" = -50;
 };
 "waw-ar.isol" = {
 "@MMK_L_hah" = 45;
+"lam-ar.isol.alt" = -50;
 };
 };
 };

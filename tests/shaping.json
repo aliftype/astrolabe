@@ -142,6 +142,91 @@
     },
     {
       "only": "AlifAstrolabe.ttf",
+      "input": "عزلِ",
+      "expectation": "kasra-ar=2@75,51+0|lam-ar.isol.alt=2+350|dotabove-ar=1@10,201+0|reh-ar.fina=1@-40,0+210|ain-ar.init=0+350"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "رَل",
+      "expectation": "lam-ar.isol.alt=2+350|fatha-ar=0@-27,-124+0|reh-ar.isol=0@-40,0+210"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "زَل",
+      "expectation": "lam-ar.isol.alt=2+350|fatha-ar=0@-27,-49+0|dotabove-ar=0@10,276+0|reh-ar.isol=0@-40,0+210"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "وَل",
+      "expectation": "lam-ar.isol.alt=2+350|fatha-ar=0@14,-175+0|waw-ar.isol=0@-50,0+245"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "عول",
+      "expectation": "lam-ar.isol.alt=2+350|waw-ar.fina=1@-50,0+239|ain-ar.init=0+350"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "رلِنا",
+      "expectation": "alef-ar.fina=4+100|dotabove-ar=3@-3,280+0|behDotless-ar.medi=3+162|kasra-ar=1@-75,1+0|lam-ar.init=1+100|reh-ar.isol=0+250"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "برلِنا",
+      "expectation": "alef-ar.fina=5+100|dotabove-ar=4@-3,280+0|behDotless-ar.medi=4+162|kasra-ar=2@-75,101+0|lam-ar.init=2+100|reh-ar.fina=1+250|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "بولِنا",
+      "expectation": "alef-ar.fina=5+100|dotabove-ar=4@-3,280+0|behDotless-ar.medi=4+162|kasra-ar=2@-75,-19+0|lam-ar.init=2+100|waw-ar.fina=1+289|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "بونِنا",
+      "expectation": "alef-ar.fina=5+100|dotabove-ar=4@-3,280+0|behDotless-ar.medi=4+162|kasra-ar=2@-55,-19+0|dotabove-ar=2@-33,280+0|behDotless-ar.init=2@-30,0+132|waw-ar.fina=1+289|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "ولِنا",
+      "expectation": "alef-ar.fina=4+100|dotabove-ar=3@-3,280+0|behDotless-ar.medi=3+162|kasra-ar=1@-75,-19+0|lam-ar.init=1+100|waw-ar.isol=0+295"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "رفِنا",
+      "expectation": "alef-ar.fina=4+100|dotabove-ar=3@-3,280+0|behDotless-ar.medi=3+162|kasra-ar=1@30,1+0|dotabove-ar=1@51,350+0|fehDotless-ar.init=1+261|reh-ar.isol=0+250"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "رِلِنا",
+      "expectation": "alef-ar.fina=5+100|dotabove-ar=4@-3,280+0|behDotless-ar.medi=4+162|kasra-ar=2@-75,1+0|lam-ar.init=2+100|kasra-ar=0@-25,-25+0|reh-ar.isol=0+250"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "برِلِنا",
+      "expectation": "alef-ar.fina=6+100|dotabove-ar=5@-3,280+0|behDotless-ar.medi=5+162|kasra-ar=3@-75,101+0|lam-ar.init=3+100|kasra-ar=1@-25,-100+0|reh-ar.fina=1+250|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "بوِلِنا",
+      "expectation": "alef-ar.fina=6+100|dotabove-ar=5@-3,280+0|behDotless-ar.medi=5+162|kasra-ar=3@-75,-19+0|lam-ar.init=3+100|kasra-ar=1@22,-50+0|waw-ar.fina=1+289|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "بوِنِنا",
+      "expectation": "alef-ar.fina=6+100|dotabove-ar=5@-3,280+0|behDotless-ar.medi=5+162|kasra-ar=3@-55,-19+0|dotabove-ar=3@-33,280+0|behDotless-ar.init=3@-30,0+132|kasra-ar=1@22,-50+0|waw-ar.fina=1+289|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "وِلِنا",
+      "expectation": "alef-ar.fina=5+100|dotabove-ar=4@-3,280+0|behDotless-ar.medi=4+162|kasra-ar=2@-75,-19+0|lam-ar.init=2+100|kasra-ar=0@22,-25+0|waw-ar.isol=0+295"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
+      "input": "رِفِنا",
+      "expectation": "alef-ar.fina=5+100|dotabove-ar=4@-3,280+0|behDotless-ar.medi=4+162|kasra-ar=2@30,1+0|dotabove-ar=2@51,350+0|fehDotless-ar.init=2+261|kasra-ar=0@-25,-25+0|reh-ar.isol=0+250"
+    },
+    {
+      "only": "AlifAstrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
       "expectation": "hamza-ar=10+450|space=8+0|space=8+0|space=6+0|hamza-ar=6+450|space=4+0|space=4+0|space=2+0|hamza-ar=2+450|space=1+0|hamza-ar=0+400"
     },
