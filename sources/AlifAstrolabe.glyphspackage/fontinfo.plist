@@ -567,7 +567,6 @@ userData = {
 GSCornerRadius = 50;
 GSOffsetHorizontal = 25;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 5;
 };
@@ -620,6 +619,9 @@ m01 = {
 };
 "@MMK_R_heh" = {
 "@MMK_L_alef" = -30;
+};
+"alef-ar.isol" = {
+"question-ar" = 33;
 };
 "reh-ar.fina" = {
 braceleft = 20;

@@ -3,8 +3,24 @@ glyphname = exclam;
 layers = (
 {
 layerId = m01;
-width = 400;
+shapes = (
+{
+closed = 1;
+nodes = (
+(63,550,l),
+(70,125,l),
+(106,125,l),
+(113,550,l)
+);
+},
+{
+ref = period;
 }
 );
+width = 175;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
 unicode = 33;
 }
