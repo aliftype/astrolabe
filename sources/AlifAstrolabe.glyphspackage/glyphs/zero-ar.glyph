@@ -1,10 +1,25 @@
 {
 glyphname = "zero-ar";
+kernLeft = "zero-ar";
+kernRight = "zero-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,235,l),
+(170,306,l),
+(100,235,l),
+(170,164,l)
+);
 }
 );
+width = 340;
+}
+);
+metricLeft = "=100";
+metricRight = "=100";
 unicode = (1632,1776);
 }

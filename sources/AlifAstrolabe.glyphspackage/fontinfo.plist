@@ -564,10 +564,11 @@ pos = -400;
 );
 name = Regular;
 userData = {
-GSCornerRadius = 25;
+GSCornerRadius = 50;
 GSOffsetHorizontal = 25;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 0.1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 5;
 };
 visible = 1;
@@ -584,6 +585,29 @@ m01 = 1;
 name = Regular;
 }
 );
+kerningLTR = {
+m01 = {
+"@MMK_L_eight-ar" = {
+"@MMK_R_one-ar" = -40;
+"@MMK_R_zero-ar" = -50;
+};
+"@MMK_L_seven-ar" = {
+"@MMK_R_eight-ar" = -40;
+};
+"@MMK_L_two-ar" = {
+"@MMK_R_zero-ar" = -50;
+};
+"@MMK_L_zero-ar" = {
+"@MMK_R_one-ar" = -30;
+"@MMK_R_six-ar" = -90;
+};
+"four-ar" = {
+"@MMK_R_one-ar" = -50;
+"@MMK_R_six-ar" = -80;
+"@MMK_R_zero-ar" = -50;
+};
+};
+};
 kerningRTL = {
 m01 = {
 "@MMK_R_beh" = {

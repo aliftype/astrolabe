@@ -1,9 +1,45 @@
 {
 glyphname = "fourFarsi-ar.urdu";
+kernLeft = "one-ar";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,18,l),
+(183,77,o),
+(100,266,o),
+(100,340,cs),
+(100,380,o),
+(121,400,o),
+(150,400,cs),
+(175,400,o),
+(200,369,o),
+(200,300,c),
+(240,270,l),
+(350,415,l),
+(310,445,l),
+(223,328,l),
+(250,315,l),
+(246,400,o),
+(204,450,o),
+(150,450,cs),
+(95,450,o),
+(50,409,o),
+(50,340,cs),
+(50,255,o),
+(132,70,o),
+(164,0,c)
+);
+}
+);
 width = 400;
 }
 );
+metricLeft = "=two-ar";
+metricRight = "=fourFarsi-ar";
+sortName = ar3140;
+sortNameKeep = ar3168.urdu;
 }

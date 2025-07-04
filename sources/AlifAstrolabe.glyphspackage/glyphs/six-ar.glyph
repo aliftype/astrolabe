@@ -1,10 +1,42 @@
 {
 glyphname = "six-ar";
+kernLeft = "six-ar";
+kernRight = "eight-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(370,21,l),
+(321,161,o),
+(303,314,o),
+(300,450,c),
+(253,417,l),
+(256,286,o),
+(276,135,o),
+(323,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,450,l),
+(217,430,o),
+(133,431,o),
+(50,450,c),
+(50,400,l),
+(127,383,o),
+(207,380,o),
+(285,395,c)
+);
 }
 );
+width = 420;
+}
+);
+metricLeft = "=50";
+metricRight = "=50";
 unicode = 1638;
 }

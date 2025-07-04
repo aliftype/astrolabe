@@ -1,10 +1,37 @@
 {
 glyphname = "seven-ar";
+kernLeft = "one-ar";
+kernRight = "seven-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,0,l),
+(286,146,o),
+(339,297,o),
+(400,440,c),
+(356,459,l),
+(292,313,o),
+(239,159,o),
+(202,10,c),
+(248,10,l),
+(211,159,o),
+(158,313,o),
+(94,459,c),
+(50,440,l),
+(111,297,o),
+(164,146,o),
+(200,0,c)
+);
 }
 );
+width = 450;
+}
+);
+metricLeft = "=one-ar";
+metricRight = "=|";
 unicode = 1639;
 }

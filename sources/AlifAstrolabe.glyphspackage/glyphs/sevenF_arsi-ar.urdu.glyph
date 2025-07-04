@@ -1,11 +1,54 @@
 {
 glyphname = "sevenFarsi-ar.urdu";
+kernLeft = "eight-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,70,o),
+(211,73,o),
+(103,54,c),
+(117,43,l),
+(168,165,o),
+(212,299,o),
+(246,433,c),
+(200,450,l),
+(164,304,o),
+(111,153,o),
+(50,10,c),
+(19,67,l),
+(118,-32,l),
+(51,-7,l),
+(188,23,o),
+(263,24,o),
+(391,0,c),
+(400,50,l)
+);
 }
 );
-metricLeft = "seven-ar";
-metricRight = "seven-ar";
+width = 450;
+},
+{
+associatedMasterId = m01;
+layerId = "1FF49FCB-87DF-4379-B77C-5694559C335D";
+name = "4 Jul 25 at 08:32";
+shapes = (
+{
+alignment = -1;
+pos = (-4,450);
+ref = "seven-ar";
+scale = (1,-1);
+}
+);
+visible = 1;
+width = 443;
+}
+);
+metricLeft = "=eight-ar@449";
+metricRight = "=four-ar";
+sortName = ar3149;
+sortNameKeep = ar3177.urdu;
 }

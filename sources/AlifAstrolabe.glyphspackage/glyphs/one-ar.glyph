@@ -1,10 +1,49 @@
 {
 glyphname = "one-ar";
+kernLeft = "one-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,10,l),
+(181,156,o),
+(147,306,o),
+(95,450,c),
+(50,430,l),
+(99,290,o),
+(132,143,o),
+(151,0,c)
+);
 }
 );
+width = 250;
+},
+{
+associatedMasterId = m01;
+layerId = "F56B1598-2763-43B6-95B8-2020382C4744";
+name = "4 Jul 25 at 07:11";
+shapes = (
+{
+closed = 1;
+nodes = (
+(214,10,l),
+(192,173,o),
+(157,342,o),
+(94,500,c),
+(50,481,l),
+(109,326,o),
+(145,160,o),
+(166,0,c)
+);
+}
+);
+width = 264;
+}
+);
+metricLeft = "=50";
+metricRight = "=50";
 unicode = (1633,1777);
 }

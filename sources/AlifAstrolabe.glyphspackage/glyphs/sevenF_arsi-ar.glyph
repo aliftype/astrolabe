@@ -1,12 +1,21 @@
 {
 glyphname = "sevenFarsi-ar";
+kernLeft = "one-ar";
+kernRight = "seven-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "seven-ar";
+}
+);
+width = 450;
 }
 );
 metricLeft = "seven-ar";
 metricRight = "seven-ar";
+sortName = ar3148;
+sortNameKeep = ar3177;
 unicode = 1783;
 }
