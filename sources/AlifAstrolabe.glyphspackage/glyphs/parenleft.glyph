@@ -7,6 +7,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(200,-143,l),
+(145,-56,o),
+(100,65,o),
+(100,200,cs),
+(100,336,o),
+(145,456,o),
+(200,543,c),
+(191,550,l),
+(111,472,o),
+(50,344,o),
+(50,200,cs),
+(50,57,o),
+(111,-72,o),
+(191,-150,c)
+);
+}
+);
+width = 250;
+},
+{
+associatedMasterId = m01;
+layerId = "1E7CD8CC-280C-4178-AABC-BCA6642E6CD0";
+name = "5 Jul 25 at 08:34";
+shapes = (
+{
+closed = 1;
+nodes = (
 (230,-93,l),
 (120,91,o),
 (120,309,o),
@@ -24,7 +51,7 @@ nodes = (
 width = 280;
 }
 );
-metricLeft = "=100";
+metricLeft = "=50";
 metricRight = "=50";
 unicode = 40;
 }

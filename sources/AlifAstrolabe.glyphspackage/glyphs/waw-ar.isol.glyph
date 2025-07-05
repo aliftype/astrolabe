@@ -1,5 +1,6 @@
 {
 glyphname = "waw-ar.isol";
+kernLeft = waw;
 layers = (
 {
 anchors = (

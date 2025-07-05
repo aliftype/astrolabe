@@ -620,18 +620,25 @@ m01 = {
 "@MMK_R_heh" = {
 "@MMK_L_alef" = -30;
 };
+"@MMK_R_waw" = {
+bracketleft = 20;
+bracketright = 20;
+parenleft = 20;
+};
 "alef-ar.isol" = {
 "question-ar" = 33;
 };
 "reh-ar.fina" = {
+bar = 20;
 braceleft = 20;
-bracketleft = 20;
+bracketleft = 30;
 "lam-ar.isol.alt" = -40;
 };
 "reh-ar.isol" = {
 "@MMK_L_hah" = 90;
+bar = 60;
 braceleft = 50;
-bracketleft = 50;
+bracketleft = 60;
 "lam-ar.isol.alt" = -40;
 parenleft = 50;
 };
@@ -645,10 +652,13 @@ parenleft = 50;
 };
 "waw-ar.fina" = {
 "@MMK_L_hah" = 35;
+bar = 20;
+braceleft = 20;
 "lam-ar.isol.alt" = -50;
 };
 "waw-ar.isol" = {
 "@MMK_L_hah" = 45;
+bar = 20;
 "lam-ar.isol.alt" = -50;
 };
 };
