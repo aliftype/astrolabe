@@ -3,6 +3,15 @@ glyphname = "semicolon-ar";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+pos = (0,-125);
+ref = period;
+},
+{
+ref = "comma-ar";
+}
+);
 width = 175;
 }
 );
