@@ -3,8 +3,18 @@ glyphname = "parenright-ar";
 layers = (
 {
 layerId = m01;
-width = 400;
+shapes = (
+{
+angle = 180;
+pos = (422,400);
+ref = "parenleft-ar";
 }
 );
+width = 422;
+}
+);
+metricLeft = "=|parenleft-ar";
+metricRight = "=|parenleft-ar";
+metricWidth = "=parenleft-ar";
 unicode = 64831;
 }
