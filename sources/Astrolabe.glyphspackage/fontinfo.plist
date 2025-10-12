@@ -124,6 +124,9 @@ feature rclt;
 feature ss02;
 feature ss03;
 feature ss04;
+feature ss05;
+feature ss06;
+feature ss07;
 ";
 tag = aalt;
 },
