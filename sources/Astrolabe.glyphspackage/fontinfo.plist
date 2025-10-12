@@ -115,12 +115,7 @@ name = Lookups;
 );
 features = (
 {
-automatic = 1;
-code = "feature init;
-feature medi;
-feature fina;
-feature ss01;
-feature rclt;
+code = "feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
