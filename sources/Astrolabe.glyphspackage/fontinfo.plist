@@ -491,7 +491,22 @@ code = "# Automatic Code";
 tag = mark;
 },
 {
-code = "# Automatic Code";
+code = "# Automatic Code
+
+lookup tah_tashkil_1 {
+	lookupflag UseMarkFilteringSet [dotabove-ar fatha-ar fathatan-ar damma-ar dammatan-ar shadda-ar sukun-ar];
+	pos	[tah-ar.isol tah-ar.init tah-ar.medi tah-ar.fina]
+		 dotabove-ar
+		[fatha-ar fathatan-ar damma-ar dammatan-ar shadda-ar sukun-ar]' <0 100 0 0>
+	;
+} tah_tashkil_1;
+
+lookup tah_tashkil_2 {
+	lookupflag UseMarkFilteringSet [shadda-ar sukun-ar];
+	pos	[tah-ar.isol tah-ar.init tah-ar.medi tah-ar.fina]
+		[shadda-ar sukun-ar]' <0 -100 0 0>
+	;
+} tah_tashkil_2;";
 tag = mkmk;
 },
 {

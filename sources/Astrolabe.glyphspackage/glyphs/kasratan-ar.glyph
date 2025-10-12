@@ -2,6 +2,16 @@
 glyphname = "kasratan-ar";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+pos = (75,-51);
+},
+{
+name = _bottom.mkmk;
+pos = (75,-100);
+}
+);
 layerId = m01;
 shapes = (
 {

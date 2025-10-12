@@ -15,8 +15,13 @@ pos = (75,-100);
 layerId = m01;
 shapes = (
 {
-pos = (0,-650);
-ref = "fatha-ar";
+closed = 1;
+nodes = (
+(150,-171,l),
+(146,-150,l),
+(0,-185,l),
+(3,-200,l)
+);
 }
 );
 width = 150;
