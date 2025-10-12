@@ -283,12 +283,12 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ج ج‍ ‍ج‍ ‍ج",
-      "expectation": "dotbelow-ar=10@262,-125+0|hah-ar.alt2.fina=10+435|space=8+0|space=8+0|space=6+0|dotbelow-ar=6@62,-125+0|hah-ar.medi=6+325|space=4+0|space=4+0|space=2+0|dotbelow-ar=2@62,-125+0|hah-ar.init=2+325|space=1+0|dotbelow-ar=0@262,-125+0|hah-ar.alt2.isol=0+435"
+      "expectation": "dotbelow-ar=10@262,-125+0|hah-ar.alt2.fina=10+485|space=8+0|space=8+0|space=6+0|dotbelow-ar=6@62,-125+0|hah-ar.medi=6+325|space=4+0|space=4+0|space=2+0|dotbelow-ar=2@62,-125+0|hah-ar.init=2+325|space=1+0|dotbelow-ar=0@262,-125+0|hah-ar.alt2.isol=0+435"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "چ چ‍ ‍چ‍ ‍چ",
-      "expectation": "threedotsdownbelow-ar=10@182,-125+0|hah-ar.alt3.fina=10+435|space=8+0|space=8+0|space=6+0|threedotsdownbelow-ar=6@12,-125+0|hah-ar.medi=6+325|space=4+0|space=4+0|space=2+0|threedotsdownbelow-ar=2@12,-125+0|hah-ar.init=2+325|space=1+0|threedotsdownbelow-ar=0@182,-125+0|hah-ar.alt3.isol=0+435"
+      "expectation": "threedotsdownbelow-ar=10@182,-125+0|hah-ar.alt3.fina=10+485|space=8+0|space=8+0|space=6+0|threedotsdownbelow-ar=6@12,-125+0|hah-ar.medi=6+325|space=4+0|space=4+0|space=2+0|threedotsdownbelow-ar=2@12,-125+0|hah-ar.init=2+325|space=1+0|threedotsdownbelow-ar=0@182,-125+0|hah-ar.alt3.isol=0+435"
     },
     {
       "only": "Astrolabe.ttf",
