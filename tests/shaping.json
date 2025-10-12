@@ -463,7 +463,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ے ے‍ ‍ے‍ ‍ے",
-      "expectation": "yehbarree-ar.fina=10+650|space=8+0|space=8+0|space=6+0|yehbarree-ar.fina=6+650|space=4+0|space=4+0|space=2+0|yehbarree-ar.isol=2+700|space=1+0|yehbarree-ar.isol=0+650"
+      "expectation": "yehbarree-ar=10+800|space=8+0|space=8+0|space=6+0|yehbarree-ar=6+800|space=4+0|space=4+0|space=2+0|yehbarree-ar=2+800|space=1+0|yehbarree-ar=0+750"
     },
     {
       "only": "Astrolabe.ttf",
@@ -658,7 +658,6 @@
       "yeh-ar",
       "yehHamzaabove-ar",
       "yehFarsi-ar",
-      "yehbarree-ar",
       ".notdef"
     ]
   }

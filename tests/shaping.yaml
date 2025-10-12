@@ -47,7 +47,7 @@ configuration:
     - yeh-ar
     - yehHamzaabove-ar
     - yehFarsi-ar
-    - yehbarree-ar
+   #- yehbarree-ar
     - .notdef
 
 input:
