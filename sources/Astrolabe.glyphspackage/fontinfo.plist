@@ -643,6 +643,7 @@ parenleft = 20;
 "question-ar" = 33;
 };
 "reh-ar.fina" = {
+"@MMK_L_hah" = -20;
 bar = 20;
 braceleft = 20;
 bracketleft = 30;

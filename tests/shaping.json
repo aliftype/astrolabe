@@ -227,6 +227,31 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "الرجل",
+      "expectation": "lam-ar.fina=4+350|dotbelow-ar=3@62,-125+0|hah-ar.init=3+275|reh-ar.fina=2@-20,0+230|lam-ar.init=1+100|alef-ar.isol=0+200"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "رحل",
+      "expectation": "lam-ar.fina=2+350|hah-ar.init=1+275|reh-ar.isol=0@90,0+340"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "لرحا",
+      "expectation": "alef-ar.fina=3+100|hah-ar.init=2+275|reh-ar.fina=1@-20,0+230|lam-ar.init=0+100"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "الرجِيم",
+      "expectation": "meem-ar.fina=6+417|twodotshorizontalbelow-ar=5@-38,-125+0|behDotless-ar.medi=5+162|kasra-ar=3@25,-25+0|dotbelow-ar=3@62,-125+0|hah-ar.init=3+275|reh-ar.fina=2@-20,0+230|lam-ar.init=1+100|alef-ar.isol=0+200"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "الرحِم",
+      "expectation": "meem-ar.fina=5+417|kasra-ar=3@25,51+0|hah-ar.init=3+275|reh-ar.fina=2@-20,0+230|lam-ar.init=1+100|alef-ar.isol=0+200"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
       "expectation": "hamza-ar=10+450|space=8+0|space=8+0|space=6+0|hamza-ar=6+450|space=4+0|space=4+0|space=2+0|hamza-ar=2+450|space=1+0|hamza-ar=0+400"
     },
