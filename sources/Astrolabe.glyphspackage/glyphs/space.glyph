@@ -1,5 +1,4 @@
 {
-category = Mark;
 glyphname = space;
 layers = (
 {
@@ -8,6 +7,5 @@ width = 50;
 }
 );
 metricWidth = "=50";
-subCategory = Nonspacing;
 unicode = (32,160);
 }

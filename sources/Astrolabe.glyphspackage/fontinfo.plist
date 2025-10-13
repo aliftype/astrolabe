@@ -464,27 +464,13 @@ value = "ياء مفردة بديلة";
 tag = ss07;
 },
 {
-code = "# Automatic Code";
-tag = kern;
-},
-{
-code = "# Add width back to the space glyph (since it is a mark glyph and its advance width is zeroed)
-# We can’t really add advance to a mark glyph, so we add it to the glyph after it.
-lookup space_arab {
-	script arab;
-	language dflt required;
-	lookupflag UseMarkFilteringSet [space];
-	pos space @All' <0 0 ${space:width} 0>;
-} space_arab;
+code = "# Automatic Code
 
-lookup space_DFLT {
-	script DFLT;
-	language dflt required;
-	lookupflag UseMarkFilteringSet [space];
-	pos space @All' <${space:width} 0 ${space:width} 0>;
-} space_DFLT;
-";
-tag = dist;
+pos	 reh-ar.isol' <90 0 90 0>
+	 space
+	[$[rightKerningGroup MATCHES \"hah\"]]
+;";
+tag = kern;
 },
 {
 code = "# Automatic Code";
