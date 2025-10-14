@@ -24,16 +24,16 @@ name = caret_2;
 pos = (325,0);
 },
 {
-name = top_1;
+name = top.mkmk_1;
 pos = (375,500);
 },
 {
-name = top_2;
+name = top.mkmk_2;
 pos = (201,500);
 },
 {
-name = top_3;
-pos = (75,350);
+name = top.mkmk_3;
+pos = (75,330);
 }
 );
 layerId = m01;

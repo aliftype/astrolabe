@@ -290,8 +290,10 @@ lookup rlig_reh_lam {
 tag = rlig;
 },
 {
-code = "sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar.isol;
-";
+code = "lookup liga_lellah {
+	lookupflag IgnoreMarks;
+	sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar.isol;
+} liga_lellah;";
 tag = liga;
 },
 {

@@ -267,6 +267,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "اللَّه",
+      "expectation": "fatha-ar=1@112,178+0|shadda-ar=1@126,100+0|lam_lam_heh-ar.isol=1+450|alef-ar.isol=0+200"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
       "expectation": "hamza-ar=10+400|space=8+0|space=8+50|space=6+0|hamza-ar=6+400|space=4+0|space=4+50|space=2+0|hamza-ar=2+400|space=1+50|hamza-ar=0+400"
     },
