@@ -282,6 +282,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "برةِ رةِ رةٍ رِةِ رٍةِ",
+      "expectation": "kasra-ar=20@41,1+0|twodotshorizontalabove-ar=20@23,400+0|heh-ar.isol=20+280|kasratan-ar=18@-25,-25+0|reh-ar.isol=18+250|space=17+50|kasra-ar=15@41,1+0|twodotshorizontalabove-ar=15@23,400+0|heh-ar.isol=15+280|kasra-ar=13@-25,-25+0|reh-ar.isol=13+250|space=12+50|kasratan-ar=10@41,1+0|twodotshorizontalabove-ar=10@23,400+0|heh-ar.isol=10+280|reh-ar.isol=9+250|space=8+50|kasra-ar=6@41,1+0|twodotshorizontalabove-ar=6@23,400+0|heh-ar.isol=6+280|reh-ar.isol=5+250|space=4+50|kasra-ar=2@41,51+0|twodotshorizontalabove-ar=2@23,400+0|heh-ar.isol=2+280|reh-ar.fina=1+250|dotbelow-ar=0@12,-125+0|behDotless-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
       "expectation": "hamza-ar=10+400|space=8+0|space=8+50|space=6+0|hamza-ar=6+400|space=4+0|space=4+50|space=2+0|hamza-ar=2+400|space=1+50|hamza-ar=0+400"
     },

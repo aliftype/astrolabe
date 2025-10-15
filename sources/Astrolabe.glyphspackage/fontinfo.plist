@@ -483,6 +483,19 @@ lookup mark_tah {
 		[shadda-ar sukun-ar]' <0 -100 0 0>
 	;
 } mark_tah;
+
+lookup mark_teh_marbuta {
+	lookupflag UseMarkFilteringSet [kasra-ar kasratan-ar];
+	pos	 reh-ar.isol
+		 heh-ar.isol
+		[kasra-ar kasratan-ar]' <0 -50 0 0>
+	;
+	pos	 reh-ar.isol
+		[kasra-ar kasratan-ar]
+		 heh-ar.isol
+		[kasra-ar kasratan-ar]' <0 -50 0 0>
+	;
+} mark_teh_marbuta;
 ";
 tag = mark;
 },
