@@ -492,6 +492,15 @@ lookup mark_dots_1 {
 	;
 } mark_dots_1;
 
+lookup mark_dots_2 {
+	lookupflag UseMarkFilteringSet @horizontal_dots_below;
+
+	pos	 reh-ar.fina
+		[behDotless-ar.init behDotless-ar.init.high]
+		 @horizontal_dots_below' <0 25 0 0>
+	;
+} mark_dots_2;
+
 lookup mark_bottom_1 {
 	lookupflag UseMarkFilteringSet @bottom_marks;
 	pos	 reh-ar.isol
