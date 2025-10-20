@@ -258,27 +258,27 @@
     {
       "only": "Astrolabe.ttf",
       "input": "الكَلَامُ",
-      "expectation": "damma-ar=7@234,-238+0|meem-ar.isol=7+417|fatha-ar=4@207,150+0|lam_alef-ar.fina=4+350|fatha-ar=2@325,-150+0|kaf-ar.medi=2+550|lam-ar.init=1+100|alef-ar.isol=0+200"
+      "expectation": "damma-ar=7@224,-238+0|meem-ar.isol=7+417|fatha-ar=4@207,150+0|lam_alef-ar.fina=4+350|fatha-ar=2@325,-150+0|kaf-ar.medi=2+550|lam-ar.init=1+100|alef-ar.isol=0+200"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "لَاُ",
-      "expectation": "damma-ar=0@-23,150+0|fatha-ar=0@207,150+0|lam_alef-ar.isol=0+350"
+      "expectation": "damma-ar=0@-33,150+0|fatha-ar=0@207,150+0|lam_alef-ar.isol=0+350"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "اللَّه",
-      "expectation": "fatha-ar=1@112,178+0|shadda-ar=1@126,100+0|lam_lam_heh-ar.isol=1+450|alef-ar.isol=0+200"
+      "expectation": "fatha-ar=1@114,178+0|shadda-ar=1@126,100+0|lam_lam_heh-ar.isol=1+450|alef-ar.isol=0+200"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "طَ طْ طّ طَّ طِّ",
-      "expectation": "kasra-ar=13@212,51+0|shadda-ar=13@331,-250+0|tah-ar.isol=13+550|space=12+50|fatha-ar=9@317,-172+0|shadda-ar=9@331,-250+0|tah-ar.isol=9+550|space=8+50|shadda-ar=6@331,-250+0|tah-ar.isol=6+550|space=5+50|sukun-ar=3@356,-240+0|tah-ar.isol=3+550|space=2+50|fatha-ar=0@331,-150+0|tah-ar.isol=0+550"
+      "expectation": "kasra-ar=13@212,51+0|shadda-ar=13@331,-250+0|tah-ar.isol=13+550|space=12+50|fatha-ar=9@319,-172+0|shadda-ar=9@331,-250+0|tah-ar.isol=9+550|space=8+50|shadda-ar=6@331,-250+0|tah-ar.isol=6+550|space=5+50|sukun-ar=3@356,-240+0|tah-ar.isol=3+550|space=2+50|fatha-ar=0@331,-150+0|tah-ar.isol=0+550"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "ظَ ظُ ظْ ظّ ظَّ ظِّ",
-      "expectation": "kasra-ar=16@212,51+0|shadda-ar=16@331,25+0|dotabove-ar=16@368,250+0|tah-ar.isol=16+550|space=15+50|fatha-ar=12@317,103+0|shadda-ar=12@331,25+0|dotabove-ar=12@368,250+0|tah-ar.isol=12+550|space=11+50|shadda-ar=9@331,25+0|dotabove-ar=9@368,250+0|tah-ar.isol=9+550|space=8+50|sukun-ar=6@356,35+0|dotabove-ar=6@368,250+0|tah-ar.isol=6+550|space=5+50|damma-ar=3@356,25+0|dotabove-ar=3@368,250+0|tah-ar.isol=3+550|space=2+50|fatha-ar=0@331,25+0|dotabove-ar=0@368,250+0|tah-ar.isol=0+550"
+      "expectation": "kasra-ar=16@212,51+0|shadda-ar=16@331,25+0|dotabove-ar=16@368,250+0|tah-ar.isol=16+550|space=15+50|fatha-ar=12@319,103+0|shadda-ar=12@331,25+0|dotabove-ar=12@368,250+0|tah-ar.isol=12+550|space=11+50|shadda-ar=9@331,25+0|dotabove-ar=9@368,250+0|tah-ar.isol=9+550|space=8+50|sukun-ar=6@356,35+0|dotabove-ar=6@368,250+0|tah-ar.isol=6+550|space=5+50|damma-ar=3@346,25+0|dotabove-ar=3@368,250+0|tah-ar.isol=3+550|space=2+50|fatha-ar=0@331,25+0|dotabove-ar=0@368,250+0|tah-ar.isol=0+550"
     },
     {
       "only": "Astrolabe.ttf",
