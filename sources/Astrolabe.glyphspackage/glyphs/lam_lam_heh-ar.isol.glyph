@@ -24,15 +24,15 @@ name = caret_2;
 pos = (325,0);
 },
 {
-name = top.mkmk_1;
+name = topAlt_1;
 pos = (375,500);
 },
 {
-name = top.mkmk_2;
+name = topAlt_2;
 pos = (201,500);
 },
 {
-name = top.mkmk_3;
+name = topAlt_3;
 pos = (75,330);
 }
 );

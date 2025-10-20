@@ -16,11 +16,11 @@ name = caret_1;
 pos = (150,0);
 },
 {
-name = top.mkmk_1;
+name = topAlt_1;
 pos = (282,550);
 },
 {
-name = top.mkmk_2;
+name = topAlt_2;
 pos = (27,550);
 },
 {

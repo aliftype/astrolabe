@@ -8,7 +8,7 @@ name = _top;
 pos = (88,-50);
 },
 {
-name = top.mkmk;
+name = topAlt;
 pos = (88,150);
 }
 );

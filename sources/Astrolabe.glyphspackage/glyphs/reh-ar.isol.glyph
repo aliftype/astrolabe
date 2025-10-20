@@ -4,7 +4,7 @@ layers = (
 {
 anchors = (
 {
-name = bottom.mkmk;
+name = bottomAlt;
 pos = (50,-125);
 },
 {

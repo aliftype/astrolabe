@@ -4,11 +4,11 @@ layers = (
 {
 anchors = (
 {
-name = bottom.mkmk;
+name = bottomAlt;
 pos = (150,-125);
 },
 {
-name = top.mkmk;
+name = topAlt;
 pos = (248,550);
 }
 );

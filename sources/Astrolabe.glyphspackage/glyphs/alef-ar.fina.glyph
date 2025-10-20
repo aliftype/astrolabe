@@ -13,7 +13,7 @@ name = top;
 pos = (25,550);
 },
 {
-name = top.mkmk;
+name = topAlt;
 pos = (25,550);
 }
 );

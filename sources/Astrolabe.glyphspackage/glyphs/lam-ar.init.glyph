@@ -7,7 +7,7 @@ anchors = (
 name = bottom;
 },
 {
-name = top.mkmk;
+name = topAlt;
 pos = (0,550);
 }
 );

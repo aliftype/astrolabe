@@ -8,7 +8,7 @@ name = bottom;
 pos = (394,0);
 },
 {
-name = bottom.mkmk;
+name = bottomAlt;
 pos = (250,-50);
 },
 {
@@ -36,7 +36,7 @@ name = bottom;
 pos = (194,0);
 },
 {
-name = bottom.mkmk;
+name = bottomAlt;
 pos = (150,-50);
 },
 {
@@ -71,7 +71,7 @@ name = bottom;
 pos = (2194,0);
 },
 {
-name = bottom.mkmk;
+name = bottomAlt;
 pos = (1200,-50);
 },
 {

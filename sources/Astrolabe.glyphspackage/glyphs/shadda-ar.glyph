@@ -8,11 +8,11 @@ name = _top;
 pos = (75,350);
 },
 {
-name = _top.mkmk;
+name = _topAlt;
 pos = (75,400);
 },
 {
-name = top.mkmk;
+name = topAlt;
 pos = (63,478);
 }
 );
