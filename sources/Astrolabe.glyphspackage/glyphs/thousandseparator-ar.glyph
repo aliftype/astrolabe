@@ -3,8 +3,19 @@ glyphname = "thousandseparator-ar";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (133,360);
+ref = "decimalseparator-ar";
 }
 );
+width = 133;
+}
+);
+metricLeft = "=|decimalseparator-ar";
+metricRight = "=|decimalseparator-ar";
+metricWidth = "=decimalseparator-ar";
 unicode = 1644;
 }

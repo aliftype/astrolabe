@@ -634,6 +634,9 @@ m01 = {
 "@MMK_R_six-ar" = -80;
 "@MMK_R_zero-ar" = -50;
 };
+"thousandseparator-ar" = {
+"@MMK_R_six-ar" = 30;
+};
 };
 };
 kerningRTL = {
