@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -42,6 +42,15 @@ code = "kasratan-ar
 kasra-ar
 ";
 name = bottom_marks;
+},
+{
+code = "dotabove-ar
+dotbelow-ar
+twodotshorizontalabove-ar
+twodotshorizontalbelow-ar
+threedotsupabove-ar
+threedotsdownbelow-ar";
+name = dots;
 }
 );
 customParameters = (
@@ -109,6 +118,11 @@ lookup insert_kashida_20 {
 lookup insert_kashida_70 {
 	sub @beh_init_medi		by @beh_init_medi kashida-ar.70;
 } insert_kashida_70;
+
+lookup reorder_kashida {
+	sub kashida-ar			by NULL;
+	sub @dots				by kashida-ar.dots @dots;
+} reorder_kashida;
 ";
 name = Lookups;
 }
@@ -369,6 +383,20 @@ lookup rclt_wide_tooth_5 {
 		 hamzabelow-ar
 	;
 } rclt_wide_tooth_5;
+
+lookup rclt_kashida_marks {
+	lookupflag 0;
+	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+		 @dots' lookup reorder_kashida
+		 kashida-ar
+	;
+
+	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+		 kashida-ar.dots
+		 @dots
+		 kashida-ar' lookup reorder_kashida
+	;
+} rclt_kashida_marks;
 ";
 tag = rclt;
 },
