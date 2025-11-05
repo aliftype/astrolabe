@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-aliftools[filters,sample,shaping]==0.1.5
+aliftools[filters,sample,shaping]==0.1.6
     # via -r requirements.in
 attrs==25.4.0
     # via ufolib2
@@ -34,7 +34,7 @@ fonttools[lxml,ufo,unicode]==4.60.1
     #   glyphslib
     #   ufo2ft
     #   ufolib2
-glyphslib==6.12.1
+glyphslib==6.12.3
     # via fontmake
 lxml==6.0.2
     # via fonttools
