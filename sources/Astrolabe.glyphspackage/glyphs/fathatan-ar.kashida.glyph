@@ -1,0 +1,104 @@
+{
+glyphname = "fathatan-ar.kashida";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (75,350);
+},
+{
+name = _topAlt;
+pos = (75,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,539,l),
+(133,558,l),
+(10,511,l),
+(15,497,l)
+);
+},
+{
+ref = "fatha-ar";
+}
+);
+width = 150;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (75,350);
+},
+{
+name = _topAlt;
+pos = (75,400);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+11
+);
+};
+layerId = "45863443-CFE4-4547-B0BA-E5B9A97FCD97";
+name = "5 Nov 25 at 19:49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,538,l),
+(142,562,l),
+(14,513,l),
+(11,496,l)
+);
+},
+{
+ref = "fatha-ar.kashida";
+}
+);
+width = 150;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (715,250);
+},
+{
+name = _topAlt;
+pos = (715,374);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+100
+);
+};
+layerId = "84893837-70CB-479D-8179-EBA83F0809BA";
+name = "5 Nov 25 at 19:49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1435,590,l),
+(1442,613,l),
+(18,443,l),
+(11,420,l)
+);
+},
+{
+ref = "fatha-ar.kashida";
+}
+);
+width = 1442;
+}
+);
+metricWidth = "=fatha-ar";
+}

@@ -653,6 +653,30 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "بَـا",
+      "expectation": "alef-ar.fina=3+100|fatha-ar.kashida=0@230,-120+0|dotbelow-ar=0@907,-125+0|kashida-ar.dots=0+1850|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "تَـا",
+      "expectation": "alef-ar.fina=3+100|fatha-ar.kashida=0@230,-119+0|twodotshorizontalabove-ar=0@857,180+0|kashida-ar.dots=0+1850|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "بًـا",
+      "expectation": "alef-ar.fina=3+100|fathatan-ar.kashida=0@230,-120+0|dotbelow-ar=0@907,-125+0|kashida-ar.dots=0+1850|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ضضض ض",
       "expectation": "dotabove-ar=4@592,250+0|sad-ar.isol=4+800|space=3+50|dotabove-ar=2@592,250+0|sad-ar.fina=2+800|dotabove-ar=1@187,250+0|sad-ar.medi=1+400|dotabove-ar=0@187,250+0|sad-ar.init=0+400",
       "variations": {
@@ -743,6 +767,30 @@
       "only": "Astrolabe.ttf",
       "input": "ستـا",
       "expectation": "alef-ar.fina=3+100|twodotshorizontalabove-ar=1@-38,357+0|kashida-ar.dots=1+0|behDotless-ar.medi.high=1+162|seen-ar.init=0@-30,0+370",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "بَـا",
+      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-120+0|dotbelow-ar=0@-8,-125+0|kashida-ar.dots=0+0|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "تَـا",
+      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-45+0|twodotshorizontalabove-ar=0@-38,280+0|kashida-ar.dots=0+0|behDotless-ar.init=0+162",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "بًـا",
+      "expectation": "alef-ar.fina=3+100|fathatan-ar=0@-25,-120+0|dotbelow-ar=0@-8,-125+0|kashida-ar.dots=0+0|behDotless-ar.init=0+162",
       "variations": {
         "MSHQ": 0
       }
