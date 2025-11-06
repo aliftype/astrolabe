@@ -61,21 +61,21 @@ width = 0;
 anchors = (
 {
 name = "*top";
-pos = (945,130);
+pos = (1850,130);
 },
 {
 name = bottom;
-pos = (945,0);
+pos = (1850,0);
 },
 {
 name = top;
-pos = (945,130);
+pos = (1850,130);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "7AC9F8AC-1071-4BBC-86F2-73FC3519D764";
@@ -85,7 +85,7 @@ shapes = (
 ref = "kashida-ar";
 }
 );
-width = 1850;
+width = 3700;
 }
 );
 }

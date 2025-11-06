@@ -62,17 +62,17 @@ width = 450;
 anchors = (
 {
 name = bottom;
-pos = (1300,0);
+pos = (2350,0);
 },
 {
 name = top;
-pos = (1300,200);
+pos = (2350,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "458C3663-1183-4610-B893-72E6E18DFA6B";
@@ -80,7 +80,7 @@ name = "5 Oct 24 at 20:22";
 shapes = (
 {
 alignment = -1;
-pos = (2300,0);
+pos = (4650,0);
 ref = "kashida-ar.50";
 },
 {
@@ -88,7 +88,7 @@ alignment = -1;
 ref = "kaf-ar.init";
 }
 );
-width = 2350;
+width = 4700;
 }
 );
 metricLeft = "=kaf-ar.init";

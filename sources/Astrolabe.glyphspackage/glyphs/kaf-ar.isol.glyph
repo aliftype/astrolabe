@@ -60,17 +60,17 @@ width = 550;
 anchors = (
 {
 name = bottom;
-pos = (1400,0);
+pos = (2450,0);
 },
 {
 name = top;
-pos = (1400,200);
+pos = (2450,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "AD7B99A2-E9AC-402F-8415-A54139A3B439";
@@ -85,7 +85,7 @@ ref = "kaf-ar.init";
 ref = _tail;
 }
 );
-width = 2450;
+width = 4800;
 }
 );
 metricLeft = "=0";

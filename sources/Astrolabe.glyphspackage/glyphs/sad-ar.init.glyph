@@ -63,17 +63,17 @@ width = 400;
 anchors = (
 {
 name = bottom;
-pos = (1249,0);
+pos = (2399,0);
 },
 {
 name = top;
-pos = (1249,200);
+pos = (2399,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "9C481B39-FD5C-42FC-9E5F-8FCBCD0C87DD";
@@ -89,7 +89,7 @@ pos = (100,0);
 ref = _sad;
 }
 );
-width = 2400;
+width = 4750;
 }
 );
 metricLeft = "=behDotless-ar.medi";

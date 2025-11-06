@@ -73,17 +73,17 @@ width = 350;
 anchors = (
 {
 name = bottom;
-pos = (1200,0);
+pos = (2350,0);
 },
 {
 name = top;
-pos = (1200,200);
+pos = (2350,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "DAABD022-7FE6-4019-84D2-BD9965772E37";
@@ -91,12 +91,12 @@ name = "8 Dec 24 at 01:05";
 shapes = (
 {
 alignment = -1;
-pos = (2300,0);
+pos = (4650,0);
 ref = "kashida-ar.50";
 },
 {
 alignment = -1;
-pos = (2188,0);
+pos = (4538,0);
 ref = _beh.init.high;
 },
 {
@@ -104,7 +104,7 @@ alignment = -1;
 ref = _tail;
 }
 );
-width = 2350;
+width = 4700;
 }
 );
 metricLeft = "=behDotless-ar";

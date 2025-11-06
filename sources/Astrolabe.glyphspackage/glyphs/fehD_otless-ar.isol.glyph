@@ -68,21 +68,21 @@ width = 350;
 anchors = (
 {
 name = bottom;
-pos = (2194,0);
+pos = (4544,0);
 },
 {
 name = bottomAlt;
-pos = (1200,-50);
+pos = (2300,-50);
 },
 {
 name = top;
-pos = (2178,300);
+pos = (4528,300);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "0E4B72C2-4A07-4616-A36B-EF022AF8544F";
@@ -90,14 +90,14 @@ name = "8 Dec 24 at 01:13";
 shapes = (
 {
 alignment = -1;
-pos = (2089,0);
+pos = (4439,0);
 ref = "fehDotless-ar.init";
 },
 {
 ref = _tail;
 }
 );
-width = 2350;
+width = 4700;
 }
 );
 metricLeft = "=0";

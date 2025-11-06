@@ -60,17 +60,17 @@ width = 450;
 anchors = (
 {
 name = bottom;
-pos = (1300,0);
+pos = (2350,0);
 },
 {
 name = top;
-pos = (1300,200);
+pos = (2350,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "01BE4D86-FBE2-44DF-B7B7-3317865C78AC";
@@ -85,7 +85,7 @@ alignment = -1;
 ref = "kashida-ar.50";
 }
 );
-width = 2350;
+width = 4700;
 }
 );
 metricLeft = "=-10";

@@ -56,7 +56,7 @@ width = 750;
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "56177234-7C27-4ABA-B4C7-F30DDC278EC0";
@@ -65,8 +65,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(2300,0,l),
-(2250,50,l),
+(4650,0,l),
+(4600,50,l),
 (150,50,ls),
 (128,50,o),
 (74,59,o),
@@ -79,8 +79,7 @@ nodes = (
 );
 }
 );
-width = 750;
+width = 4700;
 }
 );
-metricWidth = "=750";
 }

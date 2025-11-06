@@ -61,17 +61,17 @@ width = 350;
 anchors = (
 {
 name = bottom;
-pos = (1200,0);
+pos = (2350,0);
 },
 {
 name = top;
-pos = (1200,230);
+pos = (2350,230);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "DA78D4AF-C29B-479A-BC1C-3D1F68068BE7";
@@ -79,7 +79,7 @@ name = "8 Dec 24 at 00:59";
 shapes = (
 {
 alignment = -1;
-pos = (2188,0);
+pos = (4538,0);
 ref = _beh.init;
 },
 {
@@ -87,7 +87,7 @@ alignment = -1;
 ref = _tail;
 }
 );
-width = 2350;
+width = 4700;
 }
 );
 metricLeft = "=0";

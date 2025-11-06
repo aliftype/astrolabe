@@ -152,17 +152,17 @@ width = 800;
 anchors = (
 {
 name = bottom;
-pos = (1650,0);
+pos = (2800,0);
 },
 {
 name = top;
-pos = (1650,200);
+pos = (2800,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "F38E0615-4612-4F00-923D-CB7ADFDA02E9";
@@ -220,7 +220,7 @@ pos = (500,0);
 ref = _sad;
 }
 );
-width = 2800;
+width = 5150;
 }
 );
 metricLeft = "=0";

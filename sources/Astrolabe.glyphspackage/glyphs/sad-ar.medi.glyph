@@ -63,17 +63,17 @@ width = 400;
 anchors = (
 {
 name = bottom;
-pos = (1249,0);
+pos = (2399,0);
 },
 {
 name = top;
-pos = (1249,200);
+pos = (2399,200);
 }
 );
 associatedMasterId = m01;
 attr = {
 coordinates = (
-100
+200
 );
 };
 layerId = "F3FD3639-40EF-463D-8C63-30C72D402F56";
@@ -81,7 +81,7 @@ name = "9 Apr 24 at 17:25";
 shapes = (
 {
 alignment = -1;
-pos = (2350,0);
+pos = (4700,0);
 ref = "kashida-ar.50";
 },
 {
@@ -89,7 +89,7 @@ alignment = -1;
 ref = "sad-ar.init";
 }
 );
-width = 2400;
+width = 4750;
 }
 );
 metricLeft = "=sad-ar.init";
