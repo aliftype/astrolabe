@@ -181,17 +181,6 @@ name = Variations;
 );
 features = (
 {
-code = "feature ss01;
-feature ss02;
-feature ss03;
-feature ss04;
-feature ss05;
-feature ss06;
-feature ss07;
-";
-tag = aalt;
-},
-{
 code = "sub alef-ar				by alef-ar.isol;
 sub alefHamzaabove-ar	by alef-ar.isol hamzaabove-ar;
 sub alefHamzabelow-ar	by alef-ar.isol hamzabelow-ar;
