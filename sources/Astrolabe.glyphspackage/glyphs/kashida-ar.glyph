@@ -61,11 +61,11 @@ width = 0;
 anchors = (
 {
 name = bottom;
-pos = (1850,0);
+pos = (2345,0);
 },
 {
 name = top;
-pos = (1850,50);
+pos = (2345,50);
 }
 );
 associatedMasterId = m01;
@@ -75,19 +75,20 @@ coordinates = (
 );
 };
 layerId = "7AC9F8AC-1071-4BBC-86F2-73FC3519D764";
+metricWidth = "=beh-ar.isol";
 name = "1 Jul 25 at 22:49";
 shapes = (
 {
 closed = 1;
 nodes = (
-(3700,0,l),
-(3700,50,l),
+(4700,0,l),
+(4700,50,l),
 (-10,50,l),
 (-10,0,l)
 );
 }
 );
-width = 3700;
+width = 4700;
 }
 );
 metricLeft = "=-10";

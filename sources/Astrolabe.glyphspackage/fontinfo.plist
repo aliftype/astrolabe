@@ -130,7 +130,7 @@ lookup reorder_kashida {
 } reorder_kashida;
 
 lookup rclt_kashida_marks {
-	lookupflag UseMarkFilteringSet [@dots];
+	lookupflag UseMarkFilteringSet @dots;
 
 	sub	[beh-ar.init beh-ar.medi beh-ar.medi.high]
 		 @dots' lookup reorder_kashida
@@ -146,6 +146,11 @@ lookup rclt_kashida_marks {
 lookup rclt_fatha_kashida {
 	lookupflag UseMarkFilteringSet [fatha-ar fathatan-ar];
 
+	sub	[tah-ar.isol tah-ar.init tah-ar.medi tah-ar.fina kaf-ar.isol kaf-ar.init kaf-ar.medi kaf-ar.fina]
+		[fatha-ar fathatan-ar]'
+	by	[fatha-ar.kashida.alt fathatan-ar.kashida.alt]
+	;
+
 	sub	 @mashq_glyphs
 		[fatha-ar fathatan-ar]'
 	by	[fatha-ar.kashida fathatan-ar.kashida]
@@ -156,7 +161,7 @@ name = Lookups;
 },
 {
 code = "conditionset wide {
-	MSHQ 20 100;
+	MSHQ 20 200;
 } wide;
 
 variation rclt wide {

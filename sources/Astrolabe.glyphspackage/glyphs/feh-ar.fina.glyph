@@ -14,6 +14,10 @@ pos = (250,-50);
 {
 name = top;
 pos = (378,300);
+},
+{
+name = topKashida;
+pos = (225,200);
 }
 );
 layerId = m01;
@@ -42,6 +46,10 @@ pos = (150,-50);
 },
 {
 name = top;
+pos = (178,300);
+},
+{
+name = topKashida;
 pos = (178,300);
 }
 );
@@ -79,6 +87,10 @@ pos = (2300,-50);
 {
 name = top;
 pos = (4528,300);
+},
+{
+name = topKashida;
+pos = (2300,200);
 }
 );
 associatedMasterId = m01;

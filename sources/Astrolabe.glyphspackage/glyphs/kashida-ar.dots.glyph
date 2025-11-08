@@ -64,18 +64,18 @@ width = 0;
 anchors = (
 {
 name = "*top";
-pos = (1850,130);
+pos = (2395,130);
 userData = {
 GPOS_Context = "lookupflag 0; beh-ar.medi.high *";
 };
 },
 {
 name = bottom;
-pos = (1850,0);
+pos = (2395,0);
 },
 {
 name = top;
-pos = (1850,130);
+pos = (2395,130);
 }
 );
 associatedMasterId = m01;
@@ -91,7 +91,7 @@ shapes = (
 ref = "kashida-ar";
 }
 );
-width = 3700;
+width = 4700;
 }
 );
 }
