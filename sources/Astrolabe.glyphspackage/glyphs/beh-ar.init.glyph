@@ -8,7 +8,7 @@ anchors = (
 name = "*bottom";
 pos = (95,0);
 userData = {
-GPOS_Context = "* [beh-ar.medi beh-ar.medi.high] [dotbelow-ar twodotshorizontalbelow-ar]";
+GPOS_Context = "lookupflag UseMarkFilteringSet @dots_below; * [beh-ar.medi beh-ar.medi.high] @dots_below";
 };
 },
 {

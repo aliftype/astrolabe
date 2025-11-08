@@ -38,19 +38,27 @@ threedotsdownbelow-ar
 name = horizontal_dots_below;
 },
 {
+code = "@horizontal_dots_above
+dotabove-ar
+";
+name = dots_above;
+},
+{
+code = "@horizontal_dots_below
+dotbelow-ar";
+name = dots_below;
+},
+{
+code = "@dots_below
+@dots_above
+";
+name = dots;
+},
+{
 code = "kasratan-ar
 kasra-ar
 ";
 name = bottom_marks;
-},
-{
-code = "dotabove-ar
-dotbelow-ar
-twodotshorizontalabove-ar
-twodotshorizontalbelow-ar
-threedotsupabove-ar
-threedotsdownbelow-ar";
-name = dots;
 },
 {
 code = "$[hasSpecialLayers == yes]
@@ -537,7 +545,7 @@ lookup kern_reh_hah {
 } kern_reh_hah;
 
 lookup kern_rehwaw_beh {
-	lookupflag UseMarkFilteringSet [dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar];
+	lookupflag UseMarkFilteringSet @dots_below;
 
 	pos	 reh-ar.isol' <50 0 50 0>
 		[beh-ar.init beh-ar.init.high]
@@ -576,16 +584,16 @@ tag = kern;
 code = "# Automatic Code
 
 lookup mark_dots_1 {
-	lookupflag UseMarkFilteringSet [@horizontal_dots_below dotbelow-ar hamzabelow-ar];
+	lookupflag UseMarkFilteringSet [@dots_below hamzabelow-ar];
 	ignore
 	pos	 @beh_init_medi
-		[@horizontal_dots_below dotbelow-ar]'
+		 @dots_below'
 		 alef-ar.fina
 		 hamzabelow-ar
 	;
 
 	pos	 @beh_init_medi
-		[@horizontal_dots_below dotbelow-ar]' <-40 0 0 0>
+		 @dots_below' <-40 0 0 0>
 		 alef-ar.fina
 	;
 } mark_dots_1;

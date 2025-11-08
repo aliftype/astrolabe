@@ -382,6 +382,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "يُبْقِ",
+      "expectation": "kasra-ar=4@247,-151+0|twodotshorizontalabove-ar=4@367,249+0|qaf-ar.fina=4+605|sukun-ar=2@-15,-110+0|dotbelow-ar=2@12,-125+0|beh-ar.medi=2+162|damma-ar=0@-55,-120+0|twodotshorizontalbelow-ar=0@-23,-125+0|beh-ar.init=0@-30,0+132"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
       "expectation": "hamza-ar=10+400|space=8+0|space=8+50|space=6+0|hamza-ar=6+400|space=4+0|space=4+50|space=2+0|hamza-ar=2+400|space=1+50|hamza-ar=0+400"
     },
