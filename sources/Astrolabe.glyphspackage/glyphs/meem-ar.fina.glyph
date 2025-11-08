@@ -17,7 +17,7 @@ ref = "meem-ar.isol";
 width = 417;
 }
 );
-metricLeft = "=meem-ar";
+metricLeft = "=meem-ar.isol";
 metricRight = "=0";
 metricWidth = "=meem-ar.isol";
 }

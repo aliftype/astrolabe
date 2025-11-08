@@ -106,6 +106,6 @@ nodes = (
 width = 826;
 }
 );
-metricLeft = "=noonghunna-ar";
+metricLeft = "=noon-ar.isol";
 metricRight = "=seen-ar.init";
 }

@@ -1,5 +1,5 @@
 {
-glyphname = "fehDotless-ar.medi";
+glyphname = "feh-ar.medi";
 layers = (
 {
 layerId = m01;
@@ -11,13 +11,13 @@ ref = "kashida-ar.50";
 },
 {
 alignment = -1;
-ref = "fehDotless-ar.init";
+ref = "feh-ar.init";
 }
 );
 width = 261;
 }
 );
-metricLeft = "=fehDotless-ar.init";
+metricLeft = "=feh-ar.init";
 metricRight = "=0";
-metricWidth = "=fehDotless-ar.init";
+metricWidth = "=feh-ar.init";
 }

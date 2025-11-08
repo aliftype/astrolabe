@@ -1,5 +1,5 @@
 {
-glyphname = "behDotless-ar.init";
+glyphname = "beh-ar.init";
 kernLeft = beh;
 layers = (
 {
@@ -8,7 +8,7 @@ anchors = (
 name = "*bottom";
 pos = (95,0);
 userData = {
-GPOS_Context = "* [behDotless-ar.medi behDotless-ar.medi.high] [dotbelow-ar twodotshorizontalbelow-ar]";
+GPOS_Context = "* [beh-ar.medi beh-ar.medi.high] [dotbelow-ar twodotshorizontalbelow-ar]";
 };
 },
 {

@@ -91,7 +91,7 @@ ref = "dal-ar.isol";
 width = 4700;
 }
 );
-metricLeft = "=dal-ar";
+metricLeft = "=dal-ar.isol";
 metricRight = "=0";
 metricWidth = "=dal-ar.isol";
 }

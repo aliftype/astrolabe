@@ -17,7 +17,7 @@ ref = "meem-ar.isol.alt";
 width = 550;
 }
 );
-metricLeft = "=meem-ar";
+metricLeft = "=meem-ar.isol";
 metricRight = "=0";
 metricWidth = "=meem-ar.isol.alt";
 sortName = ar0934.fina;

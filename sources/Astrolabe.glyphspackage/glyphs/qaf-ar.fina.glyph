@@ -1,5 +1,5 @@
 {
-glyphname = "qafDotless-ar.fina";
+glyphname = "qaf-ar.fina";
 layers = (
 {
 layerId = m01;
@@ -12,12 +12,12 @@ ref = "kashida-ar.50";
 {
 alignment = -1;
 pos = (0,-51);
-ref = "qafDotless-ar.isol";
+ref = "qaf-ar.isol";
 }
 );
 width = 605;
 }
 );
-metricLeft = "=qafDotless-ar";
+metricLeft = "=qaf-ar.isol";
 metricRight = "=0";
 }

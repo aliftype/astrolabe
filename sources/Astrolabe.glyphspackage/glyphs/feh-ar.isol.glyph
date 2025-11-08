@@ -1,5 +1,5 @@
 {
-glyphname = "fehDotless-ar.isol";
+glyphname = "feh-ar.isol";
 layers = (
 {
 anchors = (
@@ -21,7 +21,7 @@ shapes = (
 {
 alignment = -1;
 pos = (289,0);
-ref = "fehDotless-ar.init";
+ref = "feh-ar.init";
 },
 {
 ref = _tail;
@@ -56,7 +56,7 @@ shapes = (
 {
 alignment = -1;
 pos = (89,0);
-ref = "fehDotless-ar.init";
+ref = "feh-ar.init";
 },
 {
 ref = _tail;
@@ -91,7 +91,7 @@ shapes = (
 {
 alignment = -1;
 pos = (4439,0);
-ref = "fehDotless-ar.init";
+ref = "feh-ar.init";
 },
 {
 ref = _tail;
@@ -102,5 +102,5 @@ width = 4700;
 );
 metricLeft = "=0";
 metricRight = "=50@50";
-metricWidth = "=behDotless-ar.isol";
+metricWidth = "=beh-ar.isol";
 }

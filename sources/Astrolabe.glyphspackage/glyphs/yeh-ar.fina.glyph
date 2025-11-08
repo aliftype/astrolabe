@@ -1,5 +1,5 @@
 {
-glyphname = "alefMaksura-ar.fina";
+glyphname = "yeh-ar.fina";
 layers = (
 {
 layerId = m01;
@@ -10,7 +10,7 @@ pos = (630,0);
 ref = "kashida-ar.50";
 },
 {
-ref = "alefMaksura-ar.isol";
+ref = "yeh-ar.isol";
 }
 );
 width = 680;

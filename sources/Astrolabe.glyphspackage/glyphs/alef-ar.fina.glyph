@@ -41,6 +41,6 @@ nodes = (
 width = 100;
 }
 );
-metricLeft = "=alef-ar";
+metricLeft = "=alef-ar.isol";
 metricRight = "=0";
 }

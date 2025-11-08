@@ -1,5 +1,5 @@
 {
-glyphname = "behDotless-ar.fina";
+glyphname = "beh-ar.fina";
 kernRight = beh;
 layers = (
 {
@@ -17,7 +17,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "behDotless-ar.isol";
+ref = "beh-ar.isol";
 },
 {
 pos = (500,0);
@@ -48,7 +48,7 @@ name = "8 Dec 24 at 01:01";
 shapes = (
 {
 alignment = -1;
-ref = "behDotless-ar.isol";
+ref = "beh-ar.isol";
 },
 {
 pos = (300,0);
@@ -79,7 +79,7 @@ name = "8 Dec 24 at 01:01";
 shapes = (
 {
 alignment = -1;
-ref = "behDotless-ar.isol";
+ref = "beh-ar.isol";
 },
 {
 pos = (4650,0);
@@ -89,7 +89,7 @@ ref = "kashida-ar.50";
 width = 4700;
 }
 );
-metricLeft = "=behDotless-ar";
+metricLeft = "=beh-ar.isol";
 metricRight = "=0";
-metricWidth = "=behDotless-ar.isol";
+metricWidth = "=beh-ar.isol";
 }

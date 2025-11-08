@@ -10,14 +10,14 @@ tag = MSHQ;
 classes = (
 {
 automatic = 1;
-code = "hamza-ar alef-ar.isol alef-ar.fina behDotless-ar.isol behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar.isol hah-ar.fina hah-ar.alt.isol hah-ar.alt.fina hah-ar.alt2.isol hah-ar.alt2.fina hah-ar.alt3.isol hah-ar.alt3.fina hah-ar.medi hah-ar.init dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init fehDotless-ar.isol fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.init qafDotless-ar.isol qafDotless-ar.fina kaf-ar.isol kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar.isol lam-ar.fina lam-ar.isol.alt lam-ar.fina.alt lam-ar.medi lam-ar.init meem-ar.isol meem-ar.fina meem-ar.isol.alt meem-ar.fina.alt meem-ar.medi meem-ar.init noonghunna-ar.isol noonghunna-ar.fina heh-ar.isol heh-ar.fina heh-ar.medi heh-ar.init waw-ar.isol waw-ar.fina alefMaksura-ar.isol alefMaksura-ar.isol.alt alefMaksura-ar.fina kashida-ar kashida-ar.20 kashida-ar.50 kashida-ar.70 lam_alef-ar.fina lam_alef-ar.isol lam_lam_heh-ar.isol decimalseparator-ar thousandseparator-ar zero-ar one-ar two-ar three-ar four-ar fourFarsi-ar fourFarsi-ar.urdu five-ar fiveFarsi-ar six-ar sixFarsi-ar seven-ar sevenFarsi-ar sevenFarsi-ar.urdu eight-ar nine-ar comma-ar semicolon-ar question-ar parenleft-ar parenright-ar period colon exclam slash backslash hyphen endash emdash underscore parenleft parenright braceleft braceright bracketleft bracketright percent-ar bar dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsdownbelow-ar threedotsupabove-ar gafsarkashabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar space alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar peh-ar teh-ar theh-ar jeem-ar tcheh-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar jeh-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar fehDotless-ar fehAfrican-ar qafDotless-ar qaf-ar qafAfrican-ar kaf-ar keheh-ar gaf-ar lam-ar meem-ar noon-ar noonghunna-ar noonAfrican-ar heh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
+code = "hamza-ar alef-ar.isol alef-ar.fina beh-ar.isol beh-ar.fina beh-ar.fina.high beh-ar.medi beh-ar.medi.high beh-ar.init beh-ar.init.high hah-ar.isol hah-ar.fina hah-ar.alt.isol hah-ar.alt.fina hah-ar.alt2.isol hah-ar.alt2.fina hah-ar.alt3.isol hah-ar.alt3.fina hah-ar.medi hah-ar.init dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init feh-ar.isol feh-ar.fina feh-ar.medi feh-ar.medi.alt feh-ar.init qaf-ar.isol qaf-ar.fina kaf-ar.isol kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar.isol lam-ar.fina lam-ar.isol.alt lam-ar.fina.alt lam-ar.medi lam-ar.init meem-ar.isol meem-ar.fina meem-ar.isol.alt meem-ar.fina.alt meem-ar.medi meem-ar.init noon-ar.isol noon-ar.fina heh-ar.isol heh-ar.fina heh-ar.medi heh-ar.init waw-ar.isol waw-ar.fina yeh-ar.isol yeh-ar.isol.alt yeh-ar.fina kashida-ar kashida-ar.20 kashida-ar.50 kashida-ar.70 kashida-ar.dots lam_alef-ar.fina lam_alef-ar.isol lam_lam_heh-ar.isol decimalseparator-ar thousandseparator-ar zero-ar one-ar two-ar three-ar four-ar fourFarsi-ar fourFarsi-ar.urdu five-ar fiveFarsi-ar six-ar sixFarsi-ar seven-ar sevenFarsi-ar sevenFarsi-ar.urdu eight-ar nine-ar space comma-ar semicolon-ar question-ar parenleft-ar parenright-ar period colon exclam slash backslash hyphen endash emdash underscore parenleft parenright braceleft braceright bracketleft bracketright percent-ar bar dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsdownbelow-ar threedotsupabove-ar gafsarkashabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar fathatan-ar.kashida dammatan-ar kasratan-ar fatha-ar fatha-ar.kashida damma-ar kasra-ar shadda-ar sukun-ar madda-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar peh-ar teh-ar theh-ar jeem-ar tcheh-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar jeh-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar fehDotless-ar fehAfrican-ar qafDotless-ar qaf-ar qafAfrican-ar kaf-ar keheh-ar gaf-ar lam-ar meem-ar noon-ar noonghunna-ar noonAfrican-ar heh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
 name = All;
 },
 {
-code = "behDotless-ar.init
-behDotless-ar.init.high
-behDotless-ar.medi
-behDotless-ar.medi.high
+code = "beh-ar.init
+beh-ar.init.high
+beh-ar.medi
+beh-ar.medi.high
 ";
 name = beh_init_medi;
 },
@@ -107,36 +107,36 @@ name = Languagesystems;
 },
 {
 code = "lookup high_tooth {
-	sub behDotless-ar.init	by behDotless-ar.init.high;
-	sub behDotless-ar.medi	by behDotless-ar.medi.high;
-	sub behDotless-ar.fina	by behDotless-ar.fina.high;
+	sub beh-ar.init		by beh-ar.init.high;
+	sub beh-ar.medi		by beh-ar.medi.high;
+	sub beh-ar.fina		by beh-ar.fina.high;
 } high_tooth;
 
 lookup insert_kashida_50 {
-	sub @beh_init_medi		by @beh_init_medi kashida-ar.50;
+	sub @beh_init_medi	by @beh_init_medi kashida-ar.50;
 } insert_kashida_50;
 
 lookup insert_kashida_20 {
-	sub @beh_init_medi		by @beh_init_medi kashida-ar.20;
+	sub @beh_init_medi	by @beh_init_medi kashida-ar.20;
 } insert_kashida_20;
 
 lookup insert_kashida_70 {
-	sub @beh_init_medi		by @beh_init_medi kashida-ar.70;
+	sub @beh_init_medi	by @beh_init_medi kashida-ar.70;
 } insert_kashida_70;
 
 lookup reorder_kashida {
-	sub kashida-ar			by NULL;
-	sub @dots				by kashida-ar.dots @dots;
+	sub kashida-ar		by NULL;
+	sub @dots			by kashida-ar.dots @dots;
 } reorder_kashida;
 
 lookup rclt_kashida_marks {
 	lookupflag UseMarkFilteringSet [@dots];
 
-	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+	sub	[beh-ar.init beh-ar.medi beh-ar.medi.high]
 		 @dots' lookup reorder_kashida
 		 kashida-ar
 	;
-	sub	[behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+	sub	[beh-ar.init beh-ar.medi beh-ar.medi.high]
 		 kashida-ar.dots
 		 @dots
 		 kashida-ar' lookup reorder_kashida
@@ -183,11 +183,11 @@ code = "sub alef-ar				by alef-ar.isol;
 sub alefHamzaabove-ar	by alef-ar.isol hamzaabove-ar;
 sub alefHamzabelow-ar	by alef-ar.isol hamzabelow-ar;
 sub alefMadda-ar		by alef-ar.isol madda-ar;
-sub behDotless-ar		by behDotless-ar.isol;
-sub beh-ar				by behDotless-ar.isol dotbelow-ar;
-sub peh-ar				by behDotless-ar.isol threedotsdownbelow-ar;
-sub teh-ar				by behDotless-ar.isol twodotshorizontalabove-ar;
-sub theh-ar				by behDotless-ar.isol threedotsupabove-ar;
+sub behDotless-ar		by beh-ar.isol;
+sub beh-ar				by beh-ar.isol dotbelow-ar;
+sub peh-ar				by beh-ar.isol threedotsdownbelow-ar;
+sub teh-ar				by beh-ar.isol twodotshorizontalabove-ar;
+sub theh-ar				by beh-ar.isol threedotsupabove-ar;
 sub jeem-ar				by hah-ar.alt2.isol dotbelow-ar;
 sub tcheh-ar			by hah-ar.alt3.isol threedotsdownbelow-ar;
 sub hah-ar				by hah-ar.isol;
@@ -205,29 +205,29 @@ sub tah-ar				by tah-ar.isol;
 sub zah-ar				by tah-ar.isol dotabove-ar;
 sub ain-ar				by ain-ar.isol;
 sub ghain-ar			by ain-ar.isol dotabove-ar;
-sub fehDotless-ar		by fehDotless-ar.isol;
-sub feh-ar				by fehDotless-ar.isol dotabove-ar;
-sub qafDotless-ar		by qafDotless-ar.isol;
-sub qaf-ar				by qafDotless-ar.isol twodotshorizontalabove-ar;
+sub fehDotless-ar		by feh-ar.isol;
+sub feh-ar				by feh-ar.isol dotabove-ar;
+sub qafDotless-ar		by qaf-ar.isol;
+sub qaf-ar				by qaf-ar.isol twodotshorizontalabove-ar;
 sub kaf-ar				by kaf-ar.isol;
 sub keheh-ar			by kaf-ar.isol;
 sub gaf-ar				by kaf-ar.isol gafsarkashabove-ar;
 sub lam-ar				by lam-ar.isol;
 sub meem-ar				by meem-ar.isol;
-sub noonghunna-ar		by noonghunna-ar.isol;
-sub noon-ar				by noonghunna-ar.isol dotabove-ar;
+sub noonghunna-ar		by noon-ar.isol;
+sub noon-ar				by noon-ar.isol dotabove-ar;
 sub heh-ar				by heh-ar.isol;
 sub waw-ar				by waw-ar.isol;
 sub wawHamzaabove-ar	by waw-ar.isol hamzaabove-ar;
-sub alefMaksura-ar		by alefMaksura-ar.isol;
-sub yeh-ar				by alefMaksura-ar.isol twodotshorizontalbelow-ar;
-sub yehHamzaabove-ar	by alefMaksura-ar.isol hamzaabove-ar;
+sub alefMaksura-ar		by yeh-ar.isol;
+sub yeh-ar				by yeh-ar.isol twodotshorizontalbelow-ar;
+sub yehHamzaabove-ar	by yeh-ar.isol hamzaabove-ar;
 #sub yehbarree-ar		by yehbarree-ar.isol;
 ";
 tag = ccmp;
 },
 {
-code = "sub behDotless-ar.isol 	by behDotless-ar.init;
+code = "sub beh-ar.isol 		by beh-ar.init;
 sub [hah-ar.isol
 	 hah-ar.alt.isol
 	 hah-ar.alt2.isol
@@ -236,23 +236,23 @@ sub seen-ar.isol		by seen-ar.init;
 sub sad-ar.isol			by sad-ar.init;
 sub tah-ar.isol			by tah-ar.init;
 sub ain-ar.isol			by ain-ar.init;
-sub fehDotless-ar.isol	by fehDotless-ar.init;
-sub qafDotless-ar.isol	by fehDotless-ar.init;
+sub feh-ar.isol			by feh-ar.init;
+sub qaf-ar.isol			by feh-ar.init;
 sub kaf-ar.isol			by kaf-ar.init;
 sub lam-ar.isol			by lam-ar.init;
 sub meem-ar.isol		by meem-ar.init;
-sub noonghunna-ar.isol	by behDotless-ar.init;
+sub noon-ar.isol		by beh-ar.init;
 sub heh-ar.isol			by heh-ar.init;
-sub alefMaksura-ar.isol	by behDotless-ar.init;
-sub yehFarsi-ar			by behDotless-ar.init twodotshorizontalbelow-ar;
-sub fehAfrican-ar		by fehDotless-ar.init dotbelow-ar;
-sub qafAfrican-ar		by fehDotless-ar.init dotabove-ar;
-sub noonAfrican-ar		by behDotless-ar.init dotabove-ar;
+sub yeh-ar.isol			by beh-ar.init;
+sub yehFarsi-ar			by beh-ar.init twodotshorizontalbelow-ar;
+sub fehAfrican-ar		by feh-ar.init dotbelow-ar;
+sub qafAfrican-ar		by feh-ar.init dotabove-ar;
+sub noonAfrican-ar		by beh-ar.init dotabove-ar;
 ";
 tag = init;
 },
 {
-code = "sub behDotless-ar.isol	by behDotless-ar.medi;
+code = "sub beh-ar.isol			by beh-ar.medi;
 sub [hah-ar.isol
 	 hah-ar.alt.isol
 	 hah-ar.alt2.isol
@@ -261,24 +261,24 @@ sub seen-ar.isol		by seen-ar.medi;
 sub sad-ar.isol			by sad-ar.medi;
 sub tah-ar.isol			by tah-ar.medi;
 sub ain-ar.isol			by ain-ar.medi;
-sub fehDotless-ar.isol	by fehDotless-ar.medi;
-sub qafDotless-ar.isol	by fehDotless-ar.medi;
+sub feh-ar.isol			by feh-ar.medi;
+sub qaf-ar.isol			by feh-ar.medi;
 sub kaf-ar.isol			by kaf-ar.medi;
 sub lam-ar.isol			by lam-ar.medi;
 sub meem-ar.isol		by meem-ar.medi;
-sub noonghunna-ar.isol	by behDotless-ar.medi;
+sub noon-ar.isol		by beh-ar.medi;
 sub heh-ar.isol			by heh-ar.medi;
-sub alefMaksura-ar.isol	by behDotless-ar.medi;
-sub yehFarsi-ar			by behDotless-ar.medi twodotshorizontalbelow-ar;
-sub fehAfrican-ar		by fehDotless-ar.medi dotbelow-ar;
-sub qafAfrican-ar		by fehDotless-ar.medi dotabove-ar;
-sub noonAfrican-ar		by behDotless-ar.medi dotabove-ar;
+sub yeh-ar.isol			by beh-ar.medi;
+sub yehFarsi-ar			by beh-ar.medi twodotshorizontalbelow-ar;
+sub fehAfrican-ar		by feh-ar.medi dotbelow-ar;
+sub qafAfrican-ar		by feh-ar.medi dotabove-ar;
+sub noonAfrican-ar		by beh-ar.medi dotabove-ar;
 ";
 tag = medi;
 },
 {
 code = "sub alef-ar.isol		by alef-ar.fina;
-sub behDotless-ar.isol	by behDotless-ar.fina;
+sub beh-ar.isol			by beh-ar.fina;
 sub hah-ar.isol			by hah-ar.fina;
 sub hah-ar.alt.isol		by hah-ar.alt.fina;
 sub hah-ar.alt2.isol	by hah-ar.alt2.fina;
@@ -289,30 +289,30 @@ sub seen-ar.isol		by seen-ar.fina;
 sub sad-ar.isol			by sad-ar.fina;
 sub tah-ar.isol			by tah-ar.fina;
 sub ain-ar.isol			by ain-ar.fina;
-sub fehDotless-ar.isol	by fehDotless-ar.fina;
-sub qafDotless-ar.isol	by qafDotless-ar.fina;
+sub feh-ar.isol			by feh-ar.fina;
+sub qaf-ar.isol			by qaf-ar.fina;
 sub kaf-ar.isol			by kaf-ar.fina;
 sub lam-ar.isol			by lam-ar.fina;
 sub meem-ar.isol		by meem-ar.fina;
-sub noonghunna-ar.isol	by noonghunna-ar.fina;
+sub noon-ar.isol		by noon-ar.fina;
 sub heh-ar.isol			by heh-ar.fina;
 sub tehMarbuta-ar		by heh-ar.fina twodotshorizontalabove-ar;
 sub waw-ar.isol			by waw-ar.fina;
-sub alefMaksura-ar.isol	by alefMaksura-ar.fina;
+sub yeh-ar.isol			by yeh-ar.fina;
 #sub yehbarree-ar.isol	by yehbarree-ar.fina;
-sub yehFarsi-ar			by alefMaksura-ar.fina;
-sub fehAfrican-ar		by fehDotless-ar.fina;
-sub qafAfrican-ar		by qafDotless-ar.fina;
-sub noonAfrican-ar		by noonghunna-ar.fina;
+sub yehFarsi-ar			by yeh-ar.fina;
+sub fehAfrican-ar		by feh-ar.fina;
+sub qafAfrican-ar		by qaf-ar.fina;
+sub noonAfrican-ar		by noon-ar.fina;
 ";
 tag = fina;
 },
 {
 code = "lookup rlig_isol {
-	sub yehFarsi-ar		by alefMaksura-ar.isol;
-	sub fehAfrican-ar	by fehDotless-ar.isol;
-	sub qafAfrican-ar	by qafDotless-ar.isol;
-	sub noonAfrican-ar	by noonghunna-ar.isol;
+	sub yehFarsi-ar		by yeh-ar.isol;
+	sub fehAfrican-ar	by feh-ar.isol;
+	sub qafAfrican-ar	by qaf-ar.isol;
+	sub noonAfrican-ar	by noon-ar.isol;
 	sub tehMarbuta-ar by heh-ar.isol twodotshorizontalabove-ar;
 } rlig_isol;
 
@@ -324,12 +324,12 @@ lookup rlig_lam_alef {
 
 lookup rlig_teeth {
 	lookupflag IgnoreMarks;
-	sub [behDotless-ar.init behDotless-ar.medi sad-ar.init sad-ar.medi]
-		[behDotless-ar.medi]' lookup high_tooth
-		[behDotless-ar.medi	behDotless-ar.fina noonghunna-ar.fina]
+	sub [beh-ar.init beh-ar.medi sad-ar.init sad-ar.medi]
+		[beh-ar.medi]' lookup high_tooth
+		[beh-ar.medi	beh-ar.fina noon-ar.fina]
 	;
 	sub [seen-ar.init seen-ar.medi]
-		[behDotless-ar.medi behDotless-ar.fina]' lookup high_tooth
+		[beh-ar.medi beh-ar.fina]' lookup high_tooth
 	;
 } rlig_teeth;
 
@@ -339,7 +339,8 @@ lookup rlig_reh_lam {
 		 lam-ar.isol'
 	by	 lam-ar.isol.alt
 	;
-} rlig_reh_lam;";
+} rlig_reh_lam;
+";
 tag = rlig;
 },
 {
@@ -379,7 +380,7 @@ code = "lookup rclt_wide_tooth_1 {
 	;
 	sub	 @beh_init_medi' lookup insert_kashida_20
 		 @horizontal_dots_above
-		 behDotless-ar.medi.high
+		 beh-ar.medi.high
 		 @horizontal_dots_above
 	;
 	sub	 @beh_init_medi' lookup insert_kashida_50
@@ -458,7 +459,7 @@ value = "عين متوسطة\\منتهية بديلة";
 tag = ss03;
 },
 {
-code = "sub fehDotless-ar.medi	by fehDotless-ar.medi.alt;
+code = "sub feh-ar.medi	by feh-ar.medi.alt;
 ";
 labels = (
 {
@@ -505,7 +506,7 @@ value = "ميم مفردة\\منتهية بديلة";
 tag = ss06;
 },
 {
-code = "sub alefMaksura-ar.isol by alefMaksura-ar.isol.alt;
+code = "sub yeh-ar.isol by yeh-ar.isol.alt;
 ";
 labels = (
 {
@@ -534,32 +535,32 @@ lookup kern_rehwaw_beh {
 	lookupflag UseMarkFilteringSet [dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar];
 
 	pos	 reh-ar.isol' <50 0 50 0>
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		 dotbelow-ar
 	;
 	pos	 reh-ar.isol' <50 0 50 0>
 		 space
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		 dotbelow-ar
 	;
 
 	pos	 reh-ar.isol' <90 0 90 0>
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
 	;
 	pos	 reh-ar.isol' <90 0 90 0>
 		 space
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
 	;
 
 	pos	 waw-ar.isol' <40 0 40 0>
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
 	;
 	pos	 waw-ar.isol' <40 0 40 0>
 		 space
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
 	;
 } kern_rehwaw_beh;
@@ -588,7 +589,7 @@ lookup mark_dots_2 {
 	lookupflag UseMarkFilteringSet @horizontal_dots_below;
 
 	pos	 reh-ar.fina
-		[behDotless-ar.init behDotless-ar.init.high]
+		[beh-ar.init beh-ar.init.high]
 		 @horizontal_dots_below' <0 25 0 0>
 	;
 } mark_dots_2;
@@ -596,30 +597,30 @@ lookup mark_dots_2 {
 lookup mark_bottom_1 {
 	lookupflag UseMarkFilteringSet @bottom_marks;
 	pos	 reh-ar.isol
-		[behDotless-ar.init behDotless-ar.init.high lam-ar.init fehDotless-ar.init]
+		[beh-ar.init beh-ar.init.high lam-ar.init feh-ar.init]
 		 @bottom_marks' <0 -50 0 0>
 	;
 	pos	 reh-ar.isol
 		 @bottom_marks
-		[behDotless-ar.init behDotless-ar.init.high lam-ar.init fehDotless-ar.init]
+		[beh-ar.init beh-ar.init.high lam-ar.init feh-ar.init]
 		 @bottom_marks' <0 -50 0 0>
 	;
 	pos	 reh-ar.fina
-		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		[beh-ar.init beh-ar.init.high lam-ar.init]
 		 @bottom_marks' <0 50 0 0>
 	;
 	pos	 reh-ar.fina
 		 @bottom_marks
-		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		[beh-ar.init beh-ar.init.high lam-ar.init]
 		 @bottom_marks' <0 50 0 0>
 	;
 	pos	[waw-ar.isol waw-ar.fina]
-		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		[beh-ar.init beh-ar.init.high lam-ar.init]
 		 @bottom_marks' <0 -70 0 0>
 	;
 	pos	[waw-ar.isol waw-ar.fina]
 		 @bottom_marks
-		[behDotless-ar.init behDotless-ar.init.high lam-ar.init]
+		[beh-ar.init beh-ar.init.high lam-ar.init]
 		 @bottom_marks' <0 -70 0 0>
 	;
 } mark_bottom_1;
@@ -775,7 +776,7 @@ braceleft = 50;
 bracketleft = 60;
 "lam-ar.isol.alt" = -40;
 parenleft = 50;
-"qafDotless-ar.isol" = 50;
+"qaf-ar.isol" = 50;
 "reh-ar.isol" = 20;
 "waw-ar.isol" = 20;
 };

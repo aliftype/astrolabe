@@ -18,7 +18,7 @@ ref = "lam-ar.isol";
 width = 350;
 }
 );
-metricLeft = "=lam-ar";
+metricLeft = "=lam-ar.isol";
 metricRight = "=0";
 metricWidth = "=lam-ar.isol";
 sortName = ar0903.fina;

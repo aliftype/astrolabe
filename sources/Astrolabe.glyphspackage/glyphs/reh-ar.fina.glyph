@@ -18,6 +18,6 @@ ref = "kashida-ar.70";
 width = 250;
 }
 );
-metricLeft = "=reh-ar";
+metricLeft = "=reh-ar.isol";
 metricWidth = "=reh-ar.isol";
 }

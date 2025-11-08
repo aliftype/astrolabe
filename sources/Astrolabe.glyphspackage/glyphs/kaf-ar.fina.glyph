@@ -91,7 +91,7 @@ ref = "kaf-ar.isol";
 width = 4800;
 }
 );
-metricLeft = "=kaf-ar";
+metricLeft = "=kaf-ar.isol";
 metricRight = "kaf-ar.medi";
 metricWidth = "=kaf-ar.isol";
 }

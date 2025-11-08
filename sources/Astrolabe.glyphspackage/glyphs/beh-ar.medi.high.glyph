@@ -1,5 +1,5 @@
 {
-glyphname = "behDotless-ar.medi.high";
+glyphname = "beh-ar.medi.high";
 kernLeft = beh.high;
 kernRight = beh.high;
 layers = (
@@ -9,7 +9,7 @@ anchors = (
 name = "*bottom";
 pos = (95,0);
 userData = {
-GPOS_Context = "* [behDotless-ar.medi behDotless-ar.medi.high] [dotbelow-ar twodotshorizontalbelow-ar]";
+GPOS_Context = "* [beh-ar.medi beh-ar.medi.high] [dotbelow-ar twodotshorizontalbelow-ar]";
 };
 }
 );
@@ -22,13 +22,13 @@ ref = "kashida-ar.50";
 },
 {
 alignment = -1;
-ref = "behDotless-ar.init.high";
+ref = "beh-ar.init.high";
 }
 );
 width = 162;
 }
 );
-metricLeft = "=behDotless-ar.init";
+metricLeft = "=beh-ar.init";
 metricRight = "=0";
-metricWidth = "=behDotless-ar.init";
+metricWidth = "=beh-ar.init";
 }

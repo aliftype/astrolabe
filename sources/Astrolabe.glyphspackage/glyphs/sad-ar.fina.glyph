@@ -91,7 +91,7 @@ ref = "sad-ar.isol";
 width = 5150;
 }
 );
-metricLeft = "=sad-ar";
+metricLeft = "=sad-ar.isol";
 metricRight = "=0";
 metricWidth = "=sad-ar.isol";
 }

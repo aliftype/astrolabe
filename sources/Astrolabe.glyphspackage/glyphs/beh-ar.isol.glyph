@@ -1,28 +1,26 @@
 {
-glyphname = "sad-ar.init";
-kernLeft = beh;
+glyphname = "beh-ar.isol";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (300,0);
+pos = (275,0);
 },
 {
 name = top;
-pos = (300,200);
+pos = (275,230);
 }
 );
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+pos = (388,0);
 ref = _beh.init;
 },
 {
-alignment = -1;
-pos = (100,0);
-ref = _sad;
+ref = _tail;
 }
 );
 width = 550;
@@ -31,11 +29,11 @@ width = 550;
 anchors = (
 {
 name = bottom;
-pos = (225,0);
+pos = (175,0);
 },
 {
 name = top;
-pos = (225,200);
+pos = (150,230);
 }
 );
 associatedMasterId = m01;
@@ -44,30 +42,30 @@ coordinates = (
 0
 );
 };
-layerId = "5A511ECF-04D0-409C-B0D9-1EAC981EA10D";
-name = "9 Apr 24 at 17:24";
+layerId = "B8603B23-F16D-422B-BD28-F712345C3AA2";
+name = "8 Dec 24 at 00:59";
 shapes = (
 {
 alignment = -1;
+pos = (188,0);
 ref = _beh.init;
 },
 {
 alignment = -1;
-pos = (100,0);
-ref = _sad;
+ref = _tail;
 }
 );
-width = 400;
+width = 350;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (2399,0);
+pos = (2350,0);
 },
 {
 name = top;
-pos = (2399,200);
+pos = (2350,230);
 }
 );
 associatedMasterId = m01;
@@ -76,22 +74,22 @@ coordinates = (
 200
 );
 };
-layerId = "9C481B39-FD5C-42FC-9E5F-8FCBCD0C87DD";
-name = "9 Apr 24 at 17:24";
+layerId = "DA78D4AF-C29B-479A-BC1C-3D1F68068BE7";
+name = "8 Dec 24 at 00:59";
 shapes = (
 {
 alignment = -1;
+pos = (4538,0);
 ref = _beh.init;
 },
 {
 alignment = -1;
-pos = (100,0);
-ref = _sad;
+ref = _tail;
 }
 );
-width = 4750;
+width = 4700;
 }
 );
-metricLeft = "=beh-ar.medi";
-metricRight = "=sad-ar.isol";
+metricLeft = "=0";
+metricRight = "=50@50";
 }

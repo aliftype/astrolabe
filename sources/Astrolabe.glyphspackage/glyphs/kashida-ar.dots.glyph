@@ -7,7 +7,7 @@ anchors = (
 name = "*top";
 pos = (50,307);
 userData = {
-GPOS_Context = "lookupflag 0; behDotless-ar.medi.high *";
+GPOS_Context = "lookupflag 0; beh-ar.medi.high *";
 };
 },
 {
@@ -32,6 +32,9 @@ anchors = (
 {
 name = "*top";
 pos = (50,307);
+userData = {
+GPOS_Context = "lookupflag 0; beh-ar.medi.high *";
+};
 },
 {
 name = bottom;
@@ -62,6 +65,9 @@ anchors = (
 {
 name = "*top";
 pos = (1850,130);
+userData = {
+GPOS_Context = "lookupflag 0; beh-ar.medi.high *";
+};
 },
 {
 name = bottom;
