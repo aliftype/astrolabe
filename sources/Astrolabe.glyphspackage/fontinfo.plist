@@ -522,10 +522,48 @@ tag = ss07;
 {
 code = "# Automatic Code
 
-pos	 reh-ar.isol' <90 0 90 0>
-	 space
-	[$[rightKerningGroup MATCHES \"hah\"]]
-;";
+lookup kern_reh_hah {
+	lookupflag 0;
+	pos	 reh-ar.isol' <90 0 90 0>
+		 space
+		[$[rightKerningGroup MATCHES \"hah\"]]
+	;
+} kern_reh_hah;
+
+lookup kern_rehwaw_beh {
+	lookupflag UseMarkFilteringSet [dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar];
+
+	pos	 reh-ar.isol' <50 0 50 0>
+		[behDotless-ar.init behDotless-ar.init.high]
+		 dotbelow-ar
+	;
+	pos	 reh-ar.isol' <50 0 50 0>
+		 space
+		[behDotless-ar.init behDotless-ar.init.high]
+		 dotbelow-ar
+	;
+
+	pos	 reh-ar.isol' <90 0 90 0>
+		[behDotless-ar.init behDotless-ar.init.high]
+		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
+	;
+	pos	 reh-ar.isol' <90 0 90 0>
+		 space
+		[behDotless-ar.init behDotless-ar.init.high]
+		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
+	;
+
+	pos	 waw-ar.isol' <40 0 40 0>
+		[behDotless-ar.init behDotless-ar.init.high]
+		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
+	;
+	pos	 waw-ar.isol' <40 0 40 0>
+		 space
+		[behDotless-ar.init behDotless-ar.init.high]
+		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
+	;
+} kern_rehwaw_beh;
+";
 tag = kern;
 },
 {
@@ -737,6 +775,9 @@ braceleft = 50;
 bracketleft = 60;
 "lam-ar.isol.alt" = -40;
 parenleft = 50;
+"qafDotless-ar.isol" = 50;
+"reh-ar.isol" = 20;
+"waw-ar.isol" = 20;
 };
 "sad-ar.init" = {
 "reh-ar.fina" = -50;
