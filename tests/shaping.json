@@ -387,6 +387,21 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "ييا",
+      "expectation": "alef-ar.fina=2+100|twodotshorizontalbelow-ar=1@-78,-125+0|beh-ar.medi=1+162|twodotshorizontalbelow-ar=0@-23,-125+0|beh-ar.init=0@-30,0+132"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "ييإ",
+      "expectation": "hamzabelow-ar=2@-73,-175+0|alef-ar.fina=2+100|twodotshorizontalbelow-ar=1@12,-125+0|kashida-ar.50=1+50|beh-ar.medi=1+162|twodotshorizontalbelow-ar=0@12,-125+0|kashida-ar.50=0+50|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "ييم",
+      "expectation": "meem-ar.fina=2+417|twodotshorizontalbelow-ar=1@-38,-125+0|beh-ar.medi=1+162|twodotshorizontalbelow-ar=0@12,-125+0|kashida-ar.50=0+50|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء ء‍ ‍ء‍ ‍ء",
       "expectation": "hamza-ar=10+400|space=8+0|space=8+50|space=6+0|hamza-ar=6+400|space=4+0|space=4+50|space=2+0|hamza-ar=2+400|space=1+50|hamza-ar=0+400"
     },

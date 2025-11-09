@@ -425,6 +425,30 @@ lookup rclt_wide_tooth_5 {
 	;
 } rclt_wide_tooth_5;
 
+lookup rclt_wide_tooth_6 {
+	lookupflag UseMarkFilteringSet [@horizontal_dots_below hamzabelow-ar];
+	sub	 @beh_init_medi' lookup insert_kashida_50
+		 @horizontal_dots_below
+		 @beh_init_medi
+		 kashida-ar.50
+		 @horizontal_dots_below
+		 alef-ar.fina
+		 hamzabelow-ar
+	;
+	ignore
+	sub	 @beh_init_medi'
+		 @horizontal_dots_below
+		 @beh_init_medi
+		 @horizontal_dots_below
+		 alef-ar.fina
+	;
+	sub	 @beh_init_medi' lookup insert_kashida_50
+		 @horizontal_dots_below
+		 @beh_init_medi
+		 @horizontal_dots_below
+	;
+} rclt_wide_tooth_6;
+
 lookup rclt_kashida_marks;
 ";
 tag = rclt;
