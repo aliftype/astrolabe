@@ -558,7 +558,7 @@ code = "sub yeh-ar.isol by yeh-ar.isol.alt;
 labels = (
 {
 language = ENG;
-value = "Alternate isolated/final “yeh”";
+value = "Alternate isolated “yeh”";
 },
 {
 language = ARA;
