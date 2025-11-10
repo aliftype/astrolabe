@@ -112,6 +112,21 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "تتم",
+      "expectation": "meem-ar.fina=2+417|twodotshorizontalabove-ar=1@-53,280+0|beh-ar.medi=1+162|twodotshorizontalabove-ar=0@-3,280+0|kashida-ar.50=0+50|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "تلم",
+      "expectation": "meem-ar.fina=2+417|lam-ar.medi=1+100|twodotshorizontalabove-ar=0@-33,280+0|kashida-ar.20=0+20|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "تنم",
+      "expectation": "meem-ar.fina=2+417|dotabove-ar=1@-3,280+0|beh-ar.medi=1+162|twodotshorizontalabove-ar=0@-33,280+0|kashida-ar.20=0+20|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ثا",
       "expectation": "alef-ar.fina=1+100|threedotsupabove-ar=0@-33,280+0|kashida-ar.20=0+20|beh-ar.init=0+162"
     },
@@ -119,6 +134,11 @@
       "only": "Astrolabe.ttf",
       "input": "ثبت",
       "expectation": "twodotshorizontalabove-ar=2@196,250+0|beh-ar.fina=2+550|dotbelow-ar=1@-28,-125+0|beh-ar.medi.high=1@-40,0+122|threedotsupabove-ar=0@-83,280+0|beh-ar.init=0@-30,0+132"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "ثل",
+      "expectation": "lam-ar.fina=1+350|threedotsupabove-ar=0@-33,280+0|kashida-ar.20=0+20|beh-ar.init=0+162"
     },
     {
       "only": "Astrolabe.ttf",
@@ -247,6 +267,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "نتم",
+      "expectation": "meem-ar.fina=2+417|twodotshorizontalabove-ar=1@-53,280+0|beh-ar.medi=1+162|dotabove-ar=0@17,280+0|kashida-ar.20=0+20|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "نثا",
       "expectation": "alef-ar.fina=2+100|threedotsupabove-ar=1@-33,280+0|kashida-ar.20=1+20|beh-ar.medi=1+162|dotabove-ar=0@17,280+0|kashida-ar.20=0+20|beh-ar.init=0+162"
     },
@@ -304,6 +329,11 @@
       "only": "Astrolabe.ttf",
       "input": "يحا",
       "expectation": "alef-ar.fina=2+100|hah-ar.medi=1+275|twodotshorizontalbelow-ar=0@32,-125+0|kashida-ar.70=0+70|beh-ar.init=0+162"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "يحی",
+      "expectation": "yeh-ar.fina=2+680|hah-ar.medi=1+275|twodotshorizontalbelow-ar=0@32,-125+0|kashida-ar.70=0+70|beh-ar.init=0+162"
     },
     {
       "only": "Astrolabe.ttf",
