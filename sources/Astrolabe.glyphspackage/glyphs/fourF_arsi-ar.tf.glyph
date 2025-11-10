@@ -1,0 +1,117 @@
+{
+category = Number;
+glyphname = "fourFarsi-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (20,0);
+ref = "fourFarsi-ar";
+}
+);
+width = 450;
+},
+{
+associatedMasterId = m01;
+layerId = "D46523E0-64F9-4721-86FB-3C9F795D1851";
+name = "4 Jul 25 at 06:33";
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,10,l),
+(193,173,o),
+(157,342,o),
+(94,500,c),
+(50,481,l),
+(109,326,o),
+(145,160,o),
+(166,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(284,350,o),
+(350,408,o),
+(350,495,c),
+(300,495,l),
+(300,430,o),
+(250,400,o),
+(200,400,cs),
+(161,400,o),
+(126,418,o),
+(111,456,c),
+(85,398,l),
+(113,368,o),
+(154,350,o),
+(200,350,cs)
+);
+}
+);
+width = 370;
+},
+{
+associatedMasterId = m01;
+layerId = "B2CFEED8-3ACC-4C54-9AB4-CB82517D1CCA";
+name = "4 Jul 25 at 07:02";
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,10,l),
+(193,173,o),
+(157,342,o),
+(94,500,c),
+(50,481,l),
+(109,326,o),
+(145,160,o),
+(166,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,405,l),
+(235,378,o),
+(143,383,o),
+(114,448,c),
+(81,397,l),
+(135,332,o),
+(247,329,o),
+(320,359,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,405,l),
+(279,398,o),
+(243,399,o),
+(243,429,cs),
+(243,445,o),
+(258,462,o),
+(289,460,c),
+(289,510,l),
+(233,511,o),
+(196,481,o),
+(196,432,cs),
+(196,397,o),
+(214,370,o),
+(243,358,c)
+);
+}
+);
+width = 340;
+}
+);
+metricLeft = "=70";
+metricRight = "=|";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3139;
+sortNameKeep = ar3168;
+subCategory = "Decimal Digit";
+}

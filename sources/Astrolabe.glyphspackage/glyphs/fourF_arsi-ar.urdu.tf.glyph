@@ -1,0 +1,24 @@
+{
+category = Number;
+glyphname = "fourFarsi-ar.urdu.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (25,0);
+ref = "fourFarsi-ar.urdu";
+}
+);
+width = 450;
+}
+);
+metricLeft = "=75";
+metricRight = "=|";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3140;
+sortNameKeep = ar3168.urdu;
+subCategory = "Decimal Digit";
+}

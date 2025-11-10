@@ -454,6 +454,27 @@ lookup rclt_kashida_marks;
 tag = rclt;
 },
 {
+automatic = 1;
+code = "sub zero-ar by zero-ar.tf;
+sub one-ar by one-ar.tf;
+sub two-ar by two-ar.tf;
+sub three-ar by three-ar.tf;
+sub four-ar by four-ar.tf;
+sub fourFarsi-ar by fourFarsi-ar.tf;
+sub fourFarsi-ar.urdu by fourFarsi-ar.urdu.tf;
+sub five-ar by five-ar.tf;
+sub fiveFarsi-ar by fiveFarsi-ar.tf;
+sub six-ar by six-ar.tf;
+sub sixFarsi-ar by sixFarsi-ar.tf;
+sub seven-ar by seven-ar.tf;
+sub sevenFarsi-ar by sevenFarsi-ar.tf;
+sub sevenFarsi-ar.urdu by sevenFarsi-ar.urdu.tf;
+sub eight-ar by eight-ar.tf;
+sub nine-ar by nine-ar.tf;
+";
+tag = tnum;
+},
+{
 code = "sub hah-ar.isol			by hah-ar.alt.isol;
 sub hah-ar.fina			by hah-ar.alt.fina;
 ";

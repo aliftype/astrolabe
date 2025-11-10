@@ -1,0 +1,23 @@
+{
+category = Number;
+glyphname = "sevenFarsi-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "sevenFarsi-ar";
+}
+);
+width = 450;
+}
+);
+metricLeft = "seven-ar";
+metricRight = "seven-ar";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3148;
+sortNameKeep = ar3177;
+subCategory = "Decimal Digit";
+}

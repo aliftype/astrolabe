@@ -1,0 +1,169 @@
+{
+category = Number;
+glyphname = "four-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (48,0);
+ref = "four-ar";
+}
+);
+width = 450;
+},
+{
+associatedMasterId = m01;
+layerId = "C10D7589-72E9-410F-855C-981DCFBAD110";
+name = "4 Jul 25 at 06:43";
+shapes = (
+{
+ref = "one-ar";
+}
+);
+width = 250;
+},
+{
+associatedMasterId = m01;
+layerId = "1DDC8EAF-AE99-4243-B012-796099C4FE01";
+name = "4 Jul 25 at 07:37";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,66,l),
+(228,218,l),
+(90,257,l),
+(153,396,l),
+(108,417,l),
+(20,225,l),
+(162,185,l),
+(102,25,l),
+(287,-1,l),
+(294,49,l)
+);
+}
+);
+width = 314;
+},
+{
+associatedMasterId = m01;
+layerId = "91D730BE-4C0B-44E6-8CB7-532AF23740DD";
+name = "4 Jul 25 at 07:39";
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,49,l),
+(170,64,ls),
+(159,66,o),
+(155,72,o),
+(159,82,cs),
+(190,164,ls),
+(203,199,o),
+(190,224,o),
+(155,234,cs),
+(88,253,ls),
+(78,256,o),
+(75,262,o),
+(79,272,cs),
+(128,379,l),
+(83,400,l),
+(27,279,ls),
+(11,244,o),
+(23,219,o),
+(59,209,cs),
+(129,189,ls),
+(138,186,o),
+(141,179,o),
+(138,170,cs),
+(106,83,ls),
+(93,47,o),
+(107,21,o),
+(145,16,cs),
+(269,-1,l)
+);
+}
+);
+width = 296;
+},
+{
+associatedMasterId = m01;
+layerId = "8CBFB617-7A47-41AC-BA58-2CBA2DDBA6B1";
+name = "4 Jul 25 at 07:42";
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,50,l),
+(108,72,l),
+(137,24,l),
+(191,169,ls),
+(202,200,o),
+(191,223,o),
+(159,233,cs),
+(29,271,l),
+(53,217,l),
+(128,379,l),
+(83,400,l),
+(27,279,ls),
+(11,244,o),
+(23,219,o),
+(59,209,cs),
+(165,179,l),
+(154,213,l),
+(106,83,ls),
+(93,47,o),
+(107,21,o),
+(145,16,cs),
+(268,0,l)
+);
+}
+);
+width = 295;
+},
+{
+associatedMasterId = m01;
+layerId = "78BC309C-57C0-473C-8E8B-057626DFB41E";
+name = "4 Jul 25 at 07:51";
+shapes = (
+{
+closed = 0;
+nodes = (
+(270,50,l),
+(128,83,l),
+(174,199,ls),
+(187,231,o),
+(171,249,o),
+(138,259,cs),
+(72,279,l),
+(144,425,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(101,450,l),
+(27,300,ls),
+(10,265,o),
+(25,242,o),
+(53,233,cs),
+(125,210,l),
+(81,100,ls),
+(67,65,o),
+(82,42,o),
+(120,33,cs),
+(265,0,l)
+);
+}
+);
+width = 290;
+}
+);
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3138;
+sortNameKeep = ar3138.tnum;
+subCategory = "Decimal Digit";
+}

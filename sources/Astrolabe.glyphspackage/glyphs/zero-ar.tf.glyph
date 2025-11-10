@@ -1,0 +1,23 @@
+{
+category = Number;
+glyphname = "zero-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (55,0);
+ref = "zero-ar";
+}
+);
+width = 450;
+}
+);
+metricLeft = "=155";
+metricRight = "=|";
+script = arabic;
+sortName = tf.ar3126;
+sortNameKeep = ar3126.tnum;
+subCategory = "Decimal Digit";
+}

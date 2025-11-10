@@ -1,0 +1,77 @@
+{
+category = Number;
+glyphname = "two-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (50,0);
+ref = "two-ar";
+}
+);
+width = 450;
+},
+{
+associatedMasterId = m01;
+layerId = "6DAE80FE-36D0-4DF6-966F-774615C20688";
+name = "4 Jul 25 at 06:28";
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,10,l),
+(193,173,o),
+(157,342,o),
+(94,500,c),
+(50,481,l),
+(109,326,o),
+(145,160,o),
+(166,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(182,370,o),
+(208,385,o),
+(225,410,c),
+(242,385,o),
+(267,370,o),
+(296,370,cs),
+(353,370,o),
+(390,428,o),
+(390,495,c),
+(340,495,l),
+(340,451,o),
+(320,420,o),
+(295,420,cs),
+(270,420,o),
+(250,450,o),
+(250,495,c),
+(200,495,l),
+(200,451,o),
+(180,420,o),
+(157,420,cs),
+(134,420,o),
+(121,434,o),
+(111,456,c),
+(68,435,l),
+(84,397,o),
+(114,370,o),
+(153,370,cs)
+);
+}
+);
+width = 410;
+}
+);
+metricLeft = "=100";
+metricRight = "=|";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3132;
+sortNameKeep = ar3132.tnum;
+subCategory = "Decimal Digit";
+}

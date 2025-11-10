@@ -1,0 +1,21 @@
+{
+category = Number;
+glyphname = "eight-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "eight-ar";
+}
+);
+width = 450;
+}
+);
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3150;
+sortNameKeep = ar3150.tnum;
+subCategory = "Decimal Digit";
+}

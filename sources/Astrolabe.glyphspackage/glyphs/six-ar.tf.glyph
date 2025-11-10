@@ -1,0 +1,24 @@
+{
+category = Number;
+glyphname = "six-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (15,0);
+ref = "six-ar";
+}
+);
+width = 450;
+}
+);
+metricLeft = "=65";
+metricRight = "=|";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3144;
+sortNameKeep = ar3144.tnum;
+subCategory = "Decimal Digit";
+}

@@ -1,0 +1,65 @@
+{
+category = Number;
+glyphname = "five-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (50,0);
+ref = "five-ar";
+}
+);
+width = 450;
+},
+{
+associatedMasterId = m01;
+layerId = "40B6DED3-6F27-4D80-9E7B-A7D6E941A601";
+name = "4 Jul 25 at 07:57";
+shapes = (
+{
+closed = 1;
+nodes = (
+(308,0,o),
+(350,88,o),
+(350,186,cs),
+(350,310,o),
+(284,450,o),
+(200,450,cs),
+(116,450,o),
+(50,310,o),
+(50,186,cs),
+(50,88,o),
+(92,0,o),
+(200,0,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,50,o),
+(100,111,o),
+(100,182,cs),
+(100,281,o),
+(151,400,o),
+(200,400,cs),
+(249,400,o),
+(300,281,o),
+(300,182,cs),
+(300,111,o),
+(273,50,o),
+(200,50,cs)
+);
+}
+);
+width = 400;
+}
+);
+metricRight = "=|";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3141;
+sortNameKeep = ar3141.tnum;
+subCategory = "Decimal Digit";
+}

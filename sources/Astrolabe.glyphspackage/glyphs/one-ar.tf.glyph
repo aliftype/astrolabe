@@ -1,0 +1,45 @@
+{
+category = Number;
+glyphname = "one-ar.tf";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (100,0);
+ref = "one-ar";
+}
+);
+width = 450;
+},
+{
+associatedMasterId = m01;
+layerId = "F56B1598-2763-43B6-95B8-2020382C4744";
+name = "4 Jul 25 at 07:11";
+shapes = (
+{
+closed = 1;
+nodes = (
+(214,10,l),
+(192,173,o),
+(157,342,o),
+(94,500,c),
+(50,481,l),
+(109,326,o),
+(145,160,o),
+(166,0,c)
+);
+}
+);
+width = 264;
+}
+);
+metricLeft = "=150";
+metricRight = "=|";
+metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3129;
+sortNameKeep = ar3129.tnum;
+subCategory = "Decimal Digit";
+}
