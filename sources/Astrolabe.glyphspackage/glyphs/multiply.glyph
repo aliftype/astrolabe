@@ -1,0 +1,18 @@
+{
+glyphname = multiply;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 45;
+pos = (216,-66);
+ref = plus;
+}
+);
+width = 375;
+}
+);
+metricWidth = "=plus";
+unicode = 215;
+}

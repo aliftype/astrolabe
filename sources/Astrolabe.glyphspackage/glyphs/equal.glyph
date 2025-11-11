@@ -1,0 +1,23 @@
+{
+glyphname = equal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 3;
+pos = (0,-70);
+ref = minus;
+},
+{
+alignment = 3;
+pos = (0,70);
+ref = minus;
+}
+);
+width = 375;
+}
+);
+metricWidth = "=minus";
+unicode = 61;
+}
