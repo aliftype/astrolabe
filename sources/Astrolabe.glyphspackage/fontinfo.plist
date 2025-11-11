@@ -151,7 +151,7 @@ lookup insert_kashida_70 {
 } insert_kashida_70;
 
 lookup reorder_kashida {
-	sub kashida-ar		by NULL;
+	sub kashida-ar		by dummy.mark;
 	sub @dots			by kashida-ar.dots @dots;
 	sub @tashkil		by kashida-ar.dots @tashkil;
 } reorder_kashida;
@@ -197,6 +197,15 @@ lookup rclt_kashida_wide_fatha {
 	by	[fatha-ar.kashida fathatan-ar.kashida]
 	;
 } rclt_kashida_wide_fatha;
+
+lookup ss01 {
+	sub @dots by dummy.mark;
+} ss01;
+
+lookup rclt_delete_dummy_mark {
+	lookupflag 0;
+	sub dummy.mark	by NULL;
+} rclt_delete_dummy_mark;
 ";
 name = Lookups;
 },
@@ -207,6 +216,7 @@ code = "conditionset wide_1 {
 
 variation rclt wide_1 {
 	lookup rclt_kashida_reorder_dots;
+	lookup rclt_delete_dummy_mark;
 } rclt;
 
 conditionset wide_2 {
@@ -217,6 +227,7 @@ variation rclt wide_2 {
 	lookup rclt_kashida_wide_fatha;
 	lookup rclt_kashida_reorder_dots;
 	lookup rclt_kashida_reorder_fatha;
+	lookup rclt_delete_dummy_mark;
 } rclt;
 
 ";
@@ -397,7 +408,7 @@ code = "lookup liga_lellah {
 tag = liga;
 },
 {
-code = "sub @dots by NULL;
+code = "lookup ss01;
 ";
 labels = (
 {
@@ -492,7 +503,8 @@ lookup rclt_wide_tooth_6 {
 		 @horizontal_dots_below
 	;
 } rclt_wide_tooth_6;
-";
+
+lookup rclt_delete_dummy_mark;";
 tag = rclt;
 },
 {
