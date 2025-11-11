@@ -64,6 +64,24 @@ name = bottom_marks;
 code = "$[hasSpecialLayers == yes]
 ";
 name = mashq_glyphs;
+},
+{
+code = "fatha-ar
+fathatan-ar
+damma-ar
+dammatan-ar
+kasra-ar
+kasratan-ar
+shadda-ar
+sukun-ar
+";
+name = tashkil;
+},
+{
+code = "$[name LIKE \"*-ar.init*\"]
+$[name LIKE \"*-ar.medi*\"]
+";
+name = init_medi;
 }
 );
 customParameters = (
@@ -135,21 +153,36 @@ lookup insert_kashida_70 {
 lookup reorder_kashida {
 	sub kashida-ar		by NULL;
 	sub @dots			by kashida-ar.dots @dots;
+	sub @tashkil		by kashida-ar.dots @tashkil;
 } reorder_kashida;
 
-lookup rclt_kashida_marks {
+lookup rclt_kashida_marks_1 {
 	lookupflag UseMarkFilteringSet @dots;
 
-	sub	[beh-ar.init beh-ar.medi beh-ar.medi.high]
+	sub	@beh_init_medi
 		 @dots' lookup reorder_kashida
 		 kashida-ar
 	;
-	sub	[beh-ar.init beh-ar.medi beh-ar.medi.high]
+	sub	@beh_init_medi
 		 kashida-ar.dots
 		 @dots
 		 kashida-ar' lookup reorder_kashida
 	;
-} rclt_kashida_marks;
+} rclt_kashida_marks_1;
+
+lookup rclt_kashida_marks_2 {
+	lookupflag UseMarkFilteringSet @tashkil;
+
+	sub	 @init_medi
+		 @tashkil' lookup reorder_kashida
+		 kashida-ar
+	;
+	sub	 @init_medi
+		 kashida-ar.dots
+		 @tashkil
+		 kashida-ar' lookup reorder_kashida
+	;
+} rclt_kashida_marks_2;
 
 lookup rclt_fatha_kashida {
 	lookupflag UseMarkFilteringSet [fatha-ar fathatan-ar];
@@ -449,7 +482,9 @@ lookup rclt_wide_tooth_6 {
 	;
 } rclt_wide_tooth_6;
 
-lookup rclt_kashida_marks;
+lookup rclt_kashida_marks_1;
+lookup rclt_kashida_marks_2;
+
 ";
 tag = rclt;
 },
