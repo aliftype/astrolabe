@@ -156,7 +156,7 @@ lookup reorder_kashida {
 	sub @tashkil		by kashida-ar.dots @tashkil;
 } reorder_kashida;
 
-lookup rclt_kashida_marks_1 {
+lookup rclt_kashida_reorder_dots {
 	lookupflag UseMarkFilteringSet @dots;
 
 	sub	@beh_init_medi
@@ -168,9 +168,9 @@ lookup rclt_kashida_marks_1 {
 		 @dots
 		 kashida-ar' lookup reorder_kashida
 	;
-} rclt_kashida_marks_1;
+} rclt_kashida_reorder_dots;
 
-lookup rclt_kashida_marks_2 {
+lookup rclt_kashida_reorder_fatha {
 	lookupflag UseMarkFilteringSet @tashkil;
 
 	sub	 @init_medi
@@ -182,9 +182,9 @@ lookup rclt_kashida_marks_2 {
 		 @tashkil
 		 kashida-ar' lookup reorder_kashida
 	;
-} rclt_kashida_marks_2;
+} rclt_kashida_reorder_fatha;
 
-lookup rclt_fatha_kashida {
+lookup rclt_kashida_wide_fatha {
 	lookupflag UseMarkFilteringSet [fatha-ar fathatan-ar];
 
 	sub	[tah-ar.isol tah-ar.init tah-ar.medi tah-ar.fina kaf-ar.isol kaf-ar.init kaf-ar.medi kaf-ar.fina]
@@ -196,18 +196,29 @@ lookup rclt_fatha_kashida {
 		[fatha-ar fathatan-ar]'
 	by	[fatha-ar.kashida fathatan-ar.kashida]
 	;
-} rclt_fatha_kashida;
+} rclt_kashida_wide_fatha;
 ";
 name = Lookups;
 },
 {
-code = "conditionset wide {
-	MSHQ 20 200;
-} wide;
+code = "conditionset wide_1 {
+	MSHQ 0 15;
+} wide_1;
 
-variation rclt wide {
-	lookup rclt_fatha_kashida;
+variation rclt wide_1 {
+	lookup rclt_kashida_reorder_dots;
 } rclt;
+
+conditionset wide_2 {
+	MSHQ 15 200;
+} wide_2;
+
+variation rclt wide_2 {
+	lookup rclt_kashida_wide_fatha;
+	lookup rclt_kashida_reorder_dots;
+	lookup rclt_kashida_reorder_fatha;
+} rclt;
+
 ";
 name = Variations;
 }
@@ -481,10 +492,6 @@ lookup rclt_wide_tooth_6 {
 		 @horizontal_dots_below
 	;
 } rclt_wide_tooth_6;
-
-lookup rclt_kashida_marks_1;
-lookup rclt_kashida_marks_2;
-
 ";
 tag = rclt;
 },
