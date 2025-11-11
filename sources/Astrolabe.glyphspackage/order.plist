@@ -119,6 +119,8 @@
 "nine-ar.tf",
 space,
 figurespace,
+zerowidthnonjoiner,
+zerowidthjoiner,
 "comma-ar",
 "semicolon-ar",
 "question-ar",
