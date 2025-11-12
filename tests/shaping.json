@@ -428,17 +428,17 @@
     {
       "only": "Astrolabe.ttf",
       "input": "بَـا",
-      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-120+0|dotbelow-ar=0@12,-125+0|kashida-ar.dots=0+50|beh-ar.init=0+162"
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@-40,-120+0|dotbelow-ar=0@12,-125+0|beh-ar.init=0+162"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "تَـا",
-      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-45+0|twodotshorizontalabove-ar=0@-38,280+0|kashida-ar.dots=0+50|beh-ar.init=0+162"
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@-40,-45+0|twodotshorizontalabove-ar=0@-53,280+0|beh-ar.init=0+162"
     },
     {
       "only": "Astrolabe.ttf",
       "input": "بًـا",
-      "expectation": "alef-ar.fina=3+100|fathatan-ar=0@-25,-120+0|dotbelow-ar=0@12,-125+0|kashida-ar.dots=0+50|beh-ar.init=0+162"
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fathatan-ar=0@-40,-120+0|dotbelow-ar=0@12,-125+0|beh-ar.init=0+162"
     },
     {
       "only": "Astrolabe.ttf",
@@ -478,7 +478,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "يَـا",
-      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-120+0|twodotshorizontalbelow-ar=0@-38,-125+0|kashida-ar.dots=0+50|beh-ar.init=0+162"
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@-40,-120+0|twodotshorizontalbelow-ar=0@-38,-125+0|beh-ar.init=0+162"
     },
     {
       "only": "Astrolabe.ttf",
@@ -489,6 +489,11 @@
       "only": "Astrolabe.ttf",
       "input": "عَـا",
       "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@73,0+0|ain-ar.init=0+350"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "حــــا",
+      "expectation": "alef-ar.fina=5+100|kashida-ar=4+50|kashida-ar=3+50|kashida-ar=2+50|kashida-ar=1+50|hah-ar.init=0+275"
     },
     {
       "only": "Astrolabe.ttf",
@@ -947,6 +952,14 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "حــــا",
+      "expectation": "alef-ar.fina=5+100|kashida-ar=1+4700|hah-ar.init=0+275",
+      "variations": {
+        "MSHQ": 200
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ضضض ض",
       "expectation": "dotabove-ar=4@1662,250+0|sad-ar.isol=4+2940|space=3+50|dotabove-ar=2@1662,250+0|sad-ar.fina=2+2940|dotabove-ar=1@1256,250+0|sad-ar.medi=1+2540|dotabove-ar=0@1256,250+0|sad-ar.init=0+2540",
       "variations": {
@@ -1147,6 +1160,14 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "حــــا",
+      "expectation": "alef-ar.fina=5+100|kashida-ar=1+2253|hah-ar.init=0+275",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ضضض ض",
       "expectation": "dotabove-ar=4@592,250+0|sad-ar.isol=4+800|space=3+50|dotabove-ar=2@592,250+0|sad-ar.fina=2+800|dotabove-ar=1@187,250+0|sad-ar.medi=1+400|dotabove-ar=0@187,250+0|sad-ar.init=0+400",
       "variations": {
@@ -1341,6 +1362,14 @@
       "only": "Astrolabe.ttf",
       "input": "عَـا",
       "expectation": "alef-ar.fina=3+100|kashida-ar=2+0|fatha-ar=0@73,0+0|ain-ar.init=0+350",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "حــــا",
+      "expectation": "alef-ar.fina=5+100|kashida-ar=1+0|hah-ar.init=0+275",
       "variations": {
         "MSHQ": 0
       }
@@ -1916,7 +1945,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "بَـا",
-      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-120+0|kashida-ar.dots=0+50|beh-ar.init=0+162",
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@-40,-120+0|beh-ar.init=0+162",
       "features": {
         "ss01": true
       }
@@ -1924,7 +1953,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "تَـا",
-      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-120+0|kashida-ar.dots=0+50|beh-ar.init=0+162",
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@-40,-120+0|beh-ar.init=0+162",
       "features": {
         "ss01": true
       }
@@ -1932,7 +1961,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "بًـا",
-      "expectation": "alef-ar.fina=3+100|fathatan-ar=0@-25,-120+0|kashida-ar.dots=0+50|beh-ar.init=0+162",
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fathatan-ar=0@-40,-120+0|beh-ar.init=0+162",
       "features": {
         "ss01": true
       }
@@ -1940,7 +1969,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "يَـا",
-      "expectation": "alef-ar.fina=3+100|fatha-ar=0@-25,-120+0|kashida-ar.dots=0+50|beh-ar.init=0+162",
+      "expectation": "alef-ar.fina=3+100|kashida-ar=2+50|fatha-ar=0@-40,-120+0|beh-ar.init=0+162",
       "features": {
         "ss01": true
       }

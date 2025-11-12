@@ -202,6 +202,10 @@ lookup ss01 {
 	sub @dots by dummy.mark;
 } ss01;
 
+lookup rclt_delete_multiple_kashida {
+	rsub kashida-ar kashida-ar' by dummy.mark;
+} rclt_delete_multiple_kashida;
+
 lookup rclt_delete_dummy_mark {
 	lookupflag 0;
 	sub dummy.mark	by NULL;
@@ -210,23 +214,47 @@ lookup rclt_delete_dummy_mark {
 name = Lookups;
 },
 {
-code = "conditionset wide_1 {
-	MSHQ 0 15;
-} wide_1;
+code = "lookup dummy {
+	sub space by space;
+} dummy;
 
-variation rclt wide_1 {
+conditionset wide_0 {
+	MSHQ 0 9.999;
+} wide_0;
+
+variation rclt wide_0 {
 	lookup rclt_kashida_reorder_dots;
+	lookup rclt_delete_multiple_kashida;
 	lookup rclt_delete_dummy_mark;
 } rclt;
 
+conditionset wide_1 {
+	MSHQ 10 10.001;
+} wide_1;
+
+variation rclt wide_1 {
+	lookup dummy;
+} rclt;
+
 conditionset wide_2 {
-	MSHQ 15 200;
+	MSHQ 10.001 15;
 } wide_2;
 
 variation rclt wide_2 {
+	lookup rclt_kashida_reorder_dots;
+	lookup rclt_delete_multiple_kashida;
+	lookup rclt_delete_dummy_mark;
+} rclt;
+
+conditionset wide_3 {
+	MSHQ 15 200;
+} wide_3;
+
+variation rclt wide_3 {
 	lookup rclt_kashida_wide_fatha;
 	lookup rclt_kashida_reorder_dots;
 	lookup rclt_kashida_reorder_fatha;
+	lookup rclt_delete_multiple_kashida;
 	lookup rclt_delete_dummy_mark;
 } rclt;
 
