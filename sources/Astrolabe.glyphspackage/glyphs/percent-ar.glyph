@@ -23,6 +23,29 @@ ref = period;
 }
 );
 width = 400;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,429,l),
+(306,454,l),
+(50,11,l),
+(94,-14,l)
+);
+},
+{
+pos = (217,0);
+ref = period;
+},
+{
+pos = (1,375);
+ref = period;
+}
+);
+width = 400;
 }
 );
 metricLeft = "=50";

@@ -10,6 +10,15 @@ ref = "kaf-ar.isol";
 }
 );
 width = 650;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "kaf-ar.isol";
+}
+);
+width = 650;
 }
 );
 unicode = 1705;

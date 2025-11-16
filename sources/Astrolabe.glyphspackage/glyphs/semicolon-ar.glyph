@@ -13,6 +13,19 @@ ref = "comma-ar";
 }
 );
 width = 175;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,-125);
+ref = period;
+},
+{
+ref = "comma-ar";
+}
+);
+width = 175;
 }
 );
 metricWidth = "=period";

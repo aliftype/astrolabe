@@ -20,6 +20,26 @@ ref = "kashida-ar.50";
 }
 );
 width = 350;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (250,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "lam_alef-ar.isol";
+},
+{
+alignment = -1;
+pos = (300,0);
+ref = "kashida-ar.50";
+}
+);
+width = 350;
 }
 );
 metricRight = "=0";

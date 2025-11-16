@@ -12,6 +12,17 @@ ref = "six-ar";
 }
 );
 width = 390;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (-15,0);
+ref = "six-ar";
+}
+);
+width = 390;
 }
 );
 metricLeft = "=35";

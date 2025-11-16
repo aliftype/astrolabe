@@ -40,6 +40,46 @@ ref = "meem-ar.init";
 }
 );
 width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (200,0);
+}
+);
+backgroundImage = {
+angle = 125;
+imagePath = "images/31246001-fixed.jpg";
+locked = 1;
+pos = (29021,2614);
+scale = (209.3003,209.3003);
+};
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,0,l),
+(330,50,l),
+(250,50,ls),
+(218,50,o),
+(94,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+},
+{
+alignment = -1;
+pos = (283,0);
+ref = "meem-ar.init";
+}
+);
+width = 550;
 }
 );
 metricLeft = "=0";

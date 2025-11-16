@@ -10,6 +10,15 @@ ref = "yeh-ar.isol.alt";
 }
 );
 width = 650;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "yeh-ar.isol.alt";
+}
+);
+width = 650;
 }
 );
 metricWidth = "=1000";

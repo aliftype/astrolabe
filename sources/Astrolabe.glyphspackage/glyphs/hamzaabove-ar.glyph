@@ -21,6 +21,27 @@ scale = (0.5,0.5);
 }
 );
 width = 175;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (88,-50);
+},
+{
+name = topAlt;
+pos = (90,125);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+ref = "hamza-ar";
+scale = (0.5,0.5);
+}
+);
+width = 175;
 }
 );
 metricLeft = "=0";

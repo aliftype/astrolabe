@@ -44,6 +44,49 @@ nodes = (
 }
 );
 width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (400,0);
+ref = "kashida-ar.50";
+},
+{
+ref = "heh-ar.init";
+}
+);
+width = 450;
+},
+{
+associatedMasterId = m002;
+layerId = "6D621D47-8703-42F7-B2BE-37979FB647F3";
+name = "7 Apr 24 at 12:39";
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,385,o),
+(223,385,o),
+(173,419,c),
+(207,446,l),
+(170,356,l),
+(166,403,l),
+(201,405,o),
+(225,360,o),
+(225,300,c),
+(275,300,l),
+(275,360,o),
+(299,405,o),
+(334,403,c),
+(331,357,l),
+(292,446,l),
+(326,419,l)
+);
+}
+);
+width = 600;
 }
 );
 metricLeft = "=heh-ar.init";

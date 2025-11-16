@@ -11,6 +11,17 @@ scale = (1,-1);
 }
 );
 width = 300;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,400);
+ref = slash;
+scale = (1,-1);
+}
+);
+width = 300;
 }
 );
 metricLeft = "=|slash";

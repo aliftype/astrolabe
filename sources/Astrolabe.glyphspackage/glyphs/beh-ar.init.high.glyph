@@ -53,6 +53,58 @@ nodes = (
 }
 );
 width = 110;
+},
+{
+anchors = (
+{
+name = "*bottom";
+pos = (95,0);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @dots_below; * [beh-ar.medi beh-ar.medi.high] @dots_below";
+};
+},
+{
+name = bottom;
+pos = (50,0);
+},
+{
+name = top;
+pos = (36,307);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+ref = _beh.init.high;
+}
+);
+width = 163;
+},
+{
+associatedMasterId = m002;
+layerId = "1F4D05B8-F86D-4F40-AD88-48A09492434F";
+name = "22 Mar 24 at 13:16";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-10,50,l),
+(-10,0,l),
+(100,0,l),
+(100,200,l),
+(92,200,l),
+(70,167,o),
+(48,155,o),
+(0,150,c),
+(0,142,l),
+(41,126,o),
+(50,72,o),
+(50,50,c)
+);
+}
+);
+width = 110;
 }
 );
 metricLeft = "=-10";

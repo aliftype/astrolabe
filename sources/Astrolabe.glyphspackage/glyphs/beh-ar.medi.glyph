@@ -11,24 +11,162 @@ pos = (95,0);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @dots_below; * [beh-ar.medi beh-ar.medi.high] @dots_below";
 };
+},
+{
+name = bottom;
+pos = (50,0);
+},
+{
+name = top;
+pos = (35,230);
 }
 );
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (112,0);
-ref = "kashida-ar.50";
+closed = 1;
+nodes = (
+(119,0,l),
+(91,205,l),
+(83,204,l),
+(66,169,o),
+(45,154,o),
+(-1,142,c),
+(0,133,l),
+(43,123,o),
+(59,72,o),
+(62,50,cs),
+(69,0,l)
+);
 },
 {
-alignment = -1;
-ref = "beh-ar.init";
+closed = 1;
+nodes = (
+(57,0,o),
+(125,0,o),
+(192,0,c),
+(162,-45,l),
+(162,95,l),
+(192,50,l),
+(125,50,o),
+(57,50,o),
+(-10,50,c),
+(-10,0,l)
+);
 }
 );
 width = 162;
+},
+{
+anchors = (
+{
+name = "*bottom";
+pos = (95,0);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @dots_below; * [beh-ar.medi beh-ar.medi.high] @dots_below";
+};
+},
+{
+name = bottom;
+pos = (70,0);
+},
+{
+name = top;
+pos = (5,230);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(474,-1,o),
+(803,328,o),
+(803,734,cs),
+(803,1140,o),
+(474,1469,o),
+(68,1469,cs),
+(-338,1469,o),
+(-667,1140,o),
+(-667,734,cs),
+(-667,328,o),
+(-338,-1,o),
+(68,-1,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(82,708,o),
+(94,720,o),
+(94,734,cs),
+(94,748,o),
+(82,760,o),
+(68,760,cs),
+(54,760,o),
+(42,748,o),
+(42,734,cs),
+(42,720,o),
+(54,708,o),
+(68,708,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(446,49,o),
+(753,356,o),
+(753,734,cs),
+(753,1112,o),
+(446,1419,o),
+(68,1419,cs),
+(-310,1419,o),
+(-617,1112,o),
+(-617,734,cs),
+(-617,356,o),
+(-310,49,o),
+(68,49,cs)
+);
+}
+);
+};
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(83,-1,l),
+(84,207,l),
+(76,207,l),
+(54,175,o),
+(31,163,o),
+(-16,157,c),
+(-16,148,l),
+(25,132,o),
+(34,80,o),
+(34,57,cs),
+(34,7,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-1,-2,o),
+(83,-10,o),
+(217,15,c),
+(160,-35,l),
+(120,99,l),
+(207,63,l),
+(74,39,o),
+(-16,52,o),
+(-70,62,c),
+(-80,14,l)
+);
+}
+);
+width = 122;
 }
 );
 metricLeft = "=beh-ar.init";
-metricRight = "=0";
 metricWidth = "=beh-ar.init";
 }

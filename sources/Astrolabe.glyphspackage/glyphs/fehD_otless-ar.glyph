@@ -10,6 +10,15 @@ ref = "feh-ar.isol";
 }
 );
 width = 550;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "feh-ar.isol";
+}
+);
+width = 550;
 }
 );
 metricWidth = "=1000";

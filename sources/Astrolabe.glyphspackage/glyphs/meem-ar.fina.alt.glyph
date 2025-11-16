@@ -15,6 +15,21 @@ ref = "meem-ar.isol.alt";
 }
 );
 width = 550;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (500,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "meem-ar.isol.alt";
+}
+);
+width = 550;
 }
 );
 metricLeft = "=meem-ar.isol";

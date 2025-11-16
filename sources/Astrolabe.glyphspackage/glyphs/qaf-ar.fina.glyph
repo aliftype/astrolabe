@@ -16,6 +16,22 @@ ref = "qaf-ar.isol";
 }
 );
 width = 605;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (555,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+pos = (0,-51);
+ref = "qaf-ar.isol";
+}
+);
+width = 605;
 }
 );
 metricLeft = "=qaf-ar.isol";

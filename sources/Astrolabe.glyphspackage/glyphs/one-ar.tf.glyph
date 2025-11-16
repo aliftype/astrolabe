@@ -33,6 +33,38 @@ nodes = (
 }
 );
 width = 264;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (70,0);
+ref = "one-ar";
+}
+);
+width = 390;
+},
+{
+associatedMasterId = m002;
+layerId = "6270CB1C-89FD-46B7-A7CF-7F26BAF488E4";
+name = "4 Jul 25 at 07:11";
+shapes = (
+{
+closed = 1;
+nodes = (
+(214,10,l),
+(192,173,o),
+(157,342,o),
+(94,500,c),
+(50,481,l),
+(109,326,o),
+(145,160,o),
+(166,0,c)
+);
+}
+);
+width = 264;
 }
 );
 metricLeft = "=120";

@@ -26,6 +26,31 @@ scale = (1,-1);
 }
 );
 width = 443;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (-34,0);
+ref = "sevenFarsi-ar.urdu";
+}
+);
+width = 390;
+},
+{
+associatedMasterId = m002;
+layerId = "AB1B0AB8-EFE2-4505-981E-56A49A85D2A4";
+name = "4 Jul 25 at 08:32";
+shapes = (
+{
+alignment = -1;
+pos = (-4,450);
+ref = "seven-ar";
+scale = (1,-1);
+}
+);
+width = 443;
 }
 );
 metricRight = "=|";

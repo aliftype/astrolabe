@@ -10,6 +10,15 @@ ref = "lam-ar.isol";
 }
 );
 width = 350;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "lam-ar.isol";
+}
+);
+width = 350;
 }
 );
 metricWidth = "=1000";

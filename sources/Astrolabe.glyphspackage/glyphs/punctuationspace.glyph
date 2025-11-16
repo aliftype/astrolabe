@@ -4,6 +4,10 @@ layers = (
 {
 layerId = m01;
 width = 175;
+},
+{
+layerId = m002;
+width = 175;
 }
 );
 metricWidth = period;

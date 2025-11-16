@@ -4,6 +4,11 @@ layers = (
 {
 layerId = m01;
 width = 50;
+},
+{
+layerId = m002;
+metricWidth = "=0";
+width = 0;
 }
 );
 metricWidth = "=50";

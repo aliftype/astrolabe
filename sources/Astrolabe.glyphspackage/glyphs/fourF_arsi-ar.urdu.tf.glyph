@@ -12,6 +12,17 @@ ref = "fourFarsi-ar.urdu";
 }
 );
 width = 390;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (-5,0);
+ref = "fourFarsi-ar.urdu";
+}
+);
+width = 390;
 }
 );
 metricLeft = "=45";

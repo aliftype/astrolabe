@@ -14,6 +14,19 @@ ref = "hamzabelow-ar";
 }
 );
 width = 200;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "alef-ar.isol";
+},
+{
+pos = (-46,-175);
+ref = "hamzabelow-ar";
+}
+);
+width = 200;
 }
 );
 metricWidth = "=1000";

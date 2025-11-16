@@ -15,6 +15,21 @@ ref = "noon-ar.isol";
 }
 );
 width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (550,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "noon-ar.isol";
+}
+);
+width = 600;
 }
 );
 metricLeft = "=noon-ar.isol";

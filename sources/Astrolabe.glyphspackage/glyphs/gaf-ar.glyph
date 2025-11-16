@@ -14,6 +14,19 @@ ref = "gafsarkashabove-ar";
 }
 );
 width = 650;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "kaf-ar.isol";
+},
+{
+pos = (90,0);
+ref = "gafsarkashabove-ar";
+}
+);
+width = 650;
 }
 );
 unicode = 1711;

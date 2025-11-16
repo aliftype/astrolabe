@@ -14,6 +14,19 @@ ref = "twodotshorizontalabove-ar";
 }
 );
 width = 615;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "qaf-ar.isol";
+},
+{
+pos = (367,300);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 615;
 }
 );
 metricWidth = "=1000";

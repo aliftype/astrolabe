@@ -27,6 +27,7 @@ width = 750;
 associatedMasterId = m01;
 attr = {
 coordinates = (
+0,
 0
 );
 };
@@ -56,10 +57,93 @@ width = 750;
 associatedMasterId = m01;
 attr = {
 coordinates = (
-200
+200,
+0
 );
 };
 layerId = "56177234-7C27-4ABA-B4C7-F30DDC278EC0";
+name = "5 Oct 24 at 19:57";
+shapes = (
+{
+closed = 1;
+nodes = (
+(4650,0,l),
+(4600,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 4700;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,0,l),
+(450,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 750;
+},
+{
+associatedMasterId = m002;
+attr = {
+coordinates = (
+0,
+-50
+);
+};
+layerId = "60BDBDB1-6CD4-44C8-B398-9F2FC0E27CD6";
+name = "5 Oct 24 at 19:49";
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(250,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 750;
+},
+{
+associatedMasterId = m002;
+attr = {
+coordinates = (
+200,
+-50
+);
+};
+layerId = "00595018-F14C-4D12-A065-F20C4AD36BB2";
 name = "5 Oct 24 at 19:57";
 shapes = (
 {

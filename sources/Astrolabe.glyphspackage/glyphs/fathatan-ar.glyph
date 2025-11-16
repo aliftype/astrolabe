@@ -28,6 +28,34 @@ ref = "fatha-ar";
 }
 );
 width = 150;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (75,350);
+},
+{
+name = _topAlt;
+pos = (75,400);
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,539,l),
+(133,558,l),
+(10,511,l),
+(15,497,l)
+);
+},
+{
+ref = "fatha-ar";
+}
+);
+width = 150;
 }
 );
 metricWidth = "=fatha-ar";

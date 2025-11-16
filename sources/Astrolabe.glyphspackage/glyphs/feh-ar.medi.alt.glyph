@@ -36,6 +36,42 @@ ref = "kashida-ar.70";
 }
 );
 width = 225;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (88,0);
+},
+{
+name = top;
+pos = (88,300);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+angle = 90;
+pos = (112,46);
+ref = "meem-ar.init";
+},
+{
+alignment = -1;
+ref = "kashida-ar.70";
+},
+{
+alignment = -1;
+pos = (78,0);
+ref = "kashida-ar.70";
+},
+{
+alignment = -1;
+pos = (155,0);
+ref = "kashida-ar.70";
+}
+);
+width = 225;
 }
 );
 metricLeft = "=-10";

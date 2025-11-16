@@ -12,6 +12,18 @@ ref = "decimalseparator-ar";
 }
 );
 width = 175;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (175,360);
+ref = "decimalseparator-ar";
+}
+);
+width = 175;
 }
 );
 metricLeft = "=|decimalseparator-ar";

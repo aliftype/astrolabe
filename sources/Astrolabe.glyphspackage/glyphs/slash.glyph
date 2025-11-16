@@ -15,6 +15,21 @@ nodes = (
 }
 );
 width = 300;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,550,l),
+(201,560,l),
+(50,-150,l),
+(99,-160,l)
+);
+}
+);
+width = 300;
 }
 );
 metricLeft = "=50";

@@ -40,6 +40,46 @@ ref = "kashida-ar.70";
 }
 );
 width = 350;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (150,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+ref = _ain1;
+},
+{
+alignment = -1;
+ref = "kashida-ar.70";
+},
+{
+alignment = -1;
+pos = (71,0);
+ref = "kashida-ar.70";
+},
+{
+alignment = -1;
+pos = (140,0);
+ref = "kashida-ar.70";
+},
+{
+alignment = -1;
+pos = (210,0);
+ref = "kashida-ar.70";
+},
+{
+alignment = -1;
+pos = (280,0);
+ref = "kashida-ar.70";
+}
+);
+width = 350;
 }
 );
 metricLeft = "=-10";

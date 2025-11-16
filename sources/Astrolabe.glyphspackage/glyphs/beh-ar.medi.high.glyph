@@ -26,6 +26,30 @@ ref = "beh-ar.init.high";
 }
 );
 width = 162;
+},
+{
+anchors = (
+{
+name = "*bottom";
+pos = (95,0);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @dots_below; * [beh-ar.medi beh-ar.medi.high] @dots_below";
+};
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (112,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "beh-ar.init.high";
+}
+);
+width = 162;
 }
 );
 metricLeft = "=beh-ar.init";

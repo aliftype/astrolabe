@@ -48,6 +48,53 @@ ref = "hah-ar.init";
 }
 );
 width = 435;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+}
+);
+backgroundImage = {
+angle = 1;
+imagePath = "images/31246001-fixed.jpg";
+locked = 1;
+pos = (-15555,-11812);
+scale = (209.3003,209.3003);
+};
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,-100,o),
+(97,-100,cs),
+(122,-100,o),
+(146,-95,o),
+(165,-86,c),
+(165,-50,l),
+(79,-50,o),
+(50,-49,o),
+(50,-25,cs),
+(50,0,o),
+(77,0,o),
+(150,0,cs),
+(200,0,l),
+(200,50,l),
+(150,50,ls),
+(57,50,o),
+(0,33,o),
+(0,-25,cs),
+(0,-79,o)
+);
+},
+{
+pos = (160,0);
+ref = "hah-ar.init";
+}
+);
+width = 435;
 }
 );
 metricLeft = "=0";

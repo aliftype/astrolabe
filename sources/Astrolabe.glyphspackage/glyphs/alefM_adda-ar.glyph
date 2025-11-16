@@ -14,6 +14,19 @@ ref = "madda-ar";
 }
 );
 width = 200;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "alef-ar.isol";
+},
+{
+pos = (-88,600);
+ref = "madda-ar";
+}
+);
+width = 200;
 }
 );
 metricWidth = "=1000";

@@ -13,6 +13,17 @@ scale = (1,-1);
 }
 );
 width = 450;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,450);
+ref = "seven-ar";
+scale = (1,-1);
+}
+);
+width = 450;
 }
 );
 unicode = (1640,1784);

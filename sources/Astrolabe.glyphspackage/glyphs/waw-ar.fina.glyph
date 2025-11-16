@@ -17,6 +17,22 @@ ref = "kashida-ar.50";
 }
 );
 width = 289;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (0,-25);
+ref = "waw-ar.isol";
+},
+{
+alignment = -1;
+pos = (239,0);
+ref = "kashida-ar.50";
+}
+);
+width = 289;
 }
 );
 metricLeft = "=waw-ar";

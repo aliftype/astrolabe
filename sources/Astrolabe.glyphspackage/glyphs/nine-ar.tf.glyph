@@ -12,6 +12,17 @@ ref = "nine-ar";
 }
 );
 width = 390;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (-11,0);
+ref = "nine-ar";
+}
+);
+width = 390;
 }
 );
 metricWidth = "=zero-ar.tf";

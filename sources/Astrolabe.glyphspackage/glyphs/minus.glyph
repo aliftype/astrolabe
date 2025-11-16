@@ -10,6 +10,16 @@ ref = endash;
 }
 );
 width = 375;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+ref = endash;
+}
+);
+width = 375;
 }
 );
 unicode = 8722;

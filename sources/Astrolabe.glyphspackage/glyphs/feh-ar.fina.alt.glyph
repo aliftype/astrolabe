@@ -56,6 +56,7 @@ pos = (213,300);
 associatedMasterId = m01;
 attr = {
 coordinates = (
+0,
 0
 );
 };
@@ -96,11 +97,127 @@ pos = (2300,200);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-200
+200,
+0
 );
 };
 layerId = "76906B8A-EEC5-435B-8A8B-093F5AB99645";
 name = "8 Dec 24 at 01:15";
+shapes = (
+{
+alignment = -1;
+pos = (4475,0);
+ref = "feh-ar.medi.alt";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 4700;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (413,0);
+},
+{
+name = bottomAlt;
+pos = (250,-50);
+},
+{
+name = top;
+pos = (413,300);
+},
+{
+name = topKashida;
+pos = (225,200);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (325,0);
+ref = "feh-ar.medi.alt";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (213,0);
+},
+{
+name = bottomAlt;
+pos = (150,-50);
+},
+{
+name = top;
+pos = (213,300);
+},
+{
+name = topKashida;
+pos = (213,300);
+}
+);
+associatedMasterId = m002;
+attr = {
+coordinates = (
+0,
+-50
+);
+};
+layerId = "88584309-9F83-4F36-8FCB-D9ADDAA011B7";
+name = "21 Nov 25 at 10:20";
+shapes = (
+{
+alignment = -1;
+pos = (125,0);
+ref = "feh-ar.medi.alt";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (4563,0);
+},
+{
+name = bottomAlt;
+pos = (2300,-50);
+},
+{
+name = top;
+pos = (4563,300);
+},
+{
+name = topKashida;
+pos = (2300,200);
+}
+);
+associatedMasterId = m002;
+attr = {
+coordinates = (
+200,
+-50
+);
+};
+layerId = "721DE4A0-EF4D-454F-AE67-34C2F58DE08E";
+name = "21 Nov 25 at 10:20";
 shapes = (
 {
 alignment = -1;

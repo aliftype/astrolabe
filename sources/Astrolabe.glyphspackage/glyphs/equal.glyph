@@ -16,6 +16,22 @@ ref = minus;
 }
 );
 width = 375;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 3;
+pos = (0,-70);
+ref = minus;
+},
+{
+alignment = 3;
+pos = (0,70);
+ref = minus;
+}
+);
+width = 375;
 }
 );
 metricWidth = "=minus";

@@ -14,6 +14,19 @@ ref = "dotbelow-ar";
 }
 );
 width = 435;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "hah-ar.alt2.isol";
+},
+{
+pos = (262,-125);
+ref = "dotbelow-ar";
+}
+);
+width = 435;
 }
 );
 metricWidth = "=1000";

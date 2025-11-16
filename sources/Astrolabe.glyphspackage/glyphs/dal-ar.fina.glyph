@@ -40,6 +40,7 @@ pos = (231,250);
 associatedMasterId = m01;
 attr = {
 coordinates = (
+0,
 0
 );
 };
@@ -72,10 +73,102 @@ pos = (2351,200);
 associatedMasterId = m01;
 attr = {
 coordinates = (
-200
+200,
+0
 );
 };
 layerId = "B4E90C5F-FB5A-4934-BCEF-4D53E81FD62C";
+name = "5 Oct 24 at 19:51";
+shapes = (
+{
+alignment = -1;
+pos = (4650,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "dal-ar.isol";
+}
+);
+width = 4700;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = top;
+pos = (351,200);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (550,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "dal-ar.isol";
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (163,0);
+},
+{
+name = top;
+pos = (231,250);
+}
+);
+associatedMasterId = m002;
+attr = {
+coordinates = (
+0,
+-50
+);
+};
+layerId = "E9592007-0892-4549-9255-D94C38DA06E2";
+name = "5 Oct 24 at 19:51";
+shapes = (
+{
+alignment = -1;
+pos = (300,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "dal-ar.isol";
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (2351,0);
+},
+{
+name = top;
+pos = (2351,200);
+}
+);
+associatedMasterId = m002;
+attr = {
+coordinates = (
+200,
+-50
+);
+};
+layerId = "42E3E16B-6B64-4388-890B-70BC2317F9A1";
 name = "5 Oct 24 at 19:51";
 shapes = (
 {

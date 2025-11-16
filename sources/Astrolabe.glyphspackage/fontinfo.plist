@@ -5,6 +5,10 @@ axes = (
 {
 name = Mashq;
 tag = MSHQ;
+},
+{
+name = Curve;
+tag = CURV;
 }
 );
 classes = (
@@ -91,6 +95,10 @@ value = (
 {
 Axis = Mashq;
 Location = 0;
+},
+{
+Axis = Curve;
+Location = 0;
 }
 );
 },
@@ -100,6 +108,36 @@ value = (
 {
 Axis = Mashq;
 Location = 200;
+},
+{
+Axis = Curve;
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 0;
+},
+{
+Axis = Curve;
+Location = -50;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 200;
+},
+{
+Axis = Curve;
+Location = -50;
 }
 );
 },
@@ -797,7 +835,8 @@ tag = mkmk;
 fontMaster = (
 {
 axesValues = (
-10
+10,
+0
 );
 id = m01;
 metricValues = (
@@ -823,6 +862,14 @@ pos = 50;
 {
 over = -16;
 pos = -400;
+},
+{
+pos = 700;
+},
+{
+pos = 500;
+},
+{
 }
 );
 name = Regular;
@@ -834,13 +881,62 @@ GSOffsetMakeStroke = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 5;
 };
-visible = 1;
+},
+{
+axesValues = (
+10,
+-50
+);
+id = m002;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -350;
+},
+{
+over = 16;
+pos = 550;
+},
+{
+over = 16;
+pos = 50;
+},
+{
+over = -16;
+pos = -400;
+},
+{
+pos = 700;
+},
+{
+pos = 500;
+},
+{
+}
+);
+name = Inside;
+userData = {
+GSCornerRadius = 19;
+GSOffsetCapStyle = 1;
+GSOffsetHorizontal = 9;
+GSOffsetMakeStroke = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 5;
+};
 }
 );
 instances = (
 {
 axesValues = (
-10
+10,
+0
 );
 instanceInterpolations = {
 m01 = 1;
@@ -850,6 +946,30 @@ name = Regular;
 );
 kerningLTR = {
 m01 = {
+"@MMK_L_eight-ar" = {
+"@MMK_R_one-ar" = -40;
+"@MMK_R_zero-ar" = -50;
+};
+"@MMK_L_seven-ar" = {
+"@MMK_R_eight-ar" = -40;
+};
+"@MMK_L_two-ar" = {
+"@MMK_R_zero-ar" = -50;
+};
+"@MMK_L_zero-ar" = {
+"@MMK_R_one-ar" = -30;
+"@MMK_R_six-ar" = -90;
+};
+"four-ar" = {
+"@MMK_R_one-ar" = -50;
+"@MMK_R_six-ar" = -80;
+"@MMK_R_zero-ar" = -50;
+};
+"thousandseparator-ar" = {
+"@MMK_R_six-ar" = 30;
+};
+};
+m002 = {
 "@MMK_L_eight-ar" = {
 "@MMK_R_one-ar" = -40;
 "@MMK_R_zero-ar" = -50;
@@ -933,6 +1053,64 @@ bar = 20;
 "lam-ar.isol.alt" = -50;
 };
 };
+m002 = {
+"@MMK_R_beh" = {
+"@MMK_L_beh" = -30;
+"@MMK_L_beh.high" = -30;
+"heh-ar.medi" = -40;
+};
+"@MMK_R_beh.high" = {
+"@MMK_L_beh" = -40;
+};
+"@MMK_R_heh" = {
+"@MMK_L_alef" = -30;
+};
+"@MMK_R_waw" = {
+bracketleft = 20;
+bracketright = 20;
+parenleft = 20;
+};
+"alef-ar.isol" = {
+"question-ar" = 33;
+};
+"reh-ar.fina" = {
+"@MMK_L_hah" = -20;
+bar = 20;
+braceleft = 20;
+bracketleft = 30;
+"lam-ar.isol.alt" = -40;
+};
+"reh-ar.isol" = {
+"@MMK_L_hah" = 90;
+bar = 60;
+braceleft = 50;
+bracketleft = 60;
+"lam-ar.isol.alt" = -40;
+parenleft = 50;
+"qaf-ar.isol" = 50;
+"reh-ar.isol" = 20;
+"waw-ar.isol" = 20;
+};
+"sad-ar.init" = {
+"reh-ar.fina" = -50;
+"waw-ar.fina" = -30;
+};
+"sad-ar.medi" = {
+"reh-ar.fina" = -50;
+"waw-ar.fina" = -30;
+};
+"waw-ar.fina" = {
+"@MMK_L_hah" = 35;
+bar = 20;
+braceleft = 20;
+"lam-ar.isol.alt" = -50;
+};
+"waw-ar.isol" = {
+"@MMK_L_hah" = 45;
+bar = 20;
+"lam-ar.isol.alt" = -50;
+};
+};
 };
 metrics = (
 {
@@ -955,6 +1133,15 @@ name = "Joining Line";
 {
 filter = "script == \"arabic\"";
 name = "Meem Depth";
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = "italic angle";
 }
 );
 properties = (

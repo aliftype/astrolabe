@@ -14,6 +14,19 @@ ref = "dotabove-ar";
 }
 );
 width = 950;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = "sad-ar.isol";
+},
+{
+pos = (672,250);
+ref = "dotabove-ar";
+}
+);
+width = 950;
 }
 );
 metricWidth = "=1000";

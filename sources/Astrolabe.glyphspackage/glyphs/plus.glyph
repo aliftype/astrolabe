@@ -16,6 +16,22 @@ ref = endash;
 }
 );
 width = 375;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+ref = endash;
+},
+{
+alignment = -1;
+angle = 90;
+pos = (413,40);
+ref = endash;
+}
+);
+width = 375;
 }
 );
 unicode = 43;

@@ -13,6 +13,17 @@ scale = (-1,1);
 }
 );
 width = 350;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (350,0);
+ref = "two-ar";
+scale = (-1,1);
+}
+);
+width = 350;
 }
 );
 sortName = ar3145;

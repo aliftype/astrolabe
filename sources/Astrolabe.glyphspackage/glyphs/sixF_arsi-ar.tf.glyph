@@ -12,6 +12,17 @@ ref = "sixFarsi-ar";
 }
 );
 width = 390;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (20,0);
+ref = "sixFarsi-ar";
+}
+);
+width = 390;
 }
 );
 metricLeft = "=70";
