@@ -6,13 +6,17 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-ref = "eight-ar";
+alignment = 3;
+pos = (0,450);
+ref = "seven-ar.tf";
+scale = (1,-1);
 }
 );
-width = 450;
+width = 390;
 }
 );
+metricLeft = "=50";
+metricRight = "=|";
 metricWidth = "=zero-ar.tf";
 script = arabic;
 sortName = tf.ar3150;

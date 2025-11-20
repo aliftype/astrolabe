@@ -7,10 +7,11 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+pos = (-34,0);
 ref = "sevenFarsi-ar.urdu";
 }
 );
-width = 450;
+width = 390;
 },
 {
 associatedMasterId = m01;
@@ -27,8 +28,7 @@ scale = (1,-1);
 width = 443;
 }
 );
-metricLeft = "=eight-ar@449";
-metricRight = "=four-ar";
+metricRight = "=|";
 metricWidth = "=zero-ar.tf";
 script = arabic;
 sortName = tf.ar3149;

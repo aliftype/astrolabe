@@ -1,0 +1,11 @@
+{
+glyphname = enspace;
+layers = (
+{
+layerId = m01;
+width = 375;
+}
+);
+metricWidth = "=endash";
+unicode = 8194;
+}

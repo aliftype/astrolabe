@@ -3,7 +3,7 @@ glyphname = figurespace;
 layers = (
 {
 layerId = m01;
-width = 450;
+width = 390;
 }
 );
 metricWidth = "=zero-ar.tf";

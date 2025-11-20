@@ -7,11 +7,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (133,360);
+pos = (175,360);
 ref = "decimalseparator-ar";
 }
 );
-width = 133;
+width = 175;
 }
 );
 metricLeft = "=|decimalseparator-ar";

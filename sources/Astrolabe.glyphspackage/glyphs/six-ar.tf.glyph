@@ -7,14 +7,14 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (15,0);
+pos = (-15,0);
 ref = "six-ar";
 }
 );
-width = 450;
+width = 390;
 }
 );
-metricLeft = "=65";
+metricLeft = "=35";
 metricRight = "=|";
 metricWidth = "=zero-ar.tf";
 script = arabic;

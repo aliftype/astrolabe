@@ -7,11 +7,11 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (20,0);
+pos = (-10,0);
 ref = "fourFarsi-ar";
 }
 );
-width = 450;
+width = 390;
 },
 {
 associatedMasterId = m01;
@@ -107,7 +107,7 @@ nodes = (
 width = 340;
 }
 );
-metricLeft = "=70";
+metricLeft = "=40";
 metricRight = "=|";
 metricWidth = "=zero-ar.tf";
 script = arabic;

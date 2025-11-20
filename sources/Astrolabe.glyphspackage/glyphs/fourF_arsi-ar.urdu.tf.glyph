@@ -7,14 +7,14 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (25,0);
+pos = (-5,0);
 ref = "fourFarsi-ar.urdu";
 }
 );
-width = 450;
+width = 390;
 }
 );
-metricLeft = "=75";
+metricLeft = "=45";
 metricRight = "=|";
 metricWidth = "=zero-ar.tf";
 script = arabic;

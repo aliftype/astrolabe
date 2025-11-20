@@ -7,14 +7,14 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "sevenFarsi-ar";
+ref = "seven-ar.tf";
 }
 );
-width = 450;
+width = 390;
 }
 );
-metricLeft = "seven-ar";
-metricRight = "seven-ar";
+metricLeft = "=seven-ar.tf";
+metricRight = "=seven-ar.tf";
 metricWidth = "=zero-ar.tf";
 script = arabic;
 sortName = tf.ar3148;

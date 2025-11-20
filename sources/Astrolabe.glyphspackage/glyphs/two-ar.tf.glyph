@@ -7,11 +7,11 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (50,0);
+pos = (20,0);
 ref = "two-ar";
 }
 );
-width = 450;
+width = 390;
 },
 {
 associatedMasterId = m01;
@@ -67,7 +67,7 @@ nodes = (
 width = 410;
 }
 );
-metricLeft = "=100";
+metricLeft = "=70";
 metricRight = "=|";
 metricWidth = "=zero-ar.tf";
 script = arabic;

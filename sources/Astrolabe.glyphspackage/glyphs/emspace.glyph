@@ -1,0 +1,11 @@
+{
+glyphname = emspace;
+layers = (
+{
+layerId = m01;
+width = 750;
+}
+);
+metricWidth = "=emdash";
+unicode = 8195;
+}

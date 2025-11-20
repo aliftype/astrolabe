@@ -1,0 +1,11 @@
+{
+glyphname = punctuationspace;
+layers = (
+{
+layerId = m01;
+width = 175;
+}
+);
+metricWidth = period;
+unicode = 8200;
+}
