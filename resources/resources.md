@@ -27,8 +27,12 @@ https://www.britishmuseum.org/collection/object/W_1835-1116-1
 # Others
 
 ## Astrolabe by Muhammad ibn Jafar ibn Umar al-Asturlabi
+https://www.davidmus.dk/kunst-fra-islams-verden/metal-vaben-og-smykker/item/884?culture=en-us
 ![](16.17-D25-1986-forside-Astrolab.jpg)
 ![](16.17-D25-1986-bagside-Astrolab.jpg)
+
+
+https://www.metmuseum.org/art/collection/search/444408
 
 ## Astrolabe quadrant by Muhammad al-Sakasi al-Jarkasi
 https://www.britishmuseum.org/collection/object/W_1997-0210-1
@@ -37,6 +41,7 @@ https://www.britishmuseum.org/collection/object/W_1997-0210-1
 https://www.britishmuseum.org/collection/object/W_1862-1227-1
 
 ## Fragment of a box with a combination lock
+https://www.davidmus.dk/kunst-fra-islams-verden/metal-vaben-og-smykker/item/1480?culture=en-us
 ![](10_9-1-1984-Kombinationslaas.jpg)
 ![](10_9-1-1984-Kombinationslaas-f.jpg)
 
