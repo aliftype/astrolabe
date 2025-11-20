@@ -588,16 +588,16 @@ value = "عين متوسطة\\منتهية بديلة";
 tag = ss03;
 },
 {
-code = "sub feh-ar.medi	by feh-ar.medi.alt;
-";
+code = "sub feh-ar.medi			by feh-ar.medi.alt;
+sub	feh-ar.fina			by feh-ar.fina.alt;";
 labels = (
 {
 language = ENG;
-value = "Alternate medial “feh”";
+value = "Alternate medial/final “feh”";
 },
 {
 language = ARA;
-value = "فاء متوسطة بديلة";
+value = "فاء متوسطة\\منتهية بديلة";
 }
 );
 tag = ss04;

@@ -1,0 +1,121 @@
+{
+glyphname = "feh-ar.fina.alt";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (413,0);
+},
+{
+name = bottomAlt;
+pos = (250,-50);
+},
+{
+name = top;
+pos = (413,300);
+},
+{
+name = topKashida;
+pos = (225,200);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (325,0);
+ref = "feh-ar.medi.alt";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (213,0);
+},
+{
+name = bottomAlt;
+pos = (150,-50);
+},
+{
+name = top;
+pos = (213,300);
+},
+{
+name = topKashida;
+pos = (213,300);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0
+);
+};
+layerId = "15246F8F-8D16-4FFD-9F0B-516CB5BBEE10";
+name = "8 Dec 24 at 01:15";
+shapes = (
+{
+alignment = -1;
+pos = (125,0);
+ref = "feh-ar.medi.alt";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (4563,0);
+},
+{
+name = bottomAlt;
+pos = (2300,-50);
+},
+{
+name = top;
+pos = (4563,300);
+},
+{
+name = topKashida;
+pos = (2300,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+200
+);
+};
+layerId = "76906B8A-EEC5-435B-8A8B-093F5AB99645";
+name = "8 Dec 24 at 01:15";
+shapes = (
+{
+alignment = -1;
+pos = (4475,0);
+ref = "feh-ar.medi.alt";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 4700;
+}
+);
+metricLeft = "=feh-ar.fina";
+metricRight = "=0";
+metricWidth = "=feh-ar.fina";
+}
