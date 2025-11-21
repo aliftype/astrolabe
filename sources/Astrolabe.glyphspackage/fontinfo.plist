@@ -9,6 +9,10 @@ tag = MSHQ;
 {
 name = Curve;
 tag = CURV;
+},
+{
+name = Spacing;
+tag = SPAC;
 }
 );
 classes = (
@@ -138,6 +142,23 @@ Location = 200;
 {
 Axis = Curve;
 Location = -50;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Mashq;
+Location = 10;
+},
+{
+Axis = Curve;
+Location = 0;
+},
+{
+Axis = Spacing;
+Location = 100;
 }
 );
 },
@@ -836,6 +857,7 @@ fontMaster = (
 {
 axesValues = (
 10,
+0,
 0
 );
 id = m01;
@@ -885,7 +907,8 @@ GSOffsetVertical = 5;
 {
 axesValues = (
 10,
--50
+-50,
+0
 );
 id = m002;
 metricValues = (
@@ -936,6 +959,7 @@ instances = (
 {
 axesValues = (
 10,
+0,
 0
 );
 instanceInterpolations = {

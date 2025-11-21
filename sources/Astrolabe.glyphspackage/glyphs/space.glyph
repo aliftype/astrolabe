@@ -9,6 +9,20 @@ width = 50;
 layerId = m002;
 metricWidth = "=0";
 width = 0;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+10,
+0,
+100
+);
+};
+layerId = "1E85C4B3-055B-4824-8304-AE2E21C33D21";
+metricWidth = "=5000";
+name = "21 Nov 25 at 11:00";
+width = 5000;
 }
 );
 metricWidth = "=50";
