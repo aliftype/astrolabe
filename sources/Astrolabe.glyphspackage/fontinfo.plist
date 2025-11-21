@@ -558,7 +558,11 @@ tag = tnum;
 },
 {
 code = "sub hah-ar.isol			by hah-ar.alt.isol;
+sub hah-ar.alt2.isol	by hah-ar.alt.isol;
+sub hah-ar.alt3.isol	by hah-ar.alt.isol;
 sub hah-ar.fina			by hah-ar.alt.fina;
+sub hah-ar.alt2.fina	by hah-ar.alt.fina;
+sub hah-ar.alt3.fina	by hah-ar.alt.fina;
 ";
 labels = (
 {
