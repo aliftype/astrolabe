@@ -1,4 +1,4 @@
-# Copyright (c) 2020-2024 Khaled Hosny
+# Copyright (c) 2020-2025 Khaled Hosny
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,7 +16,7 @@
 NAME = Astrolabe
 
 SHELL = bash
-MAKEFLAGS := -srj
+MAKEFLAGS := -sr
 PYTHON := venv/bin/python3
 
 SOURCEDIR = sources
@@ -56,9 +56,8 @@ ${FONT}: ${GLYPHSFILE}
 	$(info   BUILD  ${@F})
 	${PYTHON} -m fontmake $< \
 			      --output-path=$@ \
-			      -o variable \
+			      --output=variable \
 			      --verbose=WARNING \
-			      --master-dir="{tmp}" \
 			      --filter=... \
 			      --filter="alifTools.filters::ClearPlaceholdersFilter()" \
 			      --filter="alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
@@ -68,7 +67,7 @@ ${TESTDIR}/%.json: ${TESTDIR}/%.yaml ${FONT}
 	${PYTHON} -m alifTools.shaping.update $< $@ ${FONT}
 
 ${TESTDIR}/shaping.html: ${FONT} ${TESTDIR}/shaping-config.yaml
-	$(info   SHAPE  $(<F))
+	$(info   SHAPE  ${<F})
 	${PYTHON} -m alifTools.shaping.check $< ${TESTDIR}/shaping-config.yaml $@
 
 ${SVG}: ${FONT}
@@ -80,7 +79,7 @@ ${SVG}: ${FONT}
 				      --dark-foreground=D1D7E0 \
 				      -o $@
 
-dist: all
+dist: ${FONT}
 	$(info   DIST   ${DIST}.zip)
 	install -Dm644 -t ${DIST} ${FONT}
 	install -Dm644 -t ${DIST} README.md
