@@ -58,6 +58,7 @@ ${FONT}: ${GLYPHSFILE}
 			      --output-path=$@ \
 			      --output=variable \
 			      --verbose=WARNING \
+			      --flatten-components \
 			      --filter=... \
 			      --filter="alifTools.filters::ClearPlaceholdersFilter()" \
 			      --filter="alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
