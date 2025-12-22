@@ -512,6 +512,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "ٱ ٱ‍ ‍ٱ‍ ‍ٱ",
+      "expectation": "wasla-ar=10@-50,0+0|alef-ar.fina=10+100|space=8+0|space=8+50|space=6+0|wasla-ar=6@-50,0+0|alef-ar.fina=6+100|space=4+0|space=4+50|space=2+0|wasla-ar=2@-50,0+0|alef-ar.isol=2+200|space=1+50|wasla-ar=0@-50,0+0|alef-ar.isol=0+200"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ؤ ؤ‍ ‍ؤ‍ ‍ؤ",
       "expectation": "hamzaabove-ar=10@51,-400+0|waw-ar.fina=10+289|space=8+0|space=8+50|space=6+0|hamzaabove-ar=6@51,-400+0|waw-ar.fina=6+289|space=4+0|space=4+50|space=2+0|hamzaabove-ar=2@51,-375+0|waw-ar.isol=2+295|space=1+50|hamzaabove-ar=0@51,-375+0|waw-ar.isol=0+295"
     },
