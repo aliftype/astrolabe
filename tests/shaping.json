@@ -497,6 +497,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "رتٖم",
+      "expectation": "meem-ar.fina=3+417|alefbelow-ar=1@11,0+0|twodotshorizontalabove-ar=1@-53,280+0|beh-ar.init=1+162|reh-ar.isol=0+250"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ء",
       "expectation": "hamza-ar=0+400"
     },

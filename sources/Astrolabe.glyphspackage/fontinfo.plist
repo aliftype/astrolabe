@@ -58,6 +58,7 @@ name = dots;
 {
 code = "kasratan-ar
 kasra-ar
+alefbelow-ar
 ";
 name = bottom_marks;
 },
@@ -75,6 +76,8 @@ kasra-ar
 kasratan-ar
 shadda-ar
 sukun-ar
+alefabove-ar
+alefbelow-ar
 ";
 name = tashkil;
 },
