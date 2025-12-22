@@ -243,6 +243,7 @@ sub thal-ar				by dal-ar.isol dotabove-ar;
 sub ddal-ar				by dal-ar.isol tahabove-ar;
 sub reh-ar				by reh-ar.isol;
 sub zain-ar				by reh-ar.isol dotabove-ar;
+sub rreh-ar				by reh-ar.isol tahabove-ar;
 sub jeh-ar				by reh-ar.isol threedotsupabove-ar;
 sub seen-ar				by seen-ar.isol;
 sub sheen-ar			by seen-ar.isol threedotsupabove-ar;

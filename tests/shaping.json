@@ -612,6 +612,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "ڑ ‍ڑ",
+      "expectation": "tahabove-ar=3@-12,-399+0|reh-ar.fina=3+250|space=1+0|space=1+50|tahabove-ar=0@-12,-324+0|reh-ar.isol=0+250"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "س س‍ ‍س‍ ‍س",
       "expectation": "seen-ar.fina=10+826|space=8+0|space=8+50|space=6+0|seen-ar.medi=6+400|space=4+0|space=4+50|space=2+0|seen-ar.init=2+400|space=1+50|seen-ar.isol=0+826"
     },
@@ -2019,6 +2024,7 @@
       "ddal-ar",
       "reh-ar",
       "zain-ar",
+      "rreh-ar",
       "seen-ar",
       "sheen-ar",
       "sad-ar",

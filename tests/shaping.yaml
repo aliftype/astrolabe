@@ -22,6 +22,7 @@ configuration:
     - ddal-ar
     - reh-ar
     - zain-ar
+    - rreh-ar
     - seen-ar
     - sheen-ar
     - sad-ar
@@ -177,6 +178,7 @@ input:
       - ر ‍ر
       - ز ‍ز
       - ژ ‍ژ
+      - ڑ ‍ڑ
       - س س‍ ‍س‍ ‍س
       - ش ش‍ ‍ش‍ ‍ش
       - ص ص‍ ‍ص‍ ‍ص
