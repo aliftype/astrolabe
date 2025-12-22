@@ -10,7 +10,7 @@ tag = MSHQ;
 classes = (
 {
 automatic = 1;
-code = "hamza-ar alef-ar.isol alef-ar.fina beh-ar.isol beh-ar.fina beh-ar.fina.high beh-ar.medi beh-ar.medi.high beh-ar.init beh-ar.init.high hah-ar.isol hah-ar.fina hah-ar.alt.isol hah-ar.alt.fina hah-ar.alt2.isol hah-ar.alt2.fina hah-ar.alt3.isol hah-ar.alt3.fina hah-ar.medi hah-ar.init dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init feh-ar.isol feh-ar.fina feh-ar.medi feh-ar.medi.alt feh-ar.init qaf-ar.isol qaf-ar.fina kaf-ar.isol kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar.isol lam-ar.fina lam-ar.isol.alt lam-ar.fina.alt lam-ar.medi lam-ar.init meem-ar.isol meem-ar.fina meem-ar.isol.alt meem-ar.fina.alt meem-ar.medi meem-ar.init noon-ar.isol noon-ar.fina heh-ar.isol heh-ar.fina heh-ar.medi heh-ar.init waw-ar.isol waw-ar.fina yeh-ar.isol yeh-ar.isol.alt yeh-ar.fina kashida-ar kashida-ar.20 kashida-ar.50 kashida-ar.70 kashida-ar.dots lam_alef-ar.fina lam_alef-ar.isol lam_lam_heh-ar.isol decimalseparator-ar thousandseparator-ar zero-ar one-ar two-ar three-ar four-ar fourFarsi-ar fourFarsi-ar.urdu five-ar fiveFarsi-ar six-ar sixFarsi-ar seven-ar sevenFarsi-ar sevenFarsi-ar.urdu eight-ar nine-ar space comma-ar semicolon-ar question-ar parenleft-ar parenright-ar period colon exclam slash backslash hyphen endash emdash underscore parenleft parenright braceleft braceright bracketleft bracketright percent-ar bar dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsdownbelow-ar threedotsupabove-ar gafsarkashabove-ar hamzaabove-ar hamzabelow-ar fathatan-ar fathatan-ar.kashida dammatan-ar kasratan-ar fatha-ar fatha-ar.kashida damma-ar kasra-ar shadda-ar sukun-ar madda-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar peh-ar teh-ar theh-ar jeem-ar tcheh-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar jeh-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar fehDotless-ar fehAfrican-ar qafDotless-ar qaf-ar qafAfrican-ar kaf-ar keheh-ar gaf-ar lam-ar meem-ar noon-ar noonghunna-ar noonAfrican-ar heh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
+code = "hamza-ar alef-ar.isol alef-ar.fina beh-ar.isol beh-ar.fina beh-ar.fina.high beh-ar.medi beh-ar.medi.high beh-ar.init beh-ar.init.high hah-ar.isol hah-ar.fina hah-ar.alt.isol hah-ar.alt.fina hah-ar.alt2.isol hah-ar.alt2.fina hah-ar.alt3.isol hah-ar.alt3.fina hah-ar.medi hah-ar.init dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.medi.alt ain-ar.init feh-ar.isol feh-ar.fina feh-ar.fina.alt feh-ar.medi feh-ar.medi.alt feh-ar.init qaf-ar.isol qaf-ar.fina kaf-ar.isol kaf-ar.fina kaf-ar.medi kaf-ar.init lam-ar.isol lam-ar.fina lam-ar.isol.alt lam-ar.fina.alt lam-ar.medi lam-ar.init meem-ar.isol meem-ar.fina meem-ar.isol.alt meem-ar.fina.alt meem-ar.medi meem-ar.init noon-ar.isol noon-ar.fina heh-ar.isol heh-ar.fina heh-ar.medi heh-ar.init waw-ar.isol waw-ar.fina yeh-ar.isol yeh-ar.fina yehbarree-ar.isol yehbarree-ar.fina kashida-ar kashida-ar.20 kashida-ar.50 kashida-ar.70 kashida-ar.dots lam_alef-ar.fina lam_alef-ar.isol lam_lam_heh-ar.isol decimalseparator-ar thousandseparator-ar zero-ar one-ar two-ar three-ar four-ar fourFarsi-ar fourFarsi-ar.urdu five-ar fiveFarsi-ar six-ar sixFarsi-ar seven-ar sevenFarsi-ar sevenFarsi-ar.urdu eight-ar nine-ar zero-ar.tf one-ar.tf two-ar.tf three-ar.tf four-ar.tf fourFarsi-ar.tf fourFarsi-ar.urdu.tf five-ar.tf fiveFarsi-ar.tf six-ar.tf sixFarsi-ar.tf seven-ar.tf sevenFarsi-ar.tf sevenFarsi-ar.urdu.tf eight-ar.tf nine-ar.tf space enspace emspace figurespace punctuationspace zerowidthnonjoiner zerowidthjoiner comma-ar semicolon-ar question-ar parenleft-ar parenright-ar period colon exclam slash backslash hyphen endash emdash underscore parenleft parenright braceleft braceright bracketleft bracketright percent-ar bar plus minus multiply divide equal tahabove-ar dotabove-ar dotbelow-ar twodotshorizontalabove-ar twodotshorizontalbelow-ar threedotsdownbelow-ar threedotsupabove-ar wasla-ar gafsarkashabove-ar alefabove-ar alefbelow-ar hamzaabove-ar hamzabelow-ar fathatan-ar fathatan-ar.kashida fathatan-ar.kashida.alt dammatan-ar kasratan-ar fatha-ar fatha-ar.kashida fatha-ar.kashida.alt damma-ar kasra-ar shadda-ar sukun-ar madda-ar dummy.mark alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefWasla-ar behDotless-ar beh-ar peh-ar teh-ar theh-ar tteh-ar jeem-ar tcheh-ar hah-ar khah-ar dal-ar thal-ar ddal-ar reh-ar zain-ar rreh-ar jeh-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar fehDotless-ar fehAfrican-ar qafDotless-ar qaf-ar qafAfrican-ar kaf-ar keheh-ar gaf-ar lam-ar meem-ar noon-ar noonghunna-ar noonAfrican-ar heh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehFarsi-ar yehbarree-ar _ain1 _ain2 _sad _tail _beh.init _beh.init.high";
 name = All;
 },
 {
@@ -270,7 +270,7 @@ sub wawHamzaabove-ar	by waw-ar.isol hamzaabove-ar;
 sub alefMaksura-ar		by yeh-ar.isol;
 sub yeh-ar				by yeh-ar.isol twodotshorizontalbelow-ar;
 sub yehHamzaabove-ar	by yeh-ar.isol hamzaabove-ar;
-#sub yehbarree-ar		by yehbarree-ar.isol;
+sub yehbarree-ar		by yehbarree-ar.isol;
 ";
 tag = ccmp;
 },
@@ -347,7 +347,7 @@ sub heh-ar.isol			by heh-ar.fina;
 sub tehMarbuta-ar		by heh-ar.fina twodotshorizontalabove-ar;
 sub waw-ar.isol			by waw-ar.fina;
 sub yeh-ar.isol			by yeh-ar.fina;
-#sub yehbarree-ar.isol	by yehbarree-ar.fina;
+sub yehbarree-ar.isol	by yehbarree-ar.fina;
 sub yehFarsi-ar			by yeh-ar.fina;
 sub fehAfrican-ar		by feh-ar.fina;
 sub qafAfrican-ar		by qaf-ar.fina;
@@ -623,16 +623,17 @@ value = "ميم مفردة\\منتهية بديلة";
 tag = ss06;
 },
 {
-code = "sub yeh-ar.isol by yeh-ar.isol.alt;
+code = "sub yeh-ar.isol by yehbarree-ar.isol;
+sub yeh-ar.fina by yehbarree-ar.fina;
 ";
 labels = (
 {
 language = ENG;
-value = "Alternate isolated “yeh”";
+value = "Alternate isolated/final  “yeh”";
 },
 {
 language = ARA;
-value = "ياء مفردة بديلة";
+value = "ياء مفردة\\منتهية بديلة";
 }
 );
 tag = ss07;
@@ -812,7 +813,10 @@ pos = -400;
 name = Regular;
 userData = {
 GSCornerRadius = 19;
-GSOffsetHorizontal = 2;
+GSOffsetCapStyle = 4;
+GSOffsetHorizontal = 25;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 5;
 };

@@ -768,7 +768,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ے ‍ے",
-      "expectation": "yehbarree-ar=3+750|space=1+0|space=1+50|yehbarree-ar=0+750"
+      "expectation": "yehbarree-ar.fina=3+300|space=1+0|space=1+50|yehbarree-ar.isol=0+650"
     },
     {
       "only": "Astrolabe.ttf",
@@ -2053,6 +2053,7 @@
       "yeh-ar",
       "yehHamzaabove-ar",
       "yehFarsi-ar",
+      "yehbarree-ar",
       ".notdef"
     ]
   }
