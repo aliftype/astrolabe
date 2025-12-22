@@ -1,0 +1,31 @@
+{
+glyphname = "alefabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (39,400);
+},
+{
+name = topAlt;
+pos = (39,650);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+angle = 90;
+pos = (54,625);
+ref = "madda-ar";
+scale = (-1,1);
+}
+);
+width = 54;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 1648;
+}

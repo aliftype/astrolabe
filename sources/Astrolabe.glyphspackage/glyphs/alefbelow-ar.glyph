@@ -1,0 +1,29 @@
+{
+glyphname = "alefbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (39,-100);
+},
+{
+name = bottomAlt;
+pos = (39,-325);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-775);
+ref = "alefabove-ar";
+}
+);
+width = 54;
+}
+);
+metricLeft = "=alefabove-ar";
+metricRight = "=alefabove-ar";
+metricWidth = "=alefabove-ar";
+unicode = 1622;
+}
