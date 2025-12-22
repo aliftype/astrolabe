@@ -10,7 +10,7 @@ alignment = 1;
 ref = "alef-ar";
 },
 {
-pos = (-50,600);
+pos = (-50,0);
 ref = "wasla-ar";
 }
 );

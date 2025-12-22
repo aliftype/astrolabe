@@ -17,7 +17,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (54,625);
+pos = (654,625);
 ref = "madda-ar";
 scale = (-1,1);
 }

@@ -9,7 +9,7 @@ shapes = (
 ref = "alef-ar.isol";
 },
 {
-pos = (-88,600);
+pos = (-88,0);
 ref = "madda-ar";
 }
 );

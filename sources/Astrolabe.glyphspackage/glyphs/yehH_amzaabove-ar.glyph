@@ -9,7 +9,7 @@ shapes = (
 ref = "yeh-ar.isol";
 },
 {
-pos = (0,50);
+pos = (0,-550);
 ref = "hamzaabove-ar";
 }
 );

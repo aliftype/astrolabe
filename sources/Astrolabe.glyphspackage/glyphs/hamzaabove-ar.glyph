@@ -5,17 +5,18 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (88,-50);
+pos = (88,550);
 },
 {
 name = topAlt;
-pos = (90,125);
+pos = (90,725);
 }
 );
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+pos = (0,600);
 ref = "hamza-ar";
 scale = (0.5,0.5);
 }
