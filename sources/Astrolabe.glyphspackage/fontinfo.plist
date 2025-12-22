@@ -227,6 +227,7 @@ code = "sub alef-ar				by alef-ar.isol;
 sub alefHamzaabove-ar	by alef-ar.isol hamzaabove-ar;
 sub alefHamzabelow-ar	by alef-ar.isol hamzabelow-ar;
 sub alefMadda-ar		by alef-ar.isol madda-ar;
+sub alefWasla-ar		by alef-ar.isol wasla-ar;
 sub behDotless-ar		by beh-ar.isol;
 sub beh-ar				by beh-ar.isol dotbelow-ar;
 sub peh-ar				by beh-ar.isol threedotsdownbelow-ar;
