@@ -22,10 +22,6 @@ beh-ar.medi.high
 name = beh_init_medi;
 },
 {
-code = "";
-name = reh_waw;
-},
-{
 code = "twodotshorizontalabove-ar
 threedotsupabove-ar
 tahabove-ar
