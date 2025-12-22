@@ -547,6 +547,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "ٹ ٹ‍ ‍ٹ‍ ‍ٹ",
+      "expectation": "tahabove-ar=10@184,-350+0|beh-ar.fina=10+550|space=8+0|space=8+50|space=6+0|tahabove-ar=6@-65,-320+0|beh-ar.medi=6+162|space=4+0|space=4+50|space=2+0|tahabove-ar=2@-65,-320+0|beh-ar.init=2+162|space=1+50|tahabove-ar=0@175,-320+0|beh-ar.isol=0+550"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ٮ ٮ‍ ‍ٮ‍ ‍ٮ",
       "expectation": "beh-ar.fina=10+550|space=8+0|space=8+50|space=6+0|beh-ar.medi=6+162|space=4+0|space=4+50|space=2+0|beh-ar.init=2+162|space=1+50|beh-ar.isol=0+550"
     },
@@ -579,6 +584,11 @@
       "only": "Astrolabe.ttf",
       "input": "ذ ‍ذ",
       "expectation": "dotabove-ar=3@313,250+0|dal-ar.fina=3+600|space=1+0|space=1+50|dotabove-ar=0@313,250+0|dal-ar.isol=0+600"
+    },
+    {
+      "only": "Astrolabe.ttf",
+      "input": "ڈ ‍ڈ",
+      "expectation": "tahabove-ar=3@251,-350+0|dal-ar.fina=3+600|space=1+0|space=1+50|tahabove-ar=0@251,-350+0|dal-ar.isol=0+600"
     },
     {
       "only": "Astrolabe.ttf",
@@ -1995,11 +2005,13 @@
       "beh-ar",
       "teh-ar",
       "theh-ar",
+      "tteh-ar",
       "jeem-ar",
       "hah-ar",
       "khah-ar",
       "dal-ar",
       "thal-ar",
+      "ddal-ar",
       "reh-ar",
       "zain-ar",
       "seen-ar",

@@ -1,0 +1,21 @@
+{
+category = Placeholder;
+glyphname = "ddal-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "dal-ar";
+},
+{
+pos = (251,-350);
+ref = "tahabove-ar";
+}
+);
+width = 600;
+}
+);
+unicode = 1672;
+}

@@ -13,11 +13,13 @@ configuration:
     - beh-ar
     - teh-ar
     - theh-ar
+    - tteh-ar
     - jeem-ar
     - hah-ar
     - khah-ar
     - dal-ar
     - thal-ar
+    - ddal-ar
     - reh-ar
     - zain-ar
     - seen-ar
@@ -162,6 +164,7 @@ input:
       - پ پ‍ ‍پ‍ ‍پ
       - ت ت‍ ‍ت‍ ‍ت
       - ث ث‍ ‍ث‍ ‍ث
+      - ٹ ٹ‍ ‍ٹ‍ ‍ٹ
       - ٮ ٮ‍ ‍ٮ‍ ‍ٮ
       - ج ج‍ ‍ج‍ ‍ج
       - چ چ‍ ‍چ‍ ‍چ
@@ -169,6 +172,7 @@ input:
       - خ خ‍ ‍خ‍ ‍خ
       - د ‍د
       - ذ ‍ذ
+      - ڈ ‍ڈ
       - ر ‍ر
       - ز ‍ز
       - ژ ‍ژ

@@ -28,6 +28,7 @@ name = reh_waw;
 {
 code = "twodotshorizontalabove-ar
 threedotsupabove-ar
+tahabove-ar
 ";
 name = horizontal_dots_above;
 },
@@ -233,12 +234,14 @@ sub beh-ar				by beh-ar.isol dotbelow-ar;
 sub peh-ar				by beh-ar.isol threedotsdownbelow-ar;
 sub teh-ar				by beh-ar.isol twodotshorizontalabove-ar;
 sub theh-ar				by beh-ar.isol threedotsupabove-ar;
+sub tteh-ar				by beh-ar.isol tahabove-ar;
 sub jeem-ar				by hah-ar.alt2.isol dotbelow-ar;
 sub tcheh-ar			by hah-ar.alt3.isol threedotsdownbelow-ar;
 sub hah-ar				by hah-ar.isol;
 sub khah-ar				by hah-ar.isol dotabove-ar;
 sub dal-ar				by dal-ar.isol;
 sub thal-ar				by dal-ar.isol dotabove-ar;
+sub ddal-ar				by dal-ar.isol tahabove-ar;
 sub reh-ar				by reh-ar.isol;
 sub zain-ar				by reh-ar.isol dotabove-ar;
 sub jeh-ar				by reh-ar.isol threedotsupabove-ar;
@@ -809,9 +812,7 @@ pos = -400;
 name = Regular;
 userData = {
 GSCornerRadius = 19;
-GSOffsetCapStyle = 1;
-GSOffsetHorizontal = 9;
-GSOffsetMakeStroke = 1;
+GSOffsetHorizontal = 2;
 GSOffsetProportional = 1;
 GSOffsetVertical = 5;
 };
