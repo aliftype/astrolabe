@@ -682,6 +682,15 @@ lookup kern_rehwaw_beh {
 		[twodotshorizontalbelow-ar threedotsdownbelow-ar]
 	;
 } kern_rehwaw_beh;
+
+lookup kern_yehbarree {
+    lookupflag IgnoreMarks;
+	pos beh-ar.init  190 (MSHQ:0) 0 (MSHQ:1)   0 (MSHQ:200) 4240 yehbarree-ar.fina;
+	pos hah-ar.init   75 (MSHQ:0) 0 (MSHQ:8.5) 0 (MSHQ:200) 4125 yehbarree-ar.fina;
+	pos feh-ar.init   90 (MSHQ:0) 0 (MSHQ:6)   0 (MSHQ:200) 4140 yehbarree-ar.fina;
+	pos lam-ar.init  250 (MSHQ:0) 0 (MSHQ:1)   0 (MSHQ:200) 4300 yehbarree-ar.fina;
+	pos meem-ar.init  85 (MSHQ:0) 0 (MSHQ:5)   0 (MSHQ:200) 4135 yehbarree-ar.fina;
+} kern_yehbarree;
 ";
 tag = kern;
 },
