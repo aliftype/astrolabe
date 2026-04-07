@@ -255,6 +255,7 @@ sub ain-ar				by ain-ar.isol;
 sub ghain-ar			by ain-ar.isol dotabove-ar;
 sub fehDotless-ar		by feh-ar.isol;
 sub feh-ar				by feh-ar.isol dotabove-ar;
+sub veh-ar				by feh-ar.isol threedotsupabove-ar;
 sub qafDotless-ar		by qaf-ar.isol;
 sub qaf-ar				by qaf-ar.isol twodotshorizontalabove-ar;
 sub kaf-ar				by kaf-ar.isol;

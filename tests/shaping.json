@@ -697,6 +697,11 @@
     },
     {
       "only": "Astrolabe.ttf",
+      "input": "ڤ ڤ‍ ‍ڤ‍ ‍ڤ",
+      "expectation": "threedotsupabove-ar=10@290,350+0|feh-ar.fina=10+550|space=8+0|space=8+50|space=6+0|threedotsupabove-ar=6@1,350+0|feh-ar.medi=6+261|space=4+0|space=4+50|space=2+0|threedotsupabove-ar=2@1,350+0|feh-ar.init=2+261|space=1+50|threedotsupabove-ar=0@290,350+0|feh-ar.isol=0+550"
+    },
+    {
+      "only": "Astrolabe.ttf",
       "input": "ق ق‍ ‍ق‍ ‍ق",
       "expectation": "twodotshorizontalabove-ar=10@367,249+0|qaf-ar.fina=10+605|space=8+0|space=8+50|space=6+0|twodotshorizontalabove-ar=6@1,350+0|feh-ar.medi=6+261|space=4+0|space=4+50|space=2+0|twodotshorizontalabove-ar=2@1,350+0|feh-ar.init=2+261|space=1+50|twodotshorizontalabove-ar=0@367,300+0|qaf-ar.isol=0+615"
     },
@@ -2181,6 +2186,7 @@
       "feh-ar",
       "fehDotless-ar",
       "fehAfrican-ar",
+      "veh-ar",
       "qafDotless-ar",
       "qaf-ar",
       "qafAfrican-ar",
