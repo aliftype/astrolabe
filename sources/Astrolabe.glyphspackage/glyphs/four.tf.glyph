@@ -1,0 +1,17 @@
+{
+glyphname = four.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (20,0);
+ref = four;
+}
+);
+width = 390;
+}
+);
+metricWidth = "=zero-ar.tf";
+}
