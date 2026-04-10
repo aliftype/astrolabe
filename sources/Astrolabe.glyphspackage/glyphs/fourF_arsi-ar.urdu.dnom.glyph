@@ -1,0 +1,55 @@
+{
+glyphname = "fourFarsi-ar.urdu.dnom";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,-89,l),
+(150,-54,o),
+(80,85,o),
+(80,138,cs),
+(80,164,o),
+(95,177,o),
+(116,177,cs),
+(134,177,o),
+(153,156,o),
+(152,108,c),
+(189,84,l),
+(281,192,l),
+(243,217,l),
+(168,129,l),
+(200,116,l),
+(199,179,o),
+(162,219,o),
+(116,219,cs),
+(70,219,o),
+(33,188,o),
+(33,138,cs),
+(33,77,o),
+(101,-57,o),
+(125,-104,c)
+);
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "9CEC0D5B-D425-4C82-9861-C1603575B52A";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+ref = "fourFarsi-ar.urdu.tf";
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+metricWidth = "=zero-ar.dnom";
+sortName = dnom.ar3140;
+sortNameKeep = ar3168.urdu.dnom;
+}

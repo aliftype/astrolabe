@@ -1,0 +1,19 @@
+{
+glyphname = "fourFarsi-ar.urdu.numr";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,300);
+ref = "fourFarsi-ar.urdu.dnom";
+}
+);
+width = 312;
+}
+);
+metricLeft = "fourFarsi-ar.urdu.dnom";
+metricRight = "fourFarsi-ar.urdu.dnom";
+sortName = numr.ar3140;
+sortNameKeep = ar3168.urdu.numr;
+}

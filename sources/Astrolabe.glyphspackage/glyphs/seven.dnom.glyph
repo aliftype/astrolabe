@@ -1,0 +1,59 @@
+{
+glyphname = seven.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,142,l),
+(280,149,l),
+(280,184,l),
+(33,184,l),
+(33,141,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,85,o),
+(78,-75,o),
+(73,-198,c),
+(46,-156,l),
+(145,-156,l),
+(120,-196,l),
+(125,-82,o),
+(194,79,o),
+(282,153,c),
+(248,168,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(63,107,l),
+(73,169,l),
+(33,162,l),
+(33,107,l)
+);
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "0EA0A3DE-6A70-4A10-9403-1B3BE43A55C8";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+pos = (0,-100);
+ref = seven.tf;
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+metricWidth = "=zero.dnom";
+}

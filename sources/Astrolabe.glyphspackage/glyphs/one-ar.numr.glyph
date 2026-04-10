@@ -1,0 +1,17 @@
+{
+glyphname = "one-ar.numr";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,300);
+ref = "one-ar.dnom";
+}
+);
+width = 312;
+}
+);
+metricLeft = "one-ar.dnom";
+metricRight = "one-ar.dnom";
+}

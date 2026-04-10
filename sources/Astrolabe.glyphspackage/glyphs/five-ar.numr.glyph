@@ -1,0 +1,17 @@
+{
+glyphname = "five-ar.numr";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,300);
+ref = "five-ar.dnom";
+}
+);
+width = 312;
+}
+);
+metricLeft = "five-ar.dnom";
+metricRight = "five-ar.dnom";
+}

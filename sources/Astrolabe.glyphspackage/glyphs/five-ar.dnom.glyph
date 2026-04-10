@@ -1,0 +1,58 @@
+{
+glyphname = "five-ar.dnom";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,-15,o),
+(260,17,o),
+(260,75,cs),
+(260,110,o),
+(232,167,o),
+(156,167,cs),
+(80,167,o),
+(53,110,o),
+(53,75,cs),
+(53,17,o),
+(90,-15,o),
+(156,-15,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,27,o),
+(100,39,o),
+(100,75,cs),
+(100,96,o),
+(115,125,o),
+(156,125,cs),
+(197,125,o),
+(213,96,o),
+(213,75,cs),
+(213,39,o),
+(194,27,o),
+(156,27,cs)
+);
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "AF5E3085-69A1-4F3C-9DD6-1EF30FD00B7A";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+ref = "five-ar.tf";
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+metricWidth = "=zero-ar.dnom";
+}

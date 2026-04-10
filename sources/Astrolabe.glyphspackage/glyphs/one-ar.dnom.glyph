@@ -1,0 +1,37 @@
+{
+glyphname = "one-ar.dnom";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-96,l),
+(205,8,o),
+(177,116,o),
+(134,219,c),
+(91,203,l),
+(131,104,o),
+(159,-2,o),
+(174,-104,c)
+);
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "73AD9DA2-F7B4-4118-B505-D8F39428FF89";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+ref = "one-ar.tf";
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+metricWidth = "=zero-ar.dnom";
+}

@@ -1,0 +1,19 @@
+{
+glyphname = "sevenFarsi-ar.urdu.numr";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,300);
+ref = "sevenFarsi-ar.urdu.dnom";
+}
+);
+width = 312;
+}
+);
+metricLeft = "sevenFarsi-ar.urdu.dnom";
+metricRight = "sevenFarsi-ar.urdu.dnom";
+sortName = numr.ar3149;
+sortNameKeep = ar3177.urdu.numr;
+}

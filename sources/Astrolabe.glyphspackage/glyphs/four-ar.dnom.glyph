@@ -1,0 +1,48 @@
+{
+glyphname = "four-ar.dnom";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,-63,l),
+(147,-38,l),
+(179,34,ls),
+(189,58,o),
+(178,76,o),
+(153,83,cs),
+(101,97,l),
+(160,202,l),
+(117,219,l),
+(57,112,ls),
+(42,86,o),
+(56,66,o),
+(79,60,cs),
+(133,45,l),
+(100,-29,ls),
+(88,-55,o),
+(102,-74,o),
+(133,-80,cs),
+(252,-104,l)
+);
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "982B1BF1-C01D-4E51-BF36-5471704C946D";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+ref = "four-ar.tf";
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+metricWidth = "=zero-ar.dnom";
+}

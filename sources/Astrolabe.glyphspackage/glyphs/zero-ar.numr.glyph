@@ -1,0 +1,17 @@
+{
+glyphname = "zero-ar.numr";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,300);
+ref = "zero-ar.dnom";
+}
+);
+width = 312;
+}
+);
+metricLeft = "zero-ar.dnom";
+metricRight = "zero-ar.dnom";
+}

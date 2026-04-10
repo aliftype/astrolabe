@@ -1,0 +1,28 @@
+{
+glyphname = "sevenFarsi-ar.dnom";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "seven-ar.dnom";
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "9FF49323-5B9C-4399-8312-5D5E87EFE005";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+ref = "sevenFarsi-ar.tf";
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+sortName = dnom.ar3148;
+sortNameKeep = ar3177.dnom;
+}

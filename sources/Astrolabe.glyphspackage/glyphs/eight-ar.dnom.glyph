@@ -1,0 +1,30 @@
+{
+glyphname = "eight-ar.dnom";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (312,115);
+ref = "seven-ar.dnom";
+}
+);
+width = 312;
+},
+{
+associatedMasterId = m01;
+layerId = "F643E2BD-3EC6-44C7-B856-DFA946E2854F";
+name = "10 Apr 26 at 13:44";
+shapes = (
+{
+alignment = -1;
+pos = (0,-100);
+ref = "eight-ar.tf";
+scale = (0.8,0.7);
+}
+);
+width = 312;
+}
+);
+}
