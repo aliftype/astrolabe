@@ -5,16 +5,27 @@ layers = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(337,453,l),
-(299,486,l),
-(-187,-53,l),
-(-149,-86,l)
-);
+alignment = -1;
+angle = -30;
+pos = (-155,102);
+ref = slash;
 }
 );
 width = 150;
+},
+{
+associatedMasterId = m01;
+layerId = "350E5953-B675-43E5-AF0B-BCEA69E60DAC";
+name = "11 Apr 26 at 21:40";
+shapes = (
+{
+alignment = -1;
+angle = -30;
+pos = (0,102);
+ref = slash;
+}
+);
+width = 300;
 }
 );
 metricRight = "=|";
