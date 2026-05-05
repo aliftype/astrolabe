@@ -866,6 +866,20 @@ fontMaster = (
 axesValues = (
 10
 );
+customParameters = (
+{
+name = underlinePosition;
+value = -250;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = strikeoutPosition;
+value = 250;
+}
+);
 id = m01;
 metricValues = (
 {
