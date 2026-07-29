@@ -1,5 +1,5 @@
 {
-.appVersion = "3436";
+.appVersion = "3529";
 .formatVersion = 3;
 axes = (
 {
@@ -506,7 +506,7 @@ condition MSHQ < 9.999;
 condition 10 < MSHQ < 10.001;
 	lookup dummy;
 
-condition 10.001 < MSHQ < 15;
+condition 10.02 < MSHQ < 15;
 	lookup rclt_kashida_reorder_dots;
 	lookup rclt_delete_multiple_kashida;
 	lookup rclt_delete_dummy_mark;
