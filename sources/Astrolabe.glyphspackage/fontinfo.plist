@@ -1,5 +1,5 @@
 {
-.appVersion = "3529";
+.appVersion = "3530";
 .formatVersion = 3;
 axes = (
 {
@@ -498,6 +498,15 @@ lookup rclt_wide_tooth_6 {
 
 lookup rclt_delete_dummy_mark;
 
+lookup rclt_tah_dot {
+	lookupflag 0;
+	sub	[tah-ar.isol tah-ar.init tah-ar.medi tah-ar.fina]
+		 dotabove-ar'
+		[fatha-ar fathatan-ar damma-ar dammatan-ar shadda-ar sukun-ar]
+	by dotabove-ar.tah
+	;
+} rclt_tah_dot;
+
 condition MSHQ < 9.999;
 	lookup rclt_kashida_reorder_dots;
 	lookup rclt_delete_multiple_kashida;
@@ -849,14 +858,6 @@ tag = mark;
 },
 {
 code = "# Automatic Code
-
-lookup mkmk_tah {
-	lookupflag UseMarkFilteringSet [dotabove-ar fatha-ar fathatan-ar damma-ar dammatan-ar shadda-ar sukun-ar];
-	pos	[tah-ar.isol tah-ar.init tah-ar.medi tah-ar.fina]
-		 dotabove-ar
-		[fatha-ar fathatan-ar damma-ar dammatan-ar shadda-ar sukun-ar]' <0 100 0 0>
-	;
-} mkmk_tah;
 ";
 tag = mkmk;
 }

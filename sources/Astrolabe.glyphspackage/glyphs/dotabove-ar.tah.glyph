@@ -1,0 +1,27 @@
+{
+glyphname = "dotabove-ar.tah";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (38,-50);
+},
+{
+name = topAlt;
+pos = (38,175);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = "dotabove-ar";
+}
+);
+width = 75;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+}
