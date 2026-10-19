@@ -50,7 +50,7 @@ nodes = (
 );
 }
 );
-width = 750;
+width = 350;
 },
 {
 associatedMasterId = m01;
@@ -59,8 +59,8 @@ coordinates = (
 200
 );
 };
-layerId = "56177234-7C27-4ABA-B4C7-F30DDC278EC0";
-name = "5 Oct 24 at 19:57";
+layerId = "569A5820-A9BC-4686-BE52-1796E2755F81";
+name = "{200} 19 Oct 26 at 19:23";
 shapes = (
 {
 closed = 1;
@@ -80,6 +80,35 @@ nodes = (
 }
 );
 width = 4700;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+400
+);
+};
+layerId = "56177234-7C27-4ABA-B4C7-F30DDC278EC0";
+name = "{400}";
+shapes = (
+{
+closed = 1;
+nodes = (
+(8950,0,l),
+(8900,50,l),
+(150,50,ls),
+(128,50,o),
+(74,59,o),
+(58,100,c),
+(50,100,l),
+(45,52,o),
+(33,30,o),
+(0,8,c),
+(0,0,l)
+);
+}
+);
+width = 9000;
 }
 );
 }

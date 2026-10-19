@@ -73,6 +73,37 @@ coordinates = (
 200
 );
 };
+layerId = "CFA51F84-6AEC-4690-92DA-D72FCD061C02";
+name = "{200} 19 Oct 26 at 20:35";
+shapes = (
+{
+alignment = -1;
+pos = (100,0);
+ref = "kaf-ar.init";
+},
+{
+ref = _tail;
+}
+);
+width = 4800;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (4650,0);
+},
+{
+name = top;
+pos = (4650,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+400
+);
+};
 layerId = "AD7B99A2-E9AC-402F-8415-A54139A3B439";
 name = "5 Oct 24 at 20:23";
 shapes = (
@@ -85,7 +116,7 @@ ref = "kaf-ar.init";
 ref = _tail;
 }
 );
-width = 4800;
+width = 9100;
 }
 );
 metricLeft = "=0";
