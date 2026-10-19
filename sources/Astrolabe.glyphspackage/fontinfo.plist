@@ -208,7 +208,7 @@ lookup rclt_kashida_wide_fatha {
 } rclt_kashida_wide_fatha;
 
 lookup ss01 {
-	sub @dots by dummy.mark;
+	sub [@dots hamzaabove-ar hamzabelow-ar] by dummy.mark;
 } ss01;
 
 lookup rclt_delete_multiple_kashida {

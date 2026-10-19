@@ -1880,7 +1880,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "بإ",
-      "expectation": "hamzabelow-ar=1@-73,0+0|alef-ar.fina=1+100|beh-ar.init=0+162",
+      "expectation": "alef-ar.fina=1+100|beh-ar.init=0+162",
       "features": {
         "ss01": true
       }
@@ -2288,7 +2288,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "يإ",
-      "expectation": "hamzabelow-ar=1@-73,0+0|alef-ar.fina=1+100|beh-ar.init=0+162",
+      "expectation": "alef-ar.fina=1+100|beh-ar.init=0+162",
       "features": {
         "ss01": true
       }
@@ -2328,7 +2328,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "ييإ",
-      "expectation": "hamzabelow-ar=2@-73,0+0|alef-ar.fina=2+100|beh-ar.medi=1+162|beh-ar.init=0@-30,0+132",
+      "expectation": "alef-ar.fina=2+100|beh-ar.medi=1+162|beh-ar.init=0@-30,0+132",
       "features": {
         "ss01": true
       }
