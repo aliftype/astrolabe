@@ -99,8 +99,8 @@ coordinates = (
 200
 );
 };
-layerId = "76906B8A-EEC5-435B-8A8B-093F5AB99645";
-name = "8 Dec 24 at 01:15";
+layerId = "6585F031-9A80-4533-B920-BEA8405D53C3";
+name = "{200} 19 Oct 26 at 21:49";
 shapes = (
 {
 alignment = -1;
@@ -113,6 +113,46 @@ ref = "feh-ar.isol";
 }
 );
 width = 4700;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (8844,0);
+},
+{
+name = bottomAlt;
+pos = (4450,-50);
+},
+{
+name = top;
+pos = (8828,300);
+},
+{
+name = topKashida;
+pos = (4450,200);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+400
+);
+};
+layerId = "76906B8A-EEC5-435B-8A8B-093F5AB99645";
+name = "8 Dec 24 at 01:15";
+shapes = (
+{
+alignment = -1;
+pos = (8950,0);
+ref = "kashida-ar.50";
+},
+{
+alignment = -1;
+ref = "feh-ar.isol";
+}
+);
+width = 9000;
 }
 );
 metricLeft = "=feh-ar.isol";
