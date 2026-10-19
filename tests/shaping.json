@@ -824,7 +824,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "بذ ذ",
-      "expectation": "dotabove-ar=3@2312,250+0|dal-ar.isol=3+4700|space=2+50|dotabove-ar=1@2313,250+0|dal-ar.fina=1+4700|dotbelow-ar=0@12,-125+0|beh-ar.init=0+162",
+      "expectation": "dotabove-ar=3@2362,250+0|dal-ar.isol=3+4700|space=2+50|dotabove-ar=1@2313,250+0|dal-ar.fina=1+4700|dotbelow-ar=0@12,-125+0|beh-ar.init=0+162",
       "variations": {
         "MSHQ": 200
       }
@@ -1072,7 +1072,7 @@
     {
       "only": "Astrolabe.ttf",
       "input": "بذ ذ",
-      "expectation": "dotabove-ar=3@1260,250+0|dal-ar.isol=3+2542|space=2+50|dotabove-ar=1@1260,250+0|dal-ar.fina=1+2542|dotbelow-ar=0@12,-125+0|beh-ar.init=0+162",
+      "expectation": "dotabove-ar=3@1284,250+0|dal-ar.isol=3+2542|space=2+50|dotabove-ar=1@1260,250+0|dal-ar.fina=1+2542|dotbelow-ar=0@12,-125+0|beh-ar.init=0+162",
       "variations": {
         "MSHQ": 100
       }

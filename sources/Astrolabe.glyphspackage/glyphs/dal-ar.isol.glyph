@@ -152,7 +152,7 @@ pos = (2400,0);
 },
 {
 name = top;
-pos = (2350,200);
+pos = (2400,200);
 }
 );
 associatedMasterId = m01;
