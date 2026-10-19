@@ -801,6 +801,11 @@ lookup mark_dots_1 {
 		 @dots_below' <-40 0 0 0>
 		 alef-ar.fina
 	;
+
+	pos	 @beh_init_medi
+		 @dots_below' <0 -100 0 0>
+		 yehbarree-ar.fina
+	;
 } mark_dots_1;
 
 lookup mark_dots_2 {
