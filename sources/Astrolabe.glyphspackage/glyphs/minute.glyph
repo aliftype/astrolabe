@@ -1,0 +1,23 @@
+{
+glyphname = minute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,483,l),
+(91,500,l),
+(30,316,l),
+(77,300,l)
+);
+}
+);
+width = 158;
+}
+);
+metricLeft = "=degree";
+metricRight = "=degree";
+unicode = 8242;
+}
