@@ -1,5 +1,5 @@
 {
-.appVersion = "3535";
+.appVersion = "3536";
 .formatVersion = 3;
 axes = (
 {
@@ -206,6 +206,17 @@ lookup rclt_kashida_wide_fatha {
 	by	[fatha-ar.kashida fathatan-ar.kashida]
 	;
 } rclt_kashida_wide_fatha;
+
+lookup ss02 {
+	sub	[hah-ar.isol hah-ar.alt2.isol hah-ar.alt3.isol]'
+		 dotbelow-ar
+	by	 hah-ar.alt.isol
+	;
+	sub	[hah-ar.fina hah-ar.alt2.fina hah-ar.alt3.fina]'
+		 dotbelow-ar
+	by	 hah-ar.alt.fina
+	;
+} ss02;
 
 lookup ss01 {
 	sub [@dots hamzaabove-ar hamzabelow-ar] by dummy.mark;
@@ -632,21 +643,16 @@ sub nine by nine.tf;
 tag = tnum;
 },
 {
-code = "sub hah-ar.isol			by hah-ar.alt.isol;
-sub hah-ar.alt2.isol	by hah-ar.alt.isol;
-sub hah-ar.alt3.isol	by hah-ar.alt.isol;
-sub hah-ar.fina			by hah-ar.alt.fina;
-sub hah-ar.alt2.fina	by hah-ar.alt.fina;
-sub hah-ar.alt3.fina	by hah-ar.alt.fina;
+code = "lookup ss02;
 ";
 labels = (
 {
 language = ENG;
-value = "Alternate isolated/final “hah”";
+value = "Alternate isolated/final “jeem”";
 },
 {
 language = ARA;
-value = "حاء مفردة\\منتهية بديلة";
+value = "جيم مفردة\\منتهية بديلة";
 }
 );
 tag = ss02;

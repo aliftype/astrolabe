@@ -368,7 +368,7 @@ input:
       - ابے
       - ايے
 
-  - features: 
+  - features:
       ss01: true
     text:
       - الرجل
@@ -448,3 +448,18 @@ input:
       - يَـا
       - ابے
       - ايے
+
+  - features:
+      ss01: true
+      ss02: true
+    text:
+      - ح بح
+      - خ بخ
+      - ج بج
+
+  - features:
+      ss02: true
+    text:
+      - ح بح
+      - خ بخ
+      - ج بج
