@@ -1,4 +1,9 @@
 {
+  "harfbuzz": "15.0.0",
+  "uharfbuzz": "0.57.0",
+  "fonts": {
+    "Astrolabe.ttf": "f06766537203c158877c95ebd9491e0c7dd47fcc"
+  },
   "tests": [
     {
       "only": "Astrolabe.ttf",

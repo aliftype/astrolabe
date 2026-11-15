@@ -60,7 +60,6 @@ ${FONT}: ${GLYPHSFILE}
 			      --verbose=WARNING \
 			      --flatten-components \
 			      --filter=... \
-			      --filter="alifTools.filters::VariableFeaConvertorFilter(default='MSHQ=10')" \
 			      --filter="alifTools.filters::ClearPlaceholdersFilter()" \
 			      --filter="alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
